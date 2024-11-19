@@ -37,3 +37,5 @@ clean_data = data |>
   ) |>
   mutate(time = yq(time)) |>
   arrange(ref_area, time)
+
+readr::write_csv(clean_data, file = "cpi.csv")
