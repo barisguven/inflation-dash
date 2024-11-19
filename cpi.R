@@ -20,7 +20,6 @@ data |>
   filter(`Frequency of observation` == "Monthly") |>
   distinct(`Reference area`)
 
-
 clean_data = data |>
   filter(
    `Frequency of observation` == "Quarterly",
@@ -33,7 +32,7 @@ clean_data = data |>
       reference_area = `Reference area`,
       ref_area = REF_AREA,
       time = TIME_PERIOD,
-      value = OBS_VALUE
+      cpi = OBS_VALUE
   ) |>
   mutate(time = yq(time)) |>
   arrange(ref_area, time)
