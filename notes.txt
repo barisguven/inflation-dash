@@ -1,0 +1,7 @@
+content
+
+1. Countries: OECD countries at minimum, all countries if possible (IMF) 
+2. Monthly inflation rates
+3. Nominal and real quarterly GDP to derive the deflator
+4. Income components making up GPD as national income
+5. Food and energy prices
