@@ -1,11 +1,78 @@
 ---
 title: "Inflation"
-format: dashboard
+format: 
+  dashboard:
+    #logo: 
+    nav-buttons: [github]
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
-
+#| label: attaching libraries
+setwd("~/My Documents/inflation-dash")
+library(tidyverse)
 ```
 
-## Decomposing Deflator
+```{r}
+#| label: loading data
+data = read.csv("merged_data.csv")
+data <- mutate(data, time = as.Date(time))
 
+income_comps = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax")
+```
+
+# Sidebar {.sidebar}
+This dashboard displays annual inflation based on GDP deflator and Consumer Price Index for a set of countries. It also displays the contribution of unit labor cost, unit profit, and unit tax to inflation measured through the percentage change in the GDP deflator for a given country.
+
+# Plots {orientation="rows"}
+
+## Inflation: Deflator- and CPI-Based {height="40%"}
+
+```{r}
+#| title: Annual Inflation Based on GDP Deflator and CPI, Quarterly Data
+data |>
+  filter(series %in% c("inflation_def", "inflation_cpi")) |>
+  filter(reference_area == "France") |>
+  ggplot(aes(time, value, color = series)) +
+  geom_line(size=0.7) +
+  scale_color_viridis_d(
+    breaks = c("inflation_def", "inflation_cpi"),
+    labels = c("Deflator", "CPI")
+  ) +
+  labs(y = "Percent", x = "") +
+  theme(
+    #legend.position = "inside",
+    #legend.position.inside = c(0.5, 0.8),
+    #legend.background = element_blank(),
+    legend.title = element_blank()
+  )
+```
+
+
+```{r}
+#| title: Decomposition of GDP Deflator
+ref_area_examp = "FRA"
+data |>
+  filter(ref_area == ref_area_examp) |>
+  filter(series %in% income_comps) |>
+  ggplot(aes(x = time, y = value, fill = series)) +
+  geom_col() +
+  labs(x="", y="Percent") +
+  geom_line(
+    data = filter(data, ref_area == ref_area_examp, series == "inflation_def"), aes(time, value), color = "red"
+  ) +
+  scale_fill_viridis_d(
+    breaks = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax"),
+    labels = c("Unit labor cost", "Unit profit", "Unit tax"),
+    option = "turbo"
+  ) +
+  theme(
+    legend.title = element_blank()
+  )
+```
+
+## Data
+
+
+# Tables
