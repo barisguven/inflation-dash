@@ -12,7 +12,7 @@ data <- left_join(data, cpi_data)
 
 data |>
     distinct(reference_area) |>
-    write_lines(file="countries.txt")
+    write_lines(file="country_list.txt")
 
 country_groups = c("Euro area (20 countries)", "European Union (27 countries from 01/02/2020)")
 
@@ -75,7 +75,6 @@ data = data |>
            contr_unit_tax = delta_unit_tax*tax_share,
            contr_total = contr_unit_labor_cost + contr_unit_profit + contr_unit_tax)
 
-
 data |>
     filter(!reference_area %in% country_groups) |>
     group_by(time) |>
@@ -115,6 +114,7 @@ data_long |>
         aes(time, value), color = "blue"
     )
 
+write_csv(data_long, "merged_data.csv")
 
 
 
