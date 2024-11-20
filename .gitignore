@@ -1,7 +1,7 @@
 .Rhistory
 .DS_Store
 data
-countries.txt
+country_list.txt
 notes.md
 *_files/libs
 *.html
