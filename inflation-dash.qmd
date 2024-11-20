@@ -1,0 +1,11 @@
+---
+title: "Inflation"
+format: dashboard
+---
+
+```{r}
+
+```
+
+## Decomposing Deflator
+
