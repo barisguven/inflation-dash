@@ -3,3 +3,5 @@
 data
 notes.md
 countries.txt
+*_files/libs
+*.html
