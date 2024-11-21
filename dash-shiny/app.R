@@ -9,10 +9,10 @@ data <- mutate(data, time = as.Date(time))
 income_comps = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax")
 
 ui <- page_navbar(
-  title = "Inflation-dash",
+  title = "Inflation-decomposed",
   sidebar = sidebar(
     helpText(
-      "This dashboard displays annual inflation based on GDP deflator and Consumer Price Index using quarterly data. It also displays the contribution of unit labor cost, unit profit, and unit tax to inflation measured through the percentage change in the GDP deflator for a given country."
+      "This dashboard displays the contribution of unit labor cost, unit profit, and unit tax to inflation measured through the percentage change in the GDP deflator for a given country. For the underlying framework, see here."
     ),
     selectInput(
       "country",
@@ -23,7 +23,7 @@ ui <- page_navbar(
   ),
   fillable = FALSE,
   nav_panel(
-    "Quarterly Data",
+    "Quarterly Contributions",
     layout_columns(
       card(
         card_header("Contributions to Annual Inflation in Percentage Points"),
@@ -43,37 +43,6 @@ ui <- page_navbar(
   ),
   nav_panel("By Period", "Page 2 content")
 )
-
-# ui <- page_sidebar(
-#   title = "Inflation-dash",
-#   sidebar = sidebar(
-#     helpText(
-#       "This dashboard displays annual inflation based on GDP deflator and Consumer Price Index using quarterly data. It also displays the contribution of unit labor cost, unit profit, and unit tax to inflation measured through the percentage change in the GDP deflator for a given country."
-#     ),
-#     selectInput(
-#       "country",
-#       "Select a country:",
-#       choices = c(unique(data$reference_area)),
-#       selected = "Türkiye"
-#     )
-#   ),
-#   layout_columns(
-#     card(
-#       card_header("Contributions to Annual Inflation in Percentage Points"),
-#       plotOutput("decomp"),
-#       #plotOutput("cpi_vs_def")
-#     ),
-#     card(
-#       card_header("Annual Inflation Based on GDP Deflator vs. Consumer Price Index"),
-#       plotOutput("def_vs_cpi")
-#     )
-#   ),
-#   card(
-#     card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"),
-#     tableOutput("table"),
-#     height = "200px"
-#   )
-# )
 
 server <- function(input, output, session) {
  
