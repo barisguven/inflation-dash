@@ -37,7 +37,7 @@ ui <- page_navbar(
     card(
       card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"),
       tableOutput("table"),
-      height = "200px"
+      height = 200
     )
   ),
   nav_panel("By Period", "Page 2 content")
@@ -99,7 +99,8 @@ server <- function(input, output, session) {
         axis.title.y = element_text(size=14),
         legend.text = element_text(size = 12),
         legend.title = element_blank(),
-        legend.position = "bottom"
+        legend.position = "bottom",
+        legend.margin = margin(t=-18)
       )
   })
 
@@ -119,7 +120,8 @@ server <- function(input, output, session) {
         axis.title.y = element_text(size=14),
         legend.text = element_text(size = 12),
         legend.title = element_blank(),
-        legend.position = "bottom"
+        legend.position = "bottom",
+        legend.margin = margin(t=-18)
       )
   })
 
