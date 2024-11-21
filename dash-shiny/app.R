@@ -28,14 +28,14 @@ ui <- page_sidebar(
       #plotOutput("cpi_vs_def")
     ),
     card(
-      card_header("GDP Deflator vs. Consumer Price Index"),
+      card_header("Annual Inflation Based on GDP Deflator vs. Consumer Price Index"),
       plotOutput("def_vs_cpi")
     )
   ),
   card(
     card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"),
     tableOutput("table"),
-    height = "250px"
+    height = "200px"
   )
 )
 
