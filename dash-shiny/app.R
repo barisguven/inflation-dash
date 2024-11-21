@@ -21,6 +21,7 @@ ui <- page_navbar(
       selected = "Türkiye"
     )
   ),
+  fillable = FALSE,
   nav_panel(
     "Quarterly Data",
     layout_columns(
@@ -37,7 +38,7 @@ ui <- page_navbar(
     card(
       card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"),
       tableOutput("table"),
-      height = 200
+      height = 300
     )
   ),
   nav_panel("By Period", "Page 2 content")
