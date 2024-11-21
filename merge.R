@@ -89,6 +89,15 @@ data_long = data |>
         starts_with("contr_"))) |>
     pivot_longer(cols = 4:9, names_to = "series", values_to = "value")
 
+# Canada, Bulgaria, Croatia, Ireland, Romania miss unit labor cost data - investigate
+data_long |>
+    filter(series == "contr_unit_labor_cost") |>
+    #filter(reference_area == "Romania") |>
+    filter(is.na(value)) |>
+    group_by(reference_area, series) |>
+    count(sort = TRUE) |>
+    filter(n > 10)
+
 income_comps = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax")
 
 data_long |>
@@ -114,8 +123,34 @@ data_long |>
         aes(time, value), color = "blue"
     )
 
-write_csv(data_long, "merged_data.csv")
+# Excluding Bulgaria, Croatia, Ireland
+data_clean = data_long |>
+    filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland"))
 
+write_csv(data_clean, "merged_data.csv")
 
+data_avg <- data_clean |>
+    #pivot_wider(names_from = series, values_from = value) |>
+    mutate(year = year(time), .after = time) |>
+    mutate(decade = case_when(
+        year < 1960 ~ "1950-1959",
+        year < 1970 ~ "1960-1969",
+        year < 1980 ~ "1970-1979",
+        year < 1990 ~ "1980-1989",
+        year < 2000 ~ "1990-1999",
+        year < 2010 ~ "2000-2009",
+        year < 2020 ~ "2010-2019",
+        year > 2020 ~ "2020-" 
+    ), .after = year) |>
+    group_by(reference_area, ref_area, series, decade) |>
+    summarize(
+        mean = mean(value, na.rm = TRUE),
+        sd = sd(value, na.rm = TRUE)
+    ) |>
+    ungroup() |>
+    pivot_longer(
+        cols = c(mean, sd), names_to = "var", values_to = "value"
+    ) |>
+    pivot_wider(names_from = series, values_from = value)
 
-
+write.csv(data_avg, file = "merged_data_avg.csv")
