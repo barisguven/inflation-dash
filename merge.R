@@ -27,6 +27,7 @@ data <- data |>
     ) |>
     ungroup()
 
+# Romania miss real GDP and GDP deflator
 # Bulgaria, Croatia, and Ireland miss deflator-based inflation all along
 data |>
     select(reference_area, time, inflation_def, inflation_cpi) |>
@@ -34,7 +35,7 @@ data |>
     print(n=400)
 
 data |>
-    filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland")) |>
+    filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland", "Romania")) |>
     group_by(time) |>
     summarise(
         mean_inflation_def = mean(inflation_def, na.rm = TRUE),
@@ -47,9 +48,9 @@ data |>
 ## Unit labor cost, unit profit, and unit taxes (income components per product)
 data = data |>
     mutate(
-        unit_labor_cost = labor_compensation/chain_linked_valume_index,
-        unit_profit = operating_surplus_mixed_income/chain_linked_valume_index,
-        unit_tax = taxes_minus_subsidies/chain_linked_valume_index
+        unit_labor_cost = labor_compensation/chain_linked_volume_index,
+        unit_profit = operating_surplus_mixed_income/chain_linked_volume_index,
+        unit_tax = taxes_minus_subsidies/chain_linked_volume_index
     )
 
 data = data |>
@@ -89,15 +90,6 @@ data_long = data |>
         starts_with("contr_"))) |>
     pivot_longer(cols = 4:9, names_to = "series", values_to = "value")
 
-# Canada, Bulgaria, Croatia, Ireland, Romania miss unit labor cost data - investigate
-data_long |>
-    filter(series == "contr_unit_labor_cost") |>
-    #filter(reference_area == "Romania") |>
-    filter(is.na(value)) |>
-    group_by(reference_area, series) |>
-    count(sort = TRUE) |>
-    filter(n > 10)
-
 income_comps = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax")
 
 data_long |>
@@ -125,7 +117,7 @@ data_long |>
 
 # Excluding Bulgaria, Croatia, Ireland
 data_clean = data_long |>
-    filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland"))
+    filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland", "Romania"))
 
 write_csv(data_clean, "merged_data.csv")
 
