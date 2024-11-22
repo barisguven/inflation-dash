@@ -142,8 +142,6 @@ server <- function(input, output, session) {
       opt_stylize(style = 6, color = "gray")
   })
   
-data_avg |> distinct(series) |> pull()
-
   output$decadal_avg = renderPlot({
     data_avg |>
       filter(var == "mean") |>
@@ -181,6 +179,20 @@ data_avg |> distinct(series) |> pull()
       )
   })
 
+  ymaxFind <- reactive({
+    ymax = data |>
+      filter(reference_area == input$country) |>
+      filter(series %in% income_comps) |>
+      filter(time >= as.Date("2020-01-01")) |>
+      group_by(time) |>
+      summarise(sum = sum(value, na.rm = TRUE)) |>
+      pull(sum) |>
+      max()
+
+    ymax + 1
+  })
+
+    
   output$pandemic <- renderPlot({
     data |>
       filter(reference_area == input$country) |>
@@ -192,6 +204,10 @@ data_avg |> distinct(series) |> pull()
       geom_line(
         data = filter(data, reference_area == input$country, series == "inflation_def", time >= as.Date("2020-01-01")), 
         aes(time, value, color = "inflation_def"), size=0.6) +
+      geom_vline(xintercept = as.Date("2020-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
+        annotate(geom = "text", label = "Covid-19 starts", x = as.Date("2020-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
+      geom_vline(xintercept = as.Date("2022-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
+      annotate(geom = "text", label = "Russia invades Ukraine", x = as.Date("2022-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
       scale_fill_viridis_d(
         breaks = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax"),
         labels = c("Unit labor cost", "Unit profit", "Unit tax"),
