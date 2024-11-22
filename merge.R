@@ -121,8 +121,8 @@ data_clean = data_long |>
 
 write_csv(data_clean, "dash-shiny/data/merged_data.csv")
 
-data_avg <- data_clean |>
-    #pivot_wider(names_from = series, values_from = value) |>
+# Decadal averages ----
+data_clean <- data_clean |>
     mutate(year = year(time), .after = time) |>
     mutate(decade = case_when(
         year < 1960 ~ "1950-1959",
@@ -132,8 +132,12 @@ data_avg <- data_clean |>
         year < 2000 ~ "1990-1999",
         year < 2010 ~ "2000-2009",
         year < 2020 ~ "2010-2019",
-        year > 2020 ~ "2020-" 
-    ), .after = year) |>
+        year >= 2020 ~ "2020-" 
+    ), .after = year)
+
+summary(data_clean$year)
+
+data_avg <- data_clean |>
     group_by(reference_area, ref_area, series, decade) |>
     summarize(
         mean = mean(value, na.rm = TRUE),
@@ -142,7 +146,6 @@ data_avg <- data_clean |>
     ungroup() |>
     pivot_longer(
         cols = c(mean, sd), names_to = "var", values_to = "value"
-    ) |>
-    pivot_wider(names_from = series, values_from = value)
+    )
 
 write.csv(data_avg, file = "dash-shiny/data/merged_data_avg.csv")
