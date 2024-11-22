@@ -8,7 +8,7 @@ setwd("~/My Documents/inflation-dash")
 data <- read_csv("data/oecd_quarterly_gdp_expenditure_approach.csv")
 
 data |>
-    distinct(`Economic activity`)
+    distinct(`Economic activity`, Transaction, `Price base`)
 
 clean_data <- data |>
     filter(
@@ -31,8 +31,13 @@ wide_data <- clean_data |>
 
 wide_data <- wide_data |>
     rename(
-        chain_linked_valume_index = `Chain linked volume (rebased)`,
+        chain_linked_volume_index = `Chain linked volume (rebased)`,
         deflator_index = `Deflator (rebased)`
     )
+
+wide_data |>
+    filter(is.na(deflator_index)) |>
+    distinct(time, ref_area) |>
+    print(n=500)
 
 write_csv(wide_data, "volume_deflator.csv")
