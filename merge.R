@@ -119,7 +119,7 @@ data_long |>
 data_clean = data_long |>
     filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland", "Romania"))
 
-write_csv(data_clean, "merged_data.csv")
+write_csv(data_clean, "dash-shiny/data/merged_data.csv")
 
 data_avg <- data_clean |>
     #pivot_wider(names_from = series, values_from = value) |>
@@ -145,4 +145,4 @@ data_avg <- data_clean |>
     ) |>
     pivot_wider(names_from = series, values_from = value)
 
-write.csv(data_avg, file = "merged_data_avg.csv")
+write.csv(data_avg, file = "dash-shiny/data/merged_data_avg.csv")

@@ -41,7 +41,12 @@ ui <- page_navbar(
       height = 300
     )
   ),
-  nav_panel("By Period", "Page 2 content")
+  nav_panel(
+    "By Period",
+    card(
+      
+    )
+  )
 )
 
 server <- function(input, output, session) {
