@@ -125,13 +125,13 @@ write_csv(data_clean, "dash-shiny/data/merged_data.csv")
 data_clean <- data_clean |>
     mutate(year = year(time), .after = time) |>
     mutate(decade = case_when(
-        year < 1960 ~ "1950-1959",
-        year < 1970 ~ "1960-1969",
-        year < 1980 ~ "1970-1979",
-        year < 1990 ~ "1980-1989",
-        year < 2000 ~ "1990-1999",
-        year < 2010 ~ "2000-2009",
-        year < 2020 ~ "2010-2019",
+        year < 1960 ~ "1950-59",
+        year < 1970 ~ "1960-69",
+        year < 1980 ~ "1970-79",
+        year < 1990 ~ "1980-89",
+        year < 2000 ~ "1990-99",
+        year < 2010 ~ "2000-09",
+        year < 2020 ~ "2010-19",
         year >= 2020 ~ "2020-" 
     ), .after = year)
 
