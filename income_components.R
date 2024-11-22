@@ -7,8 +7,11 @@ setwd("~/My Documents/inflation-dash")
 data <- read_csv("data/oecd_gdp_quarterly_income_approach.csv")
 
 data |>
-    select(Transaction, `Economic activity`) |>
-    distinct()
+    select(Transaction, `Economic activity`, Adjustment) |>
+    distinct() |>
+    arrange(Transaction)
+
+# For compensation of employees and operating surplus, economic activity is stated as "Total - all activities" whereas for taxes and GDP it is stated as "Not applicable"
 
 clean_data <- data |>
     filter(
@@ -36,6 +39,12 @@ wide_data <- clean_data |>
 wide_data_p1 <- filter(wide_data, activity == "Total - all activities")
 wide_data_p2 <- filter(wide_data, activity == "Not applicable")
 
+# Checking data availability
+wide_data_p1 |>
+    filter(is.na(`Compensation of employees`)) |>
+    group_by(reference_area) |>
+    count(sort = TRUE)
+
 wide_data_p1 |>
     filter(!is.na(`Taxes on production and imports less subsidies`))
 
@@ -61,20 +70,75 @@ wide_data_clean <- wide_data_clean |>
         gdp = `Gross domestic product`
     )
 
-write_csv(wide_data_clean, "income_components.csv")
+wide_data_clean |>
+    filter(is.na(labor_compensation)) |>
+    group_by(reference_area) |>
+    count(sort = TRUE)
+
+wide_data_clean |>
+    filter(is.na(operating_surplus_mixed_income)) |>
+    group_by(reference_area) |>
+    count(sort = TRUE)
+
+wide_data_clean |>
+    filter(is.na(taxes_minus_subsidies)) |>
+    group_by(reference_area) |>
+    count(sort = TRUE)
+
+canada <- filter(wide_data_clean, ref_area == "CAN")
+usa <- filter(wide_data_clean, ref_area == "USA")
+japan <- filter(wide_data_clean, ref_area == "JPN")
+israel <- filter(wide_data_clean, ref_area == "ISR")
+
+# Canada (fully) and USA have missing labor compensation data.
+# I use the other two components and GDP data to fill in the missing values
+canada <- canada |>
+    filter(is.na(labor_compensation)) |>
+    mutate(labor_compensation = gdp - operating_surplus_mixed_income - taxes_minus_subsidies)
+
+canada |>
+    mutate(ls = labor_compensation/gdp) |>
+    ggplot(aes(time, ls)) +
+    geom_line()
+
+usa = usa |>
+    filter(is.na(labor_compensation)) |>
+    mutate(labor_compensation = gdp - operating_surplus_mixed_income - taxes_minus_subsidies)
+
+# Japan missing operating surplus and taxes.
+# I combine both under operating surplus by subtracting labor compensation from GDP.
+japan = japan |>
+    mutate(operating_surplus_mixed_income = gdp - labor_compensation)
+
+# Isreal missing labor compensation and taxes.
+# I combine both under labor compensation by subtractiong operating surplus from GDP.
+israel = israel |>
+    mutate(labor_compensation = gdp - operating_surplus_mixed_income)
+
+# Pasting imputed data for Canada, US, Japan, and Israel to main data
+wide_data_clean[wide_data_clean$ref_area == "USA" & is.na(wide_data_clean$labor_compensation), "labor_compensation"] <- usa$labor_compensation
+
+wide_data_clean[wide_data_clean$ref_area == "CAN" & is.na(wide_data_clean$labor_compensation), "labor_compensation"] <- canada$labor_compensation
+
+wide_data_clean[wide_data_clean$ref_area == "JPN" & is.na(wide_data_clean$operating_surplus_mixed_income), "operating_surplus_mixed_income"] <- japan$operating_surplus_mixed_income
+
+wide_data_clean[wide_data_clean$ref_area == "ISR" & is.na(wide_data_clean$labor_compensation), "labor_compensation"] <- israel$labor_compensation
 
 # Sanity Check
 wide_data_clean |>
-    mutate(test = `Compensation of employees` +
-               `Operating surplus and mixed income, gross` +
-               `Taxes on production and imports less subsidies` -
-               `Gross domestic product`) |>
+    mutate(test = labor_compensation +
+               operating_surplus_mixed_income +
+               taxes_minus_subsidies -
+               gdp) |>
     group_by(reference_area) |>
     summarise(mean = mean(test, na.rm = T)) |>
     arrange(desc(abs(mean)))
 
 wide_data_clean |>
-    mutate(labor_share = `Compensation of employees`/`Gross domestic product`) |>
+    mutate(labor_share = labor_compensation/gdp) |>
     ggplot(aes(x = time, y = labor_share, color = ref_area)) +
     geom_line() +
     theme(legend.position = "none")
+
+# Write the data to a csv file
+write_csv(wide_data_clean, "income_components.csv")
