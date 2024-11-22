@@ -32,8 +32,7 @@ ui <- page_navbar(
     layout_columns(
       card(
         card_header("Contributions to Annual Inflation in Percentage Points"),
-        plotOutput("decomp"),
-        #plotOutput("cpi_vs_def")
+        plotOutput("decomp")
       ),
       card(
         card_header("Annual Inflation Based on GDP Deflator vs. Consumer Price Index"),
@@ -42,7 +41,7 @@ ui <- page_navbar(
     ),
     card(
       card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"),
-      tableOutput("table_quarterly"),
+      gt_output("table_quarterly"),
       height = 300
     )
   ),
@@ -56,7 +55,7 @@ ui <- page_navbar(
       ),
       nav_panel(
         "Table",
-        tableOutput("table_decadal") 
+        gt_output("table_decadal") 
       )
     )
   ),
@@ -118,7 +117,7 @@ server <- function(input, output, session) {
       )
   })
 
-  output$table_quarterly <- renderTable({
+  output$table_quarterly <- render_gt({
     data |>
       filter(reference_area == input$country) |>
       filter(series %in% c("inflation_def", "inflation_cpi", income_comps)) |>
@@ -163,7 +162,7 @@ server <- function(input, output, session) {
       )
   })
 
-  output$table_decadal <- renderTable({
+  output$table_decadal <- render_gt({
     data_avg |>
       filter(var == "mean") |>
       filter(series %in% income_comps) |>
@@ -176,7 +175,11 @@ server <- function(input, output, session) {
         "Unit labor cost" = contr_unit_labor_cost,
         "Unit profit" = contr_unit_profit,
         "Unit tax"  = contr_unit_tax
-      )
+      ) |>
+      gt() |>
+      fmt_number(columns = 3:5, decimals = 2) |>
+      cols_align("left", columns = 2) |>
+      opt_stylize(style = 6, color = "gray")
   })
 
   ymaxFind <- reactive({
