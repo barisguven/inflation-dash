@@ -11,7 +11,7 @@ ui <- page_navbar(
       selected = "Türkiye"
     )
   ),
-  #fillable = FALSE,
+
   nav_panel(
     title = "Contributions of Unit Components to Annual Inflation",
     layout_column_wrap(
@@ -28,60 +28,16 @@ ui <- page_navbar(
     title = "Tables",
     layout_columns(
       col_widths = c(7, 5),
-      card(card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"), gt_output("table_quarterly")),
-      card(card_header("Contributions of Unit Components to Annual Inflation by Decade"), gt_output("table_decadal")),
+      card(
+        card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"), 
+        gt_output("table_quarterly"), 
+        downloadButton("download_quarterly")
+      ),
+      card(
+        card_header("Contributions of Unit Components to Annual Inflation by Decade"), 
+        gt_output("table_decadal"), 
+        downloadButton("download_decadal")
+      ),
     ),
   )
-
-  # nav_panel(
-  #   "Quarterly Contributions",
-  #   layout_column_wrap(
-  #     # card(
-  #     #   card_header("Contributions to Annual Inflation in Percentage Points"),
-  #     #   plotOutput("decomp"),
-  #     #   full_screen = TRUE
-  #     # ),
-  #     navset_card_tab(
-  #       title = "Contributions of Unit Components to Annual Inflation",
-  #       nav_panel("Plot", plotOutput("decomp"), full_screen=TRUE),
-  #       nav_panel("Table", gt_output("table_quarterly"), height = 300)  
-  #     ),
-  #     card(
-  #       card_header("Annual Inflation Based on GDP Deflator vs. Consumer Price Index"),
-  #       plotOutput("def_vs_cpi")
-  #     )
-  #   )
-  #   # card(
-  #   #   card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"),
-  #   #   gt_output("table_quarterly"),
-  #   #   height = 300
-  #   # )
-  # ),
-  # nav_panel(
-  #   "By Decade",
-  #   # layout_column_wrap(
-  #   #   card(
-  #   #     card_header("Contributions of Unit Components to Annual Inflation by Decade"),
-  #   #     plotOutput("decadal_avg")  
-  #   #   ),
-  #   #   card(
-  #   #     gt_output("table_decadal") 
-  #   #   )
-  #   # )
-  #   navset_card_tab(
-  #     title = "Contributions of Unit Components to Annual Inflation by Decade",
-  #     nav_panel(
-  #       "Plot",
-  #       plotOutput("decadal_avg") 
-  #     ),
-  #     nav_panel(
-  #       "Table",
-  #       gt_output("table_decadal") 
-  #     )
-  #   )
-  # ),
-  # nav_panel(
-  #   "Since the Pandemic",
-  #   plotOutput("pandemic")
-  # )
 )

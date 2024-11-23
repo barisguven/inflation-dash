@@ -3,8 +3,6 @@ library(bslib)
 library(tidyverse)
 library(gt)
 
-# remove the line below
-setwd("/Users/barisguven/My Documents/inflation-dash/dash-shiny")
 data = read.csv("data/merged_data.csv")
 data <- mutate(data, time = as.Date(time))
 

@@ -1,5 +1,8 @@
 server <- function(input, output, session) {
+
+  # Plots ----
  
+  ## 1. Decompostion Quarterly ----
   output$decomp <- renderPlot({
     data |>
       filter(reference_area == input$country) |>
@@ -30,6 +33,7 @@ server <- function(input, output, session) {
       )
   })
 
+  ## 2. Deflator vs. CPI ----
   output$def_vs_cpi <- renderPlot({
     data |>
       filter(series %in% c("inflation_def", "inflation_cpi")) |>
@@ -51,31 +55,8 @@ server <- function(input, output, session) {
         legend.margin = margin(t=-5)
       )
   })
-
-  output$table_quarterly <- render_gt({
-    data |>
-      filter(reference_area == input$country) |>
-      filter(series %in% c("inflation_def", "inflation_cpi", income_comps)) |>
-      pivot_wider(names_from = series, values_from = value) |>
-      select(c(reference_area, time, contr_unit_labor_cost,
-              contr_unit_profit, contr_unit_tax,
-              inflation_def, inflation_cpi)) |>
-      rename(
-        Country = reference_area,
-        Quarter = time,
-        `Unit labor cost` = contr_unit_labor_cost,
-        `Unit profit` = contr_unit_profit,
-        `Unit tax` = contr_unit_tax,
-        Deflator = inflation_def,
-        CPI = inflation_cpi
-      ) |>
-      arrange(desc(Quarter)) |>
-      gt() |>
-      fmt_number(columns = 3:7, decimals = 2) |>
-      fmt_date(columns = Quarter, date_style = "year_quarter") |>
-      opt_stylize(style = 6, color = "gray")
-  })
   
+  ## 3. Decadal Average
   output$decadal_avg = renderPlot({
     data_avg |>
       filter(var == "mean") |>
@@ -98,26 +79,7 @@ server <- function(input, output, session) {
       )
   })
 
-  output$table_decadal <- render_gt({
-    data_avg |>
-      filter(var == "mean") |>
-      filter(series %in% income_comps) |>
-      filter(reference_area == input$country) |>
-      select(reference_area, series, decade, value) |>
-      pivot_wider(names_from = series, values_from = value) |>
-      rename(
-        "Country" = reference_area,
-        "Decade" = decade,
-        "Unit labor cost" = contr_unit_labor_cost,
-        "Unit profit" = contr_unit_profit,
-        "Unit tax"  = contr_unit_tax
-      ) |>
-      gt() |>
-      fmt_number(columns = 3:5, decimals = 2) |>
-      cols_align("left", columns = 2) |>
-      opt_stylize(style = 6, color = "gray")
-  })
-
+  ## 4. Pandemic ----
   ymaxFind <- reactive({
     ymax = data |>
       filter(reference_area == input$country) |>
@@ -165,4 +127,79 @@ server <- function(input, output, session) {
         legend.margin = margin(t=-18)
       )
   })
+
+  # Tables ----
+
+  ## Quarterly data ----
+  data_quarterly <- reactive({
+    data |>
+      filter(reference_area == input$country) |>
+      filter(series %in% c("inflation_def", "inflation_cpi", income_comps)) |>
+      pivot_wider(names_from = series, values_from = value) |>
+      select(c(reference_area, time, contr_unit_labor_cost,
+              contr_unit_profit, contr_unit_tax,
+              inflation_def, inflation_cpi)) |>
+      rename(
+        Country = reference_area,
+        Quarter = time,
+        `Unit labor cost` = contr_unit_labor_cost,
+        `Unit profit` = contr_unit_profit,
+        `Unit tax` = contr_unit_tax,
+        Deflator = inflation_def,
+        CPI = inflation_cpi
+      ) |>
+      arrange(desc(Quarter)) 
+  })
+
+  output$table_quarterly <- render_gt({
+    data_quarterly() |>
+      gt() |>
+      fmt_number(columns = 3:7, decimals = 2) |>
+      fmt_date(columns = Quarter, date_style = "year_quarter") |>
+      opt_stylize(style = 6, color = "gray")
+  })
+
+  output$download_quarterly <- downloadHandler(
+    filename = function() {
+      paste0("quarterly_data_", input$country, ".csv")
+    },
+    content = function(file) {
+      write.csv(data_quarterly(), file)
+    }
+  )
+
+  ## Decadal data ----
+
+  data_decadal <- reactive({
+    data_avg |>
+      filter(var == "mean") |>
+      filter(series %in% income_comps) |>
+      filter(reference_area == input$country) |>
+      select(reference_area, series, decade, value) |>
+      pivot_wider(names_from = series, values_from = value) |>
+      rename(
+        "Country" = reference_area,
+        "Decade" = decade,
+        "Unit labor cost" = contr_unit_labor_cost,
+        "Unit profit" = contr_unit_profit,
+        "Unit tax"  = contr_unit_tax
+      )
+  })
+
+  output$table_decadal <- render_gt({
+    data_decadal() |>
+      gt() |>
+      fmt_number(columns = 3:5, decimals = 2) |>
+      cols_align("left", columns = 2) |>
+      opt_stylize(style = 6, color = "gray")
+  })
+
+  output$download_decadal <- downloadHandler(
+    filename = function() {
+      paste0("decadal_data_", input$country, ".csv")
+    },
+    content = function(file) {
+      write.csv(data_decadal(), file)
+    }
+  )
 }
