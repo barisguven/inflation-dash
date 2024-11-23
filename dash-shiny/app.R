@@ -76,7 +76,7 @@ server <- function(input, output, session) {
       labs(x="", y="Percent") +
       geom_line(
         data = filter(data, reference_area == input$country, series == "inflation_def"), 
-        aes(time, value, color = "inflation_def"), size=0.6) +
+        aes(time, value, color = "inflation_def"), linewidth=0.6) +
       scale_fill_viridis_d(
         breaks = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax"),
         labels = c("Unit labor cost", "Unit profit", "Unit tax"),
@@ -101,7 +101,7 @@ server <- function(input, output, session) {
       filter(series %in% c("inflation_def", "inflation_cpi")) |>
       filter(reference_area == input$country) |>
       ggplot(aes(time, value, color = series)) +
-      geom_line(size=0.7) +
+      geom_line(linewidth=0.7) +
       scale_color_brewer(
         breaks = c("inflation_def", "inflation_cpi"),
         labels = c("Deflator", "Consumer Price Index"),
@@ -206,7 +206,7 @@ server <- function(input, output, session) {
       labs(x="", y="Percent") +
       geom_line(
         data = filter(data, reference_area == input$country, series == "inflation_def", time >= as.Date("2020-01-01")), 
-        aes(time, value, color = "inflation_def"), size=0.6) +
+        aes(time, value, color = "inflation_def"), linewidth=0.6) +
       geom_vline(xintercept = as.Date("2020-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
         annotate(geom = "text", label = "Covid-19 starts", x = as.Date("2020-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
       geom_vline(xintercept = as.Date("2022-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
