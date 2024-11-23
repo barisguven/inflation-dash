@@ -1,5 +1,4 @@
 server <- function(input, output, session) {
-
   # Plots ----
  
   ## 1. Decompostion Quarterly ----

@@ -1,5 +1,6 @@
 ui <- page_navbar(
   title = "Inflation-decomposed",
+  theme = light,
   sidebar = sidebar(
     helpText(
       "This dashboard displays the contribution of unit labor cost, unit profit, and unit tax to inflation measured through the percentage change in the GDP deflator for a given country. For the underlying framework, see here."
@@ -16,7 +17,7 @@ ui <- page_navbar(
     title = "Contributions of Unit Components to Annual Inflation",
     layout_column_wrap(
       card(plotOutput("decomp"), full_screen = TRUE),
-      card(plotOutput("def_vs_cpi"), full_screen = TRUE),
+      card(plotOutput("def_vs_cpi"), full_screen = TRUE)
     ),
     layout_column_wrap(
       card(plotOutput("decadal_avg"), full_screen = TRUE),
