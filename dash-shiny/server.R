@@ -61,6 +61,7 @@ server <- function(input, output, session) {
       filter(var == "mean") |>
       filter(series %in% income_comps) |>
       filter(reference_area == input$country) |>
+      filter(!is.na(value)) |>
       ggplot(aes(decade, value, fill = series)) +
       geom_bar(stat = "identity", position = position_dodge()) +
       scale_fill_manual(
@@ -176,6 +177,7 @@ server <- function(input, output, session) {
       filter(reference_area == input$country) |>
       select(reference_area, series, decade, value) |>
       pivot_wider(names_from = series, values_from = value) |>
+      filter((!is.na(contr_unit_labor_cost) | !is.na(contr_unit_profit) | !is.na(contr_unit_tax))) |>
       rename(
         "Country" = reference_area,
         "Decade" = decade,
