@@ -105,7 +105,7 @@ server <- function(input, output, session) {
         data = filter(data, reference_area == input$country, series == "inflation_def", time >= as.Date("2020-01-01")), 
         aes(time, value, color = "inflation_def"), linewidth=0.6) +
       geom_vline(xintercept = as.Date("2020-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
-        annotate(geom = "text", label = "Covid-19 starts", x = as.Date("2020-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
+      annotate(geom = "text", label = "Covid-19 starts", x = as.Date("2020-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
       geom_vline(xintercept = as.Date("2022-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
       annotate(geom = "text", label = "Russia invades Ukraine", x = as.Date("2022-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
       scale_fill_viridis_d(
@@ -154,8 +154,12 @@ server <- function(input, output, session) {
   output$table_quarterly <- render_gt({
     data_quarterly() |>
       gt() |>
+      tab_header(
+        title = "Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"
+      ) |>
       fmt_number(columns = 3:7, decimals = 2) |>
       fmt_date(columns = Quarter, date_style = "year_quarter") |>
+      sub_missing(columns = 3:7, missing_text = "---") |>
       opt_stylize(style = 6, color = "gray")
   })
 
@@ -190,7 +194,11 @@ server <- function(input, output, session) {
   output$table_decadal <- render_gt({
     data_decadal() |>
       gt() |>
+      tab_header(
+        title = "Contributions of Unit Components to Annual Inflation,  by Decade"
+      ) |>
       fmt_number(columns = 3:5, decimals = 2) |>
+      sub_missing(columns = 3:5, missing_text = "---") |>
       cols_align("left", columns = 2) |>
       opt_stylize(style = 6, color = "gray")
   })

@@ -30,12 +30,12 @@ ui <- page_navbar(
     layout_columns(
       col_widths = c(7, 5),
       card(
-        card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"), 
+        #card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"), 
         gt_output("table_quarterly"), 
         downloadButton("download_quarterly")
       ),
       card(
-        card_header("Contributions of Unit Components to Annual Inflation by Decade"), 
+        #card_header("Contributions of Unit Components to Annual Inflation by Decade"), 
         gt_output("table_decadal"), 
         downloadButton("download_decadal")
       ),
