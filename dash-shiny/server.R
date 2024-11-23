@@ -25,7 +25,7 @@ server <- function(input, output, session) {
       theme(
         plot.title = element_text(size = 14),
         axis.text = element_text(size = 12),
-        axis.title.y = element_text(size=14),
+        axis.title.y = element_text(size=12),
         legend.text = element_text(size = 12),
         legend.title = element_blank(),
         legend.position = "bottom",
@@ -48,7 +48,7 @@ server <- function(input, output, session) {
       theme(
         plot.title = element_text(size = 14),
         axis.text = element_text(size = 12),
-        axis.title.y = element_text(size=14),
+        axis.title.y = element_text(size=12),
         legend.text = element_text(size = 12),
         legend.title = element_blank(),
         legend.position = "bottom",
@@ -71,7 +71,7 @@ server <- function(input, output, session) {
       theme(
         plot.title = element_text(size = 14),
         axis.text = element_text(size = 12),
-        axis.title.y = element_text(size=14),
+        axis.title.y = element_text(size=12),
         legend.text = element_text(size = 12),
         legend.title = element_blank(),
         legend.position = "bottom",
@@ -120,7 +120,7 @@ server <- function(input, output, session) {
       theme(
         plot.title = element_text(size = 14),
         axis.text = element_text(size = 12),
-        axis.title.y = element_text(size=14),
+        axis.title.y = element_text(size=12),
         legend.text = element_text(size = 12),
         legend.title = element_blank(),
         legend.position = "bottom",
