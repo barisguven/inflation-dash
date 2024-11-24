@@ -45,12 +45,11 @@ ui <- page_navbar(
   ),
   nav_spacer(),
   nav_item(
-    tags$li(
-      a(
-        icon("github"),
-        href = "https://github.com/barisguven/inflation-decomposed",
-        target = "_blank"
-      )
+    a(
+      icon("github"),
+      href = "https://github.com/barisguven/inflation-decomposed",
+      target = "_blank"
     )
-  )
+  ),
+  nav_item(input_dark_mode())
 )
