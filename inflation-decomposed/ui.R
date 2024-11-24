@@ -1,6 +1,7 @@
 ui <- page_navbar(
   title = "Inflation-decomposed",
   theme = light,
+  underline = FALSE,
   sidebar = sidebar(
     helpText(
       "This dashboard displays the contribution of unit labor cost, unit profit, and unit tax to inflation measured through the percentage change in the GDP deflator for a given country. For the underlying framework, see here."
@@ -27,6 +28,7 @@ ui <- page_navbar(
 
   nav_panel(
     title = "Tables",
+    icon = icon("table"),
     layout_columns(
       col_widths = c(7, 5),
       card(
@@ -39,6 +41,16 @@ ui <- page_navbar(
         gt_output("table_decadal"), 
         downloadButton("download_decadal")
       ),
-    ),
+    )
+  ),
+  nav_spacer(),
+  nav_item(
+    tags$li(
+      a(
+        icon("github"),
+        href = "https://github.com/barisguven/inflation-decomposed",
+        target = "_blank"
+      )
+    )
   )
 )
