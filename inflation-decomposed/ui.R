@@ -1,6 +1,6 @@
 ui <- page_navbar(
   title = "Inflation-decomposed",
-  theme = light,
+  theme = bs_theme(bootswatch = "cerulean"),
   underline = FALSE,
   sidebar = sidebar(
     helpText(
@@ -53,5 +53,5 @@ ui <- page_navbar(
       target = "_blank"
     )
   ),
-  nav_item(input_dark_mode())
+  nav_item(input_dark_mode(mode = "light"))
 )
