@@ -13,7 +13,8 @@ ui <- page_navbar(
       "Select a country:",
       choices = c(unique(data$reference_area)),
       selected = "Türkiye"
-    )
+    ),
+    uiOutput("country_note")
   ),
 
   nav_panel(

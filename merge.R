@@ -119,7 +119,7 @@ data_long |>
 data_clean = data_long |>
     filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland", "Romania"))
 
-write_csv(data_clean, "dash-shiny/data/merged_data.csv")
+write_csv(data_clean, "inflation-decomposed/data/merged_data.csv")
 
 # Decadal averages ----
 data_clean <- data_clean |>
@@ -148,4 +148,17 @@ data_avg <- data_clean |>
         cols = c(mean, sd), names_to = "var", values_to = "value"
     )
 
-write.csv(data_avg, file = "dash-shiny/data/merged_data_avg.csv")
+write_csv(data_avg, file = "inflation-decomposed/data/merged_data_avg.csv")
+
+# Country notes ----
+country_notes <- tibble(
+    country = c("United States", "Canada", "Japan", "Israel"),
+    note = c(
+        "aa",
+        "bb",
+        "cc",
+        "dd"
+    )
+)
+
+write_csv(country_notes, file = "inflation-decomposed/data/country_notes.csv")
