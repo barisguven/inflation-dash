@@ -211,4 +211,17 @@ server <- function(input, output, session) {
       write.csv(data_decadal(), file)
     }
   )
+
+  ## Country notes ----
+  output$country_note <- renderUI({
+    if (input$country %in% c("United States", "Canada", "Japan", "Israel")) {
+      country_note = country_notes |>
+        filter(country == input$country) |>
+        pull(note)
+      
+      first_line = paste0("Notes for ", input$country, ":")
+      helpText(paste(first_line, country_note))
+    }
+  })
+
 }
