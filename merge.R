@@ -154,10 +154,10 @@ write_csv(data_avg, file = "inflation-decomposed/data/merged_data_avg.csv")
 country_notes <- tibble(
     country = c("United States", "Canada", "Japan", "Israel"),
     note = c(
-        '"Compensation of employees" series is missing from 1959-Q1 to 1968-Q4 in the original data set and computed by subtracting the sum of "Operating surplus and mixed income" and "Taxes on production and imports less subsidies" from "Gross Domestic Product".',
+        '"Compensation of employees" series is missing from 1959-Q1 to 1968-Q4 in the original data set and computed by subtracting the sum of "Operating surplus and mixed income" and "Taxes on production and imports less subsidies" from "Gross Domestic Product."',
         '"Compensation of employees" series is missing in the original data set and computed by subtracting the sum of "Operating surplus and mixed income" and "Taxes on production and imports less subsidies" from "Gross Domestic Product" for the whole period.',
-        'Only "Compensation of employees" series is available in the original data. "Operating surplus and mixed income" is computed by subtracting "Compensation of employees" from "Gross Domestic Product" so it also reflects "Taxes on production and imports less subsidies".',
-        'Only "Operating surplus and mixed income" series is available in the original data. "Compensation of employees" is computed by subtracting "Operating surplus and mixed income" from "Gross Domestic Product" so it also reflects "Taxes on production and imports less subsidies".'
+        'Only "Compensation of employees" series is available in the original data. "Operating surplus and mixed income" is computed by subtracting "Compensation of employees" from "Gross Domestic Product" so it also reflects "Taxes on production and imports less subsidies."',
+        'Only "Operating surplus and mixed income" series is available in the original data. "Compensation of employees" is computed by subtracting "Operating surplus and mixed income" from "Gross Domestic Product" so it also reflects "Taxes on production and imports less subsidies."'
     )
 )
 
