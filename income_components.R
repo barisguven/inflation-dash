@@ -1,10 +1,8 @@
 library(tidyverse)
 
-setwd("~/My Documents/inflation-dash")
-
 # Annual GDP and components - income approach (structure name) ----
 # https://data-explorer.oecd.org/vis?fs%5B0%5D=Topic,1%7CEconomy%23ECO%23%7CNational%20accounts%23ECO_NAD%23&pg=40&fc=Topic&bp=true&snb=156&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_NAMAIN1@DF_QNA_INCOME&df%5Bag%5D=OECD.SDD.NAD&df%5Bvs%5D=1.1&dq=Q..AUT..........&to%5BTIME_PERIOD%5D=false&lo=5&lom=LASTNPERIODS
-data <- read_csv("data/oecd_gdp_quarterly_income_approach.csv")
+data <- read_csv("data_oecd/oecd_gdp_quarterly_income_approach.csv")
 
 data |>
     select(Transaction, `Economic activity`, Adjustment) |>

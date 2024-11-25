@@ -1,11 +1,9 @@
 library(tidyverse)
 
-setwd("~/My Documents/inflation-dash")
-
 # Quarterly GDP and components - expenditure approach - volume and price indices
 # https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_NAMAIN1@DF_QNA_EXPENDITURE_INDICES&df%5Bag%5D=OECD.SDD.NAD&df%5Bvs%5D=1.1&dq=Q............&lom=LASTNPERIODS&lo=5&to%5BTIME_PERIOD%5D=false
 
-data <- read_csv("data/oecd_quarterly_gdp_expenditure_approach.csv")
+data <- read_csv("data_oecd/oecd_quarterly_gdp_expenditure_approach.csv")
 
 data |>
     distinct(`Economic activity`, Transaction, `Price base`)
