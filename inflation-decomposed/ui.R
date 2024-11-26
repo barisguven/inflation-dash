@@ -4,7 +4,7 @@ ui <- page_navbar(
   underline = FALSE,
   sidebar = sidebar(
     helpText(
-      "This dashboard displays the contribution of unit labor cost, unit profit, and unit tax to inflation measured through the percentage change in the GDP deflator for a given country. See",
+      "This dashboard displays the contribution of unit labor costs, unit profits, and unit net taxes to inflation measured through the percentage change in the GDP deflator for a given country. See",
       a("here", href = "https://github.com/barisguven/inflation-decomposed/blob/main/README.md", target = "_blank"),
       "for the underlying framework."
     ),

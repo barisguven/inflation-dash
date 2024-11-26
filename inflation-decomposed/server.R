@@ -15,7 +15,7 @@ server <- function(input, output, session) {
         aes(time, value, color = "inflation_def"), linewidth=0.6) +
       scale_fill_manual(
         values = c("contr_unit_labor_cost" = "#30123BFF", "contr_unit_profit" = "#1AE4B6FF", "contr_unit_tax" = "#FABA39FF"),
-        labels = c("Unit labor cost", "Unit profit", "Unit tax")) +
+        labels = c("Unit labor costs", "Unit profits", "Unit net taxes")) +
       scale_color_manual(
         labels = "Deflator",
         values = c("inflation_def" = "red")
@@ -67,7 +67,7 @@ server <- function(input, output, session) {
       geom_bar(stat = "identity", position = position_dodge()) +
       scale_fill_manual(
         values = c("contr_unit_labor_cost" = "#30123BFF", "contr_unit_profit" = "#1AE4B6FF", "contr_unit_tax" = "#FABA39FF"),
-        labels = c("Unit labor cost", "Unit profit", "Unit tax")) +
+        labels = c("Unit labor costs", "Unit profits", "Unit net taxes")) +
       labs(x=NULL, y="Percent", title = paste0("Decadal Contributions, ", input$country)) +
       theme(
         plot.title = element_text(size = 14),
@@ -112,7 +112,7 @@ server <- function(input, output, session) {
       annotate(geom = "text", label = "Russia invades Ukraine", x = as.Date("2022-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
       scale_fill_manual(
         values = c("contr_unit_labor_cost" = "#30123BFF", "contr_unit_profit" = "#1AE4B6FF", "contr_unit_tax" = "#FABA39FF"),
-        labels = c("Unit labor cost", "Unit profit", "Unit tax")) +
+        labels = c("Unit labor costs", "Unit profits", "Unit net taxes")) +
       scale_color_manual(
         labels = "Deflator",
         values = c("inflation_def" = "red")
@@ -143,9 +143,9 @@ server <- function(input, output, session) {
       rename(
         Country = reference_area,
         Quarter = time,
-        `Unit labor cost` = contr_unit_labor_cost,
-        `Unit profit` = contr_unit_profit,
-        `Unit tax` = contr_unit_tax,
+        `Unit labor costs` = contr_unit_labor_cost,
+        `Unit profits` = contr_unit_profit,
+        `Unit net taxes` = contr_unit_tax,
         Deflator = inflation_def,
         CPI = inflation_cpi
       ) |>
@@ -156,7 +156,7 @@ server <- function(input, output, session) {
     data_quarterly() |>
       gt() |>
       tab_header(
-        title = "Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"
+        title = "Contributions of Unit Income Components to Annual Deflator Inflation"
       ) |>
       fmt_number(columns = 3:7, decimals = 2) |>
       fmt_date(columns = Quarter, date_style = "year_quarter") |>
@@ -186,9 +186,9 @@ server <- function(input, output, session) {
       rename(
         "Country" = reference_area,
         "Decade" = decade,
-        "Unit labor cost" = contr_unit_labor_cost,
-        "Unit profit" = contr_unit_profit,
-        "Unit tax"  = contr_unit_tax
+        "Unit labor costs" = contr_unit_labor_cost,
+        "Unit profits" = contr_unit_profit,
+        "Unit net taxes"  = contr_unit_tax
       )
   })
 
@@ -196,7 +196,7 @@ server <- function(input, output, session) {
     data_decadal() |>
       gt() |>
       tab_header(
-        title = "Contributions of Unit Components to Annual Inflation,  by Decade"
+        title = "Decadal Contributions of Unit Income Components to Annual Deflator Inflation"
       ) |>
       fmt_number(columns = 3:5, decimals = 2) |>
       sub_missing(columns = 3:5, missing_text = "---") |>
