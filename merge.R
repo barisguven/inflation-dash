@@ -1,7 +1,5 @@
 library(tidyverse)
 
-setwd("~/My Documents/inflation-dash")
-
 # Merge income components with deflator and volume series ----
 income_data <- read_csv("income_components.csv")
 deflator_data <- read_csv("volume_deflator.csv")
@@ -67,14 +65,16 @@ data = data |>
 data = data |>
     mutate(labor_share = labor_compensation/gdp,
            profit_share = operating_surplus_mixed_income/gdp,
-           tax_share = taxes_minus_subsidies/gdp)
+           tax_share = taxes_minus_subsidies/gdp,
+           ls_to_ps = labor_share/profit_share)
 
 ## Contribution to Inflation of Unit Costs
 data = data |>
     mutate(contr_unit_labor_cost = delta_unit_labor_cost*labor_share,
            contr_unit_profit = delta_unit_profit*profit_share,
            contr_unit_tax = delta_unit_tax*tax_share,
-           contr_total = contr_unit_labor_cost + contr_unit_profit + contr_unit_tax)
+           contr_total = contr_unit_labor_cost + contr_unit_profit + contr_unit_tax,
+           contr_relative = contr_unit_labor_cost/contr_unit_profit)
 
 data |>
     filter(!reference_area %in% country_groups) |>
@@ -87,8 +87,8 @@ data |>
 
 data_long = data |>
     select(c(reference_area, ref_area, time, inflation_def, inflation_cpi,
-        starts_with("contr_"))) |>
-    pivot_longer(cols = 4:9, names_to = "series", values_to = "value")
+        starts_with("contr_"), labor_share, ls_to_ps)) |>
+    pivot_longer(cols = 4:12, names_to = "series", values_to = "value")
 
 income_comps = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax")
 

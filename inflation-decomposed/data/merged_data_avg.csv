@@ -1,4 +1,20 @@
 reference_area,ref_area,series,decade,var,value
+Australia,AUS,contr_relative,1950-59,mean,NA
+Australia,AUS,contr_relative,1950-59,sd,NA
+Australia,AUS,contr_relative,1960-69,mean,0.7311861037581185
+Australia,AUS,contr_relative,1960-69,sd,24.77222417298563
+Australia,AUS,contr_relative,1970-79,mean,-12.434738882068936
+Australia,AUS,contr_relative,1970-79,sd,78.82688604916365
+Australia,AUS,contr_relative,1980-89,mean,2.2170543236729903
+Australia,AUS,contr_relative,1980-89,sd,4.674803243598467
+Australia,AUS,contr_relative,1990-99,mean,1.3344571964694265
+Australia,AUS,contr_relative,1990-99,sd,5.193202607795243
+Australia,AUS,contr_relative,2000-09,mean,1.1194101154567975
+Australia,AUS,contr_relative,2000-09,sd,1.899870834509284
+Australia,AUS,contr_relative,2010-19,mean,0.5777651001535437
+Australia,AUS,contr_relative,2010-19,sd,3.2445731066323846
+Australia,AUS,contr_relative,2020-,mean,0.4594512963057888
+Australia,AUS,contr_relative,2020-,sd,3.2219759636156136
 Australia,AUS,contr_total,1950-59,mean,NA
 Australia,AUS,contr_total,1950-59,sd,NA
 Australia,AUS,contr_total,1960-69,mean,2.9068380685162354
@@ -95,6 +111,46 @@ Australia,AUS,inflation_def,2010-19,mean,2.0488790650277484
 Australia,AUS,inflation_def,2010-19,sd,2.441423605462009
 Australia,AUS,inflation_def,2020-,mean,4.482930893732236
 Australia,AUS,inflation_def,2020-,sd,2.921645588046009
+Australia,AUS,labor_share,1950-59,mean,0.46516318732103196
+Australia,AUS,labor_share,1950-59,sd,0.0026247048761385843
+Australia,AUS,labor_share,1960-69,mean,0.48657593777059865
+Australia,AUS,labor_share,1960-69,sd,0.010702622398866437
+Australia,AUS,labor_share,1970-79,mean,0.5379603984563415
+Australia,AUS,labor_share,1970-79,sd,0.024396580148689874
+Australia,AUS,labor_share,1980-89,mean,0.5131912912426165
+Australia,AUS,labor_share,1980-89,sd,0.020698219954831006
+Australia,AUS,labor_share,1990-99,mean,0.4932136888690455
+Australia,AUS,labor_share,1990-99,sd,0.005272101278215402
+Australia,AUS,labor_share,2000-09,mean,0.4797552441781023
+Australia,AUS,labor_share,2000-09,sd,0.006260937197118707
+Australia,AUS,labor_share,2010-19,mean,0.47677787654953685
+Australia,AUS,labor_share,2010-19,sd,0.0068781639170935535
+Australia,AUS,labor_share,2020-,mean,0.470351870390881
+Australia,AUS,labor_share,2020-,sd,0.014707329550578895
+Australia,AUS,ls_to_ps,1950-59,mean,0.9902031099997767
+Australia,AUS,ls_to_ps,1950-59,sd,0.0049511367071427064
+Australia,AUS,ls_to_ps,1960-69,mean,1.1050926142988906
+Australia,AUS,ls_to_ps,1960-69,sd,0.05476058010422313
+Australia,AUS,ls_to_ps,1970-79,mean,1.4112784396026947
+Australia,AUS,ls_to_ps,1970-79,sd,0.16437790204505748
+Australia,AUS,ls_to_ps,1980-89,mean,1.321804360776424
+Australia,AUS,ls_to_ps,1980-89,sd,0.11974762832485843
+Australia,AUS,ls_to_ps,1990-99,mean,1.2258633256068487
+Australia,AUS,ls_to_ps,1990-99,sd,0.03356116527183608
+Australia,AUS,ls_to_ps,2000-09,mean,1.1663514184851205
+Australia,AUS,ls_to_ps,2000-09,sd,0.04682047285560471
+Australia,AUS,ls_to_ps,2010-19,mean,1.1258180334440964
+Australia,AUS,ls_to_ps,2010-19,sd,0.039910978391186694
+Australia,AUS,ls_to_ps,2020-,mean,1.04437699480785
+Australia,AUS,ls_to_ps,2020-,sd,0.04912074506145254
+Austria,AUT,contr_relative,1990-99,mean,-3.5607354347110376
+Austria,AUT,contr_relative,1990-99,sd,12.529351840943155
+Austria,AUT,contr_relative,2000-09,mean,0.3324035811601418
+Austria,AUT,contr_relative,2000-09,sd,2.07344706209274
+Austria,AUT,contr_relative,2010-19,mean,-6.461676193403181
+Austria,AUT,contr_relative,2010-19,sd,35.2751735078866
+Austria,AUT,contr_relative,2020-,mean,-1.3662866681490937
+Austria,AUT,contr_relative,2020-,sd,6.876041077800474
 Austria,AUT,contr_total,1990-99,mean,0.7929582875120393
 Austria,AUT,contr_total,1990-99,sd,0.7840539401303475
 Austria,AUT,contr_total,2000-09,mean,1.8256059970174319
@@ -143,6 +199,30 @@ Austria,AUT,inflation_def,2010-19,mean,1.6747558497762969
 Austria,AUT,inflation_def,2010-19,sd,0.7839724297822395
 Austria,AUT,inflation_def,2020-,mean,3.750672697704811
 Austria,AUT,inflation_def,2020-,sd,2.16374170620013
+Austria,AUT,labor_share,1990-99,mean,0.5003130589641733
+Austria,AUT,labor_share,1990-99,sd,0.008309403960577237
+Austria,AUT,labor_share,2000-09,mean,0.47129961702271395
+Austria,AUT,labor_share,2000-09,sd,0.010809722705492866
+Austria,AUT,labor_share,2010-19,mean,0.478115254792085
+Austria,AUT,labor_share,2010-19,sd,0.005602744476678709
+Austria,AUT,labor_share,2020-,mean,0.5006106499220292
+Austria,AUT,labor_share,2020-,sd,0.017705972984218492
+Austria,AUT,ls_to_ps,1990-99,mean,1.33307421428546
+Austria,AUT,ls_to_ps,1990-99,sd,0.0395923690291606
+Austria,AUT,ls_to_ps,2000-09,mean,1.1683729606505
+Austria,AUT,ls_to_ps,2000-09,sd,0.06324148955703761
+Austria,AUT,ls_to_ps,2010-19,mean,1.214573538676223
+Austria,AUT,ls_to_ps,2010-19,sd,0.02872754435055673
+Austria,AUT,ls_to_ps,2020-,mean,1.2667798294979367
+Austria,AUT,ls_to_ps,2020-,sd,0.10052240894626059
+Belgium,BEL,contr_relative,1990-99,mean,-1.625603166408074
+Belgium,BEL,contr_relative,1990-99,sd,3.486388725484429
+Belgium,BEL,contr_relative,2000-09,mean,-0.34942375194093417
+Belgium,BEL,contr_relative,2000-09,sd,7.278470973604801
+Belgium,BEL,contr_relative,2010-19,mean,0.24844690662727456
+Belgium,BEL,contr_relative,2010-19,sd,4.462802873552482
+Belgium,BEL,contr_relative,2020-,mean,0.4851139913987507
+Belgium,BEL,contr_relative,2020-,sd,3.650337220113743
 Belgium,BEL,contr_total,1990-99,mean,0.9410363773264978
 Belgium,BEL,contr_total,1990-99,sd,0.6952738027987654
 Belgium,BEL,contr_total,2000-09,mean,1.9013922113830635
@@ -191,6 +271,32 @@ Belgium,BEL,inflation_def,2010-19,mean,1.7027065561016175
 Belgium,BEL,inflation_def,2010-19,sd,0.5509412897483241
 Belgium,BEL,inflation_def,2020-,mean,3.681533206621912
 Belgium,BEL,inflation_def,2020-,sd,2.3045798786140317
+Belgium,BEL,labor_share,1990-99,mean,0.5053169028493465
+Belgium,BEL,labor_share,1990-99,sd,0.003800906842827472
+Belgium,BEL,labor_share,2000-09,mean,0.5069901159626524
+Belgium,BEL,labor_share,2000-09,sd,0.010505394654686072
+Belgium,BEL,labor_share,2010-19,mean,0.5035530161160319
+Belgium,BEL,labor_share,2010-19,sd,0.009538605520704239
+Belgium,BEL,labor_share,2020-,mean,0.48856351195050995
+Belgium,BEL,labor_share,2020-,sd,0.009661443055607335
+Belgium,BEL,ls_to_ps,1990-99,mean,1.319424985259244
+Belgium,BEL,ls_to_ps,1990-99,sd,0.023588010368759
+Belgium,BEL,ls_to_ps,2000-09,mean,1.3195743189370495
+Belgium,BEL,ls_to_ps,2000-09,sd,0.06383385057380764
+Belgium,BEL,ls_to_ps,2010-19,mean,1.26422879804824
+Belgium,BEL,ls_to_ps,2010-19,sd,0.05128490382804887
+Belgium,BEL,ls_to_ps,2020-,mean,1.1520757863740834
+Belgium,BEL,ls_to_ps,2020-,sd,0.04030681189271471
+Canada,CAN,contr_relative,1980-89,mean,0.5253371310728574
+Canada,CAN,contr_relative,1980-89,sd,9.421593643754084
+Canada,CAN,contr_relative,1990-99,mean,-1.7155618306670302
+Canada,CAN,contr_relative,1990-99,sd,7.99664692287671
+Canada,CAN,contr_relative,2000-09,mean,0.7622937445015844
+Canada,CAN,contr_relative,2000-09,sd,1.9408403829005572
+Canada,CAN,contr_relative,2010-19,mean,6.93905587166959
+Canada,CAN,contr_relative,2010-19,sd,43.90544608296391
+Canada,CAN,contr_relative,2020-,mean,-0.39895051005405785
+Canada,CAN,contr_relative,2020-,sd,6.105051454584931
 Canada,CAN,contr_total,1980-89,mean,4.953694585124384
 Canada,CAN,contr_total,1980-89,sd,1.874069929411492
 Canada,CAN,contr_total,1990-99,mean,1.8211950600540943
@@ -251,6 +357,34 @@ Canada,CAN,inflation_def,2010-19,mean,1.6634215529147436
 Canada,CAN,inflation_def,2010-19,sd,1.2903590175653301
 Canada,CAN,inflation_def,2020-,mean,4.3970769011089645
 Canada,CAN,inflation_def,2020-,sd,3.3697530523421086
+Canada,CAN,labor_share,1980-89,mean,0.522642899425217
+Canada,CAN,labor_share,1980-89,sd,0.010943399684711435
+Canada,CAN,labor_share,1990-99,mean,0.5188259614888182
+Canada,CAN,labor_share,1990-99,sd,0.016790544904311307
+Canada,CAN,labor_share,2000-09,mean,0.4977067360148692
+Canada,CAN,labor_share,2000-09,sd,0.009021821376490009
+Canada,CAN,labor_share,2010-19,mean,0.5048492675180926
+Canada,CAN,labor_share,2010-19,sd,0.0055914418556394134
+Canada,CAN,labor_share,2020-,mean,0.5085241314778229
+Canada,CAN,labor_share,2020-,sd,0.012413740862027168
+Canada,CAN,ls_to_ps,1980-89,mean,1.4139646578958742
+Canada,CAN,ls_to_ps,1980-89,sd,0.07854815595903906
+Canada,CAN,ls_to_ps,1990-99,mean,1.4671642447978355
+Canada,CAN,ls_to_ps,1990-99,sd,0.12378008636982767
+Canada,CAN,ls_to_ps,2000-09,mean,1.2747917887650382
+Canada,CAN,ls_to_ps,2000-09,sd,0.05726129279372689
+Canada,CAN,ls_to_ps,2010-19,mean,1.3088852687258958
+Canada,CAN,ls_to_ps,2010-19,sd,0.038910309472079206
+Canada,CAN,ls_to_ps,2020-,mean,1.2787334229625076
+Canada,CAN,ls_to_ps,2020-,sd,0.05706458827658421
+Czechia,CZE,contr_relative,1990-99,mean,0.7599269531745362
+Czechia,CZE,contr_relative,1990-99,sd,0.6232773193235324
+Czechia,CZE,contr_relative,2000-09,mean,-1.5706419452602545
+Czechia,CZE,contr_relative,2000-09,sd,15.954709132155331
+Czechia,CZE,contr_relative,2010-19,mean,4.433334341391156
+Czechia,CZE,contr_relative,2010-19,sd,17.261004369706505
+Czechia,CZE,contr_relative,2020-,mean,1.239949936368923
+Czechia,CZE,contr_relative,2020-,sd,1.3212212994566204
 Czechia,CZE,contr_total,1990-99,mean,7.304023226344855
 Czechia,CZE,contr_total,1990-99,sd,3.5786456453069704
 Czechia,CZE,contr_total,2000-09,mean,2.4615135139247437
@@ -299,6 +433,30 @@ Czechia,CZE,inflation_def,2010-19,mean,1.5679011442800947
 Czechia,CZE,inflation_def,2010-19,sd,1.3557641237986022
 Czechia,CZE,inflation_def,2020-,mean,6.109936974978161
 Czechia,CZE,inflation_def,2020-,sd,2.443190262524239
+Czechia,CZE,labor_share,1990-99,mean,0.3974082217026997
+Czechia,CZE,labor_share,1990-99,sd,0.009762503477846646
+Czechia,CZE,labor_share,2000-09,mean,0.40202296765780227
+Czechia,CZE,labor_share,2000-09,sd,0.007230216088776512
+Czechia,CZE,labor_share,2010-19,mean,0.4173650548541286
+Czechia,CZE,labor_share,2010-19,sd,0.011226692641836525
+Czechia,CZE,labor_share,2020-,mean,0.4376817573087069
+Czechia,CZE,labor_share,2020-,sd,0.010436443835130113
+Czechia,CZE,ls_to_ps,1990-99,mean,0.769564628773323
+Czechia,CZE,ls_to_ps,1990-99,sd,0.036771329167668745
+Czechia,CZE,ls_to_ps,2000-09,mean,0.7834979321202366
+Czechia,CZE,ls_to_ps,2000-09,sd,0.0281354523143868
+Czechia,CZE,ls_to_ps,2010-19,mean,0.8516397770857762
+Czechia,CZE,ls_to_ps,2010-19,sd,0.04406787746658425
+Czechia,CZE,ls_to_ps,2020-,mean,0.9058030097710239
+Czechia,CZE,ls_to_ps,2020-,sd,0.0394251976756405
+Denmark,DNK,contr_relative,1990-99,mean,-1.6915493604534575
+Denmark,DNK,contr_relative,1990-99,sd,9.090483623755087
+Denmark,DNK,contr_relative,2000-09,mean,-180.72813340131398
+Denmark,DNK,contr_relative,2000-09,sd,1145.9099348073844
+Denmark,DNK,contr_relative,2010-19,mean,-0.9811250204351195
+Denmark,DNK,contr_relative,2010-19,sd,4.9232457313224725
+Denmark,DNK,contr_relative,2020-,mean,0.1174973893574052
+Denmark,DNK,contr_relative,2020-,sd,0.7269806289159884
 Denmark,DNK,contr_total,1990-99,mean,1.820160857182238
 Denmark,DNK,contr_total,1990-99,sd,0.5101188595360151
 Denmark,DNK,contr_total,2000-09,mean,2.491738915972991
@@ -347,6 +505,30 @@ Denmark,DNK,inflation_def,2010-19,mean,1.1596520591205095
 Denmark,DNK,inflation_def,2010-19,sd,1.018300461225883
 Denmark,DNK,inflation_def,2020-,mean,2.3064342644147002
 Denmark,DNK,inflation_def,2020-,sd,5.202845181420366
+Denmark,DNK,labor_share,1990-99,mean,0.5095162735924482
+Denmark,DNK,labor_share,1990-99,sd,0.009374127274666754
+Denmark,DNK,labor_share,2000-09,mean,0.5135162009943459
+Denmark,DNK,labor_share,2000-09,sd,0.01458999844695238
+Denmark,DNK,labor_share,2010-19,mean,0.5164921058298101
+Denmark,DNK,labor_share,2010-19,sd,0.005502418345592511
+Denmark,DNK,labor_share,2020-,mean,0.5042086808015366
+Denmark,DNK,labor_share,2020-,sd,0.018130721870536198
+Denmark,DNK,ls_to_ps,1990-99,mean,1.437642980104971
+Denmark,DNK,ls_to_ps,1990-99,sd,0.06794310612847544
+Denmark,DNK,ls_to_ps,2000-09,mean,1.5112696103861154
+Denmark,DNK,ls_to_ps,2000-09,sd,0.10644604979040805
+Denmark,DNK,ls_to_ps,2010-19,mean,1.5058244494950375
+Denmark,DNK,ls_to_ps,2010-19,sd,0.04200090173844466
+Denmark,DNK,ls_to_ps,2020-,mean,1.3676840831646913
+Denmark,DNK,ls_to_ps,2020-,sd,0.10582365474167953
+Estonia,EST,contr_relative,1990-99,mean,0.6079632713610448
+Estonia,EST,contr_relative,1990-99,sd,0.3092416368139182
+Estonia,EST,contr_relative,2000-09,mean,-1.1697893758598676
+Estonia,EST,contr_relative,2000-09,sd,16.849592684557386
+Estonia,EST,contr_relative,2010-19,mean,0.29209421371158933
+Estonia,EST,contr_relative,2010-19,sd,4.212658604017624
+Estonia,EST,contr_relative,2020-,mean,0.31351807895099526
+Estonia,EST,contr_relative,2020-,sd,3.326670598911784
 Estonia,EST,contr_total,1990-99,mean,11.777095877267097
 Estonia,EST,contr_total,1990-99,sd,7.011763661945784
 Estonia,EST,contr_total,2000-09,mean,6.097670170956668
@@ -395,6 +577,30 @@ Estonia,EST,inflation_def,2010-19,mean,3.531618507793677
 Estonia,EST,inflation_def,2010-19,sd,1.6632224066569807
 Estonia,EST,inflation_def,2020-,mean,7.04878521929378
 Estonia,EST,inflation_def,2020-,sd,6.0940456126500475
+Estonia,EST,labor_share,1990-99,mean,0.478872215085832
+Estonia,EST,labor_share,1990-99,sd,0.01908671564031505
+Estonia,EST,labor_share,2000-09,mean,0.45175296876397897
+Estonia,EST,labor_share,2000-09,sd,0.02439820540778743
+Estonia,EST,labor_share,2010-19,mean,0.45972661572053225
+Estonia,EST,labor_share,2010-19,sd,0.014129828475274152
+Estonia,EST,labor_share,2020-,mean,0.4885347092369909
+Estonia,EST,labor_share,2020-,sd,0.013635421322060743
+Estonia,EST,ls_to_ps,1990-99,mean,1.1922046735944924
+Estonia,EST,ls_to_ps,1990-99,sd,0.11661802481429515
+Estonia,EST,ls_to_ps,2000-09,mean,1.0527834907373068
+Estonia,EST,ls_to_ps,2000-09,sd,0.1279720378539742
+Estonia,EST,ls_to_ps,2010-19,mean,1.1067448222049625
+Estonia,EST,ls_to_ps,2010-19,sd,0.08285391830075553
+Estonia,EST,ls_to_ps,2020-,mean,1.2384473666102742
+Estonia,EST,ls_to_ps,2020-,sd,0.08303814366493764
+Euro area (20 countries),EA20,contr_relative,1990-99,mean,1.5836746159005717
+Euro area (20 countries),EA20,contr_relative,1990-99,sd,9.108904999557165
+Euro area (20 countries),EA20,contr_relative,2000-09,mean,0.43934406816622223
+Euro area (20 countries),EA20,contr_relative,2000-09,sd,2.5065537985635435
+Euro area (20 countries),EA20,contr_relative,2010-19,mean,2.4661472506384827
+Euro area (20 countries),EA20,contr_relative,2010-19,sd,29.75210249266435
+Euro area (20 countries),EA20,contr_relative,2020-,mean,2.423614345865515
+Euro area (20 countries),EA20,contr_relative,2020-,sd,4.2393491613343075
 Euro area (20 countries),EA20,contr_total,1990-99,mean,1.2854094377738348
 Euro area (20 countries),EA20,contr_total,1990-99,sd,1.1904017170161163
 Euro area (20 countries),EA20,contr_total,2000-09,mean,2.0438182873318613
@@ -443,6 +649,30 @@ Euro area (20 countries),EA20,inflation_def,2010-19,mean,1.194759956945761
 Euro area (20 countries),EA20,inflation_def,2010-19,sd,0.3187621767384212
 Euro area (20 countries),EA20,inflation_def,2020-,mean,3.701592188921442
 Euro area (20 countries),EA20,inflation_def,2020-,sd,1.908339835225386
+Euro area (20 countries),EA20,labor_share,1990-99,mean,0.48334064253438147
+Euro area (20 countries),EA20,labor_share,1990-99,sd,0.005338436649024462
+Euro area (20 countries),EA20,labor_share,2000-09,mean,0.4717945190121175
+Euro area (20 countries),EA20,labor_share,2000-09,sd,0.007735757081049332
+Euro area (20 countries),EA20,labor_share,2010-19,mean,0.47716699060505696
+Euro area (20 countries),EA20,labor_share,2010-19,sd,0.002273859181795557
+Euro area (20 countries),EA20,labor_share,2020-,mean,0.4823056404563625
+Euro area (20 countries),EA20,labor_share,2020-,sd,0.008052887295567353
+Euro area (20 countries),EA20,ls_to_ps,1990-99,mean,1.1789559692730325
+Euro area (20 countries),EA20,ls_to_ps,1990-99,sd,0.0186080164069149
+Euro area (20 countries),EA20,ls_to_ps,2000-09,mean,1.132158342718204
+Euro area (20 countries),EA20,ls_to_ps,2000-09,sd,0.03426282742642969
+Euro area (20 countries),EA20,ls_to_ps,2010-19,mean,1.1664763755684588
+Euro area (20 countries),EA20,ls_to_ps,2010-19,sd,0.015018877144919502
+Euro area (20 countries),EA20,ls_to_ps,2020-,mean,1.1663798769680407
+Euro area (20 countries),EA20,ls_to_ps,2020-,sd,0.03506213929352504
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,1990-99,mean,7.370273692009783
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,1990-99,sd,24.331130821044475
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,2000-09,mean,0.3946583147117575
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,2000-09,sd,1.5737911880163533
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,2010-19,mean,-2.730246545457709
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,2010-19,sd,20.562723146405062
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,2020-,mean,3.691391710334133
+European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,2020-,sd,8.108183071070181
 European Union (27 countries from 01/02/2020),EU27_2020,contr_total,1990-99,mean,1.4561103023557218
 European Union (27 countries from 01/02/2020),EU27_2020,contr_total,1990-99,sd,1.1330452904571258
 European Union (27 countries from 01/02/2020),EU27_2020,contr_total,2000-09,mean,2.1248536304704353
@@ -491,6 +721,30 @@ European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2010-19,me
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2010-19,sd,0.39831622930188354
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2020-,mean,3.8983154298899834
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2020-,sd,1.9280049884837855
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,1990-99,mean,0.4792492892725431
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,1990-99,sd,0.004910082184632623
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2000-09,mean,0.4678854583869774
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2000-09,sd,0.007728601718752995
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2010-19,mean,0.471477772893476
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2010-19,sd,0.002411712842048309
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2020-,mean,0.475399206939413
+European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2020-,sd,0.008568620641519618
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,1990-99,mean,1.1692393193601989
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,1990-99,sd,0.015717722291597108
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2000-09,mean,1.1235151134418502
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2000-09,sd,0.03427441596778228
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2010-19,mean,1.147721276850942
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2010-19,sd,0.01536544514313802
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2020-,mean,1.1415961080923855
+European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2020-,sd,0.03580370324926021
+Finland,FIN,contr_relative,1990-99,mean,-0.08932382884751651
+Finland,FIN,contr_relative,1990-99,sd,6.861891389685325
+Finland,FIN,contr_relative,2000-09,mean,0.14040438457130228
+Finland,FIN,contr_relative,2000-09,sd,3.126505584592636
+Finland,FIN,contr_relative,2010-19,mean,-0.4166162956332651
+Finland,FIN,contr_relative,2010-19,sd,10.693548865140249
+Finland,FIN,contr_relative,2020-,mean,0.1880262433197283
+Finland,FIN,contr_relative,2020-,sd,4.369171887216688
 Finland,FIN,contr_total,1990-99,mean,2.0128978190412665
 Finland,FIN,contr_total,1990-99,sd,1.382148047648219
 Finland,FIN,contr_total,2000-09,mean,1.704853371855466
@@ -539,6 +793,32 @@ Finland,FIN,inflation_def,2010-19,mean,1.6099963497923417
 Finland,FIN,inflation_def,2010-19,sd,1.0089061094467526
 Finland,FIN,inflation_def,2020-,mean,3.209224895882295
 Finland,FIN,inflation_def,2020-,sd,1.8694152632529866
+Finland,FIN,labor_share,1990-99,mean,0.5018006507860225
+Finland,FIN,labor_share,1990-99,sd,0.03446519284309018
+Finland,FIN,labor_share,2000-09,mean,0.46906025350672653
+Finland,FIN,labor_share,2000-09,sd,0.010909709605975964
+Finland,FIN,labor_share,2010-19,mean,0.4854802899917197
+Finland,FIN,labor_share,2010-19,sd,0.01134989064328468
+Finland,FIN,labor_share,2020-,mean,0.47555794981605476
+Finland,FIN,labor_share,2020-,sd,0.006259336873327093
+Finland,FIN,ls_to_ps,1990-99,mean,1.32928967158876
+Finland,FIN,ls_to_ps,1990-99,sd,0.2223767321051611
+Finland,FIN,ls_to_ps,2000-09,mean,1.1245725430219369
+Finland,FIN,ls_to_ps,2000-09,sd,0.057724712576580246
+Finland,FIN,ls_to_ps,2010-19,mean,1.2708759028135954
+Finland,FIN,ls_to_ps,2010-19,sd,0.060837258097566765
+Finland,FIN,ls_to_ps,2020-,mean,1.2029376237528078
+Finland,FIN,ls_to_ps,2020-,sd,0.0323339620587792
+France,FRA,contr_relative,1980-89,mean,1.07277300311165
+France,FRA,contr_relative,1980-89,sd,0.7041130839604378
+France,FRA,contr_relative,1990-99,mean,-7.3751702575471105
+France,FRA,contr_relative,1990-99,sd,50.039587733492056
+France,FRA,contr_relative,2000-09,mean,3.327761043441925
+France,FRA,contr_relative,2000-09,sd,12.32126832630031
+France,FRA,contr_relative,2010-19,mean,-0.9992454818327503
+France,FRA,contr_relative,2010-19,sd,5.62258835046258
+France,FRA,contr_relative,2020-,mean,1.7842356899027179
+France,FRA,contr_relative,2020-,sd,4.780584676639589
 France,FRA,contr_total,1980-89,mean,6.677853340619063
 France,FRA,contr_total,1980-89,sd,3.5918277489029697
 France,FRA,contr_total,1990-99,mean,1.4545434943254965
@@ -599,6 +879,34 @@ France,FRA,inflation_def,2010-19,mean,0.8907119861460983
 France,FRA,inflation_def,2010-19,sd,0.3614245275395964
 France,FRA,inflation_def,2020-,mean,3.153623692355604
 France,FRA,inflation_def,2020-,sd,1.7946755781289445
+France,FRA,labor_share,1980-89,mean,0.5352645514439072
+France,FRA,labor_share,1980-89,sd,0.019056667834978298
+France,FRA,labor_share,1990-99,mean,0.5100461535231431
+France,FRA,labor_share,1990-99,sd,0.004007138856074859
+France,FRA,labor_share,2000-09,mean,0.510752880959011
+France,FRA,labor_share,2000-09,sd,0.005605532587450013
+France,FRA,labor_share,2010-19,mean,0.5200664079051479
+France,FRA,labor_share,2010-19,sd,0.0044380148409472655
+France,FRA,labor_share,2020-,mean,0.5148512047450371
+France,FRA,labor_share,2020-,sd,0.003020094056908179
+France,FRA,ls_to_ps,1980-89,mean,1.5998002668507432
+France,FRA,ls_to_ps,1980-89,sd,0.14388530568602712
+France,FRA,ls_to_ps,1990-99,mean,1.43484096168477
+France,FRA,ls_to_ps,1990-99,sd,0.025619696281649368
+France,FRA,ls_to_ps,2000-09,mean,1.4318184985435245
+France,FRA,ls_to_ps,2000-09,sd,0.03509717793666912
+France,FRA,ls_to_ps,2010-19,mean,1.5056012063610644
+France,FRA,ls_to_ps,2010-19,sd,0.0334335646536787
+France,FRA,ls_to_ps,2020-,mean,1.470213351181637
+France,FRA,ls_to_ps,2020-,sd,0.04398618980892492
+Germany,DEU,contr_relative,1990-99,mean,1.7084985231314684
+Germany,DEU,contr_relative,1990-99,sd,4.848672509251215
+Germany,DEU,contr_relative,2000-09,mean,-1.776160735560884
+Germany,DEU,contr_relative,2000-09,sd,7.152523574953397
+Germany,DEU,contr_relative,2010-19,mean,-1.2480013371714378
+Germany,DEU,contr_relative,2010-19,sd,14.016029053959993
+Germany,DEU,contr_relative,2020-,mean,1.6312891332318318
+Germany,DEU,contr_relative,2020-,sd,3.2947291976073045
 Germany,DEU,contr_total,1990-99,mean,1.9803237904313435
 Germany,DEU,contr_total,1990-99,sd,1.967929666273675
 Germany,DEU,contr_total,2000-09,mean,1.1672133597954497
@@ -647,6 +955,30 @@ Germany,DEU,inflation_def,2010-19,mean,1.5536063111933078
 Germany,DEU,inflation_def,2010-19,sd,0.4429054754978169
 Germany,DEU,inflation_def,2020-,mean,4.138691973439876
 Germany,DEU,inflation_def,2020-,sd,2.1856071267191526
+Germany,DEU,labor_share,1990-99,mean,0.5385659332165127
+Germany,DEU,labor_share,1990-99,sd,0.009118191945855048
+Germany,DEU,labor_share,2000-09,mean,0.5162955929480691
+Germany,DEU,labor_share,2000-09,sd,0.015931350652224535
+Germany,DEU,labor_share,2010-19,mean,0.526269087186538
+Germany,DEU,labor_share,2010-19,sd,0.010990475142014414
+Germany,DEU,labor_share,2020-,mean,0.5442822519295878
+Germany,DEU,labor_share,2020-,sd,0.010008452810147124
+Germany,DEU,ls_to_ps,1990-99,mean,1.4132613965478589
+Germany,DEU,ls_to_ps,1990-99,sd,0.055147554019673944
+Germany,DEU,ls_to_ps,2000-09,mean,1.2854559449146066
+Germany,DEU,ls_to_ps,2000-09,sd,0.09289426472401982
+Germany,DEU,ls_to_ps,2010-19,mean,1.3434267441960286
+Germany,DEU,ls_to_ps,2010-19,sd,0.06799141764634857
+Germany,DEU,ls_to_ps,2020-,mean,1.41516359975557
+Germany,DEU,ls_to_ps,2020-,sd,0.06305147511386297
+Greece,GRC,contr_relative,1990-99,mean,3.1131054693910194
+Greece,GRC,contr_relative,1990-99,sd,8.584993829732937
+Greece,GRC,contr_relative,2000-09,mean,9.091387317277496
+Greece,GRC,contr_relative,2000-09,sd,79.46160491957491
+Greece,GRC,contr_relative,2010-19,mean,1.3126806676294016
+Greece,GRC,contr_relative,2010-19,sd,8.106377929990684
+Greece,GRC,contr_relative,2020-,mean,2.4030844341406667
+Greece,GRC,contr_relative,2020-,sd,10.3173426406106
 Greece,GRC,contr_total,1990-99,mean,5.831377877485844
 Greece,GRC,contr_total,1990-99,sd,1.5122674422971762
 Greece,GRC,contr_total,2000-09,mean,3.2271440136553853
@@ -695,6 +1027,30 @@ Greece,GRC,inflation_def,2010-19,mean,0.041615816440697145
 Greece,GRC,inflation_def,2010-19,sd,1.9579014281864555
 Greece,GRC,inflation_def,2020-,mean,3.24093721701919
 Greece,GRC,inflation_def,2020-,sd,3.3074963007915654
+Greece,GRC,labor_share,1990-99,mean,0.29409327800655205
+Greece,GRC,labor_share,1990-99,sd,0.006330449485551579
+Greece,GRC,labor_share,2000-09,mean,0.33200698885145125
+Greece,GRC,labor_share,2000-09,sd,0.01616823307714256
+Greece,GRC,labor_share,2010-19,mean,0.3593176354949141
+Greece,GRC,labor_share,2010-19,sd,0.007887485763118042
+Greece,GRC,labor_share,2020-,mean,0.3637365501939129
+Greece,GRC,labor_share,2020-,sd,0.02028111455847303
+Greece,GRC,ls_to_ps,1990-99,mean,0.48721026407460244
+Greece,GRC,ls_to_ps,1990-99,sd,0.018398445404971583
+Greece,GRC,ls_to_ps,2000-09,mean,0.5939898816317863
+Greece,GRC,ls_to_ps,2000-09,sd,0.0437272781876376
+Greece,GRC,ls_to_ps,2010-19,mean,0.711001683610086
+Greece,GRC,ls_to_ps,2010-19,sd,0.04230257748151052
+Greece,GRC,ls_to_ps,2020-,mean,0.7152254226917536
+Greece,GRC,ls_to_ps,2020-,sd,0.052524270253330445
+Hungary,HUN,contr_relative,1990-99,mean,0.8767899907228969
+Hungary,HUN,contr_relative,1990-99,sd,0.21950609773150084
+Hungary,HUN,contr_relative,2000-09,mean,0.09729760888845738
+Hungary,HUN,contr_relative,2000-09,sd,5.685205604752402
+Hungary,HUN,contr_relative,2010-19,mean,0.13159065513703183
+Hungary,HUN,contr_relative,2010-19,sd,4.68255850778639
+Hungary,HUN,contr_relative,2020-,mean,3.170864057149958
+Hungary,HUN,contr_relative,2020-,sd,5.221832823073781
 Hungary,HUN,contr_total,1990-99,mean,16.286392201854387
 Hungary,HUN,contr_total,1990-99,sd,6.411259522218654
 Hungary,HUN,contr_total,2000-09,mean,6.306185329418123
@@ -743,6 +1099,28 @@ Hungary,HUN,inflation_def,2010-19,mean,3.1492083523045005
 Hungary,HUN,inflation_def,2010-19,sd,1.3595306690118187
 Hungary,HUN,inflation_def,2020-,mean,10.188261654082329
 Hungary,HUN,inflation_def,2020-,sd,4.311341038325682
+Hungary,HUN,labor_share,1990-99,mean,0.4402949514752097
+Hungary,HUN,labor_share,1990-99,sd,0.008401634810337691
+Hungary,HUN,labor_share,2000-09,mean,0.4519134210978016
+Hungary,HUN,labor_share,2000-09,sd,0.009414223271923034
+Hungary,HUN,labor_share,2010-19,mean,0.4308254725703785
+Hungary,HUN,labor_share,2010-19,sd,0.009683193572350347
+Hungary,HUN,labor_share,2020-,mean,0.4108116770469586
+Hungary,HUN,labor_share,2020-,sd,0.012046944110114555
+Hungary,HUN,ls_to_ps,1990-99,mean,1.0576842842596137
+Hungary,HUN,ls_to_ps,1990-99,sd,0.046080469069526946
+Hungary,HUN,ls_to_ps,2000-09,mean,1.102205229596412
+Hungary,HUN,ls_to_ps,2000-09,sd,0.03729905515755392
+Hungary,HUN,ls_to_ps,2010-19,mean,1.0342371659784235
+Hungary,HUN,ls_to_ps,2010-19,sd,0.04252378735743547
+Hungary,HUN,ls_to_ps,2020-,mean,0.9435265054354312
+Hungary,HUN,ls_to_ps,2020-,sd,0.06802495940052836
+Israel,ISR,contr_relative,2000-09,mean,-2.78035226481013
+Israel,ISR,contr_relative,2000-09,sd,6.22473790741389
+Israel,ISR,contr_relative,2010-19,mean,0.036312714654675296
+Israel,ISR,contr_relative,2010-19,sd,4.391722428969545
+Israel,ISR,contr_relative,2020-,mean,0.3239304412327607
+Israel,ISR,contr_relative,2020-,sd,2.267318139337713
 Israel,ISR,contr_total,2000-09,mean,NA
 Israel,ISR,contr_total,2000-09,sd,NA
 Israel,ISR,contr_total,2010-19,mean,NA
@@ -779,6 +1157,26 @@ Israel,ISR,inflation_def,2010-19,mean,1.3668315068135959
 Israel,ISR,inflation_def,2010-19,sd,1.3273192574761388
 Israel,ISR,inflation_def,2020-,mean,2.7675176550249807
 Israel,ISR,inflation_def,2020-,sd,1.8655182683163005
+Israel,ISR,labor_share,2000-09,mean,0.5774425573370024
+Israel,ISR,labor_share,2000-09,sd,0.011914071993271338
+Israel,ISR,labor_share,2010-19,mean,0.5747260616826008
+Israel,ISR,labor_share,2010-19,sd,0.007153495124879766
+Israel,ISR,labor_share,2020-,mean,0.5450739487943508
+Israel,ISR,labor_share,2020-,sd,0.013767161201985581
+Israel,ISR,ls_to_ps,2000-09,mean,1.3683028837095774
+Israel,ISR,ls_to_ps,2000-09,sd,0.06664554598506142
+Israel,ISR,ls_to_ps,2010-19,mean,1.352082269072158
+Israel,ISR,ls_to_ps,2010-19,sd,0.040057831308180324
+Israel,ISR,ls_to_ps,2020-,mean,1.2000494014345593
+Israel,ISR,ls_to_ps,2020-,sd,0.0672867217548278
+Italy,ITA,contr_relative,1990-99,mean,8.62484604070625
+Italy,ITA,contr_relative,1990-99,sd,27.69424982702677
+Italy,ITA,contr_relative,2000-09,mean,0.8605006771285996
+Italy,ITA,contr_relative,2000-09,sd,4.763702055712062
+Italy,ITA,contr_relative,2010-19,mean,0.7030733608468993
+Italy,ITA,contr_relative,2010-19,sd,5.768879844393241
+Italy,ITA,contr_relative,2020-,mean,-0.6347448867704217
+Italy,ITA,contr_relative,2020-,sd,5.074113539591022
 Italy,ITA,contr_total,1990-99,mean,3.0217446299665425
 Italy,ITA,contr_total,1990-99,sd,1.3289144346508215
 Italy,ITA,contr_total,2000-09,mean,2.5281601223913586
@@ -827,6 +1225,30 @@ Italy,ITA,inflation_def,2010-19,mean,1.0917289171010336
 Italy,ITA,inflation_def,2010-19,sd,0.4544450268119831
 Italy,ITA,inflation_def,2020-,mean,2.9512242232578263
 Italy,ITA,inflation_def,2020-,sd,1.897218309615065
+Italy,ITA,labor_share,1990-99,mean,0.3812777404510478
+Italy,ITA,labor_share,1990-99,sd,0.00786504875954689
+Italy,ITA,labor_share,2000-09,mean,0.3777217937043863
+Italy,ITA,labor_share,2000-09,sd,0.009640262421976459
+Italy,ITA,labor_share,2010-19,mean,0.392320994072676
+Italy,ITA,labor_share,2010-19,sd,0.003330387085174755
+Italy,ITA,labor_share,2020-,mean,0.39684201329232877
+Italy,ITA,labor_share,2020-,sd,0.007546125496788068
+Italy,ITA,ls_to_ps,1990-99,mean,0.7516660384623092
+Italy,ITA,ls_to_ps,1990-99,sd,0.012782275745957168
+Italy,ITA,ls_to_ps,2000-09,mean,0.7590895265207531
+Italy,ITA,ls_to_ps,2000-09,sd,0.03317346012504178
+Italy,ITA,ls_to_ps,2010-19,mean,0.8185688724648671
+Italy,ITA,ls_to_ps,2010-19,sd,0.011730828389316243
+Italy,ITA,ls_to_ps,2020-,mean,0.8185145770767518
+Italy,ITA,ls_to_ps,2020-,sd,0.029193486892511798
+Japan,JPN,contr_relative,1990-99,mean,0.3911289104381873
+Japan,JPN,contr_relative,1990-99,sd,14.76078728045027
+Japan,JPN,contr_relative,2000-09,mean,-9.260725465740883
+Japan,JPN,contr_relative,2000-09,sd,59.93635923834368
+Japan,JPN,contr_relative,2010-19,mean,-0.9073205121880683
+Japan,JPN,contr_relative,2010-19,sd,7.940656480504132
+Japan,JPN,contr_relative,2020-,mean,-2.7277527660778396
+Japan,JPN,contr_relative,2020-,sd,11.886156008032792
 Japan,JPN,contr_total,1990-99,mean,NA
 Japan,JPN,contr_total,1990-99,sd,NA
 Japan,JPN,contr_total,2000-09,mean,NA
@@ -875,6 +1297,30 @@ Japan,JPN,inflation_def,2010-19,mean,0.014377257743670574
 Japan,JPN,inflation_def,2010-19,sd,1.3193619350007013
 Japan,JPN,inflation_def,2020-,mean,1.520202920348232
 Japan,JPN,inflation_def,2020-,sd,1.7276383900473429
+Japan,JPN,labor_share,1990-99,mean,0.5103160295223397
+Japan,JPN,labor_share,1990-99,sd,0.004135062069120495
+Japan,JPN,labor_share,2000-09,mean,0.496630982888774
+Japan,JPN,labor_share,2000-09,sd,0.010345470103927302
+Japan,JPN,labor_share,2010-19,mean,0.49854552826627746
+Japan,JPN,labor_share,2010-19,sd,0.009289664096725178
+Japan,JPN,labor_share,2020-,mean,0.5185659418550436
+Japan,JPN,labor_share,2020-,sd,0.010016913164763101
+Japan,JPN,ls_to_ps,1990-99,mean,1.042273130576976
+Japan,JPN,ls_to_ps,1990-99,sd,0.017265341743839348
+Japan,JPN,ls_to_ps,2000-09,mean,0.9874424472541761
+Japan,JPN,ls_to_ps,2000-09,sd,0.04135444865436776
+Japan,JPN,ls_to_ps,2010-19,mean,0.9948736093513628
+Japan,JPN,ls_to_ps,2010-19,sd,0.03736419636807973
+Japan,JPN,ls_to_ps,2020-,mean,1.0779912215220047
+Japan,JPN,ls_to_ps,2020-,sd,0.04383101324429631
+Latvia,LVA,contr_relative,1990-99,mean,1.7871161495407053
+Latvia,LVA,contr_relative,1990-99,sd,8.25680226953742
+Latvia,LVA,contr_relative,2000-09,mean,0.7985013836618253
+Latvia,LVA,contr_relative,2000-09,sd,6.655368990398601
+Latvia,LVA,contr_relative,2010-19,mean,6.754849507225263
+Latvia,LVA,contr_relative,2010-19,sd,35.3711677740168
+Latvia,LVA,contr_relative,2020-,mean,-9.414419965199594
+Latvia,LVA,contr_relative,2020-,sd,26.347982089225244
 Latvia,LVA,contr_total,1990-99,mean,6.669236575507897
 Latvia,LVA,contr_total,1990-99,sd,4.9819018687536705
 Latvia,LVA,contr_total,2000-09,mean,7.022339543333119
@@ -923,6 +1369,30 @@ Latvia,LVA,inflation_def,2010-19,mean,2.2787720757692
 Latvia,LVA,inflation_def,2010-19,sd,1.939373471276697
 Latvia,LVA,inflation_def,2020-,mean,4.945496529687217
 Latvia,LVA,inflation_def,2020-,sd,4.080331576535192
+Latvia,LVA,labor_share,1990-99,mean,0.4390927603440946
+Latvia,LVA,labor_share,1990-99,sd,0.014117376853348908
+Latvia,LVA,labor_share,2000-09,mean,0.4327646239815585
+Latvia,LVA,labor_share,2000-09,sd,0.037207039948255145
+Latvia,LVA,labor_share,2010-19,mean,0.4554557030399987
+Latvia,LVA,labor_share,2010-19,sd,0.03015062623812376
+Latvia,LVA,labor_share,2020-,mean,0.5128187134670575
+Latvia,LVA,labor_share,2020-,sd,0.026169739402354102
+Latvia,LVA,ls_to_ps,1990-99,mean,1.0094457781203623
+Latvia,LVA,ls_to_ps,1990-99,sd,0.06022697916889417
+Latvia,LVA,ls_to_ps,2000-09,mean,0.9535570677587892
+Latvia,LVA,ls_to_ps,2000-09,sd,0.1524194051992432
+Latvia,LVA,ls_to_ps,2010-19,mean,1.0749814758603913
+Latvia,LVA,ls_to_ps,2010-19,sd,0.17403170863528278
+Latvia,LVA,ls_to_ps,2020-,mean,1.3884054586993175
+Latvia,LVA,ls_to_ps,2020-,sd,0.18594800247730112
+Lithuania,LTU,contr_relative,1990-99,mean,-2.054391344333076
+Lithuania,LTU,contr_relative,1990-99,sd,6.113801129484634
+Lithuania,LTU,contr_relative,2000-09,mean,-0.553558737693086
+Lithuania,LTU,contr_relative,2000-09,sd,5.615165690451131
+Lithuania,LTU,contr_relative,2010-19,mean,-0.5645431106485529
+Lithuania,LTU,contr_relative,2010-19,sd,10.862359942815493
+Lithuania,LTU,contr_relative,2020-,mean,1.0991855647688915
+Lithuania,LTU,contr_relative,2020-,sd,5.989574586878484
 Lithuania,LTU,contr_total,1990-99,mean,8.694745846097614
 Lithuania,LTU,contr_total,1990-99,sd,8.599217655673906
 Lithuania,LTU,contr_total,2000-09,mean,3.4467556979573772
@@ -971,6 +1441,30 @@ Lithuania,LTU,inflation_def,2010-19,mean,2.2997263545981115
 Lithuania,LTU,inflation_def,2010-19,sd,2.2886488285264246
 Lithuania,LTU,inflation_def,2020-,mean,7.732831813898806
 Lithuania,LTU,inflation_def,2020-,sd,5.660635852344094
+Lithuania,LTU,labor_share,1990-99,mean,0.3945531107531154
+Lithuania,LTU,labor_share,1990-99,sd,0.023491729165926876
+Lithuania,LTU,labor_share,2000-09,mean,0.40779879931137974
+Lithuania,LTU,labor_share,2000-09,sd,0.024277947722393885
+Lithuania,LTU,labor_share,2010-19,mean,0.4195479656373384
+Lithuania,LTU,labor_share,2010-19,sd,0.02396206510243879
+Lithuania,LTU,labor_share,2020-,mean,0.47800735360365804
+Lithuania,LTU,labor_share,2020-,sd,0.012528149592490292
+Lithuania,LTU,ls_to_ps,1990-99,mean,0.8174464287035839
+Lithuania,LTU,ls_to_ps,1990-99,sd,0.10412389451067083
+Lithuania,LTU,ls_to_ps,2000-09,mean,0.839863307356739
+Lithuania,LTU,ls_to_ps,2000-09,sd,0.08479510343899586
+Lithuania,LTU,ls_to_ps,2010-19,mean,0.8776142408607309
+Lithuania,LTU,ls_to_ps,2010-19,sd,0.09800686873964197
+Lithuania,LTU,ls_to_ps,2020-,mean,1.117871883746512
+Lithuania,LTU,ls_to_ps,2020-,sd,0.07808905550923029
+Luxembourg,LUX,contr_relative,1990-99,mean,-0.32487803261816617
+Luxembourg,LUX,contr_relative,1990-99,sd,0.906921003175903
+Luxembourg,LUX,contr_relative,2000-09,mean,0.7663630398272286
+Luxembourg,LUX,contr_relative,2000-09,sd,6.37075852067789
+Luxembourg,LUX,contr_relative,2010-19,mean,0.6654217528352699
+Luxembourg,LUX,contr_relative,2010-19,sd,7.562565094145196
+Luxembourg,LUX,contr_relative,2020-,mean,-3.2381812335123006
+Luxembourg,LUX,contr_relative,2020-,sd,10.158424159405195
 Luxembourg,LUX,contr_total,1990-99,mean,2.805039202559804
 Luxembourg,LUX,contr_total,1990-99,sd,4.735621887041035
 Luxembourg,LUX,contr_total,2000-09,mean,3.5473848703269004
@@ -1019,6 +1513,30 @@ Luxembourg,LUX,inflation_def,2010-19,mean,2.2436241250673006
 Luxembourg,LUX,inflation_def,2010-19,sd,1.9177492859252656
 Luxembourg,LUX,inflation_def,2020-,mean,4.507825346243274
 Luxembourg,LUX,inflation_def,2020-,sd,2.2287694024126012
+Luxembourg,LUX,labor_share,1990-99,mean,0.476335278969915
+Luxembourg,LUX,labor_share,1990-99,sd,0.017047340121531793
+Luxembourg,LUX,labor_share,2000-09,mean,0.47785779586128896
+Luxembourg,LUX,labor_share,2000-09,sd,0.016534938504872226
+Luxembourg,LUX,labor_share,2010-19,mean,0.47443100585702264
+Luxembourg,LUX,labor_share,2010-19,sd,0.014147414538152677
+Luxembourg,LUX,labor_share,2020-,mean,0.5021212568896672
+Luxembourg,LUX,labor_share,2020-,sd,0.019548039639208866
+Luxembourg,LUX,ls_to_ps,1990-99,mean,1.1556096852072282
+Luxembourg,LUX,ls_to_ps,1990-99,sd,0.09848575830258774
+Luxembourg,LUX,ls_to_ps,2000-09,mean,1.1779387262414684
+Luxembourg,LUX,ls_to_ps,2000-09,sd,0.08914713134977194
+Luxembourg,LUX,ls_to_ps,2010-19,mean,1.1327128706510894
+Luxembourg,LUX,ls_to_ps,2010-19,sd,0.07565035196839993
+Luxembourg,LUX,ls_to_ps,2020-,mean,1.275603368308276
+Luxembourg,LUX,ls_to_ps,2020-,sd,0.10444411068950583
+Netherlands,NLD,contr_relative,1990-99,mean,-10.104374684340767
+Netherlands,NLD,contr_relative,1990-99,sd,38.189850490892134
+Netherlands,NLD,contr_relative,2000-09,mean,0.6178423919162744
+Netherlands,NLD,contr_relative,2000-09,sd,2.5006869711706385
+Netherlands,NLD,contr_relative,2010-19,mean,0.6714788362873432
+Netherlands,NLD,contr_relative,2010-19,sd,6.402141834826287
+Netherlands,NLD,contr_relative,2020-,mean,1.8103817686145425
+Netherlands,NLD,contr_relative,2020-,sd,3.1440200191871575
 Netherlands,NLD,contr_total,1990-99,mean,1.8733075426472774
 Netherlands,NLD,contr_total,1990-99,sd,0.7625384697644759
 Netherlands,NLD,contr_total,2000-09,mean,2.502917296295234
@@ -1067,6 +1585,30 @@ Netherlands,NLD,inflation_def,2010-19,mean,1.2268872575756748
 Netherlands,NLD,inflation_def,2010-19,sd,1.0209677398637933
 Netherlands,NLD,inflation_def,2020-,mean,4.81082441665047
 Netherlands,NLD,inflation_def,2020-,sd,2.2670038431566524
+Netherlands,NLD,labor_share,1990-99,mean,0.496839878670851
+Netherlands,NLD,labor_share,1990-99,sd,0.005057749520585906
+Netherlands,NLD,labor_share,2000-09,mean,0.48711953159976973
+Netherlands,NLD,labor_share,2000-09,sd,0.013771520528420372
+Netherlands,NLD,labor_share,2010-19,mean,0.4806398865634802
+Netherlands,NLD,labor_share,2010-19,sd,0.0077689310571251525
+Netherlands,NLD,labor_share,2020-,mean,0.4712627024004438
+Netherlands,NLD,labor_share,2020-,sd,0.017918876080017694
+Netherlands,NLD,ls_to_ps,1990-99,mean,1.2224618940334038
+Netherlands,NLD,ls_to_ps,1990-99,sd,0.02922168333598047
+Netherlands,NLD,ls_to_ps,2000-09,mean,1.1953105577861955
+Netherlands,NLD,ls_to_ps,2000-09,sd,0.06828986645140933
+Netherlands,NLD,ls_to_ps,2010-19,mean,1.1577162397228065
+Netherlands,NLD,ls_to_ps,2010-19,sd,0.03032406474003598
+Netherlands,NLD,ls_to_ps,2020-,mean,1.0855044229303747
+Netherlands,NLD,ls_to_ps,2020-,sd,0.06879517710345986
+Norway,NOR,contr_relative,1990-99,mean,-0.3099442343699282
+Norway,NOR,contr_relative,1990-99,sd,3.277970998635755
+Norway,NOR,contr_relative,2000-09,mean,0.1991322328070575
+Norway,NOR,contr_relative,2000-09,sd,1.048464240779026
+Norway,NOR,contr_relative,2010-19,mean,0.2379160783123649
+Norway,NOR,contr_relative,2010-19,sd,1.0832013747973508
+Norway,NOR,contr_relative,2020-,mean,-0.2468484436333401
+Norway,NOR,contr_relative,2020-,sd,0.4990095131110162
 Norway,NOR,contr_total,1990-99,mean,3.5191699695772547
 Norway,NOR,contr_total,1990-99,sd,3.8288792915933327
 Norway,NOR,contr_total,2000-09,mean,5.544666816611637
@@ -1115,6 +1657,30 @@ Norway,NOR,inflation_def,2010-19,mean,2.479382269439656
 Norway,NOR,inflation_def,2010-19,sd,3.7425443419764597
 Norway,NOR,inflation_def,2020-,mean,8.072563780081687
 Norway,NOR,inflation_def,2020-,sd,18.6623413099287
+Norway,NOR,labor_share,1990-99,mean,0.4646143558970671
+Norway,NOR,labor_share,1990-99,sd,0.0186591979233942
+Norway,NOR,labor_share,2000-09,mean,0.42860942438301425
+Norway,NOR,labor_share,2000-09,sd,0.02043155065919928
+Norway,NOR,labor_share,2010-19,mean,0.4586981649658023
+Norway,NOR,labor_share,2010-19,sd,0.018388568580484443
+Norway,NOR,labor_share,2020-,mean,0.42770715863377246
+Norway,NOR,labor_share,2020-,sd,0.05722565514958385
+Norway,NOR,ls_to_ps,1990-99,mean,1.1190857207270746
+Norway,NOR,ls_to_ps,1990-99,sd,0.11011583425573697
+Norway,NOR,ls_to_ps,2000-09,mean,0.9201313763522768
+Norway,NOR,ls_to_ps,2000-09,sd,0.08719840718328369
+Norway,NOR,ls_to_ps,2010-19,mean,1.0459858937943312
+Norway,NOR,ls_to_ps,2010-19,sd,0.09651521392765457
+Norway,NOR,ls_to_ps,2020-,mean,0.9128517930022324
+Norway,NOR,ls_to_ps,2020-,sd,0.253326554064027
+Poland,POL,contr_relative,1990-99,mean,0.9197682615497411
+Poland,POL,contr_relative,1990-99,sd,1.8057386745822523
+Poland,POL,contr_relative,2000-09,mean,0.4534127874683005
+Poland,POL,contr_relative,2000-09,sd,1.9518905907919957
+Poland,POL,contr_relative,2010-19,mean,-0.2589343321393113
+Poland,POL,contr_relative,2010-19,sd,8.018245438162598
+Poland,POL,contr_relative,2020-,mean,0.7123237180954299
+Poland,POL,contr_relative,2020-,sd,1.1982852351526145
 Poland,POL,contr_total,1990-99,mean,12.309703169032312
 Poland,POL,contr_total,1990-99,sd,5.339909572916017
 Poland,POL,contr_total,2000-09,mean,3.516190883815077
@@ -1163,6 +1729,30 @@ Poland,POL,inflation_def,2010-19,mean,1.4941351226387602
 Poland,POL,inflation_def,2010-19,sd,1.2699728421043657
 Poland,POL,inflation_def,2020-,mean,7.100270652359269
 Poland,POL,inflation_def,2020-,sd,4.549425502293947
+Poland,POL,labor_share,1990-99,mean,0.4168593791856089
+Poland,POL,labor_share,1990-99,sd,0.017638870894835925
+Poland,POL,labor_share,2000-09,mean,0.38579105800558333
+Poland,POL,labor_share,2000-09,sd,0.019247051817609075
+Poland,POL,labor_share,2010-19,mean,0.3863417148772037
+Poland,POL,labor_share,2010-19,sd,0.007832957589494585
+Poland,POL,labor_share,2020-,mean,0.3955672456783926
+Poland,POL,labor_share,2020-,sd,0.014538194168533908
+Poland,POL,ls_to_ps,1990-99,mean,0.9204478097698998
+Poland,POL,ls_to_ps,1990-99,sd,0.07577811831096508
+Poland,POL,ls_to_ps,2000-09,mean,0.7932763698565929
+Poland,POL,ls_to_ps,2000-09,sd,0.07324229403971831
+Poland,POL,ls_to_ps,2010-19,mean,0.7869320964429992
+Poland,POL,ls_to_ps,2010-19,sd,0.035110565937555155
+Poland,POL,ls_to_ps,2020-,mean,0.8224885083032958
+Poland,POL,ls_to_ps,2020-,sd,0.0603193924523764
+Portugal,PRT,contr_relative,1990-99,mean,1.3513952419083348
+Portugal,PRT,contr_relative,1990-99,sd,4.475259648674689
+Portugal,PRT,contr_relative,2000-09,mean,1.3936852943461686
+Portugal,PRT,contr_relative,2000-09,sd,2.0812789162999685
+Portugal,PRT,contr_relative,2010-19,mean,-2.5303349087062155
+Portugal,PRT,contr_relative,2010-19,sd,22.896281120709666
+Portugal,PRT,contr_relative,2020-,mean,-0.24384758507658055
+Portugal,PRT,contr_relative,2020-,sd,17.94289120295414
 Portugal,PRT,contr_total,1990-99,mean,3.4168674629432627
 Portugal,PRT,contr_total,1990-99,sd,0.7018818978327536
 Portugal,PRT,contr_total,2000-09,mean,3.0391168256536987
@@ -1211,6 +1801,30 @@ Portugal,PRT,inflation_def,2010-19,mean,1.219128800465519
 Portugal,PRT,inflation_def,2010-19,sd,1.0583873643117987
 Portugal,PRT,inflation_def,2020-,mean,4.144017755171397
 Portugal,PRT,inflation_def,2020-,sd,2.485087960843067
+Portugal,PRT,labor_share,1990-99,mean,0.47426384815993305
+Portugal,PRT,labor_share,1990-99,sd,0.00411819162872698
+Portugal,PRT,labor_share,2000-09,mean,0.47489692214586965
+Portugal,PRT,labor_share,2000-09,sd,0.007189015936906034
+Portugal,PRT,labor_share,2010-19,mean,0.44926177173472137
+Portugal,PRT,labor_share,2010-19,sd,0.012202504470193332
+Portugal,PRT,labor_share,2020-,mean,0.47590130029453953
+Portugal,PRT,labor_share,2020-,sd,0.0102184581487442
+Portugal,PRT,ls_to_ps,1990-99,mean,1.1527656071892745
+Portugal,PRT,ls_to_ps,1990-99,sd,0.025366286642901092
+Portugal,PRT,ls_to_ps,2000-09,mean,1.1791645891453812
+Portugal,PRT,ls_to_ps,2000-09,sd,0.03207697240951266
+Portugal,PRT,ls_to_ps,2010-19,mean,1.0679372636035445
+Portugal,PRT,ls_to_ps,2010-19,sd,0.048909935210625546
+Portugal,PRT,ls_to_ps,2020-,mean,1.1996731413794728
+Portugal,PRT,ls_to_ps,2020-,sd,0.04355990266462323
+Slovak Republic,SVK,contr_relative,1990-99,mean,5.982368231844582
+Slovak Republic,SVK,contr_relative,1990-99,sd,14.033073775923873
+Slovak Republic,SVK,contr_relative,2000-09,mean,3.2006357709445696
+Slovak Republic,SVK,contr_relative,2000-09,sd,15.046690407526341
+Slovak Republic,SVK,contr_relative,2010-19,mean,0.2728359264868634
+Slovak Republic,SVK,contr_relative,2010-19,sd,4.294712942970349
+Slovak Republic,SVK,contr_relative,2020-,mean,4.589808276202328
+Slovak Republic,SVK,contr_relative,2020-,sd,17.01232001697086
 Slovak Republic,SVK,contr_total,1990-99,mean,6.538902922205759
 Slovak Republic,SVK,contr_total,1990-99,sd,2.28782361178727
 Slovak Republic,SVK,contr_total,2000-09,mean,4.192260434328237
@@ -1259,6 +1873,30 @@ Slovak Republic,SVK,inflation_def,2010-19,mean,0.8943150082460157
 Slovak Republic,SVK,inflation_def,2010-19,sd,1.0167583285589
 Slovak Republic,SVK,inflation_def,2020-,mean,5.509861600627577
 Slovak Republic,SVK,inflation_def,2020-,sd,3.4290121294234472
+Slovak Republic,SVK,labor_share,1990-99,mean,0.4097927254629995
+Slovak Republic,SVK,labor_share,1990-99,sd,0.01412944185256974
+Slovak Republic,SVK,labor_share,2000-09,mean,0.3752925687764378
+Slovak Republic,SVK,labor_share,2000-09,sd,0.019677182752026824
+Slovak Republic,SVK,labor_share,2010-19,mean,0.3857216289489909
+Slovak Republic,SVK,labor_share,2010-19,sd,0.022139417736646263
+Slovak Republic,SVK,labor_share,2020-,mean,0.4257045077422493
+Slovak Republic,SVK,labor_share,2020-,sd,0.007814383705838876
+Slovak Republic,SVK,ls_to_ps,1990-99,mean,0.8311216848015291
+Slovak Republic,SVK,ls_to_ps,1990-99,sd,0.054446760887004717
+Slovak Republic,SVK,ls_to_ps,2000-09,mean,0.7170192976465551
+Slovak Republic,SVK,ls_to_ps,2000-09,sd,0.06756409255960702
+Slovak Republic,SVK,ls_to_ps,2010-19,mean,0.7494308675861086
+Slovak Republic,SVK,ls_to_ps,2010-19,sd,0.08530025910776827
+Slovak Republic,SVK,ls_to_ps,2020-,mean,0.8917699425388442
+Slovak Republic,SVK,ls_to_ps,2020-,sd,0.043184217650129066
+Slovenia,SVN,contr_relative,1990-99,mean,0.8881672774478826
+Slovenia,SVN,contr_relative,1990-99,sd,0.5244019674923412
+Slovenia,SVN,contr_relative,2000-09,mean,0.3311331290373432
+Slovenia,SVN,contr_relative,2000-09,sd,10.930916291393432
+Slovenia,SVN,contr_relative,2010-19,mean,5.881352089035086
+Slovenia,SVN,contr_relative,2010-19,sd,26.74939479400774
+Slovenia,SVN,contr_relative,2020-,mean,-0.398881893061642
+Slovenia,SVN,contr_relative,2020-,sd,4.1361160540310635
 Slovenia,SVN,contr_total,1990-99,mean,8.549362433934899
 Slovenia,SVN,contr_total,1990-99,sd,2.107751607631228
 Slovenia,SVN,contr_total,2000-09,mean,4.728965416464019
@@ -1307,6 +1945,30 @@ Slovenia,SVN,inflation_def,2010-19,mean,1.1029429992457018
 Slovenia,SVN,inflation_def,2010-19,sd,0.908412233823167
 Slovenia,SVN,inflation_def,2020-,mean,4.874860149259249
 Slovenia,SVN,inflation_def,2020-,sd,3.902236239443432
+Slovenia,SVN,labor_share,1990-99,mean,0.5096474428109579
+Slovenia,SVN,labor_share,1990-99,sd,0.018062367648552003
+Slovenia,SVN,labor_share,2000-09,mean,0.49975489796044514
+Slovenia,SVN,labor_share,2000-09,sd,0.009968710372369436
+Slovenia,SVN,labor_share,2010-19,mean,0.49963509602188694
+Slovenia,SVN,labor_share,2010-19,sd,0.011681299996230885
+Slovenia,SVN,labor_share,2020-,mean,0.5251065753425129
+Slovenia,SVN,labor_share,2020-,sd,0.018126079240465387
+Slovenia,SVN,ls_to_ps,1990-99,mean,1.440604382153555
+Slovenia,SVN,ls_to_ps,1990-99,sd,0.11450323980078242
+Slovenia,SVN,ls_to_ps,2000-09,mean,1.3571636023034366
+Slovenia,SVN,ls_to_ps,2000-09,sd,0.057098129674925155
+Slovenia,SVN,ls_to_ps,2010-19,mean,1.3555834306854977
+Slovenia,SVN,ls_to_ps,2010-19,sd,0.054011210169488004
+Slovenia,SVN,ls_to_ps,2020-,mean,1.4168147182421933
+Slovenia,SVN,ls_to_ps,2020-,sd,0.06087720435212287
+Spain,ESP,contr_relative,1990-99,mean,-8.024102156311265
+Spain,ESP,contr_relative,1990-99,sd,39.429942086429016
+Spain,ESP,contr_relative,2000-09,mean,1.1884880364029071
+Spain,ESP,contr_relative,2000-09,sd,0.7936569916565432
+Spain,ESP,contr_relative,2010-19,mean,-6.155918371820214
+Spain,ESP,contr_relative,2010-19,sd,28.234487849342905
+Spain,ESP,contr_relative,2020-,mean,0.9235983363166872
+Spain,ESP,contr_relative,2020-,sd,5.98742488085255
 Spain,ESP,contr_total,1990-99,mean,2.8690473733597357
 Spain,ESP,contr_total,1990-99,sd,0.5846763870459247
 Spain,ESP,contr_total,2000-09,mean,3.5350663804111124
@@ -1355,6 +2017,30 @@ Spain,ESP,inflation_def,2010-19,mean,0.49634158230776176
 Spain,ESP,inflation_def,2010-19,sd,0.6773960496118769
 Spain,ESP,inflation_def,2020-,mean,3.5922170479362974
 Spain,ESP,inflation_def,2020-,sd,1.9769282166283926
+Spain,ESP,labor_share,1990-99,mean,0.4825292333748651
+Spain,ESP,labor_share,1990-99,sd,0.005747161960466935
+Spain,ESP,labor_share,2000-09,mean,0.4789251692665555
+Spain,ESP,labor_share,2000-09,sd,0.00921291338818982
+Spain,ESP,labor_share,2010-19,mean,0.4639883206981644
+Spain,ESP,labor_share,2010-19,sd,0.013180104464399382
+Spain,ESP,labor_share,2020-,mean,0.4852217061791751
+Spain,ESP,labor_share,2020-,sd,0.010659237136418507
+Spain,ESP,ls_to_ps,1990-99,mean,1.1212232418211048
+Spain,ESP,ls_to_ps,1990-99,sd,0.04077319705566998
+Spain,ESP,ls_to_ps,2000-09,mean,1.1186444320211348
+Spain,ESP,ls_to_ps,2000-09,sd,0.023592691622682408
+Spain,ESP,ls_to_ps,2010-19,mean,1.0552350710317662
+Spain,ESP,ls_to_ps,2010-19,sd,0.04524024387896852
+Spain,ESP,ls_to_ps,2020-,mean,1.1601037862738626
+Spain,ESP,ls_to_ps,2020-,sd,0.0509433439944474
+Sweden,SWE,contr_relative,1990-99,mean,2.1241265827763987
+Sweden,SWE,contr_relative,1990-99,sd,11.173657308721994
+Sweden,SWE,contr_relative,2000-09,mean,-11.058818367547612
+Sweden,SWE,contr_relative,2000-09,sd,54.96112797679749
+Sweden,SWE,contr_relative,2010-19,mean,0.601083858680646
+Sweden,SWE,contr_relative,2010-19,sd,6.945152563306233
+Sweden,SWE,contr_relative,2020-,mean,0.8227208677770641
+Sweden,SWE,contr_relative,2020-,sd,3.325418192101106
 Sweden,SWE,contr_total,1990-99,mean,1.9757269541434401
 Sweden,SWE,contr_total,1990-99,sd,1.1873333080604351
 Sweden,SWE,contr_total,2000-09,mean,1.9815221595439634
@@ -1403,6 +2089,30 @@ Sweden,SWE,inflation_def,2010-19,mean,1.7145304757870672
 Sweden,SWE,inflation_def,2010-19,sd,0.7523691789370555
 Sweden,SWE,inflation_def,2020-,mean,4.046921579147542
 Sweden,SWE,inflation_def,2020-,sd,2.044577266325071
+Sweden,SWE,labor_share,1990-99,mean,0.44732171504710616
+Sweden,SWE,labor_share,1990-99,sd,0.012406365270823982
+Sweden,SWE,labor_share,2000-09,mean,0.45841052274749866
+Sweden,SWE,labor_share,2000-09,sd,0.008435763704058196
+Sweden,SWE,labor_share,2010-19,mean,0.47840572653495606
+Sweden,SWE,labor_share,2010-19,sd,0.008871774559593712
+Sweden,SWE,labor_share,2020-,mean,0.4771755912095983
+Sweden,SWE,labor_share,2020-,sd,0.009159121901582756
+Sweden,SWE,ls_to_ps,1990-99,mean,1.2449686182197635
+Sweden,SWE,ls_to_ps,1990-99,sd,0.05985118097448287
+Sweden,SWE,ls_to_ps,2000-09,mean,1.370403283678687
+Sweden,SWE,ls_to_ps,2000-09,sd,0.06584004660463598
+Sweden,SWE,ls_to_ps,2010-19,mean,1.504695808812841
+Sweden,SWE,ls_to_ps,2010-19,sd,0.07516705605487697
+Sweden,SWE,ls_to_ps,2020-,mean,1.4548541780735575
+Sweden,SWE,ls_to_ps,2020-,sd,0.04341958460540598
+Switzerland,CHE,contr_relative,1990-99,mean,142.6429694942891
+Switzerland,CHE,contr_relative,1990-99,sd,853.0673510946605
+Switzerland,CHE,contr_relative,2000-09,mean,-1.132696741001009
+Switzerland,CHE,contr_relative,2000-09,sd,4.031923575790456
+Switzerland,CHE,contr_relative,2010-19,mean,1.2431026462247825
+Switzerland,CHE,contr_relative,2010-19,sd,8.648116791369818
+Switzerland,CHE,contr_relative,2020-,mean,-0.21711889980177085
+Switzerland,CHE,contr_relative,2020-,sd,1.9360865231701379
 Switzerland,CHE,contr_total,1990-99,mean,1.399114587742757
 Switzerland,CHE,contr_total,1990-99,sd,1.8426954931208748
 Switzerland,CHE,contr_total,2000-09,mean,1.1998285116466798
@@ -1451,6 +2161,30 @@ Switzerland,CHE,inflation_def,2010-19,mean,-0.19402595373103826
 Switzerland,CHE,inflation_def,2010-19,sd,0.6245898270537686
 Switzerland,CHE,inflation_def,2020-,mean,1.164263398779515
 Switzerland,CHE,inflation_def,2020-,sd,1.3630630453403216
+Switzerland,CHE,labor_share,1990-99,mean,0.5585641808950916
+Switzerland,CHE,labor_share,1990-99,sd,0.00810125449875547
+Switzerland,CHE,labor_share,2000-09,mean,0.5579008940366653
+Switzerland,CHE,labor_share,2000-09,sd,0.0136060614520816
+Switzerland,CHE,labor_share,2010-19,mean,0.5743753069613283
+Switzerland,CHE,labor_share,2010-19,sd,0.009892559961360197
+Switzerland,CHE,labor_share,2020-,mean,0.5868166104194938
+Switzerland,CHE,labor_share,2020-,sd,0.008016696184833267
+Switzerland,CHE,ls_to_ps,1990-99,mean,1.3216209763428022
+Switzerland,CHE,ls_to_ps,1990-99,sd,0.03755099052341819
+Switzerland,CHE,ls_to_ps,2000-09,mean,1.3514234807096264
+Switzerland,CHE,ls_to_ps,2000-09,sd,0.0725152794516598
+Switzerland,CHE,ls_to_ps,2010-19,mean,1.4375361339436417
+Switzerland,CHE,ls_to_ps,2010-19,sd,0.05308244433326742
+Switzerland,CHE,ls_to_ps,2020-,mean,1.4930828955278066
+Switzerland,CHE,ls_to_ps,2020-,sd,0.055871086762410926
+Türkiye,TUR,contr_relative,1990-99,mean,0.5516996809961578
+Türkiye,TUR,contr_relative,1990-99,sd,0.05818291274522979
+Türkiye,TUR,contr_relative,2000-09,mean,0.6083941258401018
+Türkiye,TUR,contr_relative,2000-09,sd,0.6859909513235498
+Türkiye,TUR,contr_relative,2010-19,mean,1.5825906382466877
+Türkiye,TUR,contr_relative,2010-19,sd,4.714275028149029
+Türkiye,TUR,contr_relative,2020-,mean,0.4935614676828345
+Türkiye,TUR,contr_relative,2020-,sd,0.40340256339386527
 Türkiye,TUR,contr_total,1990-99,mean,54.21427143716379
 Türkiye,TUR,contr_total,1990-99,sd,3.233983002077045
 Türkiye,TUR,contr_total,2000-09,mean,22.036303447209576
@@ -1499,6 +2233,30 @@ Türkiye,TUR,inflation_def,2010-19,mean,9.369159668693877
 Türkiye,TUR,inflation_def,2010-19,sd,3.6804268367268085
 Türkiye,TUR,inflation_def,2020-,mean,54.177599221683415
 Türkiye,TUR,inflation_def,2020-,sd,33.47197441921285
+Türkiye,TUR,labor_share,1990-99,mean,0.2709349869962894
+Türkiye,TUR,labor_share,1990-99,sd,0.008592251033967113
+Türkiye,TUR,labor_share,2000-09,mean,0.25410797531476764
+Türkiye,TUR,labor_share,2000-09,sd,0.007650796237095368
+Türkiye,TUR,labor_share,2010-19,mean,0.29020634527537625
+Türkiye,TUR,labor_share,2010-19,sd,0.01839408837010289
+Türkiye,TUR,labor_share,2020-,mean,0.2784752428689486
+Türkiye,TUR,labor_share,2020-,sd,0.03243295980631937
+Türkiye,TUR,ls_to_ps,1990-99,mean,0.420400645277792
+Türkiye,TUR,ls_to_ps,1990-99,sd,0.020736076403935585
+Türkiye,TUR,ls_to_ps,2000-09,mean,0.4029069597708035
+Türkiye,TUR,ls_to_ps,2000-09,sd,0.014375054473539877
+Türkiye,TUR,ls_to_ps,2010-19,mean,0.4863979747137754
+Türkiye,TUR,ls_to_ps,2010-19,sd,0.03971288539073158
+Türkiye,TUR,ls_to_ps,2020-,mean,0.4497411863821504
+Türkiye,TUR,ls_to_ps,2020-,sd,0.07586449381623184
+United Kingdom,GBR,contr_relative,1990-99,mean,-0.477444247872865
+United Kingdom,GBR,contr_relative,1990-99,sd,1.6860274761349359
+United Kingdom,GBR,contr_relative,2000-09,mean,0.11997167981839105
+United Kingdom,GBR,contr_relative,2000-09,sd,8.959101943892836
+United Kingdom,GBR,contr_relative,2010-19,mean,50.932689827249035
+United Kingdom,GBR,contr_relative,2010-19,sd,313.8779922984929
+United Kingdom,GBR,contr_relative,2020-,mean,1.9319016832105516
+United Kingdom,GBR,contr_relative,2020-,sd,2.84847061309092
 United Kingdom,GBR,contr_total,1990-99,mean,1.774709620622465
 United Kingdom,GBR,contr_total,1990-99,sd,1.7619853327843116
 United Kingdom,GBR,contr_total,2000-09,mean,2.366823784349302
@@ -1547,6 +2305,38 @@ United Kingdom,GBR,inflation_def,2010-19,mean,1.728862114506122
 United Kingdom,GBR,inflation_def,2010-19,sd,0.5917738331774608
 United Kingdom,GBR,inflation_def,2020-,mean,4.234214528889857
 United Kingdom,GBR,inflation_def,2020-,sd,3.5237961987867483
+United Kingdom,GBR,labor_share,1990-99,mean,0.456461560079481
+United Kingdom,GBR,labor_share,1990-99,sd,0.011280051122228067
+United Kingdom,GBR,labor_share,2000-09,mean,0.4945405837141212
+United Kingdom,GBR,labor_share,2000-09,sd,0.009180852164461432
+United Kingdom,GBR,labor_share,2010-19,mean,0.48740401976043995
+United Kingdom,GBR,labor_share,2010-19,sd,0.0075972003306494
+United Kingdom,GBR,labor_share,2020-,mean,0.5021186928986169
+United Kingdom,GBR,labor_share,2020-,sd,0.01669777030800838
+United Kingdom,GBR,ls_to_ps,1990-99,mean,1.0589798876439636
+United Kingdom,GBR,ls_to_ps,1990-99,sd,0.06356074122855028
+United Kingdom,GBR,ls_to_ps,2000-09,mean,1.2569242405957015
+United Kingdom,GBR,ls_to_ps,2000-09,sd,0.044982582849352214
+United Kingdom,GBR,ls_to_ps,2010-19,mean,1.2435271172485598
+United Kingdom,GBR,ls_to_ps,2010-19,sd,0.0396516918551982
+United Kingdom,GBR,ls_to_ps,2020-,mean,1.2460947589386164
+United Kingdom,GBR,ls_to_ps,2020-,sd,0.02780636731445386
+United States,USA,contr_relative,1950-59,mean,NA
+United States,USA,contr_relative,1950-59,sd,NA
+United States,USA,contr_relative,1960-69,mean,2.0406460290445065
+United States,USA,contr_relative,1960-69,sd,7.107573160483366
+United States,USA,contr_relative,1970-79,mean,1.295631580682838
+United States,USA,contr_relative,1970-79,sd,4.425698905565428
+United States,USA,contr_relative,1980-89,mean,-3.159268725353287
+United States,USA,contr_relative,1980-89,sd,15.768540980990544
+United States,USA,contr_relative,1990-99,mean,2.4015208567445767
+United States,USA,contr_relative,1990-99,sd,6.197451866126448
+United States,USA,contr_relative,2000-09,mean,0.15677720268806378
+United States,USA,contr_relative,2000-09,sd,5.216290397455255
+United States,USA,contr_relative,2010-19,mean,2.8203354020441576
+United States,USA,contr_relative,2010-19,sd,12.563027502887847
+United States,USA,contr_relative,2020-,mean,0.8070445390083745
+United States,USA,contr_relative,2020-,sd,2.260974939249496
 United States,USA,contr_total,1950-59,mean,NA
 United States,USA,contr_total,1950-59,sd,NA
 United States,USA,contr_total,1960-69,mean,2.309521343737138
@@ -1643,3 +2433,35 @@ United States,USA,inflation_def,2010-19,mean,1.6192454264650373
 United States,USA,inflation_def,2010-19,sd,0.4840831281586162
 United States,USA,inflation_def,2020-,mean,3.881585684201274
 United States,USA,inflation_def,2020-,sd,2.2462788130661475
+United States,USA,labor_share,1950-59,mean,0.548465525801513
+United States,USA,labor_share,1950-59,sd,0.0031821651626543312
+United States,USA,labor_share,1960-69,mean,0.5562647744971245
+United States,USA,labor_share,1960-69,sd,0.009511048733107583
+United States,USA,labor_share,1970-79,mean,0.5672485999866553
+United States,USA,labor_share,1970-79,sd,0.0075237485386213596
+United States,USA,labor_share,1980-89,mean,0.5582378919936788
+United States,USA,labor_share,1980-89,sd,0.006567941569631697
+United States,USA,labor_share,1990-99,mean,0.5560686776926312
+United States,USA,labor_share,1990-99,sd,0.0059566459102080365
+United States,USA,labor_share,2000-09,mean,0.552384297079804
+United States,USA,labor_share,2000-09,sd,0.012121334126978064
+United States,USA,labor_share,2010-19,mean,0.5288714547475293
+United States,USA,labor_share,2010-19,sd,0.0037887294847972425
+United States,USA,labor_share,2020-,mean,0.5250072685030553
+United States,USA,labor_share,2020-,sd,0.012446585754254863
+United States,USA,ls_to_ps,1950-59,mean,1.463268470141618
+United States,USA,ls_to_ps,1950-59,sd,0.02513231044186393
+United States,USA,ls_to_ps,1960-69,mean,1.5228948304720573
+United States,USA,ls_to_ps,1960-69,sd,0.06405023718628355
+United States,USA,ls_to_ps,1970-79,mean,1.6296050056913403
+United States,USA,ls_to_ps,1970-79,sd,0.06330162966626471
+United States,USA,ls_to_ps,1980-89,mean,1.532496347359
+United States,USA,ls_to_ps,1980-89,sd,0.04565455435454044
+United States,USA,ls_to_ps,1990-99,mean,1.521979017505472
+United States,USA,ls_to_ps,1990-99,sd,0.05993296864130737
+United States,USA,ls_to_ps,2000-09,mean,1.4414419980465094
+United States,USA,ls_to_ps,2000-09,sd,0.060429438405735385
+United States,USA,ls_to_ps,2010-19,mean,1.3056788479327657
+United States,USA,ls_to_ps,2010-19,sd,0.030160731609603114
+United States,USA,ls_to_ps,2020-,mean,1.260444240012074
+United States,USA,ls_to_ps,2020-,sd,0.0420837252091235

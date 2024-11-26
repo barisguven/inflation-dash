@@ -138,5 +138,12 @@ wide_data_clean |>
     geom_line() +
     theme(legend.position = "none")
 
+wide_data_clean|>
+    mutate(ls_to_ps = labor_compensation/operating_surplus_mixed_income) |>
+    filter(time > as.Date("2019-01-01")) |>
+    ggplot(aes(x = time, y = ls_to_ps, color = ref_area)) +
+    geom_line() +
+    theme(legend.position = "none")
+
 # Write the data to a csv file
 write_csv(wide_data_clean, "income_components.csv")
