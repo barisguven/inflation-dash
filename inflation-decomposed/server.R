@@ -11,7 +11,7 @@ server <- function(input, output, session) {
       geom_bar(stat = "identity") +
       labs(x="", y="Percent") +
       geom_line(
-        data = filter(data, reference_area == input$country, series == "inflation_def"), 
+        data = filter(data, reference_area == input$country, series == "inflation_def", !is.na(value)), 
         aes(time, value, color = "inflation_def"), linewidth=0.6) +
       scale_fill_manual(
         values = c("contr_unit_labor_cost" = "#30123BFF", "contr_unit_profit" = "#1AE4B6FF", "contr_unit_tax" = "#FABA39FF"),
@@ -39,11 +39,11 @@ server <- function(input, output, session) {
       filter(reference_area == input$country) |>
       filter(!is.na(value)) |>
       ggplot(aes(time, value, color = series)) +
-      geom_line(linewidth=0.7) +
-      scale_color_brewer(
+      geom_line(linewidth=0.8) +
+      scale_color_manual(
+        values = c("inflation_def" = "red", "inflation_cpi" = "black"),
         breaks = c("inflation_def", "inflation_cpi"),
-        labels = c("Deflator", "Consumer Price Index"),
-        palette = "Dark2") +
+        labels = c("Deflator", "Consumer Price Index")) +
       labs(y = "Percent", x = NULL, title = paste0("Deflator vs. CPI Inflation, ", input$country)) +
       theme(
         plot.title = element_text(size = 14),
@@ -99,13 +99,13 @@ server <- function(input, output, session) {
       filter(reference_area == input$country) |>
       filter(series %in% income_comps) |>
       filter(!is.na(value)) |>
-      filter(time >= as.Date("2020-01-01")) |>
+      filter(time >= as.Date("2019-01-01")) |>
       ggplot(aes(x = time, y = value, fill = series)) +
       geom_bar(stat = "identity") +
       labs(x="", y="Percent") +
       geom_line(
-        data = filter(data, reference_area == input$country, series == "inflation_def", time >= as.Date("2020-01-01")), 
-        aes(time, value, color = "inflation_def"), linewidth=0.6) +
+        data = filter(data, reference_area == input$country, series == "inflation_def", time >= as.Date("2019-01-01")), 
+        aes(time, value, color = "inflation_def"), linewidth=0.7) +
       geom_vline(xintercept = as.Date("2020-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
       annotate(geom = "text", label = "Covid-19 starts", x = as.Date("2020-01-10"), y = ymaxFind(), color="grey50", hjust = "left", vjust = "bottom") +
       geom_vline(xintercept = as.Date("2022-01-01"), linewidth = 0.6, color = "grey50", linetype = "dashed") +
@@ -117,6 +117,7 @@ server <- function(input, output, session) {
         labels = "Deflator",
         values = c("inflation_def" = "red")
       ) +
+      scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
       labs(title = paste0("Annual Contributions since the Pandemic, Quarterly, ", input$country)) +
       theme(
         plot.title = element_text(size = 14),
@@ -126,6 +127,66 @@ server <- function(input, output, session) {
         legend.title = element_blank(),
         legend.position = "bottom",
         legend.margin = margin(t=-18)
+      )
+  })
+
+  ## Labor Share ----
+  output$ls_ps <- renderPlot({
+    data |>
+      filter(reference_area == input$country) |>
+      filter(time >= as.Date("2019-01-01")) |>
+      filter(series == "labor_share") |>
+      filter(!is.na(value)) |>
+      ggplot(aes(time, value)) +
+      geom_line(linewidth = 0.8, color = "#30123BFF") +
+      scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+      labs(x=NULL, y=NULL, title = paste0("Labor Share, Quarterly, ", input$country)) +
+        theme(
+          plot.title = element_text(size = 14),
+          axis.text = element_text(size = 12),
+          axis.title.y = element_text(size=12),
+          legend.text = element_text(size = 12),
+          legend.title = element_blank(),
+          legend.position = "bottom",
+          legend.margin = margin(t=-5)
+        )
+  })
+
+  ## Relative Contributions, Quarterly ----
+  output$rel_contr <- renderPlot({
+    data |>
+      filter(reference_area == input$country) |>
+      filter(time >= as.Date("2019-01-01")) |>
+      filter(series == "contr_relative") |>
+      filter(!is.na(value)) |>
+      ggplot(aes(time, value)) +
+      geom_col(fill = "#30123BFF") +
+      scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+      labs(x=NULL, y=NULL, title = paste0("Contribution of Unit Labor Costs to That of Unit Profits, Quarterly, ", input$country)) +
+        theme(
+          plot.title = element_text(size = 14),
+          axis.text = element_text(size = 12),
+          axis.title.y = element_text(size=12),
+          legend.text = element_text(size = 12),
+          legend.title = element_blank(),
+          legend.position = "bottom",
+          legend.margin = margin(t=-5)
+        )
+  })
+
+  ## Relative Contributions by Decade ----
+  output$decadal_rel_contr <- renderPlot({
+    data_avg |>
+      filter(var == "mean") |>
+      filter(series == "contr_relative") |>
+      filter(reference_area == input$country) |>
+      filter(!is.na(value)) |>
+      ggplot(aes(decade, value)) +
+      geom_col(fill = "#30123BFF") +
+      labs(x=NULL, y=NULL, title = paste0("Contribution of Unit Labor Costs to That of Unit Profits, ", input$country)) +
+      theme(
+        plot.title = element_text(size = 14),
+        axis.text = element_text(size = 12)
       )
   })
 

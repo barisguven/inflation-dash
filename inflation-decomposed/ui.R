@@ -16,7 +16,6 @@ ui <- page_navbar(
     ),
     uiOutput("country_note")
   ),
-
   nav_panel(
     title = "Contributions of Unit Components to Annual Inflation",
     layout_column_wrap(
@@ -24,8 +23,19 @@ ui <- page_navbar(
       card(plotOutput("def_vs_cpi"), full_screen = TRUE)
     ),
     layout_column_wrap(
-      card(plotOutput("decadal_avg"), full_screen = TRUE),
-      card(plotOutput("pandemic"), full_screen = TRUE)
+      navset_card_tab(
+        title = NULL,
+        full_screen = TRUE,
+        nav_panel(title = "Pandemic", plotOutput("pandemic")),
+        nav_panel(title = "Labor Share", plotOutput("ls_ps")),
+        nav_panel(title = "Relative Contributions", plotOutput("rel_contr"))  
+      ),
+      navset_card_tab(
+        title = "Decadal",
+        full_screen = TRUE,
+        nav_panel(title = "Contributions", plotOutput("decadal_avg")),
+        nav_panel("Relative Contributions", plotOutput("decadal_rel_contr"))
+      )
     )
   ),
 
@@ -35,12 +45,10 @@ ui <- page_navbar(
     layout_columns(
       col_widths = c(7, 5),
       card(
-        #card_header("Contributions of Unit Labor Cost, Unit Profit, and Unit Tax to the Percentage Change in GDP Deflator"), 
         gt_output("table_quarterly"), 
         downloadButton("download_quarterly")
       ),
       card(
-        #card_header("Contributions of Unit Components to Annual Inflation by Decade"), 
         gt_output("table_decadal"), 
         downloadButton("download_decadal")
       ),
