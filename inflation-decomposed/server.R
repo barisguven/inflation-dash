@@ -181,8 +181,8 @@ server <- function(input, output, session) {
       filter(series == "contr_relative") |>
       filter(reference_area == input$country) |>
       filter(!is.na(value)) |>
-      ggplot(aes(decade, value)) +
-      geom_col(fill = "#30123BFF") +
+      ggplot(aes(value, decade)) +
+      geom_col(fill = "#30123BFF", orientation = "y") +
       labs(x=NULL, y=NULL, title = paste0("Contribution of Unit Labor Costs to That of Unit Profits, ", input$country)) +
       theme(
         plot.title = element_text(size = 14),
