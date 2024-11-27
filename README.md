@@ -1,3 +1,7 @@
+---
+format: pdf
+---
+
 # Decomposing Inflation
 
 From the late 1960s through the early 1980s, inflation rose by at least two to three times in many countries due to preceding high growth, tight labor markets, and two oil shocks in the 1970s. The ensuing interest rate hikes, deceleration in economic growth, and the substantial decline in workers' bargaining power not only made high inflation disappear but also sometimes caused inflation to stay below the target inflation pursued by the central banks. In less than one year into the COVID-19 pandemic, the unusually high inflation made a comeback leading to a cost-of-living crisis for millions of people which in turn led to the fall of a series of incumbent governments. 
