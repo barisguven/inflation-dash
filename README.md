@@ -24,7 +24,7 @@ $$\frac{Y}{Y_r} = \frac{W}{Y_r} + \frac{S}{Y_r} + \frac{T}{Y_r}$$
 
 or
 
-$$P = w + s + t$$
+$$P = w + s + t.$$
 
 $P$ on the left-hand side of the equation is simply the GDP deflator. $w$, the total labor costs divided by real GDP, measures the labor costs per product and is called unit labor costs. Similarly, $s$ and $t$ denote unit profits and unit net taxes respectively. The change in the GDP deflator can then be written as
 
@@ -36,10 +36,11 @@ $$\frac{\Delta P}{P} = \frac{\Delta w}{P} + \frac{\Delta s}{P} + \frac{\Delta t}
 
 which can be further written as
 
-\begin{align}
-\frac{\Delta P}{P} & = \frac{\Delta w}{w}\frac{w}{P} + \frac{\Delta s}{s}\frac{s}{P} + \frac{\Delta t}{t}\frac{t}{P}\\ 
-& = \frac{\Delta w}{w}\frac{W}{Y} + \frac{\Delta s}{s}\frac{S}{Y} + \frac{\Delta t}{t}\frac{T}{Y}
-\end{align}
+$$\frac{\Delta P}{P} = \frac{\Delta w}{w}\frac{w}{P} + \frac{\Delta s}{s}\frac{s}{P} + \frac{\Delta t}{t}\frac{t}{P}$$
+
+or
+
+$$\frac{\Delta P}{P} = \frac{\Delta w}{w}\frac{W}{Y} + \frac{\Delta s}{s}\frac{S}{Y} + \frac{\Delta t}{t}\frac{T}{Y}.$$
 
 Finally, we can write
 
