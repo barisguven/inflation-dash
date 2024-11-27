@@ -1,5 +1,5 @@
 ui <- page_navbar(
-  title = "Inflation-decomposed",
+  title = "inflation-decomposed",
   theme = bs_theme(bootswatch = "cerulean"),
   underline = FALSE,
   sidebar = sidebar(

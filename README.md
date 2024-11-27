@@ -1,7 +1,3 @@
----
-format: pdf
----
-
 # Decomposing Inflation
 
 From the late 1960s through the early 1980s, inflation rose by at least two to three times in many countries due to preceding high growth, tight labor markets, and two oil shocks in the 1970s. The ensuing interest rate hikes, deceleration in economic growth, and the substantial decline in workers' bargaining power not only made high inflation disappear but also sometimes caused inflation to stay below the target inflation pursued by the central banks. In less than one year into the COVID-19 pandemic, the unusually high inflation made a comeback leading to a cost-of-living crisis for millions of people which in turn led to the fall of a series of incumbent governments. 
@@ -48,7 +44,7 @@ $$\frac{\Delta P}{P} = \frac{\Delta w}{w}\frac{W}{Y} + \frac{\Delta s}{s}\frac{S
 
 Finally, we can write
 
-$$\%\Delta P = \%\Delta w \frac{W}{Y} + \%\Delta s \frac{S}{Y} + \%\Delta t \frac{T}{Y}$$
+$$\\%\Delta P = \\%\Delta w \frac{W}{Y} + \\%\Delta s \frac{S}{Y} + \\%\Delta t \frac{T}{Y}$$
 
 where $W/Y$, $S/Y$, and $T/Y$ denote labor share, profit share, and tax share of income respectively.
 
@@ -56,7 +52,7 @@ In words, then, the percentage change in the GDP deflator, i.e., domestic inflat
 
 ## Dashboard
 
-The dashboard, https://bguven.shinyapps.io/inflation-decomposed, makes available the results of the decomposition analysis which is outlined above. You can select a country on the sidebar and view the quarterly contribution of unit labor costs, unit profits, and unit net taxes to domestic inflation for the whole period for which data are available for the selected country. You can also focus on the pandemic patterns and view the decadal averages of the contributions of unit components. The underlying data behind visuals can be downloaded on the *Tables* tab of the dashboard.
+The dashboard, [inflation-decomposed](https://bguven.shinyapps.io/inflation-decomposed), makes available the results of the decomposition analysis which is outlined above. You can select a country on the sidebar and view the quarterly contribution of unit labor costs, unit profits, and unit net taxes to domestic inflation for the whole period for which data are available for the selected country. You can also focus on the pandemic patterns and view the decadal averages of the contributions of unit components. The underlying data behind visuals can be downloaded on the *Tables* tab of the dashboard.
 
 ## Data Source
 The decomposition analysis relies heavily on quarterly national accounts data provided by OECD's data warehouse *OECD Data Explorer*. I obtained the quarterly *nominal* GDP and components series from [here](https://data-explorer.oecd.org/vis?fs%5B0%5D=Topic,1%7CEconomy%23ECO%23%7CNational%20accounts%23ECO_NAD%23&pg=40&fc=Topic&bp=true&snb=156&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_NAMAIN1@DF_QNA_INCOME&df%5Bag%5D=OECD.SDD.NAD&df%5Bvs%5D=1.1&dq=Q..AUT..........&to%5BTIME_PERIOD%5D=false&lo=5&lom=LASTNPERIODS), real GDP and deflator series from [here](https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_NAMAIN1@DF_QNA_EXPENDITURE_INDICES&df%5Bag%5D=OECD.SDD.NAD&df%5Bvs%5D=1.1&dq=Q............&lom=LASTNPERIODS&lo=5&to%5BTIME_PERIOD%5D=false), and finally Consumer Price Index series from [here](https://data-explorer.oecd.org/vis?fs%5B0%5D=Topic,1%7CEconomy%23ECO%23%7CPrices%23ECO_PRI%23&pg=0&fc=Topic&bp=true&snb=30&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_PRICES@DF_PRICES_ALL&df%5Bag%5D=OECD.SDD.TPS&df%5Bvs%5D=1.0&dq=.M.N.CPI.._T.N.GY+_Z&lom=LASTNPERIODS&lo=13&to%5BTIME_PERIOD%5D=false).
