@@ -283,7 +283,6 @@ server <- function(input, output, session) {
   )
 
   ## Decadal data ----
-
   data_decadal <- reactive({
     data_avg |>
       filter(var == "mean") |>
@@ -322,15 +321,28 @@ server <- function(input, output, session) {
     }
   )
 
+  time_range <- reactive({
+    time_range = data |>
+      filter(reference_area == input$country) |>
+      pull(time) |>
+      minmax()
+
+    paste0(year(time_range), "-Q", quarter(time_range))
+  })
+
   ## Country notes ----
   output$country_note <- renderUI({
+
+    notes = paste0("Notes: Data are available for ", input$country, " from ", time_range()[1], " to ", time_range()[2], ".")
+    
     if (input$country %in% c("United States", "Canada", "Japan", "Israel")) {
       country_note = country_notes |>
         filter(country == input$country) |>
         pull(note)
-      
-      first_line = paste0("Notes for ", input$country, ":")
-      helpText(paste(first_line, country_note))
+
+      notes = paste(notes, country_note)
     }
+
+    helpText(notes)
   })
 }

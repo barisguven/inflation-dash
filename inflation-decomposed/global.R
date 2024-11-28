@@ -1,9 +1,6 @@
 library(shiny)
 library(bslib)
-library(dplyr)
-library(tidyr)
-library(readr)
-library(ggplot2)
+library(tidyverse)
 library(gt)
 
 # Main data
@@ -20,3 +17,8 @@ data_real_inc <- read_csv("data/merged_data_real_incomes.csv")
 
 # Country notes
 country_notes <- read_csv("data/country_notes.csv")
+
+# minmax functions for time range
+minmax <- function(x) {
+  c(min(x), max(x))
+}
