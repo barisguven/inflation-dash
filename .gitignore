@@ -1,10 +1,10 @@
 .Rhistory
 .DS_Store
-data_oecd
+data_oecd/
 country_list.txt
 notes.md
 *_files/
 *.html
 todo-list.md
 *rsconnect*
-*.csv
+*[^data/]*.csv
