@@ -20,15 +20,21 @@ ui <- page_navbar(
     title = "Contributions of Unit Components to Annual Inflation",
     layout_column_wrap(
       card(plotOutput("decomp"), full_screen = TRUE),
-      card(plotOutput("def_vs_cpi"), full_screen = TRUE)
+      navset_card_tab(
+        title = "Deflator vs. CPI",
+        full_screen = TRUE,
+        nav_panel(title = "Whole Period", plotOutput("def_vs_cpi")),
+        nav_panel(title = "Pandemic", plotOutput("def_vs_cpi_pand"))
+      )
+      #card(plotOutput("def_vs_cpi"), full_screen = TRUE)
     ),
     layout_column_wrap(
       navset_card_tab(
-        title = NULL,
+        title = "Pandemic",
         full_screen = TRUE,
-        nav_panel(title = "Pandemic", plotOutput("pandemic")),
+        nav_panel(title = "Contributions", plotOutput("pandemic")),
         nav_panel(title = "Labor Share", plotOutput("ls_ps")),
-        nav_panel(title = "Relative Contributions", plotOutput("rel_contr"))  
+        nav_panel(title = "Relative Contr.", plotOutput("rel_contr"))  
       ),
       navset_card_tab(
         title = "Decadal",

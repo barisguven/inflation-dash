@@ -55,7 +55,31 @@ server <- function(input, output, session) {
         legend.margin = margin(t=-5)
       )
   })
-  
+ 
+  output$def_vs_cpi_pand <- renderPlot({
+    data |>
+      filter(series %in% c("inflation_def", "inflation_cpi")) |>
+      filter(reference_area == input$country) |>
+      filter(time >= as.Date("2019-01-01")) |>
+      filter(!is.na(value)) |>
+      ggplot(aes(time, value, color = series)) +
+      geom_line(linewidth=0.8) +
+      scale_color_manual(
+        values = c("inflation_def" = "red", "inflation_cpi" = "black"),
+        breaks = c("inflation_def", "inflation_cpi"),
+        labels = c("Deflator", "Consumer Price Index")) +
+      labs(y = "Percent", x = NULL, title = paste0("Deflator vs. CPI Inflation, ", input$country)) +
+      theme(
+        plot.title = element_text(size = 14),
+        axis.text = element_text(size = 12),
+        axis.title.y = element_text(size=12),
+        legend.text = element_text(size = 12),
+        legend.title = element_blank(),
+        legend.position = "bottom",
+        legend.margin = margin(t=-5)
+      )
+  })
+
   ## 3. Decadal Average
   output$decadal_avg = renderPlot({
     data_avg |>
