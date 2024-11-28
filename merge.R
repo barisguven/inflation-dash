@@ -85,6 +85,32 @@ data |>
     geom_line(aes(time, mean_inflation1), color = "red") +
     geom_line(aes(time, mean_inflation2), color = "blue")
 
+## Real total wages and total gross surplus
+data <- data |>
+    mutate(
+        real_labor_comp_def = labor_compensation/deflator_index,
+        real_labor_comp_cpi = labor_compensation/cpi,
+        real_surplus_def = operating_surplus_mixed_income/deflator_index,
+        real_surplus_cpi = operating_surplus_mixed_income/cpi,
+        real_taxes_def = taxes_minus_subsidies/deflator_index, 
+        real_taxes_cpi = taxes_minus_subsidies/cpi
+    )
+
+data_real_incomes = data |>
+    select(c(reference_area, ref_area, time, starts_with("real_"))) |>
+    filter(time >= as.Date("2019-01-01")) |>
+    group_by(ref_area) |>
+    arrange(.by_group = TRUE) |>
+    mutate(across(starts_with("real"), ~ .x/.x[1]*100)) |>
+    ungroup() |>
+    pivot_longer(cols = starts_with("real_"), names_to = "series", values_to = "value")
+
+data_real_incomes |>
+    filter(reference_area == "Germany") |>
+    ggplot(aes(time, value, color = series)) +
+    geom_line()
+
+## Make data long
 data_long = data |>
     select(c(reference_area, ref_area, time, inflation_def, inflation_cpi,
         starts_with("contr_"), labor_share, ls_to_ps)) |>
@@ -121,6 +147,11 @@ data_clean = data_long |>
 
 write_csv(data_clean, "inflation-decomposed/data/merged_data.csv")
 
+# Write real wages and profits data
+data_real_incomes |>
+    filter(!reference_area %in% c("Bulgaria", "Croatia", "Ireland", "Romania")) |>
+    write_csv(file = "inflation-decomposed/data/merged_data_real_incomes.csv")
+
 # Decadal averages ----
 data_clean <- data_clean |>
     mutate(year = year(time), .after = time) |>
@@ -134,8 +165,6 @@ data_clean <- data_clean |>
         year < 2020 ~ "2010-19",
         year >= 2020 ~ "2020-" 
     ), .after = year)
-
-summary(data_clean$year)
 
 data_avg <- data_clean |>
     group_by(reference_area, ref_area, series, decade) |>

@@ -154,28 +154,6 @@ server <- function(input, output, session) {
       )
   })
 
-  ## Labor Share ----
-  output$ls_ps <- renderPlot({
-    data |>
-      filter(reference_area == input$country) |>
-      filter(time >= as.Date("2019-01-01")) |>
-      filter(series == "labor_share") |>
-      filter(!is.na(value)) |>
-      ggplot(aes(time, value)) +
-      geom_line(linewidth = 0.8, color = "#30123BFF") +
-      scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
-      labs(x=NULL, y=NULL, title = paste0("Labor Share, Quarterly, ", input$country)) +
-        theme(
-          plot.title = element_text(size = 14),
-          axis.text = element_text(size = 12),
-          axis.title.y = element_text(size=12),
-          legend.text = element_text(size = 12),
-          legend.title = element_blank(),
-          legend.position = "bottom",
-          legend.margin = margin(t=-5)
-        )
-  })
-
   ## Relative Contributions, Quarterly ----
   output$rel_contr <- renderPlot({
     data |>
@@ -196,6 +174,52 @@ server <- function(input, output, session) {
           legend.position = "bottom",
           legend.margin = margin(t=-5)
         )
+  })
+
+  ## Labor Share ----
+  output$ls <- renderPlot({
+    data |>
+      filter(reference_area == input$country) |>
+      filter(time >= as.Date("2019-01-01")) |>
+      filter(series == "labor_share") |>
+      filter(!is.na(value)) |>
+      ggplot(aes(time, value)) +
+      geom_line(linewidth = 0.8, color = "#30123BFF") +
+      scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+      labs(x=NULL, y=NULL, title = paste0("Labor Share, Quarterly, ", input$country)) +
+        theme(
+          plot.title = element_text(size = 14),
+          axis.text = element_text(size = 12),
+          axis.title.y = element_text(size=12),
+          legend.text = element_text(size = 12),
+          legend.title = element_blank(),
+          legend.position = "bottom",
+          legend.margin = margin(t=-5)
+        )
+  })
+
+  ## Real incomes ----
+  output$real_inc <- renderPlot({
+    data_real_inc |>
+    filter(reference_area == input$country) |>
+    filter(series %in% c("real_labor_comp_def", "real_surplus_def")) |>
+    ggplot(aes(time, value, color = series)) +
+    geom_line(linewidth = 0.8) +
+    scale_color_manual(
+      values = c("real_labor_comp_def" = "#30123BFF", "real_surplus_def" = "#1AE4B6FF"),
+      labels = c("Real labor income", "Real profits")
+    ) +
+    scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+    labs(x=NULL, y=NULL, title = paste0("Real Incomes Indices (2019-Q1=100), Quarterly, ", input$country)) +
+    theme(
+      plot.title = element_text(size = 14),
+      axis.text = element_text(size = 12),
+      axis.title.y = element_text(size=12),
+      legend.text = element_text(size = 12),
+      legend.title = element_blank(),
+      legend.position = "bottom",
+      legend.margin = margin(t=-5)
+    )
   })
 
   ## Relative Contributions by Decade ----

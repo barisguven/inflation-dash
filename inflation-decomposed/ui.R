@@ -32,9 +32,10 @@ ui <- page_navbar(
       navset_card_tab(
         title = "Pandemic",
         full_screen = TRUE,
-        nav_panel(title = "Contributions", plotOutput("pandemic")),
-        nav_panel(title = "Labor Share", plotOutput("ls_ps")),
-        nav_panel(title = "Relative Contr.", plotOutput("rel_contr"))  
+        nav_panel(title = "Contr.", plotOutput("pandemic")),
+        nav_panel(title = "Relative Contr.", plotOutput("rel_contr")),
+        nav_panel(title = "Labor Share", plotOutput("ls")),
+        nav_panel(title = "Real Incomes", plotOutput("real_inc"))  
       ),
       navset_card_tab(
         title = "Decadal",
