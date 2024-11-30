@@ -1,8 +1,12 @@
 from shiny.express import input, ui, render
 from shiny import reactive
-import plotly.express as px
-import pandas as pd
 from shinywidgets import render_plotly
+
+import pandas as pd
+
+import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Main data
 data = pd.read_csv('inflation-decomposed/data/merged_data.csv')
@@ -50,7 +54,7 @@ with ui.sidebar():
 
   @render.ui
   def note():
-    notes = " ".join(['Notes: Data are availabe for', input.country(), 'from', time_range()[0], 'to', time_range()[1]])
+    notes = " ".join(['Notes: Data are availabe for', input.country(), 'from', time_range()[0], 'through', time_range()[1]])
     notes = "".join([notes, '.']) 
 
     if input.country() in ["United States", "Canada", "Japan", "Israel"]:
@@ -134,7 +138,7 @@ with ui.nav_panel("Contributions of Unit Incomes to Annual Inflation"):
 
           return fig
     # Deflator vs. CPI Inflation 
-    with ui.navset_card_tab(id='tab', title=None):
+    with ui.navset_card_tab(title=None):
       with ui.nav_panel("Deflator vs. CPI"):
         @render_plotly
         def plot_inf():
@@ -195,8 +199,43 @@ with ui.nav_panel("Contributions of Unit Incomes to Annual Inflation"):
           return fig
 
       # Decadal Contributions
-      with ui.card():
-        "Decadal contributions here"
+      with ui.navset_card_tab(title=None):
+        with ui.nav_panel(title="Decadal Contributions"):
+          @render.plot
+          def plot_dec():
+            df = data_avg[(data_avg['reference_area']==input.country()) & (data_avg['var']=='mean') & (data_avg['series'].isin(income_comps))].dropna()
+
+            cond_list = [(df['series']=='contr_unit_labor_cost', 'Unit labor costs'), (df['series']=='contr_unit_profit', 'Unit profits'), (df['series']=='contr_unit_tax', 'Unit taxes')]
+
+            df['series'] = df['series'].case_when(cond_list)
+
+            sns.set_theme()
+            ax = sns.barplot(df, x='decade', y='value', hue='series', edgecolor="0.9")
+
+            ax.set_title("".join(['Decadal Contributions (%), ', input.country()]), fontdict={'fontsize': 10})
+            ax.set_xlabel(None)
+            ax.set_ylabel(None)
+            ax.tick_params(axis='both', labelsize=9)
+            ax.margins(x=0)
+            ax.legend(title=None, ncols=1, facecolor=None, framealpha=0, fontsize=10)
+
+            return ax
+
+        with ui.nav_panel(title="Relative"):
+          @render.plot
+          def plot_dec_rel():
+            df = data_avg[(data_avg['reference_area']==input.country()) & (data_avg['var']=='mean') & (data_avg['series']=='contr_relative')].dropna()
+
+            sns.set_theme(style='darkgrid')
+            ax = sns.barplot(df, x='decade', y='value', hue='series', edgecolor="0.9", legend=False)
+
+            ax.set_title("".join(['Contribution of Unit Labor Costs to That of Unit Profits, ', input.country()]), fontdict={'fontsize': 10})
+            ax.set_xlabel(None)
+            ax.set_ylabel(None)
+            ax.margins(x=0)
+            ax.tick_params(axis='both', labelsize=9)
+
+            return ax
 
 # Tables Tab
 with ui.nav_panel("Tables"):
