@@ -199,44 +199,109 @@ with ui.nav_panel("Contributions of Unit Incomes to Annual Inflation"):
           return fig
 
       # Decadal Contributions
-      with ui.navset_card_tab(title=None):
-        with ui.nav_panel(title="Decadal Contributions"):
-          @render.plot
-          def plot_dec():
-            df = data_avg[(data_avg['reference_area']==input.country()) & (data_avg['var']=='mean') & (data_avg['series'].isin(income_comps))].dropna()
+      with ui.card(full_screen=True):
+        @render.plot
+        def plot_dec():
+          df = data_avg[(data_avg['reference_area']==input.country()) & (data_avg['var']=='mean') & (data_avg['series'].isin(income_comps))].dropna()
 
-            cond_list = [(df['series']=='contr_unit_labor_cost', 'Unit labor costs'), (df['series']=='contr_unit_profit', 'Unit profits'), (df['series']=='contr_unit_tax', 'Unit taxes')]
+          cond_list = [(df['series']=='contr_unit_labor_cost', 'Unit labor costs'), (df['series']=='contr_unit_profit', 'Unit profits'), (df['series']=='contr_unit_tax', 'Unit taxes')]
 
-            df['series'] = df['series'].case_when(cond_list)
+          df['series'] = df['series'].case_when(cond_list)
 
-            sns.set_theme()
-            ax = sns.barplot(df, x='decade', y='value', hue='series', edgecolor="0.9")
+          sns.set_theme()
+          ax = sns.barplot(df, x='decade', y='value', hue='series', edgecolor="0.9")
 
-            ax.set_title("".join(['Decadal Contributions (%), ', input.country()]), fontdict={'fontsize': 10})
-            ax.set_xlabel(None)
-            ax.set_ylabel(None)
-            ax.tick_params(axis='both', labelsize=9)
-            ax.margins(x=0)
-            ax.legend(title=None, ncols=1, facecolor=None, framealpha=0, fontsize=10)
+          ax.set_title("".join(['Decadal Contributions (%), ', input.country()]), fontdict={'fontsize': 10})
+          ax.set_xlabel(None)
+          ax.set_ylabel(None)
+          ax.tick_params(axis='both', labelsize=9)
+          ax.margins(x=0)
+          ax.legend(title=None, ncols=1, facecolor=None, framealpha=0, fontsize=10)
 
-            return ax
+          return ax
 
-        with ui.nav_panel(title="Relative"):
-          @render.plot
-          def plot_dec_rel():
-            df = data_avg[(data_avg['reference_area']==input.country()) & (data_avg['var']=='mean') & (data_avg['series']=='contr_relative')].dropna()
+        # with ui.nav_panel(title="Relative"):
+        #   @render.plot
+        #   def plot_dec_rel():
+        #     df = data_avg[(data_avg['reference_area']==input.country()) & (data_avg['var']=='mean') & (data_avg['series']=='contr_relative')].dropna()
 
-            sns.set_theme(style='darkgrid')
-            ax = sns.barplot(df, x='decade', y='value', hue='series', edgecolor="0.9", legend=False)
+        #     sns.set_theme(style='darkgrid')
+        #     ax = sns.barplot(df, x='decade', y='value', hue='series', edgecolor="0.9", legend=False)
 
-            ax.set_title("".join(['Contribution of Unit Labor Costs to That of Unit Profits, ', input.country()]), fontdict={'fontsize': 10})
-            ax.set_xlabel(None)
-            ax.set_ylabel(None)
-            ax.margins(x=0)
-            ax.tick_params(axis='both', labelsize=9)
+        #     ax.set_title("".join(['Contribution of Unit Labor Costs to That of Unit Profits, ', input.country()]), fontdict={'fontsize': 10})
+        #     ax.set_xlabel(None)
+        #     ax.set_ylabel(None)
+        #     ax.margins(x=0)
+        #     ax.tick_params(axis='both', labelsize=9)
 
-            return ax
+        #     return ax
+
+@reactive.calc
+def prep_quart_table():
+  with reactive.isolate():
+    series = ['inflation_def', 'inflation_cpi'] + income_comps
+
+  df = data[(data['reference_area']==input.country()) & (data['series'].isin(series))]
+  df = df.pivot(index=['reference_area', 'time'], columns='series', values='value').reset_index()
+
+  with reactive.isolate():
+    col_names = {
+    'reference_area': 'Country',
+    'time': 'Date', 
+    'contr_unit_labor_cost': 'Unit labor costs', 
+    'contr_unit_profit': 'Unit profits', 
+    'contr_unit_tax': 'Unit taxes',
+    'inflation_def': 'Deflator' ,
+    'inflation_cpi': 'CPI'
+    }
+
+  df.rename(columns=col_names, inplace=True)
+  df = df.loc[:, ['Country', 'Date', 'Unit labor costs', 'Unit profits', 'Unit taxes', 'Deflator', 'CPI']]
+
+  return df.sort_values(by='Date', ascending=False)
+
+@reactive.calc
+def prep_dec_table():
+  df = data_avg[(data_avg['reference_area']==input.country()) & (data_avg['var']=='mean') & (data_avg['series'].isin(income_comps))]
+
+  df = df.pivot(index=['reference_area', 'decade'], columns='series', values='value').reset_index()
+
+  with reactive.isolate():
+    col_names = {
+      'reference_area': 'Country',
+      'decade': 'Decade', 
+      'contr_unit_labor_cost': 'Unit labor costs', 
+      'contr_unit_profit': 'Unit profits', 
+      'contr_unit_tax': 'Unit taxes'
+      }
+
+  return df.rename(columns=col_names)
 
 # Tables Tab
 with ui.nav_panel("Tables"):
-  "Tables will appear here."
+  #with ui.layout_columns():
+  with ui.card(max_height='400px'):
+    ui.h6('Contributions of Unit Incomes to Annual Deflator Inflation')
+    @render.table
+    def result():
+      return prep_quart_table().style.hide(axis='index').format(
+        {
+          'Unit labor costs': '{0:0.2f}',
+          'Unit profits': '{0:0.2f}',
+          'Unit taxes': '{0:0.2f}',
+          'Deflator': '{0:0.2f}',
+          'CPI': '{0:0.2f}',
+        }
+      )
+
+  with ui.card():
+    ui.h6('Decadal Contributions of Unit Incomes to Annual Deflator Inflation')
+    @render.table
+    def result2():
+      return prep_dec_table().style.hide(axis='index').format(
+        {
+          'Unit labor costs': '{0:0.2f}',
+          'Unit profits': '{0:0.2f}',
+          'Unit taxes': '{0:0.2f}', 
+        }
+      )
