@@ -38,12 +38,7 @@ ui <- page_navbar(
     ),
     layout_column_wrap(
       card(plotOutput("decomp"), full_screen = TRUE),
-      navset_card_tab(
-        title = NULL,
-        full_screen = TRUE,
-        nav_panel(title = "Decadal Contributions", plotOutput("decadal_avg")),
-        nav_panel("Relative Contributions", plotOutput("decadal_rel_contr"))
-      )
+      card(plotOutput("decadal_avg"), full_screen = TRUE)
     )
   ),
 
