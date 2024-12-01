@@ -31,5 +31,5 @@ theme_update(
   legend.text = element_text(size = 12),
   legend.title = element_blank(),
   legend.position = 'bottom',
-  legend.margin = margin(t=-10)
+  legend.margin = margin(t=-5)
 )
