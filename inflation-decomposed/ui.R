@@ -17,7 +17,8 @@ ui <- page_navbar(
     uiOutput("country_note")
   ),
   nav_panel(
-    title = "Contributions of Unit Components to Annual Inflation",
+    title = "Contributions of Unit Incomes to Annual Inflation",
+    icon = icon("chart-simple"),
     layout_column_wrap(
       navset_card_tab(
         title = NULL,
