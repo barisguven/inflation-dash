@@ -19,28 +19,28 @@ ui <- page_navbar(
   nav_panel(
     title = "Contributions of Unit Components to Annual Inflation",
     layout_column_wrap(
-      card(plotOutput("decomp"), full_screen = TRUE),
       navset_card_tab(
-        title = "Deflator vs. CPI",
+        title = NULL,
         full_screen = TRUE,
-        nav_panel(title = "Whole Period", plotOutput("def_vs_cpi")),
-        nav_panel(title = "Pandemic", plotOutput("def_vs_cpi_pand"))
-      )
-      #card(plotOutput("def_vs_cpi"), full_screen = TRUE)
-    ),
-    layout_column_wrap(
-      navset_card_tab(
-        title = "Pandemic",
-        full_screen = TRUE,
-        nav_panel(title = "Contr.", plotOutput("pandemic")),
-        nav_panel(title = "Relative Contr.", plotOutput("rel_contr")),
+        nav_panel(title = "Pandemic Contributions", plotOutput("pandemic")),
+        nav_panel(title = "Relative", plotOutput("rel_contr")),
         nav_panel(title = "Labor Share", plotOutput("ls")),
         nav_panel(title = "Real Incomes", plotOutput("real_inc"))  
       ),
       navset_card_tab(
-        title = "Decadal",
+        title = NULL,
         full_screen = TRUE,
-        nav_panel(title = "Contributions", plotOutput("decadal_avg")),
+        nav_panel(title = "Deflator vs. CPI", plotOutput("def_vs_cpi")),
+        nav_panel(title = "Pandemic Only", plotOutput("def_vs_cpi_pand"))
+      )
+      #card(plotOutput("def_vs_cpi"), full_screen = TRUE)
+    ),
+    layout_column_wrap(
+      card(plotOutput("decomp"), full_screen = TRUE),
+      navset_card_tab(
+        title = NULL,
+        full_screen = TRUE,
+        nav_panel(title = "Decadal Contributions", plotOutput("decadal_avg")),
         nav_panel("Relative Contributions", plotOutput("decadal_rel_contr"))
       )
     )

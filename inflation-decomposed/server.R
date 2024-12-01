@@ -265,7 +265,7 @@ server <- function(input, output, session) {
     data_quarterly() |>
       gt() |>
       tab_header(
-        title = "Contributions of Unit Income Components to Annual Deflator Inflation"
+        title = "Contributions of Unit Incomes to Annual Deflator Inflation"
       ) |>
       fmt_number(columns = 3:7, decimals = 2) |>
       fmt_date(columns = Quarter, date_style = "year_quarter") |>
@@ -304,7 +304,7 @@ server <- function(input, output, session) {
     data_decadal() |>
       gt() |>
       tab_header(
-        title = "Decadal Contributions of Unit Income Components to Annual Deflator Inflation"
+        title = "Decadal Contributions of Unit Incomes to Annual Deflator Inflation"
       ) |>
       fmt_number(columns = 3:5, decimals = 2) |>
       sub_missing(columns = 3:5, missing_text = "---") |>
@@ -333,7 +333,7 @@ server <- function(input, output, session) {
   ## Country notes ----
   output$country_note <- renderUI({
 
-    notes = paste0("Notes: Data are available for ", input$country, " from ", time_range()[1], " to ", time_range()[2], ".")
+    notes = paste0("Notes: Data are available for ", input$country, " from ", time_range()[1], " through ", time_range()[2], ".")
     
     if (input$country %in% c("United States", "Canada", "Japan", "Israel")) {
       country_note = country_notes |>
