@@ -176,7 +176,7 @@ server <- function(input, output, session) {
       labs(x=NULL, y=NULL) +
       geom_line(
         data = filter(data, reference_area == input$country, series == "inflation_def", !is.na(value)), 
-        aes(time, value, color = "inflation_def"), linewidth=0.6) +
+        aes(time, value, color = "inflation_def"), linewidth=0.7) +
       scale_fill_manual(
         values = c(
           "contr_unit_labor_cost" = "#30123BFF", 
