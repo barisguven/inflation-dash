@@ -12,16 +12,23 @@ data |>
     distinct(reference_area) |>
     write_lines(file="country_list.txt")
 
-country_groups = c("Euro area (20 countries)", "European Union (27 countries from 01/02/2020)")
+country_groups = c(
+    "Euro area (20 countries)", 
+    "European Union (27 countries from 01/02/2020)"
+)
 
 # Decomposition analysis ----
-## Annual inflation
+## Annual percentage change in key variables ----
 data <- data |>
     group_by(reference_area) |>
     arrange(time, .by_group = TRUE) |>
     mutate(
-        inflation_def = 100*(deflator_index/lag(deflator_index, n = 4) - 1),
-        inflation_cpi = 100*(cpi/lag(cpi, n = 4) - 1)
+        inflation_def = 100*(deflator_index/lag(deflator_index, 4) - 1),
+        inflation_cpi = 100*(cpi/lag(cpi, 4) - 1),
+        pc_lab_comp = 100*(lab_comp/lag(lab_comp, 4) - 1),
+        pc_profits = 100*(profits/lag(profits, 4) - 1),
+        pc_taxes = 100*(taxes/lag(taxes, 4) - 1),
+        pc_rgdp = 100*(rgdp_index/lag(rgdp_index, 4) - 1)
     ) |>
     ungroup()
 
@@ -46,9 +53,9 @@ data |>
 ## Unit labor cost, unit profit, and unit taxes (income components per product)
 data = data |>
     mutate(
-        unit_labor_cost = labor_compensation/chain_linked_volume_index,
-        unit_profit = operating_surplus_mixed_income/chain_linked_volume_index,
-        unit_tax = taxes_minus_subsidies/chain_linked_volume_index
+        unit_labor_cost = lab_comp/rgdp_index,
+        unit_profit = profits/rgdp_index,
+        unit_tax = taxes/rgdp_index
     )
 
 data = data |>
@@ -63,12 +70,11 @@ data = data |>
 
 ## Income shares
 data = data |>
-    mutate(labor_share = labor_compensation/gdp,
-           profit_share = operating_surplus_mixed_income/gdp,
-           tax_share = taxes_minus_subsidies/gdp,
-           ls_to_ps = labor_share/profit_share)
+    mutate(labor_share = lab_comp/gdp,
+           profit_share = profits/gdp,
+           tax_share = taxes/gdp)
 
-## Contribution to Inflation of Unit Costs
+## Contribution of Unit Costs to Inflation ----
 data = data |>
     mutate(contr_unit_labor_cost = delta_unit_labor_cost*labor_share,
            contr_unit_profit = delta_unit_profit*profit_share,
@@ -88,12 +94,12 @@ data |>
 ## Real total wages and total gross surplus
 data <- data |>
     mutate(
-        real_labor_comp_def = labor_compensation/deflator_index,
-        real_labor_comp_cpi = labor_compensation/cpi,
-        real_surplus_def = operating_surplus_mixed_income/deflator_index,
-        real_surplus_cpi = operating_surplus_mixed_income/cpi,
-        real_taxes_def = taxes_minus_subsidies/deflator_index, 
-        real_taxes_cpi = taxes_minus_subsidies/cpi
+        real_labor_comp_def = lab_comp/deflator_index,
+        real_labor_comp_cpi = lab_comp/cpi,
+        real_surplus_def = profits/deflator_index,
+        real_surplus_cpi = profits/cpi,
+        real_taxes_def = taxes/deflator_index, 
+        real_taxes_cpi = taxes/cpi
     )
 
 data_real_incomes = data |>
@@ -112,9 +118,13 @@ data_real_incomes |>
 
 ## Make data long
 data_long = data |>
-    select(c(reference_area, ref_area, time, inflation_def, inflation_cpi,
-        starts_with("contr_"), labor_share, ls_to_ps)) |>
-    pivot_longer(cols = 4:12, names_to = "series", values_to = "value")
+    select(c(
+        reference_area, ref_area, time, lab_comp, profits, taxes, gdp, rgdp_index, inflation_def, inflation_cpi,labor_share,
+        starts_with("contr_"), starts_with("pc_")
+    )) |>
+    pivot_longer(cols = 4:20, names_to = "series", values_to = "value")
+
+unique(data_long$series)
 
 income_comps = c("contr_unit_labor_cost", "contr_unit_profit", "contr_unit_tax")
 
@@ -138,7 +148,8 @@ data_long |>
     ) +
     geom_line(
         data = filter(data_long, ref_area == ref_area_examp, series == "inflation_cpi"),
-        aes(time, value), color = "blue"
+        aes(time, value),
+        color = "blue"
     )
 
 # Excluding Bulgaria, Croatia, Ireland

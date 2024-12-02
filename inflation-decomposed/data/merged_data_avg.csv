@@ -79,6 +79,22 @@ Australia,AUS,contr_unit_tax,2010-19,mean,0.2226237418551221
 Australia,AUS,contr_unit_tax,2010-19,sd,0.24680841706363885
 Australia,AUS,contr_unit_tax,2020-,mean,-7.587972743347451
 Australia,AUS,contr_unit_tax,2020-,sd,24.8795278417244
+Australia,AUS,gdp,1950-59,mean,4030
+Australia,AUS,gdp,1950-59,sd,82.02438661763951
+Australia,AUS,gdp,1960-69,mean,5974.300000000001
+Australia,AUS,gdp,1960-69,sd,1437.479136080474
+Australia,AUS,gdp,1970-79,mean,18842.75
+Australia,AUS,gdp,1970-79,sd,7449.705692861726
+Australia,AUS,gdp,1980-89,mean,61899.350000000006
+Australia,AUS,gdp,1980-89,sd,19448.35795131723
+Australia,AUS,gdp,1990-99,mean,126818.125
+Australia,AUS,gdp,1990-99,sd,19438.20342308691
+Australia,AUS,gdp,2000-09,mean,239051.25
+Australia,AUS,gdp,2000-09,sd,49899.42966672167
+Australia,AUS,gdp,2010-19,mean,414207.975
+Australia,AUS,gdp,2010-19,sd,47485.47411279905
+Australia,AUS,gdp,2020-,mean,590621.1666666666
+Australia,AUS,gdp,2020-,sd,68706.17881645598
 Australia,AUS,inflation_cpi,1950-59,mean,NA
 Australia,AUS,inflation_cpi,1950-59,sd,NA
 Australia,AUS,inflation_cpi,1960-69,mean,2.4743062370088253
@@ -111,6 +127,22 @@ Australia,AUS,inflation_def,2010-19,mean,2.0488790650277484
 Australia,AUS,inflation_def,2010-19,sd,2.441423605462009
 Australia,AUS,inflation_def,2020-,mean,4.482930893732236
 Australia,AUS,inflation_def,2020-,sd,2.921645588046009
+Australia,AUS,lab_comp,1950-59,mean,1874.5
+Australia,AUS,lab_comp,1950-59,sd,27.577164466275352
+Australia,AUS,lab_comp,1960-69,mean,2915.8000000000006
+Australia,AUS,lab_comp,1960-69,sd,739.3647724003806
+Australia,AUS,lab_comp,1970-79,mean,10207.299999999997
+Australia,AUS,lab_comp,1970-79,sd,4120.707452330523
+Australia,AUS,lab_comp,1980-89,mean,31431.625
+Australia,AUS,lab_comp,1980-89,sd,8753.008322966629
+Australia,AUS,lab_comp,1990-99,mean,62537.975
+Australia,AUS,lab_comp,1990-99,sd,9561.880716967391
+Australia,AUS,lab_comp,2000-09,mean,114452.875
+Australia,AUS,lab_comp,2000-09,sd,22775.68644374905
+Australia,AUS,lab_comp,2010-19,mean,197461.05
+Australia,AUS,lab_comp,2010-19,sd,22385.715172678934
+Australia,AUS,lab_comp,2020-,mean,277261.1111111111
+Australia,AUS,lab_comp,2020-,sd,28972.670450715304
 Australia,AUS,labor_share,1950-59,mean,0.46516318732103196
 Australia,AUS,labor_share,1950-59,sd,0.0026247048761385843
 Australia,AUS,labor_share,1960-69,mean,0.48657593777059865
@@ -127,22 +159,118 @@ Australia,AUS,labor_share,2010-19,mean,0.47677787654953685
 Australia,AUS,labor_share,2010-19,sd,0.0068781639170935535
 Australia,AUS,labor_share,2020-,mean,0.470351870390881
 Australia,AUS,labor_share,2020-,sd,0.014707329550578895
-Australia,AUS,ls_to_ps,1950-59,mean,0.9902031099997767
-Australia,AUS,ls_to_ps,1950-59,sd,0.0049511367071427064
-Australia,AUS,ls_to_ps,1960-69,mean,1.1050926142988906
-Australia,AUS,ls_to_ps,1960-69,sd,0.05476058010422313
-Australia,AUS,ls_to_ps,1970-79,mean,1.4112784396026947
-Australia,AUS,ls_to_ps,1970-79,sd,0.16437790204505748
-Australia,AUS,ls_to_ps,1980-89,mean,1.321804360776424
-Australia,AUS,ls_to_ps,1980-89,sd,0.11974762832485843
-Australia,AUS,ls_to_ps,1990-99,mean,1.2258633256068487
-Australia,AUS,ls_to_ps,1990-99,sd,0.03356116527183608
-Australia,AUS,ls_to_ps,2000-09,mean,1.1663514184851205
-Australia,AUS,ls_to_ps,2000-09,sd,0.04682047285560471
-Australia,AUS,ls_to_ps,2010-19,mean,1.1258180334440964
-Australia,AUS,ls_to_ps,2010-19,sd,0.039910978391186694
-Australia,AUS,ls_to_ps,2020-,mean,1.04437699480785
-Australia,AUS,ls_to_ps,2020-,sd,0.04912074506145254
+Australia,AUS,pc_lab_comp,1950-59,mean,NA
+Australia,AUS,pc_lab_comp,1950-59,sd,NA
+Australia,AUS,pc_lab_comp,1960-69,mean,8.728152234756733
+Australia,AUS,pc_lab_comp,1960-69,sd,3.1301912690280114
+Australia,AUS,pc_lab_comp,1970-79,mean,14.69068410232753
+Australia,AUS,pc_lab_comp,1970-79,sd,6.5567009173636
+Australia,AUS,pc_lab_comp,1980-89,mean,11.13489108520736
+Australia,AUS,pc_lab_comp,1980-89,sd,3.937585811263008
+Australia,AUS,pc_lab_comp,1990-99,mean,5.252363945585728
+Australia,AUS,pc_lab_comp,1990-99,sd,2.6723560995817985
+Australia,AUS,pc_lab_comp,2000-09,mean,6.594755223769448
+Australia,AUS,pc_lab_comp,2000-09,sd,2.1591916773071995
+Australia,AUS,pc_lab_comp,2010-19,mean,4.74549003830346
+Australia,AUS,pc_lab_comp,2010-19,sd,2.0711631982120817
+Australia,AUS,pc_lab_comp,2020-,mean,6.787756599216971
+Australia,AUS,pc_lab_comp,2020-,sd,2.8544760748557163
+Australia,AUS,pc_profits,1950-59,mean,NA
+Australia,AUS,pc_profits,1950-59,sd,NA
+Australia,AUS,pc_profits,1960-69,mean,7.449123686278379
+Australia,AUS,pc_profits,1960-69,sd,5.900122404381025
+Australia,AUS,pc_profits,1970-79,mean,12.784965933311435
+Australia,AUS,pc_profits,1970-79,sd,7.037922411043397
+Australia,AUS,pc_profits,1980-89,mean,12.831260091116313
+Australia,AUS,pc_profits,1980-89,sd,5.786241584745436
+Australia,AUS,pc_profits,1990-99,mean,4.666301208336683
+Australia,AUS,pc_profits,1990-99,sd,3.318222763232289
+Australia,AUS,pc_profits,2000-09,mean,8.093557513753227
+Australia,AUS,pc_profits,2000-09,sd,4.167552634557984
+Australia,AUS,pc_profits,2010-19,mean,4.659582927221459
+Australia,AUS,pc_profits,2010-19,sd,4.589051984041362
+Australia,AUS,pc_profits,2020-,mean,6.9919665280613845
+Australia,AUS,pc_profits,2020-,sd,6.594020982654353
+Australia,AUS,pc_rgdp,1950-59,mean,NA
+Australia,AUS,pc_rgdp,1950-59,sd,NA
+Australia,AUS,pc_rgdp,1960-69,mean,5.000554119434168
+Australia,AUS,pc_rgdp,1960-69,sd,2.764211559486612
+Australia,AUS,pc_rgdp,1970-79,mean,3.3091704522453216
+Australia,AUS,pc_rgdp,1970-79,sd,2.2441064181983124
+Australia,AUS,pc_rgdp,1980-89,mean,3.4238047344665756
+Australia,AUS,pc_rgdp,1980-89,sd,2.611884767956642
+Australia,AUS,pc_rgdp,1990-99,mean,3.266829492356952
+Australia,AUS,pc_rgdp,1990-99,sd,1.95213545147877
+Australia,AUS,pc_rgdp,2000-09,mean,3.157175728273251
+Australia,AUS,pc_rgdp,2000-09,sd,1.0413872613585304
+Australia,AUS,pc_rgdp,2010-19,mean,2.5969980661489984
+Australia,AUS,pc_rgdp,2010-19,sd,0.642244410106243
+Australia,AUS,pc_rgdp,2020-,mean,2.2007519061782985
+Australia,AUS,pc_rgdp,2020-,sd,3.463798580743082
+Australia,AUS,pc_taxes,1950-59,mean,NA
+Australia,AUS,pc_taxes,1950-59,sd,NA
+Australia,AUS,pc_taxes,1960-69,mean,7.336343585252933
+Australia,AUS,pc_taxes,1960-69,sd,6.248996931390129
+Australia,AUS,pc_taxes,1970-79,mean,15.850002734560396
+Australia,AUS,pc_taxes,1970-79,sd,8.95477775112146
+Australia,AUS,pc_taxes,1980-89,mean,13.397379954403712
+Australia,AUS,pc_taxes,1980-89,sd,5.39818822979185
+Australia,AUS,pc_taxes,1990-99,mean,5.4479989566839855
+Australia,AUS,pc_taxes,1990-99,sd,4.123331504759601
+Australia,AUS,pc_taxes,2000-09,mean,6.107124585269262
+Australia,AUS,pc_taxes,2000-09,sd,4.944617476858342
+Australia,AUS,pc_taxes,2010-19,mean,4.857039717034271
+Australia,AUS,pc_taxes,2010-19,sd,2.436277714360118
+Australia,AUS,pc_taxes,2020-,mean,-114.26663846294775
+Australia,AUS,pc_taxes,2020-,sd,331.01962941818226
+Australia,AUS,profits,1950-59,mean,1893
+Australia,AUS,profits,1950-59,sd,18.384776310850235
+Australia,AUS,profits,1960-69,mean,2622.375
+Australia,AUS,profits,1960-69,sd,583.0512000871595
+Australia,AUS,profits,1970-79,mean,7115.875
+Australia,AUS,profits,1970-79,sd,2630.6613693869103
+Australia,AUS,profits,1980-89,mean,24408.900000000005
+Australia,AUS,profits,1980-89,sd,8667.723090840362
+Australia,AUS,profits,1990-99,mean,51007.475
+Australia,AUS,profits,1990-99,sd,7543.251016424872
+Australia,AUS,profits,2000-09,mean,98926.07499999998
+Australia,AUS,profits,2000-09,sd,23233.581041670517
+Australia,AUS,profits,2010-19,mean,175483.725
+Australia,AUS,profits,2010-19,sd,20179.90859422197
+Australia,AUS,profits,2020-,mean,265532.3888888889
+Australia,AUS,profits,2020-,sd,24847.600310549315
+Australia,AUS,rgdp_index,1950-59,mean,NA
+Australia,AUS,rgdp_index,1950-59,sd,NA
+Australia,AUS,rgdp_index,1960-69,mean,18.68425913785
+Australia,AUS,rgdp_index,1960-69,sd,2.8000119070197096
+Australia,AUS,rgdp_index,1970-79,mean,28.763968505625
+Australia,AUS,rgdp_index,1970-79,sd,2.3176466953777255
+Australia,AUS,rgdp_index,1980-89,mean,38.4026246688
+Australia,AUS,rgdp_index,1980-89,sd,3.9746348163616423
+Australia,AUS,rgdp_index,1990-99,mean,52.503163148925
+Australia,AUS,rgdp_index,1990-99,sd,5.754218011816892
+Australia,AUS,rgdp_index,2000-09,mean,74.9028858644
+Australia,AUS,rgdp_index,2000-09,sd,7.03528023055139
+Australia,AUS,rgdp_index,2010-19,mean,98.9621147116
+Australia,AUS,rgdp_index,2010-19,sd,7.436583627085051
+Australia,AUS,rgdp_index,2020-,mean,115.80469891755556
+Australia,AUS,rgdp_index,2020-,sd,5.400549157227952
+Australia,AUS,taxes,1950-59,mean,355.5
+Australia,AUS,taxes,1950-59,sd,12.020815280171307
+Australia,AUS,taxes,1960-69,mean,494.5249999999999
+Australia,AUS,taxes,1960-69,sd,111.75224141617231
+Australia,AUS,taxes,1970-79,mean,1668.5749999999996
+Australia,AUS,taxes,1970-79,sd,756.5072537656199
+Australia,AUS,taxes,1980-89,mean,6504.299999999999
+Australia,AUS,taxes,1980-89,sd,2226.594688687707
+Australia,AUS,taxes,1990-99,mean,13355.125
+Australia,AUS,taxes,1990-99,sd,2413.1208667009805
+Australia,AUS,taxes,2000-09,mean,25727.4
+Australia,AUS,taxes,2000-09,sd,4128.872372290849
+Australia,AUS,taxes,2010-19,mean,41359.725
+Australia,AUS,taxes,2010-19,sd,5623.08059098323
+Australia,AUS,taxes,2020-,mean,48205.11111111111
+Australia,AUS,taxes,2020-,sd,21504.15620809666
 Austria,AUT,contr_relative,1990-99,mean,-3.5607354347110376
 Austria,AUT,contr_relative,1990-99,sd,12.529351840943155
 Austria,AUT,contr_relative,2000-09,mean,0.3324035811601418
@@ -183,6 +311,14 @@ Austria,AUT,contr_unit_tax,2010-19,mean,0.19265419573154885
 Austria,AUT,contr_unit_tax,2010-19,sd,0.27047274472640537
 Austria,AUT,contr_unit_tax,2020-,mean,1.2471214426519575
 Austria,AUT,contr_unit_tax,2020-,sd,2.942047157528063
+Austria,AUT,gdp,1990-99,mean,47155.065
+Austria,AUT,gdp,1990-99,sd,2489.2717073314943
+Austria,AUT,gdp,2000-09,mean,62670.445
+Austria,AUT,gdp,2000-09,sd,7085.965055963325
+Austria,AUT,gdp,2010-19,mean,85339.69
+Austria,AUT,gdp,2010-19,sd,8104.351574966788
+Austria,AUT,gdp,2020-,mean,108870.04736842104
+Austria,AUT,gdp,2020-,sd,10628.098137869594
 Austria,AUT,inflation_cpi,1990-99,mean,1.1654569718100167
 Austria,AUT,inflation_cpi,1990-99,sd,0.6098613795831171
 Austria,AUT,inflation_cpi,2000-09,mean,1.9862365572344254
@@ -199,6 +335,14 @@ Austria,AUT,inflation_def,2010-19,mean,1.6747558497762969
 Austria,AUT,inflation_def,2010-19,sd,0.7839724297822395
 Austria,AUT,inflation_def,2020-,mean,3.750672697704811
 Austria,AUT,inflation_def,2020-,sd,2.16374170620013
+Austria,AUT,lab_comp,1990-99,mean,23575.465
+Austria,AUT,lab_comp,1990-99,sd,934.7961631314406
+Austria,AUT,lab_comp,2000-09,mean,29483.6625
+Austria,AUT,lab_comp,2000-09,sd,2915.4639335867064
+Austria,AUT,lab_comp,2010-19,mean,40832.8875
+Austria,AUT,lab_comp,2010-19,sd,4228.779776004221
+Austria,AUT,lab_comp,2020-,mean,54477.14736842105
+Austria,AUT,lab_comp,2020-,sd,5533.398637001035
 Austria,AUT,labor_share,1990-99,mean,0.5003130589641733
 Austria,AUT,labor_share,1990-99,sd,0.008309403960577237
 Austria,AUT,labor_share,2000-09,mean,0.47129961702271395
@@ -207,14 +351,62 @@ Austria,AUT,labor_share,2010-19,mean,0.478115254792085
 Austria,AUT,labor_share,2010-19,sd,0.005602744476678709
 Austria,AUT,labor_share,2020-,mean,0.5006106499220292
 Austria,AUT,labor_share,2020-,sd,0.017705972984218492
-Austria,AUT,ls_to_ps,1990-99,mean,1.33307421428546
-Austria,AUT,ls_to_ps,1990-99,sd,0.0395923690291606
-Austria,AUT,ls_to_ps,2000-09,mean,1.1683729606505
-Austria,AUT,ls_to_ps,2000-09,sd,0.06324148955703761
-Austria,AUT,ls_to_ps,2010-19,mean,1.214573538676223
-Austria,AUT,ls_to_ps,2010-19,sd,0.02872754435055673
-Austria,AUT,ls_to_ps,2020-,mean,1.2667798294979367
-Austria,AUT,ls_to_ps,2020-,sd,0.10052240894626059
+Austria,AUT,pc_lab_comp,1990-99,mean,2.5992486229634153
+Austria,AUT,pc_lab_comp,1990-99,sd,1.1813275241189904
+Austria,AUT,pc_lab_comp,2000-09,mean,3.145041239338208
+Austria,AUT,pc_lab_comp,2000-09,sd,1.614297561713437
+Austria,AUT,pc_lab_comp,2010-19,mean,3.5260326983092973
+Austria,AUT,pc_lab_comp,2010-19,sd,1.0377819491610423
+Austria,AUT,pc_lab_comp,2020-,mean,5.654350990647254
+Austria,AUT,pc_lab_comp,2020-,sd,3.6605006668353655
+Austria,AUT,pc_profits,1990-99,mean,4.236604836611564
+Austria,AUT,pc_profits,1990-99,sd,1.7339367258892107
+Austria,AUT,pc_profits,2000-09,mean,4.110548743835649
+Austria,AUT,pc_profits,2000-09,sd,4.45931259275735
+Austria,AUT,pc_profits,2010-19,mean,3.1256130935704918
+Austria,AUT,pc_profits,2010-19,sd,2.483393654895985
+Austria,AUT,pc_profits,2020-,mean,2.76716556809524
+Austria,AUT,pc_profits,2020-,sd,7.0985758730702
+Austria,AUT,pc_rgdp,1990-99,mean,2.8410802625595215
+Austria,AUT,pc_rgdp,1990-99,sd,0.9008155751810061
+Austria,AUT,pc_rgdp,2000-09,mean,1.7160148707760148
+Austria,AUT,pc_rgdp,2000-09,sd,2.2052159517393872
+Austria,AUT,pc_rgdp,2010-19,mean,1.6057497511533105
+Austria,AUT,pc_rgdp,2010-19,sd,1.1570486368209323
+Austria,AUT,pc_rgdp,2020-,mean,0.5657454755303458
+Austria,AUT,pc_rgdp,2020-,sd,6.144329002666912
+Austria,AUT,pc_taxes,1990-99,mean,6.042357990393725
+Austria,AUT,pc_taxes,1990-99,sd,3.1840223820169538
+Austria,AUT,pc_taxes,2000-09,mean,3.365800197652834
+Austria,AUT,pc_taxes,2000-09,sd,2.5816299616344094
+Austria,AUT,pc_taxes,2010-19,mean,3.0978524684851516
+Austria,AUT,pc_taxes,2010-19,sd,2.069855596000037
+Austria,AUT,pc_taxes,2020-,mean,11.26076314921995
+Austria,AUT,pc_taxes,2020-,sd,41.13870807344495
+Austria,AUT,profits,1990-99,mean,17713.32
+Austria,AUT,profits,1990-99,sd,1124.4603985912534
+Austria,AUT,profits,2000-09,mean,25385.975000000002
+Austria,AUT,profits,2000-09,sd,3477.5124155615335
+Austria,AUT,profits,2010-19,mean,33587.9625
+Austria,AUT,profits,2010-19,sd,3053.238338239607
+Austria,AUT,profits,2020-,mean,43027.33157894737
+Austria,AUT,profits,2020-,sd,3112.060627632193
+Austria,AUT,rgdp_index,1990-99,mean,73.94909175095
+Austria,AUT,rgdp_index,1990-99,sd,3.110924778697399
+Austria,AUT,rgdp_index,2000-09,mean,88.3077481921
+Austria,AUT,rgdp_index,2000-09,sd,5.315660619922761
+Austria,AUT,rgdp_index,2010-19,mean,100.924865204475
+Austria,AUT,rgdp_index,2010-19,sd,4.480353877100083
+Austria,AUT,rgdp_index,2020-,mean,108.73597732010526
+Austria,AUT,rgdp_index,2020-,sd,5.117572334652458
+Austria,AUT,taxes,1990-99,mean,5866.285
+Austria,AUT,taxes,1990-99,sd,482.74958886842313
+Austria,AUT,taxes,2000-09,mean,7800.8099999999995
+Austria,AUT,taxes,2000-09,sd,794.5746634488617
+Austria,AUT,taxes,2010-19,mean,10918.8425
+Austria,AUT,taxes,2010-19,sd,884.1872782500499
+Austria,AUT,taxes,2020-,mean,11365.589473684211
+Austria,AUT,taxes,2020-,sd,3047.4107198470306
 Belgium,BEL,contr_relative,1990-99,mean,-1.625603166408074
 Belgium,BEL,contr_relative,1990-99,sd,3.486388725484429
 Belgium,BEL,contr_relative,2000-09,mean,-0.34942375194093417
@@ -255,6 +447,14 @@ Belgium,BEL,contr_unit_tax,2010-19,mean,0.17275350138582493
 Belgium,BEL,contr_unit_tax,2010-19,sd,0.3795356461997354
 Belgium,BEL,contr_unit_tax,2020-,mean,0.22414931733847088
 Belgium,BEL,contr_unit_tax,2020-,sd,1.0765439662157608
+Belgium,BEL,gdp,1990-99,mean,56190.455
+Belgium,BEL,gdp,1990-99,sd,3087.081670526389
+Belgium,BEL,gdp,2000-09,mean,76256.81999999999
+Belgium,BEL,gdp,2000-09,sd,8668.753625202504
+Belgium,BEL,gdp,2010-19,mean,103896.1575
+Belgium,BEL,gdp,2010-19,sd,8965.670025439846
+Belgium,BEL,gdp,2020-,mean,135231.70555555556
+Belgium,BEL,gdp,2020-,sd,14393.20305358512
 Belgium,BEL,inflation_cpi,1990-99,mean,1.4442253878120122
 Belgium,BEL,inflation_cpi,1990-99,sd,0.5493125199255252
 Belgium,BEL,inflation_cpi,2000-09,mean,2.1193351442358557
@@ -271,6 +471,14 @@ Belgium,BEL,inflation_def,2010-19,mean,1.7027065561016175
 Belgium,BEL,inflation_def,2010-19,sd,0.5509412897483241
 Belgium,BEL,inflation_def,2020-,mean,3.681533206621912
 Belgium,BEL,inflation_def,2020-,sd,2.3045798786140317
+Belgium,BEL,lab_comp,1990-99,mean,28392.435
+Belgium,BEL,lab_comp,1990-99,sd,1547.3437859339545
+Belgium,BEL,lab_comp,2000-09,mean,38647.485
+Belgium,BEL,lab_comp,2000-09,sd,4362.630208213318
+Belgium,BEL,lab_comp,2010-19,mean,52245.2275
+Belgium,BEL,lab_comp,2010-19,sd,3658.844520280048
+Belgium,BEL,lab_comp,2020-,mean,66015.25555555556
+Belgium,BEL,lab_comp,2020-,sd,6706.831848041853
 Belgium,BEL,labor_share,1990-99,mean,0.5053169028493465
 Belgium,BEL,labor_share,1990-99,sd,0.003800906842827472
 Belgium,BEL,labor_share,2000-09,mean,0.5069901159626524
@@ -279,14 +487,62 @@ Belgium,BEL,labor_share,2010-19,mean,0.5035530161160319
 Belgium,BEL,labor_share,2010-19,sd,0.009538605520704239
 Belgium,BEL,labor_share,2020-,mean,0.48856351195050995
 Belgium,BEL,labor_share,2020-,sd,0.009661443055607335
-Belgium,BEL,ls_to_ps,1990-99,mean,1.319424985259244
-Belgium,BEL,ls_to_ps,1990-99,sd,0.023588010368759
-Belgium,BEL,ls_to_ps,2000-09,mean,1.3195743189370495
-Belgium,BEL,ls_to_ps,2000-09,sd,0.06383385057380764
-Belgium,BEL,ls_to_ps,2010-19,mean,1.26422879804824
-Belgium,BEL,ls_to_ps,2010-19,sd,0.05128490382804887
-Belgium,BEL,ls_to_ps,2020-,mean,1.1520757863740834
-Belgium,BEL,ls_to_ps,2020-,sd,0.04030681189271471
+Belgium,BEL,pc_lab_comp,1990-99,mean,3.663264611920733
+Belgium,BEL,pc_lab_comp,1990-99,sd,1.324806346823739
+Belgium,BEL,pc_lab_comp,2000-09,mean,3.957871514168259
+Belgium,BEL,pc_lab_comp,2000-09,sd,1.7417202887820187
+Belgium,BEL,pc_lab_comp,2010-19,mean,2.651551246182049
+Belgium,BEL,pc_lab_comp,2010-19,sd,1.235484111414731
+Belgium,BEL,pc_lab_comp,2020-,mean,5.512458108110499
+Belgium,BEL,pc_lab_comp,2020-,sd,4.928365774644231
+Belgium,BEL,pc_profits,1990-99,mean,2.8114972883982814
+Belgium,BEL,pc_profits,1990-99,sd,2.7481625986002785
+Belgium,BEL,pc_profits,2000-09,mean,3.901515443435239
+Belgium,BEL,pc_profits,2000-09,sd,4.556529918487512
+Belgium,BEL,pc_profits,2010-19,mean,4.100436115746995
+Belgium,BEL,pc_profits,2010-19,sd,2.2692895510685567
+Belgium,BEL,pc_profits,2020-,mean,5.935831662574367
+Belgium,BEL,pc_profits,2020-,sd,7.809572939219899
+Belgium,BEL,pc_rgdp,1990-99,mean,2.655328293695025
+Belgium,BEL,pc_rgdp,1990-99,sd,1.3358758597798837
+Belgium,BEL,pc_rgdp,2000-09,mean,1.8277989141344742
+Belgium,BEL,pc_rgdp,2000-09,sd,1.9501965350764823
+Belgium,BEL,pc_rgdp,2010-19,mean,1.539853992923456
+Belgium,BEL,pc_rgdp,2010-19,sd,0.847838071383222
+Belgium,BEL,pc_rgdp,2020-,mean,1.6793275811707216
+Belgium,BEL,pc_rgdp,2020-,sd,5.260019699715877
+Belgium,BEL,pc_taxes,1990-99,mean,6.075288841786949
+Belgium,BEL,pc_taxes,1990-99,sd,3.317172090767478
+Belgium,BEL,pc_taxes,2000-09,mean,2.0634265001691876
+Belgium,BEL,pc_taxes,2000-09,sd,3.896439300605554
+Belgium,BEL,pc_taxes,2010-19,mean,3.2650547075245635
+Belgium,BEL,pc_taxes,2010-19,sd,3.74840388097001
+Belgium,BEL,pc_taxes,2020-,mean,4.2932030400794945
+Belgium,BEL,pc_taxes,2020-,sd,17.988217064535522
+Belgium,BEL,profits,1990-99,mean,21515.255
+Belgium,BEL,profits,1990-99,sd,1027.107964639704
+Belgium,BEL,profits,2000-09,mean,29395.965
+Belgium,BEL,profits,2000-09,sd,3914.943857707286
+Belgium,BEL,profits,2010-19,mean,41481.5075
+Belgium,BEL,profits,2010-19,sd,4387.882091559604
+Belgium,BEL,profits,2020-,mean,57396.28888888889
+Belgium,BEL,profits,2020-,sd,6301.0416935137555
+Belgium,BEL,rgdp_index,1990-99,mean,72.70492142325
+Belgium,BEL,rgdp_index,1990-99,sd,2.932534103512039
+Belgium,BEL,rgdp_index,2000-09,mean,86.82895323935
+Belgium,BEL,rgdp_index,2000-09,sd,5.186730938183823
+Belgium,BEL,rgdp_index,2010-19,mean,99.843460265375
+Belgium,BEL,rgdp_index,2010-19,sd,3.9389736763272927
+Belgium,BEL,rgdp_index,2020-,mean,110.06617811211112
+Belgium,BEL,rgdp_index,2020-,sd,5.615998634934775
+Belgium,BEL,taxes,1990-99,mean,6282.765
+Belgium,BEL,taxes,1990-99,sd,555.431389741817
+Belgium,BEL,taxes,2000-09,mean,8213.38
+Belgium,BEL,taxes,2000-09,sd,577.2272947861647
+Belgium,BEL,taxes,2010-19,mean,10169.4275
+Belgium,BEL,taxes,2010-19,sd,1005.818496902666
+Belgium,BEL,taxes,2020-,mean,11820.166666666666
+Belgium,BEL,taxes,2020-,sd,1621.8605913108124
 Canada,CAN,contr_relative,1980-89,mean,0.5253371310728574
 Canada,CAN,contr_relative,1980-89,sd,9.421593643754084
 Canada,CAN,contr_relative,1990-99,mean,-1.7155618306670302
@@ -337,6 +593,16 @@ Canada,CAN,contr_unit_tax,2010-19,mean,0.19170506604660087
 Canada,CAN,contr_unit_tax,2010-19,sd,0.2098953253744076
 Canada,CAN,contr_unit_tax,2020-,mean,1.087500408882164
 Canada,CAN,contr_unit_tax,2020-,sd,2.909871305368734
+Canada,CAN,gdp,1980-89,mean,126091.8611111111
+Canada,CAN,gdp,1980-89,sd,25364.549836508635
+Canada,CAN,gdp,1990-99,mean,205039.375
+Canada,CAN,gdp,1990-99,sd,26120.732136917406
+Canada,CAN,gdp,2000-09,mean,343975.4
+Canada,CAN,gdp,2000-09,sd,47760.75824345488
+Canada,CAN,gdp,2010-19,mean,496757.8
+Canada,CAN,gdp,2010-19,sd,49340.14970989519
+Canada,CAN,gdp,2020-,mean,662948.8888888889
+Canada,CAN,gdp,2020-,sd,73582.08354011577
 Canada,CAN,inflation_cpi,1980-89,mean,5.3142864655921676
 Canada,CAN,inflation_cpi,1980-89,sd,2.2589385962319604
 Canada,CAN,inflation_cpi,1990-99,mean,2.2015947508092877
@@ -357,6 +623,16 @@ Canada,CAN,inflation_def,2010-19,mean,1.6634215529147436
 Canada,CAN,inflation_def,2010-19,sd,1.2903590175653301
 Canada,CAN,inflation_def,2020-,mean,4.3970769011089645
 Canada,CAN,inflation_def,2020-,sd,3.3697530523421086
+Canada,CAN,lab_comp,1980-89,mean,65744.5
+Canada,CAN,lab_comp,1980-89,sd,12597.701580617224
+Canada,CAN,lab_comp,1990-99,mean,106019.65
+Canada,CAN,lab_comp,1990-99,sd,10774.039050611547
+Canada,CAN,lab_comp,2000-09,mean,171212.925
+Canada,CAN,lab_comp,2000-09,sd,24190.355161518084
+Canada,CAN,lab_comp,2010-19,mean,250826.3
+Canada,CAN,lab_comp,2010-19,sd,25429.466819581674
+Canada,CAN,lab_comp,2020-,mean,336668.1111111111
+Canada,CAN,lab_comp,2020-,sd,34559.2256872832
 Canada,CAN,labor_share,1980-89,mean,0.522642899425217
 Canada,CAN,labor_share,1980-89,sd,0.010943399684711435
 Canada,CAN,labor_share,1990-99,mean,0.5188259614888182
@@ -367,16 +643,76 @@ Canada,CAN,labor_share,2010-19,mean,0.5048492675180926
 Canada,CAN,labor_share,2010-19,sd,0.0055914418556394134
 Canada,CAN,labor_share,2020-,mean,0.5085241314778229
 Canada,CAN,labor_share,2020-,sd,0.012413740862027168
-Canada,CAN,ls_to_ps,1980-89,mean,1.4139646578958742
-Canada,CAN,ls_to_ps,1980-89,sd,0.07854815595903906
-Canada,CAN,ls_to_ps,1990-99,mean,1.4671642447978355
-Canada,CAN,ls_to_ps,1990-99,sd,0.12378008636982767
-Canada,CAN,ls_to_ps,2000-09,mean,1.2747917887650382
-Canada,CAN,ls_to_ps,2000-09,sd,0.05726129279372689
-Canada,CAN,ls_to_ps,2010-19,mean,1.3088852687258958
-Canada,CAN,ls_to_ps,2010-19,sd,0.038910309472079206
-Canada,CAN,ls_to_ps,2020-,mean,1.2787334229625076
-Canada,CAN,ls_to_ps,2020-,sd,0.05706458827658421
+Canada,CAN,pc_lab_comp,1980-89,mean,7.4547329551983035
+Canada,CAN,pc_lab_comp,1980-89,sd,1.8453472874492267
+Canada,CAN,pc_lab_comp,1990-99,mean,3.763297281913995
+Canada,CAN,pc_lab_comp,1990-99,sd,1.631386745728312
+Canada,CAN,pc_lab_comp,2000-09,mean,4.894650779442162
+Canada,CAN,pc_lab_comp,2000-09,sd,2.5797557212193225
+Canada,CAN,pc_lab_comp,2010-19,mean,3.7625538839984967
+Canada,CAN,pc_lab_comp,2010-19,sd,1.737230632550685
+Canada,CAN,pc_lab_comp,2020-,mean,5.966382398360924
+Canada,CAN,pc_lab_comp,2020-,sd,4.939547955745594
+Canada,CAN,pc_profits,1980-89,mean,7.856133055204973
+Canada,CAN,pc_profits,1980-89,sd,5.6816951198417325
+Canada,CAN,pc_profits,1990-99,mean,4.730488891343348
+Canada,CAN,pc_profits,1990-99,sd,5.236304206033006
+Canada,CAN,pc_profits,2000-09,mean,4.788758386735253
+Canada,CAN,pc_profits,2000-09,sd,7.500606159991093
+Canada,CAN,pc_profits,2010-19,mean,4.307617417837495
+Canada,CAN,pc_profits,2010-19,sd,4.841899683784205
+Canada,CAN,pc_profits,2020-,mean,5.943519719825657
+Canada,CAN,pc_profits,2020-,sd,7.800402680277304
+Canada,CAN,pc_rgdp,1980-89,mean,2.880977303666318
+Canada,CAN,pc_rgdp,1980-89,sd,2.9779015503219894
+Canada,CAN,pc_rgdp,1990-99,mean,2.385405251093554
+Canada,CAN,pc_rgdp,1990-99,sd,2.2782135372349606
+Canada,CAN,pc_rgdp,2000-09,mean,2.0921530571500493
+Canada,CAN,pc_rgdp,2000-09,sd,2.114486893713571
+Canada,CAN,pc_rgdp,2010-19,mean,2.2572073683311173
+Canada,CAN,pc_rgdp,2010-19,sd,1.0268794342484993
+Canada,CAN,pc_rgdp,2020-,mean,1.3108548741455273
+Canada,CAN,pc_rgdp,2020-,sd,4.9491968264948625
+Canada,CAN,pc_taxes,1980-89,mean,9.939505065757745
+Canada,CAN,pc_taxes,1980-89,sd,5.560707306505312
+Canada,CAN,pc_taxes,1990-99,mean,4.440758315515764
+Canada,CAN,pc_taxes,1990-99,sd,2.9739062223957666
+Canada,CAN,pc_taxes,2000-09,mean,3.295634434279135
+Canada,CAN,pc_taxes,2000-09,sd,2.7972248527589385
+Canada,CAN,pc_taxes,2010-19,mean,4.025530016851513
+Canada,CAN,pc_taxes,2010-19,sd,1.808524544986978
+Canada,CAN,pc_taxes,2020-,mean,11.824897028746776
+Canada,CAN,pc_taxes,2020-,sd,42.40360844515524
+Canada,CAN,profits,1980-89,mean,46715.72222222222
+Canada,CAN,profits,1980-89,sd,9411.662915495892
+Canada,CAN,profits,1990-99,mean,73192.875
+Canada,CAN,profits,1990-99,sd,12533.087098346663
+Canada,CAN,profits,2000-09,mean,134630.4
+Canada,CAN,profits,2000-09,sd,20278.306858972883
+Canada,CAN,profits,2010-19,mean,191560.9
+Canada,CAN,profits,2010-19,sd,17859.626969142526
+Canada,CAN,profits,2020-,mean,263427
+Canada,CAN,profits,2020-,sd,25550.51292912094
+Canada,CAN,rgdp_index,1980-89,mean,49.410219460305555
+Canada,CAN,rgdp_index,1980-89,sd,4.450528321724483
+Canada,CAN,rgdp_index,1990-99,mean,61.1789445324
+Canada,CAN,rgdp_index,1990-99,sd,5.220913418956567
+Canada,CAN,rgdp_index,2000-09,mean,82.960754614775
+Canada,CAN,rgdp_index,2000-09,sd,5.287737980291263
+Canada,CAN,rgdp_index,2010-19,mean,99.410908280125
+Canada,CAN,rgdp_index,2010-19,sd,5.958286231961175
+Canada,CAN,rgdp_index,2020-,mean,110.64123574644445
+Canada,CAN,rgdp_index,2020-,sd,5.095473180047223
+Canada,CAN,taxes,1980-89,mean,13631.638888888887
+Canada,CAN,taxes,1980-89,sd,3594.72711583252
+Canada,CAN,taxes,1990-99,mean,25826.85
+Canada,CAN,taxes,1990-99,sd,3116.713263466286
+Canada,CAN,taxes,2000-09,mean,38132.075
+Canada,CAN,taxes,2000-09,sd,3950.318379817389
+Canada,CAN,taxes,2010-19,mean,54370.6
+Canada,CAN,taxes,2010-19,sd,6674.194186643481
+Canada,CAN,taxes,2020-,mean,62853.77777777778
+Canada,CAN,taxes,2020-,sd,15911.601829207575
 Czechia,CZE,contr_relative,1990-99,mean,0.7599269531745362
 Czechia,CZE,contr_relative,1990-99,sd,0.6232773193235324
 Czechia,CZE,contr_relative,2000-09,mean,-1.5706419452602545
@@ -417,6 +753,14 @@ Czechia,CZE,contr_unit_tax,2010-19,mean,0.21942733096984698
 Czechia,CZE,contr_unit_tax,2010-19,sd,0.46006628757993173
 Czechia,CZE,contr_unit_tax,2020-,mean,0.4039932133839319
 Czechia,CZE,contr_unit_tax,2020-,sd,1.3529976005870639
+Czechia,CZE,gdp,1990-99,mean,492727.85
+Czechia,CZE,gdp,1990-99,sd,61354.7026947877
+Czechia,CZE,gdp,2000-09,mean,806727.475
+Czechia,CZE,gdp,2000-09,sd,143917.23151386267
+Czechia,CZE,gdp,2010-19,mean,1170902.425
+Czechia,CZE,gdp,2010-19,sd,157651.05534512014
+Czechia,CZE,gdp,2020-,mean,1709765.3333333333
+Czechia,CZE,gdp,2020-,sd,198673.07764826945
 Czechia,CZE,inflation_cpi,1990-99,mean,7.560989946237896
 Czechia,CZE,inflation_cpi,1990-99,sd,3.673003395741562
 Czechia,CZE,inflation_cpi,2000-09,mean,2.787296482166346
@@ -433,6 +777,14 @@ Czechia,CZE,inflation_def,2010-19,mean,1.5679011442800947
 Czechia,CZE,inflation_def,2010-19,sd,1.3557641237986022
 Czechia,CZE,inflation_def,2020-,mean,6.109936974978161
 Czechia,CZE,inflation_def,2020-,sd,2.443190262524239
+Czechia,CZE,lab_comp,1990-99,mean,195708.75
+Czechia,CZE,lab_comp,1990-99,sd,23589.634407097674
+Czechia,CZE,lab_comp,2000-09,mean,325058.15
+Czechia,CZE,lab_comp,2000-09,sd,62056.22817047579
+Czechia,CZE,lab_comp,2010-19,mean,490084.95000000007
+Czechia,CZE,lab_comp,2010-19,sd,78295.0233962084
+Czechia,CZE,lab_comp,2020-,mean,746609.7777777778
+Czechia,CZE,lab_comp,2020-,sd,72162.25518319244
 Czechia,CZE,labor_share,1990-99,mean,0.3974082217026997
 Czechia,CZE,labor_share,1990-99,sd,0.009762503477846646
 Czechia,CZE,labor_share,2000-09,mean,0.40202296765780227
@@ -441,14 +793,62 @@ Czechia,CZE,labor_share,2010-19,mean,0.4173650548541286
 Czechia,CZE,labor_share,2010-19,sd,0.011226692641836525
 Czechia,CZE,labor_share,2020-,mean,0.4376817573087069
 Czechia,CZE,labor_share,2020-,sd,0.010436443835130113
-Czechia,CZE,ls_to_ps,1990-99,mean,0.769564628773323
-Czechia,CZE,ls_to_ps,1990-99,sd,0.036771329167668745
-Czechia,CZE,ls_to_ps,2000-09,mean,0.7834979321202366
-Czechia,CZE,ls_to_ps,2000-09,sd,0.0281354523143868
-Czechia,CZE,ls_to_ps,2010-19,mean,0.8516397770857762
-Czechia,CZE,ls_to_ps,2010-19,sd,0.04406787746658425
-Czechia,CZE,ls_to_ps,2020-,mean,0.9058030097710239
-Czechia,CZE,ls_to_ps,2020-,sd,0.0394251976756405
+Czechia,CZE,pc_lab_comp,1990-99,mean,8.863830049865069
+Czechia,CZE,pc_lab_comp,1990-99,sd,6.138798945645915
+Czechia,CZE,pc_lab_comp,2000-09,mean,6.297518569470234
+Czechia,CZE,pc_lab_comp,2000-09,sd,3.450390413847518
+Czechia,CZE,pc_lab_comp,2010-19,mean,4.87230860534211
+Czechia,CZE,pc_lab_comp,2010-19,sd,3.175571354485939
+Czechia,CZE,pc_lab_comp,2020-,mean,6.094915255838236
+Czechia,CZE,pc_lab_comp,2020-,sd,3.8891855425968824
+Czechia,CZE,pc_profits,1990-99,mean,9.632021040455454
+Czechia,CZE,pc_profits,1990-99,sd,5.268220365566814
+Czechia,CZE,pc_profits,2000-09,mean,5.3548235644955176
+Czechia,CZE,pc_profits,2000-09,sd,3.8716829735097624
+Czechia,CZE,pc_profits,2010-19,mean,3.3981187888498416
+Czechia,CZE,pc_profits,2010-19,sd,3.414278401936938
+Czechia,CZE,pc_profits,2020-,mean,7.566795631746933
+Czechia,CZE,pc_profits,2020-,sd,6.507575161609567
+Czechia,CZE,pc_rgdp,1990-99,mean,0.08146942505186199
+Czechia,CZE,pc_rgdp,1990-99,sd,1.189729077257043
+Czechia,CZE,pc_rgdp,2000-09,mean,3.305295166552911
+Czechia,CZE,pc_rgdp,2000-09,sd,3.2519834316954053
+Czechia,CZE,pc_rgdp,2010-19,mean,2.5069590087341402
+Czechia,CZE,pc_rgdp,2010-19,sd,1.9997996068264798
+Czechia,CZE,pc_rgdp,2020-,mean,0.43297578080575183
+Czechia,CZE,pc_rgdp,2020-,sd,4.360211022638254
+Czechia,CZE,pc_taxes,1990-99,mean,7.032367006573397
+Czechia,CZE,pc_taxes,1990-99,sd,8.466218932768749
+Czechia,CZE,pc_taxes,2000-09,mean,6.279089953471983
+Czechia,CZE,pc_taxes,2000-09,sd,7.719062665957365
+Czechia,CZE,pc_taxes,2010-19,mean,4.841645916433903
+Czechia,CZE,pc_taxes,2010-19,sd,5.625802791915813
+Czechia,CZE,pc_taxes,2020-,mean,5.015071405092205
+Czechia,CZE,pc_taxes,2020-,sd,19.491617886686182
+Czechia,CZE,profits,1990-99,mean,255074.2
+Czechia,CZE,profits,1990-99,sd,35449.55151019099
+Czechia,CZE,profits,2000-09,mean,413185.425
+Czechia,CZE,profits,2000-09,sd,68405.42747843223
+Czechia,CZE,profits,2010-19,mean,573056.9
+Czechia,CZE,profits,2010-19,sd,65401.55936892621
+Czechia,CZE,profits,2020-,mean,828238
+Czechia,CZE,profits,2020-,sd,109224.97592368428
+Czechia,CZE,rgdp_index,1990-99,mean,64.89642693275
+Czechia,CZE,rgdp_index,1990-99,sd,0.515861121571953
+Czechia,CZE,rgdp_index,2000-09,mean,80.462132415675
+Czechia,CZE,rgdp_index,2000-09,sd,9.528866341661418
+Czechia,CZE,rgdp_index,2010-19,mean,100.425048695075
+Czechia,CZE,rgdp_index,2010-19,sd,8.08550677184776
+Czechia,CZE,rgdp_index,2020-,mean,114.07912795011111
+Czechia,CZE,rgdp_index,2020-,sd,3.811460990366022
+Czechia,CZE,taxes,1990-99,mean,41944.9
+Czechia,CZE,taxes,1990-99,sd,3692.6990970092097
+Czechia,CZE,taxes,2000-09,mean,68483.9
+Czechia,CZE,taxes,2000-09,sd,14144.82328210753
+Czechia,CZE,taxes,2010-19,mean,107760.575
+Czechia,CZE,taxes,2010-19,sd,15539.261883746816
+Czechia,CZE,taxes,2020-,mean,134917.55555555556
+Czechia,CZE,taxes,2020-,sd,20601.68994844904
 Denmark,DNK,contr_relative,1990-99,mean,-1.6915493604534575
 Denmark,DNK,contr_relative,1990-99,sd,9.090483623755087
 Denmark,DNK,contr_relative,2000-09,mean,-180.72813340131398
@@ -489,6 +889,14 @@ Denmark,DNK,contr_unit_tax,2010-19,mean,0.1926578235655185
 Denmark,DNK,contr_unit_tax,2010-19,sd,0.34275991156509644
 Denmark,DNK,contr_unit_tax,2020-,mean,0.06565452533227754
 Denmark,DNK,contr_unit_tax,2020-,sd,1.3948535053566553
+Denmark,DNK,gdp,1990-99,mean,261860.8138888889
+Denmark,DNK,gdp,1990-99,sd,30077.501262297636
+Denmark,DNK,gdp,2000-09,mean,390400.4825
+Denmark,DNK,gdp,2000-09,sd,41974.04143118842
+Denmark,DNK,gdp,2010-19,mean,508466.885
+Denmark,DNK,gdp,2010-19,sd,41199.62258751426
+Denmark,DNK,gdp,2020-,mean,665188.5
+Denmark,DNK,gdp,2020-,sd,56483.5651820015
 Denmark,DNK,inflation_cpi,1990-99,mean,2.010328864785237
 Denmark,DNK,inflation_cpi,1990-99,sd,0.42003761629653213
 Denmark,DNK,inflation_cpi,2000-09,mean,2.105974669632462
@@ -505,6 +913,14 @@ Denmark,DNK,inflation_def,2010-19,mean,1.1596520591205095
 Denmark,DNK,inflation_def,2010-19,sd,1.018300461225883
 Denmark,DNK,inflation_def,2020-,mean,2.3064342644147002
 Denmark,DNK,inflation_def,2020-,sd,5.202845181420366
+Denmark,DNK,lab_comp,1990-99,mean,133313.67222222223
+Denmark,DNK,lab_comp,1990-99,sd,14656.020677243117
+Denmark,DNK,lab_comp,2000-09,mean,200776.3725
+Denmark,DNK,lab_comp,2000-09,sd,25070.125127391577
+Denmark,DNK,lab_comp,2010-19,mean,262511.345
+Denmark,DNK,lab_comp,2010-19,sd,20141.018704151982
+Denmark,DNK,lab_comp,2020-,mean,334886.34444444446
+Denmark,DNK,lab_comp,2020-,sd,25012.649585529653
 Denmark,DNK,labor_share,1990-99,mean,0.5095162735924482
 Denmark,DNK,labor_share,1990-99,sd,0.009374127274666754
 Denmark,DNK,labor_share,2000-09,mean,0.5135162009943459
@@ -513,14 +929,62 @@ Denmark,DNK,labor_share,2010-19,mean,0.5164921058298101
 Denmark,DNK,labor_share,2010-19,sd,0.005502418345592511
 Denmark,DNK,labor_share,2020-,mean,0.5042086808015366
 Denmark,DNK,labor_share,2020-,sd,0.018130721870536198
-Denmark,DNK,ls_to_ps,1990-99,mean,1.437642980104971
-Denmark,DNK,ls_to_ps,1990-99,sd,0.06794310612847544
-Denmark,DNK,ls_to_ps,2000-09,mean,1.5112696103861154
-Denmark,DNK,ls_to_ps,2000-09,sd,0.10644604979040805
-Denmark,DNK,ls_to_ps,2010-19,mean,1.5058244494950375
-Denmark,DNK,ls_to_ps,2010-19,sd,0.04200090173844466
-Denmark,DNK,ls_to_ps,2020-,mean,1.3676840831646913
-Denmark,DNK,ls_to_ps,2020-,sd,0.10582365474167953
+Denmark,DNK,pc_lab_comp,1990-99,mean,4.007662043301028
+Denmark,DNK,pc_lab_comp,1990-99,sd,1.859381735528191
+Denmark,DNK,pc_lab_comp,2000-09,mean,4.074645999606071
+Denmark,DNK,pc_lab_comp,2000-09,sd,2.1578289296726205
+Denmark,DNK,pc_lab_comp,2010-19,mean,2.358856670067275
+Denmark,DNK,pc_lab_comp,2010-19,sd,1.183197652839359
+Denmark,DNK,pc_lab_comp,2020-,mean,4.70720844382832
+Denmark,DNK,pc_lab_comp,2020-,sd,2.2983617431997647
+Denmark,DNK,pc_profits,1990-99,mean,3.9527302040824877
+Denmark,DNK,pc_profits,1990-99,sd,4.942282885545495
+Denmark,DNK,pc_profits,2000-09,mean,2.856216017650718
+Denmark,DNK,pc_profits,2000-09,sd,6.676957666959127
+Denmark,DNK,pc_profits,2010-19,mean,3.8364947308581834
+Denmark,DNK,pc_profits,2010-19,sd,4.256557906195879
+Denmark,DNK,pc_profits,2020-,mean,6.251550380202554
+Denmark,DNK,pc_profits,2020-,sd,11.962966476631896
+Denmark,DNK,pc_rgdp,1990-99,mean,2.842289668262732
+Denmark,DNK,pc_rgdp,1990-99,sd,0.9809725207163945
+Denmark,DNK,pc_rgdp,2000-09,mean,1.0172576291723734
+Denmark,DNK,pc_rgdp,2000-09,sd,2.6521780315635053
+Denmark,DNK,pc_rgdp,2010-19,mean,1.7386398569938977
+Denmark,DNK,pc_rgdp,2010-19,sd,1.0885640360042075
+Denmark,DNK,pc_rgdp,2020-,mean,2.4842325812605877
+Denmark,DNK,pc_rgdp,2020-,sd,4.378050287736823
+Denmark,DNK,pc_taxes,1990-99,mean,6.307430400181167
+Denmark,DNK,pc_taxes,1990-99,sd,5.576851271392922
+Denmark,DNK,pc_taxes,2000-09,mean,2.709165025306075
+Denmark,DNK,pc_taxes,2000-09,sd,5.5852238859670384
+Denmark,DNK,pc_taxes,2010-19,mean,3.1106610580810625
+Denmark,DNK,pc_taxes,2010-19,sd,2.458561185121922
+Denmark,DNK,pc_taxes,2020-,mean,2.9254432586656103
+Denmark,DNK,pc_taxes,2020-,sd,14.969834492543255
+Denmark,DNK,profits,1990-99,mean,92790.94444444444
+Denmark,DNK,profits,1990-99,sd,9555.755081967083
+Denmark,DNK,profits,2000-09,mean,132662.53
+Denmark,DNK,profits,2000-09,sd,11748.8799530587
+Denmark,DNK,profits,2010-19,mean,174571.1775
+Denmark,DNK,profits,2010-19,sd,15412.144168911958
+Denmark,DNK,profits,2020-,mean,246485.43333333332
+Denmark,DNK,profits,2020-,sd,28271.910487620044
+Denmark,DNK,rgdp_index,1990-99,mean,79.58162082435
+Denmark,DNK,rgdp_index,1990-99,sd,3.2856146880082804
+Denmark,DNK,rgdp_index,2000-09,mean,92.219943055775
+Denmark,DNK,rgdp_index,2000-09,sd,4.08378550754694
+Denmark,DNK,rgdp_index,2010-19,mean,100.70895536925
+Denmark,DNK,rgdp_index,2010-19,sd,5.6105405622157045
+Denmark,DNK,rgdp_index,2020-,mean,116.49339947561111
+Denmark,DNK,rgdp_index,2020-,sd,5.650474937510408
+Denmark,DNK,taxes,1990-99,mean,35756.194444444445
+Denmark,DNK,taxes,1990-99,sd,6574.55507491656
+Denmark,DNK,taxes,2000-09,mean,56961.572499999995
+Denmark,DNK,taxes,2000-09,sd,6959.038956047629
+Denmark,DNK,taxes,2010-19,mean,71384.3575
+Denmark,DNK,taxes,2010-19,sd,6137.612801569809
+Denmark,DNK,taxes,2020-,mean,83816.71666666667
+Denmark,DNK,taxes,2020-,sd,8610.184156823347
 Estonia,EST,contr_relative,1990-99,mean,0.6079632713610448
 Estonia,EST,contr_relative,1990-99,sd,0.3092416368139182
 Estonia,EST,contr_relative,2000-09,mean,-1.1697893758598676
@@ -561,6 +1025,14 @@ Estonia,EST,contr_unit_tax,2010-19,mean,0.4881419719170849
 Estonia,EST,contr_unit_tax,2010-19,sd,0.8164659277752271
 Estonia,EST,contr_unit_tax,2020-,mean,0.8368376190926125
 Estonia,EST,contr_unit_tax,2020-,sd,1.7845107500604562
+Estonia,EST,gdp,1990-99,mean,1080.585
+Estonia,EST,gdp,1990-99,sd,246.00109386791462
+Estonia,EST,gdp,2000-09,mean,2788.39
+Estonia,EST,gdp,2000-09,sd,929.0353902342431
+Estonia,EST,gdp,2010-19,mean,5284.72
+Estonia,EST,gdp,2010-19,sd,1037.078758030929
+Estonia,EST,gdp,2020-,mean,8507.805555555555
+Estonia,EST,gdp,2020-,sd,1101.6986389860845
 Estonia,EST,inflation_cpi,1990-99,mean,3.300008064623261
 Estonia,EST,inflation_cpi,1990-99,sd,0.5615991734508458
 Estonia,EST,inflation_cpi,2000-09,mean,4.318669498181349
@@ -577,6 +1049,14 @@ Estonia,EST,inflation_def,2010-19,mean,3.531618507793677
 Estonia,EST,inflation_def,2010-19,sd,1.6632224066569807
 Estonia,EST,inflation_def,2020-,mean,7.04878521929378
 Estonia,EST,inflation_def,2020-,sd,6.0940456126500475
+Estonia,EST,lab_comp,1990-99,mean,513.1800000000001
+Estonia,EST,lab_comp,1990-99,sd,99.94981688195753
+Estonia,EST,lab_comp,2000-09,mean,1270.84
+Estonia,EST,lab_comp,2000-09,sd,467.663852432273
+Estonia,EST,lab_comp,2010-19,mean,2437.8250000000003
+Estonia,EST,lab_comp,2010-19,sd,530.8177913032896
+Estonia,EST,lab_comp,2020-,mean,4157.0888888888885
+Estonia,EST,lab_comp,2020-,sd,563.807347039007
 Estonia,EST,labor_share,1990-99,mean,0.478872215085832
 Estonia,EST,labor_share,1990-99,sd,0.01908671564031505
 Estonia,EST,labor_share,2000-09,mean,0.45175296876397897
@@ -585,14 +1065,62 @@ Estonia,EST,labor_share,2010-19,mean,0.45972661572053225
 Estonia,EST,labor_share,2010-19,sd,0.014129828475274152
 Estonia,EST,labor_share,2020-,mean,0.4885347092369909
 Estonia,EST,labor_share,2020-,sd,0.013635421322060743
-Estonia,EST,ls_to_ps,1990-99,mean,1.1922046735944924
-Estonia,EST,ls_to_ps,1990-99,sd,0.11661802481429515
-Estonia,EST,ls_to_ps,2000-09,mean,1.0527834907373068
-Estonia,EST,ls_to_ps,2000-09,sd,0.1279720378539742
-Estonia,EST,ls_to_ps,2010-19,mean,1.1067448222049625
-Estonia,EST,ls_to_ps,2010-19,sd,0.08285391830075553
-Estonia,EST,ls_to_ps,2020-,mean,1.2384473666102742
-Estonia,EST,ls_to_ps,2020-,sd,0.08303814366493764
+Estonia,EST,pc_lab_comp,1990-99,mean,14.660382120641176
+Estonia,EST,pc_lab_comp,1990-99,sd,8.779853546623182
+Estonia,EST,pc_lab_comp,2000-09,mean,11.564665192635077
+Estonia,EST,pc_lab_comp,2000-09,sd,9.92963972437194
+Estonia,EST,pc_lab_comp,2010-19,mean,6.842693764542914
+Estonia,EST,pc_lab_comp,2010-19,sd,4.226443333351109
+Estonia,EST,pc_lab_comp,2020-,mean,8.453283189515
+Estonia,EST,pc_lab_comp,2020-,sd,5.573664739207891
+Estonia,EST,pc_profits,1990-99,mean,22.33779935634075
+Estonia,EST,pc_profits,1990-99,sd,10.499194400541937
+Estonia,EST,pc_profits,2000-09,mean,9.104342647462525
+Estonia,EST,pc_profits,2000-09,sd,12.281733841006913
+Estonia,EST,pc_profits,2010-19,mean,8.11242250812695
+Estonia,EST,pc_profits,2010-19,sd,8.032151541086279
+Estonia,EST,pc_profits,2020-,mean,6.291186742588387
+Estonia,EST,pc_profits,2020-,sd,10.53336423069892
+Estonia,EST,pc_rgdp,1990-99,mean,5.5386647564290685
+Estonia,EST,pc_rgdp,1990-99,sd,5.959857797363832
+Estonia,EST,pc_rgdp,2000-09,mean,4.496811845514369
+Estonia,EST,pc_rgdp,2000-09,sd,7.842915193893729
+Estonia,EST,pc_rgdp,2010-19,mean,3.6116545272669884
+Estonia,EST,pc_rgdp,2010-19,sd,2.2365706526677647
+Estonia,EST,pc_rgdp,2020-,mean,0.18997989377807445
+Estonia,EST,pc_rgdp,2020-,sd,4.640348385298078
+Estonia,EST,pc_taxes,1990-99,mean,15.457835580743048
+Estonia,EST,pc_taxes,1990-99,sd,19.856369886074578
+Estonia,EST,pc_taxes,2000-09,mean,13.549452690327453
+Estonia,EST,pc_taxes,2000-09,sd,16.322835278238383
+Estonia,EST,pc_taxes,2010-19,mean,7.5008396649953015
+Estonia,EST,pc_taxes,2010-19,sd,6.810250309086968
+Estonia,EST,pc_taxes,2020-,mean,6.998934989158006
+Estonia,EST,pc_taxes,2020-,sd,18.493251068472606
+Estonia,EST,profits,1990-99,mean,441.76
+Estonia,EST,profits,1990-99,sd,123.2560424482305
+Estonia,EST,profits,2000-09,mean,1192.6000000000001
+Estonia,EST,profits,2000-09,sd,364.6584780874094
+Estonia,EST,profits,2010-19,mean,2190.2325
+Estonia,EST,profits,2010-19,sd,367.4630080021661
+Estonia,EST,profits,2020-,mean,3358.6833333333334
+Estonia,EST,profits,2020-,sd,407.63823530472814
+Estonia,EST,rgdp_index,1990-99,mean,50.4624587401
+Estonia,EST,rgdp_index,1990-99,sd,4.62449638566438
+Estonia,EST,rgdp_index,2000-09,mean,79.966903467225
+Estonia,EST,rgdp_index,2000-09,sd,13.621508074070666
+Estonia,EST,rgdp_index,2010-19,mean,100.195948408675
+Estonia,EST,rgdp_index,2010-19,sd,9.989064270493335
+Estonia,EST,rgdp_index,2020-,mean,118.76268971027778
+Estonia,EST,rgdp_index,2020-,sd,3.7238145067815025
+Estonia,EST,taxes,1990-99,mean,124.81
+Estonia,EST,taxes,1990-99,sd,25.656247828386345
+Estonia,EST,taxes,2000-09,mean,325.83000000000004
+Estonia,EST,taxes,2000-09,sd,115.1615836942787
+Estonia,EST,taxes,2010-19,mean,658.015
+Estonia,EST,taxes,2010-19,sd,153.1021756197056
+Estonia,EST,taxes,2020-,mean,991.4111111111112
+Estonia,EST,taxes,2020-,sd,175.05795305585113
 Euro area (20 countries),EA20,contr_relative,1990-99,mean,1.5836746159005717
 Euro area (20 countries),EA20,contr_relative,1990-99,sd,9.108904999557165
 Euro area (20 countries),EA20,contr_relative,2000-09,mean,0.43934406816622223
@@ -633,6 +1161,14 @@ Euro area (20 countries),EA20,contr_unit_tax,2010-19,mean,0.2501968616659124
 Euro area (20 countries),EA20,contr_unit_tax,2010-19,sd,0.17401283318573726
 Euro area (20 countries),EA20,contr_unit_tax,2020-,mean,0.2376117521994153
 Euro area (20 countries),EA20,contr_unit_tax,2020-,sd,1.153776746028009
+Euro area (20 countries),EA20,gdp,1990-99,mean,1551231.205
+Euro area (20 countries),EA20,gdp,1990-99,sd,84685.450801107625
+Euro area (20 countries),EA20,gdp,2000-09,mean,2107106.94
+Euro area (20 countries),EA20,gdp,2000-09,sd,226033.62939039912
+Euro area (20 countries),EA20,gdp,2010-19,mean,2669111.4025
+Euro area (20 countries),EA20,gdp,2010-19,sd,206239.0657850943
+Euro area (20 countries),EA20,gdp,2020-,mean,3335012.683333333
+Euro area (20 countries),EA20,gdp,2020-,sd,325801.93812536803
 Euro area (20 countries),EA20,inflation_cpi,1990-99,mean,1.6121677268081864
 Euro area (20 countries),EA20,inflation_cpi,1990-99,sd,0.5287101331927655
 Euro area (20 countries),EA20,inflation_cpi,2000-09,mean,2.145452473921462
@@ -649,6 +1185,14 @@ Euro area (20 countries),EA20,inflation_def,2010-19,mean,1.194759956945761
 Euro area (20 countries),EA20,inflation_def,2010-19,sd,0.3187621767384212
 Euro area (20 countries),EA20,inflation_def,2020-,mean,3.701592188921442
 Euro area (20 countries),EA20,inflation_def,2020-,sd,1.908339835225386
+Euro area (20 countries),EA20,lab_comp,1990-99,mean,749423.84
+Euro area (20 countries),EA20,lab_comp,1990-99,sd,34611.463480006
+Euro area (20 countries),EA20,lab_comp,2000-09,mean,993256.7025
+Euro area (20 countries),EA20,lab_comp,2000-09,sd,99787.79455069151
+Euro area (20 countries),EA20,lab_comp,2010-19,mean,1273729.585
+Euro area (20 countries),EA20,lab_comp,2010-19,sd,100478.95202279558
+Euro area (20 countries),EA20,lab_comp,2020-,mean,1606667.2611111111
+Euro area (20 countries),EA20,lab_comp,2020-,sd,140378.84529060108
 Euro area (20 countries),EA20,labor_share,1990-99,mean,0.48334064253438147
 Euro area (20 countries),EA20,labor_share,1990-99,sd,0.005338436649024462
 Euro area (20 countries),EA20,labor_share,2000-09,mean,0.4717945190121175
@@ -657,14 +1201,62 @@ Euro area (20 countries),EA20,labor_share,2010-19,mean,0.47716699060505696
 Euro area (20 countries),EA20,labor_share,2010-19,sd,0.002273859181795557
 Euro area (20 countries),EA20,labor_share,2020-,mean,0.4823056404563625
 Euro area (20 countries),EA20,labor_share,2020-,sd,0.008052887295567353
-Euro area (20 countries),EA20,ls_to_ps,1990-99,mean,1.1789559692730325
-Euro area (20 countries),EA20,ls_to_ps,1990-99,sd,0.0186080164069149
-Euro area (20 countries),EA20,ls_to_ps,2000-09,mean,1.132158342718204
-Euro area (20 countries),EA20,ls_to_ps,2000-09,sd,0.03426282742642969
-Euro area (20 countries),EA20,ls_to_ps,2010-19,mean,1.1664763755684588
-Euro area (20 countries),EA20,ls_to_ps,2010-19,sd,0.015018877144919502
-Euro area (20 countries),EA20,ls_to_ps,2020-,mean,1.1663798769680407
-Euro area (20 countries),EA20,ls_to_ps,2020-,sd,0.03506213929352504
+Euro area (20 countries),EA20,pc_lab_comp,1990-99,mean,3.2478596938580875
+Euro area (20 countries),EA20,pc_lab_comp,1990-99,sd,1.5294279883736805
+Euro area (20 countries),EA20,pc_lab_comp,2000-09,mean,3.5200161510018737
+Euro area (20 countries),EA20,pc_lab_comp,2000-09,sd,1.5846538682334879
+Euro area (20 countries),EA20,pc_lab_comp,2010-19,mean,2.570535349563311
+Euro area (20 countries),EA20,pc_lab_comp,2010-19,sd,1.123444044304024
+Euro area (20 countries),EA20,pc_lab_comp,2020-,mean,4.7304007927005784
+Euro area (20 countries),EA20,pc_lab_comp,2020-,sd,4.343793329910294
+Euro area (20 countries),EA20,pc_profits,1990-99,mean,3.7023150232042044
+Euro area (20 countries),EA20,pc_profits,1990-99,sd,1.2412959095920615
+Euro area (20 countries),EA20,pc_profits,2000-09,mean,3.6072724426541427
+Euro area (20 countries),EA20,pc_profits,2000-09,sd,3.8964653884911113
+Euro area (20 countries),EA20,pc_profits,2010-19,mean,2.4165732558129887
+Euro area (20 countries),EA20,pc_profits,2010-19,sd,1.6666531073896913
+Euro area (20 countries),EA20,pc_profits,2020-,mean,5.485387363078531
+Euro area (20 countries),EA20,pc_profits,2020-,sd,6.759567678520667
+Euro area (20 countries),EA20,pc_rgdp,1990-99,mean,2.5308640076956905
+Euro area (20 countries),EA20,pc_rgdp,1990-99,sd,0.7709171917333227
+Euro area (20 countries),EA20,pc_rgdp,2000-09,mean,1.4121269246712482
+Euro area (20 countries),EA20,pc_rgdp,2000-09,sd,2.395841731306968
+Euro area (20 countries),EA20,pc_rgdp,2010-19,mean,1.4118236635338832
+Euro area (20 countries),EA20,pc_rgdp,2010-19,sd,1.1390824768747394
+Euro area (20 countries),EA20,pc_rgdp,2020-,mean,1.0576441731760782
+Euro area (20 countries),EA20,pc_rgdp,2020-,sd,5.764213628313148
+Euro area (20 countries),EA20,pc_taxes,1990-99,mean,6.9568141805800465
+Euro area (20 countries),EA20,pc_taxes,1990-99,sd,1.9817621698444974
+Euro area (20 countries),EA20,pc_taxes,2000-09,mean,2.797383805551433
+Euro area (20 countries),EA20,pc_taxes,2000-09,sd,4.03924608507637
+Euro area (20 countries),EA20,pc_taxes,2010-19,mean,3.640528132488221
+Euro area (20 countries),EA20,pc_taxes,2010-19,sd,1.7748019538522548
+Euro area (20 countries),EA20,pc_taxes,2020-,mean,3.417564338710698
+Euro area (20 countries),EA20,pc_taxes,2020-,sd,16.324970929303202
+Euro area (20 countries),EA20,profits,1990-99,mean,635977.945
+Euro area (20 countries),EA20,profits,1990-99,sd,34056.687552767304
+Euro area (20 countries),EA20,profits,2000-09,mean,879327.84
+Euro area (20 countries),EA20,profits,2000-09,sd,103063.44300103998
+Euro area (20 countries),EA20,profits,2010-19,mean,1091466.9525
+Euro area (20 countries),EA20,profits,2010-19,sd,77757.5070272169
+Euro area (20 countries),EA20,profits,2020-,mean,1380680.4055555556
+Euro area (20 countries),EA20,profits,2020-,sd,146617.07514237243
+Euro area (20 countries),EA20,rgdp_index,1990-99,mean,83.3916098434
+Euro area (20 countries),EA20,rgdp_index,1990-99,sd,3.1883670183643718
+Euro area (20 countries),EA20,rgdp_index,2000-09,mean,98.4018237169
+Euro area (20 countries),EA20,rgdp_index,2000-09,sd,4.806853793340616
+Euro area (20 countries),EA20,rgdp_index,2010-19,mean,107.91182164165
+Euro area (20 countries),EA20,rgdp_index,2010-19,sd,4.587591960015759
+Euro area (20 countries),EA20,rgdp_index,2020-,mean,116.75662322416667
+Euro area (20 countries),EA20,rgdp_index,2020-,sd,5.495095907847042
+Euro area (20 countries),EA20,taxes,1990-99,mean,165829.4
+Euro area (20 countries),EA20,taxes,1990-99,sd,16906.044927091672
+Euro area (20 countries),EA20,taxes,2000-09,mean,234522.38
+Euro area (20 countries),EA20,taxes,2000-09,sd,25590.96122094474
+Euro area (20 countries),EA20,taxes,2010-19,mean,303914.8825
+Euro area (20 countries),EA20,taxes,2010-19,sd,28813.13627191676
+Euro area (20 countries),EA20,taxes,2020-,mean,347665.02222222224
+Euro area (20 countries),EA20,taxes,2020-,sd,43752.36898638351
 European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,1990-99,mean,7.370273692009783
 European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,1990-99,sd,24.331130821044475
 European Union (27 countries from 01/02/2020),EU27_2020,contr_relative,2000-09,mean,0.3946583147117575
@@ -705,6 +1297,14 @@ European Union (27 countries from 01/02/2020),EU27_2020,contr_unit_tax,2010-19,m
 European Union (27 countries from 01/02/2020),EU27_2020,contr_unit_tax,2010-19,sd,0.19697569810305357
 European Union (27 countries from 01/02/2020),EU27_2020,contr_unit_tax,2020-,mean,0.2924993793016269
 European Union (27 countries from 01/02/2020),EU27_2020,contr_unit_tax,2020-,sd,1.1730276078130315
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,1990-99,mean,1717741.27
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,1990-99,sd,99230.28126801079
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,2000-09,mean,2375964.37
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,2000-09,sd,275602.38176010124
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,2010-19,mean,3082001.06
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,2010-19,sd,251565.51790057705
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,2020-,mean,3920013.561111111
+European Union (27 countries from 01/02/2020),EU27_2020,gdp,2020-,sd,395765.1604084558
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_cpi,1990-99,mean,NA
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_cpi,1990-99,sd,NA
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_cpi,2000-09,mean,2.5067599710112445
@@ -721,6 +1321,14 @@ European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2010-19,me
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2010-19,sd,0.39831622930188354
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2020-,mean,3.8983154298899834
 European Union (27 countries from 01/02/2020),EU27_2020,inflation_def,2020-,sd,1.9280049884837855
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,1990-99,mean,822847.675
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,1990-99,sd,41018.669462265665
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,2000-09,mean,1110501.7625
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,2000-09,sd,119889.6620666423
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,2010-19,mean,1453324.265
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,2010-19,sd,122112.5503490237
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,2020-,mean,1861292.5055555557
+European Union (27 countries from 01/02/2020),EU27_2020,lab_comp,2020-,sd,168346.43819042252
 European Union (27 countries from 01/02/2020),EU27_2020,labor_share,1990-99,mean,0.4792492892725431
 European Union (27 countries from 01/02/2020),EU27_2020,labor_share,1990-99,sd,0.004910082184632623
 European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2000-09,mean,0.4678854583869774
@@ -729,14 +1337,62 @@ European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2010-19,mean
 European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2010-19,sd,0.002411712842048309
 European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2020-,mean,0.475399206939413
 European Union (27 countries from 01/02/2020),EU27_2020,labor_share,2020-,sd,0.008568620641519618
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,1990-99,mean,1.1692393193601989
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,1990-99,sd,0.015717722291597108
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2000-09,mean,1.1235151134418502
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2000-09,sd,0.03427441596778228
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2010-19,mean,1.147721276850942
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2010-19,sd,0.01536544514313802
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2020-,mean,1.1415961080923855
-European Union (27 countries from 01/02/2020),EU27_2020,ls_to_ps,2020-,sd,0.03580370324926021
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,1990-99,mean,3.52549773859053
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,1990-99,sd,1.4039357298301565
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,2000-09,mean,3.7269557264453788
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,2000-09,sd,2.079661475992362
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,2010-19,mean,2.821874034043285
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,2010-19,sd,1.122078373068454
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,2020-,mean,5.0099305390645315
+European Union (27 countries from 01/02/2020),EU27_2020,pc_lab_comp,2020-,sd,4.2657479968678595
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,1990-99,mean,3.8007172081354206
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,1990-99,sd,1.3361468867757271
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,2000-09,mean,3.910751196105126
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,2000-09,sd,4.175092140755153
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,2010-19,mean,2.681620606756816
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,2010-19,sd,1.8026309858567022
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,2020-,mean,5.81250087598291
+European Union (27 countries from 01/02/2020),EU27_2020,pc_profits,2020-,sd,6.618994111869078
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,1990-99,mean,2.5825552988081366
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,1990-99,sd,0.7068160668110083
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,2000-09,mean,1.558508964750119
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,2000-09,sd,2.369517446337434
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,2010-19,mean,1.592960249639401
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,2010-19,sd,1.1527158426423576
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,2020-,mean,1.1722669319445589
+European Union (27 countries from 01/02/2020),EU27_2020,pc_rgdp,2020-,sd,5.544426953218692
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,1990-99,mean,7.311320084074341
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,1990-99,sd,2.015032080761011
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,2000-09,mean,2.994760191677563
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,2000-09,sd,4.415435007846908
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,2010-19,mean,3.8292947551902223
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,2010-19,sd,2.021247337886497
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,2020-,mean,3.9816728714100393
+European Union (27 countries from 01/02/2020),EU27_2020,pc_taxes,2020-,sd,16.36934680777095
+European Union (27 countries from 01/02/2020),EU27_2020,profits,1990-99,mean,704000.775
+European Union (27 countries from 01/02/2020),EU27_2020,profits,1990-99,sd,38735.76330763513
+European Union (27 countries from 01/02/2020),EU27_2020,profits,2000-09,mean,991110.9299999999
+European Union (27 countries from 01/02/2020),EU27_2020,profits,2000-09,sd,125993.91184906452
+European Union (27 countries from 01/02/2020),EU27_2020,profits,2010-19,mean,1265562.9025
+European Union (27 countries from 01/02/2020),EU27_2020,profits,2010-19,sd,95063.71293274435
+European Union (27 countries from 01/02/2020),EU27_2020,profits,2020-,mean,1634403.8777777778
+European Union (27 countries from 01/02/2020),EU27_2020,profits,2020-,sd,178659.6681453235
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,1990-99,mean,81.31285060045
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,1990-99,sd,3.156449197525052
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,2000-09,mean,96.64465531415
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,2000-09,sd,5.16188217561386
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,2010-19,mean,107.77436564065
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,2010-19,sd,5.1589029851465344
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,2020-,mean,118.24841991761112
+European Union (27 countries from 01/02/2020),EU27_2020,rgdp_index,2020-,sd,5.51430627056954
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,1990-99,mean,190892.835
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,1990-99,sd,20263.158899687227
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,2000-09,mean,274351.685
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,2000-09,sd,32044.25399016859
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,2010-19,mean,363113.8975
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,2010-19,sd,35184.618554597946
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,2020-,mean,424317.19444444444
+European Union (27 countries from 01/02/2020),EU27_2020,taxes,2020-,sd,54825.00958583079
 Finland,FIN,contr_relative,1990-99,mean,-0.08932382884751651
 Finland,FIN,contr_relative,1990-99,sd,6.861891389685325
 Finland,FIN,contr_relative,2000-09,mean,0.14040438457130228
@@ -777,6 +1433,14 @@ Finland,FIN,contr_unit_tax,2010-19,mean,0.4887127892771703
 Finland,FIN,contr_unit_tax,2010-19,sd,0.47815683452604263
 Finland,FIN,contr_unit_tax,2020-,mean,0.22497607333544378
 Finland,FIN,contr_unit_tax,2020-,sd,0.6788514987633235
+Finland,FIN,gdp,1990-99,mean,24935.8275
+Finland,FIN,gdp,1990-99,sd,3648.76394687209
+Finland,FIN,gdp,2000-09,mean,41011.7
+Finland,FIN,gdp,2000-09,sd,4700.956483143644
+Finland,FIN,gdp,2010-19,mean,52914.25
+Finland,FIN,gdp,2010-19,sd,3869.247702338438
+Finland,FIN,gdp,2020-,mean,64586.61111111111
+Finland,FIN,gdp,2020-,sd,4031.177015957862
 Finland,FIN,inflation_cpi,1990-99,mean,1.744275521590589
 Finland,FIN,inflation_cpi,1990-99,sd,1.2467552691717085
 Finland,FIN,inflation_cpi,2000-09,mean,1.703540461808926
@@ -793,6 +1457,14 @@ Finland,FIN,inflation_def,2010-19,mean,1.6099963497923417
 Finland,FIN,inflation_def,2010-19,sd,1.0089061094467526
 Finland,FIN,inflation_def,2020-,mean,3.209224895882295
 Finland,FIN,inflation_def,2020-,sd,1.8694152632529866
+Finland,FIN,lab_comp,1990-99,mean,12416.4
+Finland,FIN,lab_comp,1990-99,sd,1209.5031995590543
+Finland,FIN,lab_comp,2000-09,mean,19255.35
+Finland,FIN,lab_comp,2000-09,sd,2410.831674244069
+Finland,FIN,lab_comp,2010-19,mean,25652.275
+Finland,FIN,lab_comp,2010-19,sd,1385.3739657579827
+Finland,FIN,lab_comp,2020-,mean,30728
+Finland,FIN,lab_comp,2020-,sd,2167.183914126131
 Finland,FIN,labor_share,1990-99,mean,0.5018006507860225
 Finland,FIN,labor_share,1990-99,sd,0.03446519284309018
 Finland,FIN,labor_share,2000-09,mean,0.46906025350672653
@@ -801,14 +1473,62 @@ Finland,FIN,labor_share,2010-19,mean,0.4854802899917197
 Finland,FIN,labor_share,2010-19,sd,0.01134989064328468
 Finland,FIN,labor_share,2020-,mean,0.47555794981605476
 Finland,FIN,labor_share,2020-,sd,0.006259336873327093
-Finland,FIN,ls_to_ps,1990-99,mean,1.32928967158876
-Finland,FIN,ls_to_ps,1990-99,sd,0.2223767321051611
-Finland,FIN,ls_to_ps,2000-09,mean,1.1245725430219369
-Finland,FIN,ls_to_ps,2000-09,sd,0.057724712576580246
-Finland,FIN,ls_to_ps,2010-19,mean,1.2708759028135954
-Finland,FIN,ls_to_ps,2010-19,sd,0.060837258097566765
-Finland,FIN,ls_to_ps,2020-,mean,1.2029376237528078
-Finland,FIN,ls_to_ps,2020-,sd,0.0323339620587792
+Finland,FIN,pc_lab_comp,1990-99,mean,2.331360724117488
+Finland,FIN,pc_lab_comp,1990-99,sd,4.951170970790774
+Finland,FIN,pc_lab_comp,2000-09,mean,4.318741917738133
+Finland,FIN,pc_lab_comp,2000-09,sd,2.3585552733432538
+Finland,FIN,pc_lab_comp,2010-19,mean,2.223556562961468
+Finland,FIN,pc_lab_comp,2010-19,sd,1.6732714936788995
+Finland,FIN,pc_lab_comp,2020-,mean,3.6625334844020827
+Finland,FIN,pc_lab_comp,2020-,sd,4.36153635917269
+Finland,FIN,pc_profits,1990-99,mean,6.202631277160941
+Finland,FIN,pc_profits,1990-99,sd,8.027959418360206
+Finland,FIN,pc_profits,2000-09,mean,3.3708222319406236
+Finland,FIN,pc_profits,2000-09,sd,7.270316667389178
+Finland,FIN,pc_profits,2010-19,mean,2.8179070784164875
+Finland,FIN,pc_profits,2010-19,sd,3.047525442593523
+Finland,FIN,pc_profits,2020-,mean,3.220531244113849
+Finland,FIN,pc_profits,2020-,sd,3.1250935654271053
+Finland,FIN,pc_rgdp,1990-99,mean,2.0233754248067037
+Finland,FIN,pc_rgdp,1990-99,sd,4.306322296068193
+Finland,FIN,pc_rgdp,2000-09,mean,2.0974819005162546
+Finland,FIN,pc_rgdp,2000-09,sd,3.9016645844044113
+Finland,FIN,pc_rgdp,2010-19,mean,1.1507313003401387
+Finland,FIN,pc_rgdp,2010-19,sd,1.9273056100919317
+Finland,FIN,pc_rgdp,2020-,mean,-0.008589745787744185
+Finland,FIN,pc_rgdp,2020-,sd,2.9685811091860477
+Finland,FIN,pc_taxes,1990-99,mean,3.9663070572126826
+Finland,FIN,pc_taxes,1990-99,sd,7.458469565651818
+Finland,FIN,pc_taxes,2000-09,mean,2.990681093204258
+Finland,FIN,pc_taxes,2000-09,sd,3.605566453825934
+Finland,FIN,pc_taxes,2010-19,mean,4.96835774113582
+Finland,FIN,pc_taxes,2010-19,sd,4.613054329055429
+Finland,FIN,pc_taxes,2020-,mean,1.7695519521744012
+Finland,FIN,pc_taxes,2020-,sd,7.976945300262356
+Finland,FIN,profits,1990-99,mean,9639.4525
+Finland,FIN,profits,1990-99,sd,2106.014569188593
+Finland,FIN,profits,2000-09,mean,17117.65
+Finland,FIN,profits,2000-09,sd,1938.5010141991884
+Finland,FIN,profits,2010-19,mean,20257.225
+Finland,FIN,profits,2010-19,sd,1834.6791725055475
+Finland,FIN,profits,2020-,mean,25529.333333333332
+Finland,FIN,profits,2020-,sd,1417.4210632653358
+Finland,FIN,rgdp_index,1990-99,mean,67.516841744675
+Finland,FIN,rgdp_index,1990-99,sd,6.346437864072422
+Finland,FIN,rgdp_index,2000-09,mean,94.336463804575
+Finland,FIN,rgdp_index,2000-09,sd,7.309122255244242
+Finland,FIN,rgdp_index,2010-19,mean,102.771799117025
+Finland,FIN,rgdp_index,2010-19,sd,3.2915502109246106
+Finland,FIN,rgdp_index,2020-,mean,108.595210305
+Finland,FIN,rgdp_index,2020-,sd,2.2263608470750977
+Finland,FIN,taxes,1990-99,mean,2879.975
+Finland,FIN,taxes,1990-99,sd,500.271335992164
+Finland,FIN,taxes,2000-09,mean,4638.7
+Finland,FIN,taxes,2000-09,sd,475.8784158444956
+Finland,FIN,taxes,2010-19,mean,7004.75
+Finland,FIN,taxes,2010-19,sd,765.7893112539305
+Finland,FIN,taxes,2020-,mean,8329.277777777777
+Finland,FIN,taxes,2020-,sd,551.7446985864935
 France,FRA,contr_relative,1980-89,mean,1.07277300311165
 France,FRA,contr_relative,1980-89,sd,0.7041130839604378
 France,FRA,contr_relative,1990-99,mean,-7.3751702575471105
@@ -859,6 +1579,16 @@ France,FRA,contr_unit_tax,2010-19,mean,0.3422354776381484
 France,FRA,contr_unit_tax,2010-19,sd,0.4337574937724161
 France,FRA,contr_unit_tax,2020-,mean,0.11178669904657212
 France,FRA,contr_unit_tax,2020-,sd,1.1809399160503737
+France,FRA,gdp,1980-89,mean,179667.91749999998
+France,FRA,gdp,1980-89,sd,42845.15604648482
+France,FRA,gdp,1990-99,mean,301199.4
+France,FRA,gdp,1990-99,sd,27803.226103347184
+France,FRA,gdp,2000-09,mean,434303.09249999997
+France,FRA,gdp,2000-09,sd,44704.31791047956
+France,FRA,gdp,2010-19,mean,548326.48
+France,FRA,gdp,2010-19,sd,33107.22530608379
+France,FRA,gdp,2020-,mean,653135.4277777778
+France,FRA,gdp,2020-,sd,55091.78188119942
 France,FRA,inflation_cpi,1980-89,mean,6.707244697983519
 France,FRA,inflation_cpi,1980-89,sd,4.029239258467615
 France,FRA,inflation_cpi,1990-99,mean,1.8709793741304035
@@ -879,6 +1609,16 @@ France,FRA,inflation_def,2010-19,mean,0.8907119861460983
 France,FRA,inflation_def,2010-19,sd,0.3614245275395964
 France,FRA,inflation_def,2020-,mean,3.153623692355604
 France,FRA,inflation_def,2020-,sd,1.7946755781289445
+France,FRA,lab_comp,1980-89,mean,95417.3575
+France,FRA,lab_comp,1980-89,sd,19603.893415900668
+France,FRA,lab_comp,1990-99,mean,153571.7425
+France,FRA,lab_comp,1990-99,sd,13580.261700300927
+France,FRA,lab_comp,2000-09,mean,221758.7875
+France,FRA,lab_comp,2000-09,sd,22287.915796074714
+France,FRA,lab_comp,2010-19,mean,285148.9525
+France,FRA,lab_comp,2010-19,sd,17008.838877025348
+France,FRA,lab_comp,2020-,mean,336245.27777777775
+France,FRA,lab_comp,2020-,sd,28168.364463213307
 France,FRA,labor_share,1980-89,mean,0.5352645514439072
 France,FRA,labor_share,1980-89,sd,0.019056667834978298
 France,FRA,labor_share,1990-99,mean,0.5100461535231431
@@ -889,16 +1629,76 @@ France,FRA,labor_share,2010-19,mean,0.5200664079051479
 France,FRA,labor_share,2010-19,sd,0.0044380148409472655
 France,FRA,labor_share,2020-,mean,0.5148512047450371
 France,FRA,labor_share,2020-,sd,0.003020094056908179
-France,FRA,ls_to_ps,1980-89,mean,1.5998002668507432
-France,FRA,ls_to_ps,1980-89,sd,0.14388530568602712
-France,FRA,ls_to_ps,1990-99,mean,1.43484096168477
-France,FRA,ls_to_ps,1990-99,sd,0.025619696281649368
-France,FRA,ls_to_ps,2000-09,mean,1.4318184985435245
-France,FRA,ls_to_ps,2000-09,sd,0.03509717793666912
-France,FRA,ls_to_ps,2010-19,mean,1.5056012063610644
-France,FRA,ls_to_ps,2010-19,sd,0.0334335646536787
-France,FRA,ls_to_ps,2020-,mean,1.470213351181637
-France,FRA,ls_to_ps,2020-,sd,0.04398618980892492
+France,FRA,pc_lab_comp,1980-89,mean,8.142134600381892
+France,FRA,pc_lab_comp,1980-89,sd,3.6501538881535738
+France,FRA,pc_lab_comp,1990-99,mean,3.6207754565373156
+France,FRA,pc_lab_comp,1990-99,sd,1.4634622399050996
+France,FRA,pc_lab_comp,2000-09,mean,3.5724568214504075
+France,FRA,pc_lab_comp,2000-09,sd,1.3687943728172003
+France,FRA,pc_lab_comp,2010-19,mean,2.1344773933048478
+France,FRA,pc_lab_comp,2010-19,sd,0.7291235576088914
+France,FRA,pc_lab_comp,2020-,mean,4.064119864696592
+France,FRA,pc_lab_comp,2020-,sd,5.5211547543395465
+France,FRA,pc_profits,1980-89,mean,10.964254688871607
+France,FRA,pc_profits,1980-89,sd,3.235582795551865
+France,FRA,pc_profits,1990-99,mean,3.0392732665196798
+France,FRA,pc_profits,1990-99,sd,2.4730106881364686
+France,FRA,pc_profits,2000-09,mean,3.4181083485577934
+France,FRA,pc_profits,2000-09,sd,4.076984835982403
+France,FRA,pc_profits,2010-19,mean,1.9840952378953431
+France,FRA,pc_profits,2010-19,sd,2.1674624011036756
+France,FRA,pc_profits,2020-,mean,5.08128119583847
+France,FRA,pc_profits,2020-,sd,6.875355365843384
+France,FRA,pc_rgdp,1980-89,mean,2.4828584587685874
+France,FRA,pc_rgdp,1980-89,sd,1.350601766229816
+France,FRA,pc_rgdp,1990-99,mean,2.0535110238459655
+France,FRA,pc_rgdp,1990-99,sd,1.2890445897744267
+France,FRA,pc_rgdp,2000-09,mean,1.5807516015140541
+France,FRA,pc_rgdp,2000-09,sd,1.93899099349107
+France,FRA,pc_rgdp,2010-19,mean,1.4159253410009478
+France,FRA,pc_rgdp,2010-19,sd,0.8635600116558697
+France,FRA,pc_rgdp,2020-,mean,0.8806740206213219
+France,FRA,pc_rgdp,2020-,sd,6.59202492571476
+France,FRA,pc_taxes,1980-89,mean,9.446010939183495
+France,FRA,pc_taxes,1980-89,sd,4.150963256328427
+France,FRA,pc_taxes,1990-99,mean,4.44234291722967
+France,FRA,pc_taxes,1990-99,sd,2.6174102311692855
+France,FRA,pc_taxes,2000-09,mean,2.47757018655455
+France,FRA,pc_taxes,2000-09,sd,3.0060084586499976
+France,FRA,pc_taxes,2010-19,mean,3.890617967716699
+France,FRA,pc_taxes,2010-19,sd,3.4579958735955985
+France,FRA,pc_taxes,2020-,mean,1.632842270328234
+France,FRA,pc_taxes,2020-,sd,12.720049598054482
+France,FRA,profits,1980-89,mean,61150.20250000001
+France,FRA,profits,1980-89,sd,17812.84247373496
+France,FRA,profits,1990-99,mean,106985.9775
+France,FRA,profits,1990-99,sd,8778.155825231452
+France,FRA,profits,2000-09,mean,155075.8575
+France,FRA,profits,2000-09,sd,17163.11987780608
+France,FRA,profits,2010-19,mean,189310.0825
+France,FRA,profits,2010-19,sd,8882.681653612804
+France,FRA,profits,2020-,mean,228931.20555555556
+France,FRA,profits,2020-,sd,20772.462965425344
+France,FRA,rgdp_index,1980-89,mean,57.026637161775
+France,FRA,rgdp_index,1980-89,sd,4.006424838063233
+France,FRA,rgdp_index,1990-99,mean,71.68544058485
+France,FRA,rgdp_index,1990-99,sd,4.133533427094461
+France,FRA,rgdp_index,2000-09,mean,89.508244588125
+France,FRA,rgdp_index,2000-09,sd,4.402110911094514
+France,FRA,rgdp_index,2010-19,mean,100.15298716205
+France,FRA,rgdp_index,2010-19,sd,3.6870552659030507
+France,FRA,rgdp_index,2020-,mean,106.08048848783334
+France,FRA,rgdp_index,2020-,sd,5.274421833102521
+France,FRA,taxes,1980-89,mean,23100.364999999998
+France,FRA,taxes,1980-89,sd,5578.365484875131
+France,FRA,taxes,1990-99,mean,40641.674999999996
+France,FRA,taxes,1990-99,sd,5663.481011042229
+France,FRA,taxes,2000-09,mean,57468.4475
+France,FRA,taxes,2000-09,sd,5631.5256180872575
+France,FRA,taxes,2010-19,mean,73867.4375
+France,FRA,taxes,2010-19,sd,7864.616130416927
+France,FRA,taxes,2020-,mean,87958.95
+France,FRA,taxes,2020-,sd,8302.067591818179
 Germany,DEU,contr_relative,1990-99,mean,1.7084985231314684
 Germany,DEU,contr_relative,1990-99,sd,4.848672509251215
 Germany,DEU,contr_relative,2000-09,mean,-1.776160735560884
@@ -939,6 +1739,14 @@ Germany,DEU,contr_unit_tax,2010-19,mean,0.15278679219803495
 Germany,DEU,contr_unit_tax,2010-19,sd,0.2501083867390417
 Germany,DEU,contr_unit_tax,2020-,mean,0.24165761587834966
 Germany,DEU,contr_unit_tax,2020-,sd,1.4885235708166749
+Germany,DEU,gdp,1990-99,mean,464426.1111111111
+Germany,DEU,gdp,1990-99,sd,37338.88842233889
+Germany,DEU,gdp,2000-09,mean,577975.025
+Germany,DEU,gdp,2000-09,sd,36247.19082695254
+Germany,DEU,gdp,2010-19,mean,750242.25
+Germany,DEU,gdp,2010-19,sd,73728.52770415992
+Germany,DEU,gdp,2020-,mean,945588.5294117647
+Germany,DEU,gdp,2020-,sd,76466.72351594976
 Germany,DEU,inflation_cpi,1990-99,mean,2.3548260312287175
 Germany,DEU,inflation_cpi,1990-99,sd,1.61712533538816
 Germany,DEU,inflation_cpi,2000-09,mean,1.5915499460992684
@@ -955,6 +1763,14 @@ Germany,DEU,inflation_def,2010-19,mean,1.5536063111933078
 Germany,DEU,inflation_def,2010-19,sd,0.4429054754978169
 Germany,DEU,inflation_def,2020-,mean,4.138691973439876
 Germany,DEU,inflation_def,2020-,sd,2.1856071267191526
+Germany,DEU,lab_comp,1990-99,mean,249872.25
+Germany,DEU,lab_comp,1990-99,sd,17108.33214109429
+Germany,DEU,lab_comp,2000-09,mean,297936.775
+Germany,DEU,lab_comp,2000-09,sd,12133.977009879409
+Germany,DEU,lab_comp,2010-19,mean,395541.2
+Germany,DEU,lab_comp,2010-19,sd,46595.27696501174
+Germany,DEU,lab_comp,2020-,mean,517882.1666666667
+Germany,DEU,lab_comp,2020-,sd,38886.87245036027
 Germany,DEU,labor_share,1990-99,mean,0.5385659332165127
 Germany,DEU,labor_share,1990-99,sd,0.009118191945855048
 Germany,DEU,labor_share,2000-09,mean,0.5162955929480691
@@ -963,14 +1779,62 @@ Germany,DEU,labor_share,2010-19,mean,0.526269087186538
 Germany,DEU,labor_share,2010-19,sd,0.010990475142014414
 Germany,DEU,labor_share,2020-,mean,0.5442822519295878
 Germany,DEU,labor_share,2020-,sd,0.010008452810147124
-Germany,DEU,ls_to_ps,1990-99,mean,1.4132613965478589
-Germany,DEU,ls_to_ps,1990-99,sd,0.055147554019673944
-Germany,DEU,ls_to_ps,2000-09,mean,1.2854559449146066
-Germany,DEU,ls_to_ps,2000-09,sd,0.09289426472401982
-Germany,DEU,ls_to_ps,2010-19,mean,1.3434267441960286
-Germany,DEU,ls_to_ps,2010-19,sd,0.06799141764634857
-Germany,DEU,ls_to_ps,2020-,mean,1.41516359975557
-Germany,DEU,ls_to_ps,2020-,sd,0.06305147511386297
+Germany,DEU,pc_lab_comp,1990-99,mean,3.0031197431684205
+Germany,DEU,pc_lab_comp,1990-99,sd,2.502536080974308
+Germany,DEU,pc_lab_comp,2000-09,mean,1.6137596113015131
+Germany,DEU,pc_lab_comp,2000-09,sd,1.5136333924665917
+Germany,DEU,pc_lab_comp,2010-19,mean,4.035479202532768
+Germany,DEU,pc_lab_comp,2010-19,sd,0.6825608380894121
+Germany,DEU,pc_lab_comp,2020-,mean,4.26615883743177
+Germany,DEU,pc_lab_comp,2020-,sd,3.2123101219940557
+Germany,DEU,pc_profits,1990-99,mean,3.5415554010972494
+Germany,DEU,pc_profits,1990-99,sd,2.8232912216982986
+Germany,DEU,pc_profits,2000-09,mean,2.1257378245373917
+Germany,DEU,pc_profits,2000-09,sd,5.2251305685476845
+Germany,DEU,pc_profits,2010-19,mean,2.9364850996485132
+Germany,DEU,pc_profits,2010-19,sd,3.027444540803258
+Germany,DEU,pc_profits,2020-,mean,5.260551733726705
+Germany,DEU,pc_profits,2020-,sd,6.624092494020637
+Germany,DEU,pc_rgdp,1990-99,mean,1.466513375547813
+Germany,DEU,pc_rgdp,1990-99,sd,1.2289289487046415
+Germany,DEU,pc_rgdp,2000-09,mean,0.8102088008682257
+Germany,DEU,pc_rgdp,2000-09,sd,2.7176902774866436
+Germany,DEU,pc_rgdp,2010-19,mean,1.997797749516724
+Germany,DEU,pc_rgdp,2010-19,sd,1.3923005533054766
+Germany,DEU,pc_rgdp,2020-,mean,0.14433189972461327
+Germany,DEU,pc_rgdp,2020-,sd,4.132761445948156
+Germany,DEU,pc_taxes,1990-99,mean,5.659699922507819
+Germany,DEU,pc_taxes,1990-99,sd,5.835199432453067
+Germany,DEU,pc_taxes,2000-09,mean,2.703766790237108
+Germany,DEU,pc_taxes,2000-09,sd,4.218627992142908
+Germany,DEU,pc_taxes,2010-19,mean,3.5142846386288458
+Germany,DEU,pc_taxes,2010-19,sd,2.9985708465479326
+Germany,DEU,pc_taxes,2020-,mean,2.6369131330483473
+Germany,DEU,pc_taxes,2020-,sd,18.804474789083176
+Germany,DEU,profits,1990-99,mean,177304.05555555556
+Germany,DEU,profits,1990-99,sd,16818.4364381888
+Germany,DEU,profits,2000-09,mean,233313.525
+Germany,DEU,profits,2000-09,sd,23306.7258213628
+Germany,DEU,profits,2010-19,mean,293569.325
+Germany,DEU,profits,2010-19,sd,21229.443109460517
+Germany,DEU,profits,2020-,mean,366894.77777777775
+Germany,DEU,profits,2020-,sd,35206.65453568076
+Germany,DEU,rgdp_index,1990-99,mean,76.56417082366667
+Germany,DEU,rgdp_index,1990-99,sd,3.0358591204077636
+Germany,DEU,rgdp_index,2000-09,mean,87.759685271375
+Germany,DEU,rgdp_index,2000-09,sd,3.212870249230616
+Germany,DEU,rgdp_index,2010-19,mean,99.91485360895
+Germany,DEU,rgdp_index,2010-19,sd,5.087540614743208
+Germany,DEU,rgdp_index,2020-,mean,106.39673404816666
+Germany,DEU,rgdp_index,2020-,sd,2.9379984292169308
+Germany,DEU,taxes,1990-99,mean,39270.38888888889
+Germany,DEU,taxes,1990-99,sd,4843.156168555363
+Germany,DEU,taxes,2000-09,mean,55276.225
+Germany,DEU,taxes,2000-09,sd,5158.775160171756
+Germany,DEU,taxes,2010-19,mean,75778.925
+Germany,DEU,taxes,2010-19,sd,7474.214190365535
+Germany,DEU,taxes,2020-,mean,82711.11111111111
+Germany,DEU,taxes,2020-,sd,10726.381808084703
 Greece,GRC,contr_relative,1990-99,mean,3.1131054693910194
 Greece,GRC,contr_relative,1990-99,sd,8.584993829732937
 Greece,GRC,contr_relative,2000-09,mean,9.091387317277496
@@ -1011,6 +1875,14 @@ Greece,GRC,contr_unit_tax,2010-19,mean,0.5583098465330457
 Greece,GRC,contr_unit_tax,2010-19,sd,1.0137351607930987
 Greece,GRC,contr_unit_tax,2020-,mean,0.9092246311503769
 Greece,GRC,contr_unit_tax,2020-,sd,2.98761232874488
+Greece,GRC,gdp,1990-99,mean,28467.13
+Greece,GRC,gdp,1990-99,sd,3849.534783663031
+Greece,GRC,gdp,2000-09,mean,49020.9075
+Greece,GRC,gdp,2000-09,sd,8758.206340704277
+Greece,GRC,gdp,2010-19,mean,46618.9175
+Greece,GRC,gdp,2010-19,sd,3932.5657945748667
+Greece,GRC,gdp,2020-,mean,49297.92222222222
+Greece,GRC,gdp,2020-,sd,6101.921588132088
 Greece,GRC,inflation_cpi,1990-99,mean,5.289680547804988
 Greece,GRC,inflation_cpi,1990-99,sd,2.120615316041268
 Greece,GRC,inflation_cpi,2000-09,mean,3.15925608635279
@@ -1027,6 +1899,14 @@ Greece,GRC,inflation_def,2010-19,mean,0.041615816440697145
 Greece,GRC,inflation_def,2010-19,sd,1.9579014281864555
 Greece,GRC,inflation_def,2020-,mean,3.24093721701919
 Greece,GRC,inflation_def,2020-,sd,3.3074963007915654
+Greece,GRC,lab_comp,1990-99,mean,8390.82
+Greece,GRC,lab_comp,1990-99,sd,1291.2533395687183
+Greece,GRC,lab_comp,2000-09,mean,16387.247499999998
+Greece,GRC,lab_comp,2000-09,sd,3544.61652064862
+Greece,GRC,lab_comp,2010-19,mean,16753.6675
+Greece,GRC,lab_comp,2010-19,sd,1487.2592906533196
+Greece,GRC,lab_comp,2020-,mean,17820.105555555554
+Greece,GRC,lab_comp,2020-,sd,1343.9158168979548
 Greece,GRC,labor_share,1990-99,mean,0.29409327800655205
 Greece,GRC,labor_share,1990-99,sd,0.006330449485551579
 Greece,GRC,labor_share,2000-09,mean,0.33200698885145125
@@ -1035,14 +1915,62 @@ Greece,GRC,labor_share,2010-19,mean,0.3593176354949141
 Greece,GRC,labor_share,2010-19,sd,0.007887485763118042
 Greece,GRC,labor_share,2020-,mean,0.3637365501939129
 Greece,GRC,labor_share,2020-,sd,0.02028111455847303
-Greece,GRC,ls_to_ps,1990-99,mean,0.48721026407460244
-Greece,GRC,ls_to_ps,1990-99,sd,0.018398445404971583
-Greece,GRC,ls_to_ps,2000-09,mean,0.5939898816317863
-Greece,GRC,ls_to_ps,2000-09,sd,0.0437272781876376
-Greece,GRC,ls_to_ps,2010-19,mean,0.711001683610086
-Greece,GRC,ls_to_ps,2010-19,sd,0.04230257748151052
-Greece,GRC,ls_to_ps,2020-,mean,0.7152254226917536
-Greece,GRC,ls_to_ps,2020-,sd,0.052524270253330445
+Greece,GRC,pc_lab_comp,1990-99,mean,10.635754576824292
+Greece,GRC,pc_lab_comp,1990-99,sd,2.5267514165984415
+Greece,GRC,pc_lab_comp,2000-09,mean,7.743775839362068
+Greece,GRC,pc_lab_comp,2000-09,sd,4.339844623920501
+Greece,GRC,pc_lab_comp,2010-19,mean,-2.094056735377063
+Greece,GRC,pc_lab_comp,2010-19,sd,5.152822749416457
+Greece,GRC,pc_lab_comp,2020-,mean,3.4694369419690623
+Greece,GRC,pc_lab_comp,2020-,sd,4.969722524877617
+Greece,GRC,pc_profits,1990-99,mean,8.446050991378492
+Greece,GRC,pc_profits,1990-99,sd,2.563445669468305
+Greece,GRC,pc_profits,2000-09,mean,5.131217380011298
+Greece,GRC,pc_profits,2000-09,sd,4.327846847361464
+Greece,GRC,pc_profits,2010-19,mean,-3.6622407062324296
+Greece,GRC,pc_profits,2010-19,sd,4.4340630518719255
+Greece,GRC,pc_profits,2020-,mean,6.606468703410929
+Greece,GRC,pc_profits,2020-,sd,9.977267031307225
+Greece,GRC,pc_rgdp,1990-99,mean,3.584527528609635
+Greece,GRC,pc_rgdp,1990-99,sd,1.036742447727206
+Greece,GRC,pc_rgdp,2000-09,mean,2.7859694035792915
+Greece,GRC,pc_rgdp,2000-09,sd,3.2349236730633413
+Greece,GRC,pc_rgdp,2010-19,mean,-2.4996512321940285
+Greece,GRC,pc_rgdp,2010-19,sd,4.7415227654889796
+Greece,GRC,pc_rgdp,2020-,mean,1.8197833692402823
+Greece,GRC,pc_rgdp,2020-,sd,7.623158890936311
+Greece,GRC,pc_taxes,1990-99,mean,13.272226903964594
+Greece,GRC,pc_taxes,1990-99,sd,4.566422659959858
+Greece,GRC,pc_taxes,2000-09,mean,5.542035743295391
+Greece,GRC,pc_taxes,2000-09,sd,8.577197068756796
+Greece,GRC,pc_taxes,2010-19,mean,1.5292573555310767
+Greece,GRC,pc_taxes,2010-19,sd,7.75277614774141
+Greece,GRC,pc_taxes,2020-,mean,8.237300632900894
+Greece,GRC,pc_taxes,2020-,sd,29.982443308016652
+Greece,GRC,profits,1990-99,mean,17160.695
+Greece,GRC,profits,1990-99,sd,2066.9400348990343
+Greece,GRC,profits,2000-09,mean,27347.84
+Greece,GRC,profits,2000-09,sd,4350.8369442895555
+Greece,GRC,profits,2010-19,mean,23653.29
+Greece,GRC,profits,2010-19,sd,2653.5453974461584
+Greece,GRC,profits,2020-,mean,25137.96111111111
+Greece,GRC,profits,2020-,sd,3409.6591254739965
+Greece,GRC,rgdp_index,1990-99,mean,96.66898125555001
+Greece,GRC,rgdp_index,1990-99,sd,5.231489400515592
+Greece,GRC,rgdp_index,2000-09,mean,127.690692687125
+Greece,GRC,rgdp_index,2000-09,sd,11.865064532589294
+Greece,GRC,rgdp_index,2010-19,mean,104.18493610585
+Greece,GRC,rgdp_index,2010-19,sd,7.205150220212842
+Greece,GRC,rgdp_index,2020-,mean,104.73145974333333
+Greece,GRC,rgdp_index,2020-,sd,7.019771292508613
+Greece,GRC,taxes,1990-99,mean,2915.61
+Greece,GRC,taxes,1990-99,sd,510.7208217700486
+Greece,GRC,taxes,2000-09,mean,5285.82
+Greece,GRC,taxes,2000-09,sd,959.2447563925832
+Greece,GRC,taxes,2010-19,mean,6211.9575
+Greece,GRC,taxes,2010-19,sd,547.3749401192136
+Greece,GRC,taxes,2020-,mean,6339.855555555556
+Greece,GRC,taxes,2020-,sd,1606.9534673237404
 Hungary,HUN,contr_relative,1990-99,mean,0.8767899907228969
 Hungary,HUN,contr_relative,1990-99,sd,0.21950609773150084
 Hungary,HUN,contr_relative,2000-09,mean,0.09729760888845738
@@ -1083,6 +2011,14 @@ Hungary,HUN,contr_unit_tax,2010-19,mean,0.7323049674404043
 Hungary,HUN,contr_unit_tax,2010-19,sd,0.8982956715999006
 Hungary,HUN,contr_unit_tax,2020-,mean,1.3900701345878015
 Hungary,HUN,contr_unit_tax,2020-,sd,1.642414375811817
+Hungary,HUN,gdp,1990-99,mean,2198787.15
+Hungary,HUN,gdp,1990-99,sd,552320.5956460123
+Hungary,HUN,gdp,2000-09,mean,5317934.950000001
+Hungary,HUN,gdp,2000-09,sd,1166628.2226685004
+Hungary,HUN,gdp,2010-19,mean,8753399.8
+Hungary,HUN,gdp,2010-19,sd,1658278.494081062
+Hungary,HUN,gdp,2020-,mean,15877161.444444444
+Hungary,HUN,gdp,2020-,sd,2952626.7315687533
 Hungary,HUN,inflation_cpi,1990-99,mean,16.54051181421801
 Hungary,HUN,inflation_cpi,1990-99,sd,5.507179796168153
 Hungary,HUN,inflation_cpi,2000-09,mean,6.134812840581306
@@ -1099,6 +2035,14 @@ Hungary,HUN,inflation_def,2010-19,mean,3.1492083523045005
 Hungary,HUN,inflation_def,2010-19,sd,1.3595306690118187
 Hungary,HUN,inflation_def,2020-,mean,10.188261654082329
 Hungary,HUN,inflation_def,2020-,sd,4.311341038325682
+Hungary,HUN,lab_comp,1990-99,mean,965102.55
+Hungary,HUN,lab_comp,1990-99,sd,231546.44208894682
+Hungary,HUN,lab_comp,2000-09,mean,2407210.6499999994
+Hungary,HUN,lab_comp,2000-09,sd,543220.7906367613
+Hungary,HUN,lab_comp,2010-19,mean,3759906.3
+Hungary,HUN,lab_comp,2010-19,sd,651903.9359296146
+Hungary,HUN,lab_comp,2020-,mean,6515882.888888889
+Hungary,HUN,lab_comp,2020-,sd,1209280.9681526548
 Hungary,HUN,labor_share,1990-99,mean,0.4402949514752097
 Hungary,HUN,labor_share,1990-99,sd,0.008401634810337691
 Hungary,HUN,labor_share,2000-09,mean,0.4519134210978016
@@ -1107,14 +2051,62 @@ Hungary,HUN,labor_share,2010-19,mean,0.4308254725703785
 Hungary,HUN,labor_share,2010-19,sd,0.009683193572350347
 Hungary,HUN,labor_share,2020-,mean,0.4108116770469586
 Hungary,HUN,labor_share,2020-,sd,0.012046944110114555
-Hungary,HUN,ls_to_ps,1990-99,mean,1.0576842842596137
-Hungary,HUN,ls_to_ps,1990-99,sd,0.046080469069526946
-Hungary,HUN,ls_to_ps,2000-09,mean,1.102205229596412
-Hungary,HUN,ls_to_ps,2000-09,sd,0.03729905515755392
-Hungary,HUN,ls_to_ps,2010-19,mean,1.0342371659784235
-Hungary,HUN,ls_to_ps,2010-19,sd,0.04252378735743547
-Hungary,HUN,ls_to_ps,2020-,mean,0.9435265054354312
-Hungary,HUN,ls_to_ps,2020-,sd,0.06802495940052836
+Hungary,HUN,pc_lab_comp,1990-99,mean,17.686768352483586
+Hungary,HUN,pc_lab_comp,1990-99,sd,5.526489576440416
+Hungary,HUN,pc_lab_comp,2000-09,mean,9.200732806614015
+Hungary,HUN,pc_lab_comp,2000-09,sd,6.248913337711058
+Hungary,HUN,pc_lab_comp,2010-19,mean,5.465457436350644
+Hungary,HUN,pc_lab_comp,2010-19,sd,2.867196026943314
+Hungary,HUN,pc_lab_comp,2020-,mean,11.548966192710179
+Hungary,HUN,pc_lab_comp,2020-,sd,6.90193762011545
+Hungary,HUN,pc_profits,1990-99,mean,20.995922205910393
+Hungary,HUN,pc_profits,1990-99,sd,7.136255240823325
+Hungary,HUN,pc_profits,2000-09,mean,8.290492638028496
+Hungary,HUN,pc_profits,2000-09,sd,6.944601721576712
+Hungary,HUN,pc_profits,2010-19,mean,6.529094926371491
+Hungary,HUN,pc_profits,2010-19,sd,4.472320965865354
+Hungary,HUN,pc_profits,2020-,mean,13.193166400928382
+Hungary,HUN,pc_profits,2020-,sd,12.368021283651986
+Hungary,HUN,pc_rgdp,1990-99,mean,2.45871152285671
+Hungary,HUN,pc_rgdp,1990-99,sd,1.6628474405751923
+Hungary,HUN,pc_rgdp,2000-09,mean,2.5056516028070535
+Hungary,HUN,pc_rgdp,2000-09,sd,3.5815029542869175
+Hungary,HUN,pc_rgdp,2010-19,mean,2.908958130856904
+Hungary,HUN,pc_rgdp,2010-19,sd,2.102495095429887
+Hungary,HUN,pc_rgdp,2020-,mean,1.6073477438496249
+Hungary,HUN,pc_rgdp,2020-,sd,6.320166470394842
+Hungary,HUN,pc_taxes,1990-99,mean,17.210989035502752
+Hungary,HUN,pc_taxes,1990-99,sd,13.405862121557767
+Hungary,HUN,pc_taxes,2000-09,mean,9.546219857272185
+Hungary,HUN,pc_taxes,2000-09,sd,13.416747381688525
+Hungary,HUN,pc_taxes,2010-19,mean,7.704820493053375
+Hungary,HUN,pc_taxes,2010-19,sd,6.250235632553447
+Hungary,HUN,pc_taxes,2020-,mean,10.578953011345606
+Hungary,HUN,pc_taxes,2020-,sd,13.553851127583881
+Hungary,HUN,profits,1990-99,mean,921287.9
+Hungary,HUN,profits,1990-99,sd,249238.24242192134
+Hungary,HUN,profits,2000-09,mean,2179706.15
+Hungary,HUN,profits,2000-09,sd,472213.80263483274
+Hungary,HUN,profits,2010-19,mean,3656207.9500000007
+Hungary,HUN,profits,2010-19,sd,731623.6167721534
+Hungary,HUN,profits,2020-,mean,6952697.5
+Hungary,HUN,profits,2020-,sd,1406635.248932307
+Hungary,HUN,rgdp_index,1990-99,mean,66.1515005661
+Hungary,HUN,rgdp_index,1990-99,sd,2.6834256573426374
+Hungary,HUN,rgdp_index,2000-09,mean,86.389917867125
+Hungary,HUN,rgdp_index,2000-09,sd,7.736946619235205
+Hungary,HUN,rgdp_index,2010-19,mean,100.179719533275
+Hungary,HUN,rgdp_index,2010-19,sd,9.538108183946882
+Hungary,HUN,rgdp_index,2020-,mean,122.03524105988889
+Hungary,HUN,rgdp_index,2020-,sd,6.320301960685191
+Hungary,HUN,taxes,1990-99,mean,311356.4
+Hungary,HUN,taxes,1990-99,sd,71154.60870038751
+Hungary,HUN,taxes,2000-09,mean,731242.95
+Hungary,HUN,taxes,2000-09,sd,163515.88444833274
+Hungary,HUN,taxes,2010-19,mean,1342900.4499999997
+Hungary,HUN,taxes,2010-19,sd,294834.33273863024
+Hungary,HUN,taxes,2020-,mean,2393258.3333333335
+Hungary,HUN,taxes,2020-,sd,425213.92596613
 Israel,ISR,contr_relative,2000-09,mean,-2.78035226481013
 Israel,ISR,contr_relative,2000-09,sd,6.22473790741389
 Israel,ISR,contr_relative,2010-19,mean,0.036312714654675296
@@ -1145,6 +2137,12 @@ Israel,ISR,contr_unit_tax,2010-19,mean,NA
 Israel,ISR,contr_unit_tax,2010-19,sd,NA
 Israel,ISR,contr_unit_tax,2020-,mean,NA
 Israel,ISR,contr_unit_tax,2020-,sd,NA
+Israel,ISR,gdp,2000-09,mean,193820.5625
+Israel,ISR,gdp,2000-09,sd,12788.129313123429
+Israel,ISR,gdp,2010-19,mean,289228.425
+Israel,ISR,gdp,2010-19,sd,42134.80107141322
+Israel,ISR,gdp,2020-,mean,408631.78571428574
+Israel,ISR,gdp,2020-,sd,45361.0905006933
 Israel,ISR,inflation_cpi,2000-09,mean,2.787648805757781
 Israel,ISR,inflation_cpi,2000-09,sd,2.026405059435894
 Israel,ISR,inflation_cpi,2010-19,mean,1.067813062798078
@@ -1157,18 +2155,60 @@ Israel,ISR,inflation_def,2010-19,mean,1.3668315068135959
 Israel,ISR,inflation_def,2010-19,sd,1.3273192574761388
 Israel,ISR,inflation_def,2020-,mean,2.7675176550249807
 Israel,ISR,inflation_def,2020-,sd,1.8655182683163005
+Israel,ISR,lab_comp,2000-09,mean,111889.48125
+Israel,ISR,lab_comp,2000-09,sd,7213.577042329623
+Israel,ISR,lab_comp,2010-19,mean,166412.5975
+Israel,ISR,lab_comp,2010-19,sd,25658.10550759178
+Israel,ISR,lab_comp,2020-,mean,222929.02857142856
+Israel,ISR,lab_comp,2020-,sd,26975.131839256595
 Israel,ISR,labor_share,2000-09,mean,0.5774425573370024
 Israel,ISR,labor_share,2000-09,sd,0.011914071993271338
 Israel,ISR,labor_share,2010-19,mean,0.5747260616826008
 Israel,ISR,labor_share,2010-19,sd,0.007153495124879766
 Israel,ISR,labor_share,2020-,mean,0.5450739487943508
 Israel,ISR,labor_share,2020-,sd,0.013767161201985581
-Israel,ISR,ls_to_ps,2000-09,mean,1.3683028837095774
-Israel,ISR,ls_to_ps,2000-09,sd,0.06664554598506142
-Israel,ISR,ls_to_ps,2010-19,mean,1.352082269072158
-Israel,ISR,ls_to_ps,2010-19,sd,0.040057831308180324
-Israel,ISR,ls_to_ps,2020-,mean,1.2000494014345593
-Israel,ISR,ls_to_ps,2020-,sd,0.0672867217548278
+Israel,ISR,pc_lab_comp,2000-09,mean,5.316252393857415
+Israel,ISR,pc_lab_comp,2000-09,sd,3.3665742952430966
+Israel,ISR,pc_lab_comp,2010-19,mean,5.705511681482587
+Israel,ISR,pc_lab_comp,2010-19,sd,1.617781088487958
+Israel,ISR,pc_lab_comp,2020-,mean,6.275416828361709
+Israel,ISR,pc_lab_comp,2020-,sd,11.64444206383134
+Israel,ISR,pc_profits,2000-09,mean,6.633617166265159
+Israel,ISR,pc_profits,2000-09,sd,6.284321548009963
+Israel,ISR,pc_profits,2010-19,mean,5.236612325548907
+Israel,ISR,pc_profits,2010-19,sd,2.5529007562282353
+Israel,ISR,pc_profits,2020-,mean,9.868054749833552
+Israel,ISR,pc_profits,2020-,sd,4.9153217328335765
+Israel,ISR,pc_rgdp,2000-09,mean,3.4792197634215167
+Israel,ISR,pc_rgdp,2000-09,sd,2.5277102056782077
+Israel,ISR,pc_rgdp,2010-19,mean,4.078266104738942
+Israel,ISR,pc_rgdp,2010-19,sd,1.3373620615518753
+Israel,ISR,pc_rgdp,2020-,mean,4.7216200669967545
+Israel,ISR,pc_rgdp,2020-,sd,5.958075240092596
+Israel,ISR,pc_taxes,2000-09,mean,NA
+Israel,ISR,pc_taxes,2000-09,sd,NA
+Israel,ISR,pc_taxes,2010-19,mean,NA
+Israel,ISR,pc_taxes,2010-19,sd,NA
+Israel,ISR,pc_taxes,2020-,mean,NA
+Israel,ISR,pc_taxes,2020-,sd,NA
+Israel,ISR,profits,2000-09,mean,81931.08125
+Israel,ISR,profits,2000-09,sd,6376.589068273493
+Israel,ISR,profits,2010-19,mean,122815.8275
+Israel,ISR,profits,2010-19,sd,16623.303197773952
+Israel,ISR,profits,2020-,mean,185702.75714285715
+Israel,ISR,profits,2020-,sd,19515.7742594081
+Israel,ISR,rgdp_index,2000-09,mean,76.1845337804375
+Israel,ISR,rgdp_index,2000-09,sd,3.1744702078440556
+Israel,ISR,rgdp_index,2010-19,mean,99.953352745725
+Israel,ISR,rgdp_index,2010-19,sd,10.992350093325912
+Israel,ISR,rgdp_index,2020-,mean,128.04762038571428
+Israel,ISR,rgdp_index,2020-,sd,9.854314899835845
+Israel,ISR,taxes,2000-09,mean,NA
+Israel,ISR,taxes,2000-09,sd,NA
+Israel,ISR,taxes,2010-19,mean,NA
+Israel,ISR,taxes,2010-19,sd,NA
+Israel,ISR,taxes,2020-,mean,NA
+Israel,ISR,taxes,2020-,sd,NA
 Italy,ITA,contr_relative,1990-99,mean,8.62484604070625
 Italy,ITA,contr_relative,1990-99,sd,27.69424982702677
 Italy,ITA,contr_relative,2000-09,mean,0.8605006771285996
@@ -1209,6 +2249,14 @@ Italy,ITA,contr_unit_tax,2010-19,mean,0.2521991569859518
 Italy,ITA,contr_unit_tax,2010-19,sd,0.5792488749254476
 Italy,ITA,contr_unit_tax,2020-,mean,0.2198985757584732
 Italy,ITA,contr_unit_tax,2020-,sd,0.7187982334638727
+Italy,ITA,gdp,1990-99,mean,272367.22
+Italy,ITA,gdp,1990-99,sd,17147.268518080593
+Italy,ITA,gdp,2000-09,mean,366900.5675
+Italy,ITA,gdp,2000-09,sd,33416.50786073184
+Italy,ITA,gdp,2010-19,mean,421745.96
+Italy,ITA,gdp,2010-19,sd,16549.84330048677
+Italy,ITA,gdp,2020-,mean,484221.9888888889
+Italy,ITA,gdp,2020-,sd,48750.31888759522
 Italy,ITA,inflation_cpi,1990-99,mean,2.4204869239743227
 Italy,ITA,inflation_cpi,1990-99,sd,1.0780545350353308
 Italy,ITA,inflation_cpi,2000-09,mean,2.270080857648628
@@ -1225,6 +2273,14 @@ Italy,ITA,inflation_def,2010-19,mean,1.0917289171010336
 Italy,ITA,inflation_def,2010-19,sd,0.4544450268119831
 Italy,ITA,inflation_def,2020-,mean,2.9512242232578263
 Italy,ITA,inflation_def,2020-,sd,1.897218309615065
+Italy,ITA,lab_comp,1990-99,mean,103761.285
+Italy,ITA,lab_comp,1990-99,sd,5319.83219494701
+Italy,ITA,lab_comp,2000-09,mean,138818.1775
+Italy,ITA,lab_comp,2000-09,sd,15395.164316683533
+Italy,ITA,lab_comp,2010-19,mean,165485.6825
+Italy,ITA,lab_comp,2010-19,sd,7317.465744364116
+Italy,ITA,lab_comp,2020-,mean,191864.30555555556
+Italy,ITA,lab_comp,2020-,sd,16548.700456619197
 Italy,ITA,labor_share,1990-99,mean,0.3812777404510478
 Italy,ITA,labor_share,1990-99,sd,0.00786504875954689
 Italy,ITA,labor_share,2000-09,mean,0.3777217937043863
@@ -1233,14 +2289,62 @@ Italy,ITA,labor_share,2010-19,mean,0.392320994072676
 Italy,ITA,labor_share,2010-19,sd,0.003330387085174755
 Italy,ITA,labor_share,2020-,mean,0.39684201329232877
 Italy,ITA,labor_share,2020-,sd,0.007546125496788068
-Italy,ITA,ls_to_ps,1990-99,mean,0.7516660384623092
-Italy,ITA,ls_to_ps,1990-99,sd,0.012782275745957168
-Italy,ITA,ls_to_ps,2000-09,mean,0.7590895265207531
-Italy,ITA,ls_to_ps,2000-09,sd,0.03317346012504178
-Italy,ITA,ls_to_ps,2010-19,mean,0.8185688724648671
-Italy,ITA,ls_to_ps,2010-19,sd,0.011730828389316243
-Italy,ITA,ls_to_ps,2020-,mean,0.8185145770767518
-Italy,ITA,ls_to_ps,2020-,sd,0.029193486892511798
+Italy,ITA,pc_lab_comp,1990-99,mean,3.62635457630531
+Italy,ITA,pc_lab_comp,1990-99,sd,2.814044557559214
+Italy,ITA,pc_lab_comp,2000-09,mean,3.739606609871527
+Italy,ITA,pc_lab_comp,2000-09,sd,1.9733547362978905
+Italy,ITA,pc_lab_comp,2010-19,mean,1.3076045797706135
+Italy,ITA,pc_lab_comp,2010-19,sd,1.545660968144042
+Italy,ITA,pc_lab_comp,2020-,mean,3.926051453543514
+Italy,ITA,pc_lab_comp,2020-,sd,6.504580895980044
+Italy,ITA,pc_profits,1990-99,mean,3.2478386478925683
+Italy,ITA,pc_profits,1990-99,sd,2.66179134399203
+Italy,ITA,pc_profits,2000-09,mean,2.7969300539830826
+Italy,ITA,pc_profits,2000-09,sd,3.628215263839421
+Italy,ITA,pc_profits,2010-19,mean,1.1683594565378421
+Italy,ITA,pc_profits,2010-19,sd,2.309660577168987
+Italy,ITA,pc_profits,2020-,mean,4.966362055006052
+Italy,ITA,pc_profits,2020-,sd,8.599136207060557
+Italy,ITA,pc_rgdp,1990-99,mean,1.5663647755086372
+Italy,ITA,pc_rgdp,1990-99,sd,1.1534780297269438
+Italy,ITA,pc_rgdp,2000-09,mean,0.5689779978100926
+Italy,ITA,pc_rgdp,2000-09,sd,2.5771207695307696
+Italy,ITA,pc_rgdp,2010-19,mean,0.23138793149347434
+Italy,ITA,pc_rgdp,2010-19,sd,1.604610048444072
+Italy,ITA,pc_rgdp,2020-,mean,1.340537618776717
+Italy,ITA,pc_rgdp,2020-,sd,7.666382911991123
+Italy,ITA,pc_taxes,1990-99,mean,12.907208522570757
+Italy,ITA,pc_taxes,1990-99,sd,13.38212663537186
+Italy,ITA,pc_taxes,2000-09,mean,2.235565179464119
+Italy,ITA,pc_taxes,2000-09,sd,5.1394735443055755
+Italy,ITA,pc_taxes,2010-19,mean,2.1107185581365533
+Italy,ITA,pc_taxes,2010-19,sd,4.162035865733312
+Italy,ITA,pc_taxes,2020-,mean,3.401427891703027
+Italy,ITA,pc_taxes,2020-,sd,12.185913148812642
+Italy,ITA,profits,1990-99,mean,138033.645
+Italy,ITA,profits,1990-99,sd,6542.804629874755
+Italy,ITA,profits,2000-09,mean,182456.105
+Italy,ITA,profits,2000-09,sd,13939.566431306064
+Italy,ITA,profits,2010-19,mean,202151.4175
+Italy,ITA,profits,2010-19,sd,8044.431679943318
+Italy,ITA,profits,2020-,mean,235175.27777777778
+Italy,ITA,profits,2020-,sd,26559.217135378498
+Italy,ITA,rgdp_index,1990-99,mean,93.5616171525
+Italy,ITA,rgdp_index,1990-99,sd,2.3141677560087888
+Italy,ITA,rgdp_index,2000-09,mean,104.455546219175
+Italy,ITA,rgdp_index,2000-09,sd,2.766443493791499
+Italy,ITA,rgdp_index,2010-19,mean,101.9447068418
+Italy,ITA,rgdp_index,2010-19,sd,2.0180172604269275
+Italy,ITA,rgdp_index,2020-,mean,104.42918586677777
+Italy,ITA,rgdp_index,2020-,sd,6.44065175939522
+Italy,ITA,taxes,1990-99,mean,30572.31
+Italy,ITA,taxes,1990-99,sd,6271.651488529871
+Italy,ITA,taxes,2000-09,mean,45626.2725
+Italy,ITA,taxes,2000-09,sd,4717.233323267722
+Italy,ITA,taxes,2010-19,mean,54108.8425
+Italy,ITA,taxes,2010-19,sd,2255.1761412686674
+Italy,ITA,taxes,2020-,mean,57182.416666666664
+Italy,ITA,taxes,2020-,sd,6085.034661436397
 Japan,JPN,contr_relative,1990-99,mean,0.3911289104381873
 Japan,JPN,contr_relative,1990-99,sd,14.76078728045027
 Japan,JPN,contr_relative,2000-09,mean,-9.260725465740883
@@ -1281,6 +2385,14 @@ Japan,JPN,contr_unit_tax,2010-19,mean,NA
 Japan,JPN,contr_unit_tax,2010-19,sd,NA
 Japan,JPN,contr_unit_tax,2020-,mean,NA
 Japan,JPN,contr_unit_tax,2020-,sd,NA
+Japan,JPN,gdp,1990-99,mean,132373740.625
+Japan,JPN,gdp,1990-99,sd,2856770.4997895905
+Japan,JPN,gdp,2000-09,mean,131894251.875
+Japan,JPN,gdp,2000-09,sd,3140122.2671534102
+Japan,JPN,gdp,2010-19,mean,132032345.625
+Japan,JPN,gdp,2010-19,sd,5895729.530998577
+Japan,JPN,gdp,2020-,mean,142183740.78947368
+Japan,JPN,gdp,2020-,sd,6523734.5613771165
 Japan,JPN,inflation_cpi,1990-99,mean,0.41215685230394816
 Japan,JPN,inflation_cpi,1990-99,sd,0.9166227060275922
 Japan,JPN,inflation_cpi,2000-09,mean,-0.24889170936668065
@@ -1297,6 +2409,14 @@ Japan,JPN,inflation_def,2010-19,mean,0.014377257743670574
 Japan,JPN,inflation_def,2010-19,sd,1.3193619350007013
 Japan,JPN,inflation_def,2020-,mean,1.520202920348232
 Japan,JPN,inflation_def,2020-,sd,1.7276383900473429
+Japan,JPN,lab_comp,1990-99,mean,67552047.91666667
+Japan,JPN,lab_comp,1990-99,sd,1541746.0260014045
+Japan,JPN,lab_comp,2000-09,mean,65487919.375
+Japan,JPN,lab_comp,2000-09,sd,1531179.1120743533
+Japan,JPN,lab_comp,2010-19,mean,65820260.625
+Japan,JPN,lab_comp,2010-19,sd,3134067.632041135
+Japan,JPN,lab_comp,2020-,mean,73678430.26315789
+Japan,JPN,lab_comp,2020-,sd,2280725.5182254286
 Japan,JPN,labor_share,1990-99,mean,0.5103160295223397
 Japan,JPN,labor_share,1990-99,sd,0.004135062069120495
 Japan,JPN,labor_share,2000-09,mean,0.496630982888774
@@ -1305,14 +2425,62 @@ Japan,JPN,labor_share,2010-19,mean,0.49854552826627746
 Japan,JPN,labor_share,2010-19,sd,0.009289664096725178
 Japan,JPN,labor_share,2020-,mean,0.5185659418550436
 Japan,JPN,labor_share,2020-,sd,0.010016913164763101
-Japan,JPN,ls_to_ps,1990-99,mean,1.042273130576976
-Japan,JPN,ls_to_ps,1990-99,sd,0.017265341743839348
-Japan,JPN,ls_to_ps,2000-09,mean,0.9874424472541761
-Japan,JPN,ls_to_ps,2000-09,sd,0.04135444865436776
-Japan,JPN,ls_to_ps,2010-19,mean,0.9948736093513628
-Japan,JPN,ls_to_ps,2010-19,sd,0.03736419636807973
-Japan,JPN,ls_to_ps,2020-,mean,1.0779912215220047
-Japan,JPN,ls_to_ps,2020-,sd,0.04383101324429631
+Japan,JPN,pc_lab_comp,1990-99,mean,0.6404008467614746
+Japan,JPN,pc_lab_comp,1990-99,sd,2.1483130695684873
+Japan,JPN,pc_lab_comp,2000-09,mean,-0.5530017757227633
+Japan,JPN,pc_lab_comp,2000-09,sd,2.279162007470398
+Japan,JPN,pc_lab_comp,2010-19,mean,1.213632939081375
+Japan,JPN,pc_lab_comp,2010-19,sd,1.3826963676677957
+Japan,JPN,pc_lab_comp,2020-,mean,1.5032070155750838
+Japan,JPN,pc_lab_comp,2020-,sd,1.786810709593641
+Japan,JPN,pc_profits,1990-99,mean,0.780901075402664
+Japan,JPN,pc_profits,1990-99,sd,2.347052457525451
+Japan,JPN,pc_profits,2000-09,mean,-0.6748402019761273
+Japan,JPN,pc_profits,2000-09,sd,3.464857242401861
+Japan,JPN,pc_profits,2010-19,mean,1.2581235700454854
+Japan,JPN,pc_profits,2010-19,sd,3.5527773993053238
+Japan,JPN,pc_profits,2020-,mean,2.0885069256093263
+Japan,JPN,pc_profits,2020-,sd,6.566911552644647
+Japan,JPN,pc_rgdp,1990-99,mean,1.0465771503307755
+Japan,JPN,pc_rgdp,1990-99,sd,1.8674510197428158
+Japan,JPN,pc_rgdp,2000-09,mean,0.46444343692405743
+Japan,JPN,pc_rgdp,2000-09,sd,2.637161369136973
+Japan,JPN,pc_rgdp,2010-19,mean,1.2067544005623216
+Japan,JPN,pc_rgdp,2010-19,sd,1.5837756050393905
+Japan,JPN,pc_rgdp,2020-,mean,0.22791331788305144
+Japan,JPN,pc_rgdp,2020-,sd,3.454304869317069
+Japan,JPN,pc_taxes,1990-99,mean,NA
+Japan,JPN,pc_taxes,1990-99,sd,NA
+Japan,JPN,pc_taxes,2000-09,mean,NA
+Japan,JPN,pc_taxes,2000-09,sd,NA
+Japan,JPN,pc_taxes,2010-19,mean,NA
+Japan,JPN,pc_taxes,2010-19,sd,NA
+Japan,JPN,pc_taxes,2020-,mean,NA
+Japan,JPN,pc_taxes,2020-,sd,NA
+Japan,JPN,profits,1990-99,mean,64821692.708333336
+Japan,JPN,profits,1990-99,sd,1515852.583540379
+Japan,JPN,profits,2000-09,mean,66406332.5
+Japan,JPN,profits,2000-09,sd,2484994.7726122597
+Japan,JPN,profits,2010-19,mean,66212085
+Japan,JPN,profits,2010-19,sd,3271589.188071511
+Japan,JPN,profits,2020-,mean,68505310.5263158
+Japan,JPN,profits,2020-,sd,4410060.849033118
+Japan,JPN,rgdp_index,1990-99,mean,86.60739695666666
+Japan,JPN,rgdp_index,1990-99,sd,2.059750204567711
+Japan,JPN,rgdp_index,2000-09,mean,93.227318200325
+Japan,JPN,rgdp_index,2000-09,sd,3.091792089367228
+Japan,JPN,rgdp_index,2010-19,mean,99.172925945025
+Japan,JPN,rgdp_index,2010-19,sd,3.079320882510381
+Japan,JPN,rgdp_index,2020-,mean,101.73221948068421
+Japan,JPN,rgdp_index,2020-,sd,2.534676934708815
+Japan,JPN,taxes,1990-99,mean,NA
+Japan,JPN,taxes,1990-99,sd,NA
+Japan,JPN,taxes,2000-09,mean,NA
+Japan,JPN,taxes,2000-09,sd,NA
+Japan,JPN,taxes,2010-19,mean,NA
+Japan,JPN,taxes,2010-19,sd,NA
+Japan,JPN,taxes,2020-,mean,NA
+Japan,JPN,taxes,2020-,sd,NA
 Latvia,LVA,contr_relative,1990-99,mean,1.7871161495407053
 Latvia,LVA,contr_relative,1990-99,sd,8.25680226953742
 Latvia,LVA,contr_relative,2000-09,mean,0.7985013836618253
@@ -1353,6 +2521,14 @@ Latvia,LVA,contr_unit_tax,2010-19,mean,0.7083639682948235
 Latvia,LVA,contr_unit_tax,2010-19,sd,0.6614187775290845
 Latvia,LVA,contr_unit_tax,2020-,mean,0.5422372977158383
 Latvia,LVA,contr_unit_tax,2020-,sd,1.9802421105482118
+Latvia,LVA,gdp,1990-99,mean,1282.845
+Latvia,LVA,gdp,1990-99,sd,212.18523554717592
+Latvia,LVA,gdp,2000-09,mean,3363.96
+Latvia,LVA,gdp,2000-09,sd,1475.7821006555757
+Latvia,LVA,gdp,2010-19,mean,5859.6625
+Latvia,LVA,gdp,2010-19,sd,909.7598104226503
+Latvia,LVA,gdp,2020-,mean,8690.633333333333
+Latvia,LVA,gdp,2020-,sd,1040.452593260995
 Latvia,LVA,inflation_cpi,1990-99,mean,8.306431293009007
 Latvia,LVA,inflation_cpi,1990-99,sd,6.259635828385989
 Latvia,LVA,inflation_cpi,2000-09,mean,5.8653629352717
@@ -1369,6 +2545,14 @@ Latvia,LVA,inflation_def,2010-19,mean,2.2787720757692
 Latvia,LVA,inflation_def,2010-19,sd,1.939373471276697
 Latvia,LVA,inflation_def,2020-,mean,4.945496529687217
 Latvia,LVA,inflation_def,2020-,sd,4.080331576535192
+Latvia,LVA,lab_comp,1990-99,mean,563.125
+Latvia,LVA,lab_comp,1990-99,sd,92.42553688467842
+Latvia,LVA,lab_comp,2000-09,mean,1501.3500000000001
+Latvia,LVA,lab_comp,2000-09,sd,782.8152242928184
+Latvia,LVA,lab_comp,2010-19,mean,2692.9125
+Latvia,LVA,lab_comp,2010-19,sd,588.7007877793703
+Latvia,LVA,lab_comp,2020-,mean,4468.05
+Latvia,LVA,lab_comp,2020-,sd,675.5113559806553
 Latvia,LVA,labor_share,1990-99,mean,0.4390927603440946
 Latvia,LVA,labor_share,1990-99,sd,0.014117376853348908
 Latvia,LVA,labor_share,2000-09,mean,0.4327646239815585
@@ -1377,14 +2561,62 @@ Latvia,LVA,labor_share,2010-19,mean,0.4554557030399987
 Latvia,LVA,labor_share,2010-19,sd,0.03015062623812376
 Latvia,LVA,labor_share,2020-,mean,0.5128187134670575
 Latvia,LVA,labor_share,2020-,sd,0.026169739402354102
-Latvia,LVA,ls_to_ps,1990-99,mean,1.0094457781203623
-Latvia,LVA,ls_to_ps,1990-99,sd,0.06022697916889417
-Latvia,LVA,ls_to_ps,2000-09,mean,0.9535570677587892
-Latvia,LVA,ls_to_ps,2000-09,sd,0.1524194051992432
-Latvia,LVA,ls_to_ps,2010-19,mean,1.0749814758603913
-Latvia,LVA,ls_to_ps,2010-19,sd,0.17403170863528278
-Latvia,LVA,ls_to_ps,2020-,mean,1.3884054586993175
-Latvia,LVA,ls_to_ps,2020-,sd,0.18594800247730112
+Latvia,LVA,pc_lab_comp,1990-99,mean,12.887035535682157
+Latvia,LVA,pc_lab_comp,1990-99,sd,7.714058999665062
+Latvia,LVA,pc_lab_comp,2000-09,mean,14.121818622819097
+Latvia,LVA,pc_lab_comp,2000-09,sd,17.699097445203222
+Latvia,LVA,pc_lab_comp,2010-19,mean,5.706446706522692
+Latvia,LVA,pc_lab_comp,2010-19,sd,7.189951654097204
+Latvia,LVA,pc_lab_comp,2020-,mean,8.76615188739172
+Latvia,LVA,pc_lab_comp,2020-,sd,7.569077016786687
+Latvia,LVA,pc_profits,1990-99,mean,10.862729538190681
+Latvia,LVA,pc_profits,1990-99,sd,8.624859163346258
+Latvia,LVA,pc_profits,2000-09,mean,12.273389053489693
+Latvia,LVA,pc_profits,2000-09,sd,11.604124404875723
+Latvia,LVA,pc_profits,2010-19,mean,3.263301329944188
+Latvia,LVA,pc_profits,2010-19,sd,5.282248655978082
+Latvia,LVA,pc_profits,2020-,mean,4.830208527383747
+Latvia,LVA,pc_profits,2020-,sd,12.403585395207157
+Latvia,LVA,pc_rgdp,1990-99,mean,5.244592899495735
+Latvia,LVA,pc_rgdp,1990-99,sd,5.185468020065707
+Latvia,LVA,pc_rgdp,2000-09,mean,5.319121085430755
+Latvia,LVA,pc_rgdp,2000-09,sd,8.672464173734008
+Latvia,LVA,pc_rgdp,2010-19,mean,2.531363074466049
+Latvia,LVA,pc_rgdp,2010-19,sd,3.179856887462869
+Latvia,LVA,pc_rgdp,2020-,mean,1.6577679426654348
+Latvia,LVA,pc_rgdp,2020-,sd,5.107070920204412
+Latvia,LVA,pc_taxes,1990-99,mean,12.773939821918539
+Latvia,LVA,pc_taxes,1990-99,sd,15.309399140683533
+Latvia,LVA,pc_taxes,2000-09,mean,9.374456014010057
+Latvia,LVA,pc_taxes,2000-09,sd,16.920474383020544
+Latvia,LVA,pc_taxes,2010-19,mean,8.900505356798188
+Latvia,LVA,pc_taxes,2010-19,sd,6.871842163798278
+Latvia,LVA,pc_taxes,2020-,mean,5.622451633653414
+Latvia,LVA,pc_taxes,2020-,sd,18.203521915245314
+Latvia,LVA,profits,1990-99,mean,558.415
+Latvia,LVA,profits,1990-99,sd,92.10127306394847
+Latvia,LVA,profits,2000-09,mean,1505.23
+Latvia,LVA,profits,2000-09,sd,567.9984033924834
+Latvia,LVA,profits,2010-19,mean,2486.4275000000002
+Latvia,LVA,profits,2010-19,sd,190.5567658710411
+Latvia,LVA,profits,2020-,mean,3228.3944444444446
+Latvia,LVA,profits,2020-,sd,348.0028625173383
+Latvia,LVA,rgdp_index,1990-99,mean,48.84574319075
+Latvia,LVA,rgdp_index,1990-99,sd,4.193456767810104
+Latvia,LVA,rgdp_index,2000-09,mean,80.949015581525
+Latvia,LVA,rgdp_index,2000-09,sd,17.35269367969493
+Latvia,LVA,rgdp_index,2010-19,mean,98.230610082125
+Latvia,LVA,rgdp_index,2010-19,sd,9.075182017803497
+Latvia,LVA,rgdp_index,2020-,mean,115.3404147356111
+Latvia,LVA,rgdp_index,2020-,sd,5.4491187495108635
+Latvia,LVA,taxes,1990-99,mean,162.33
+Latvia,LVA,taxes,1990-99,sd,31.834144198362
+Latvia,LVA,taxes,2000-09,mean,358.8875
+Latvia,LVA,taxes,2000-09,sd,141.59153999698555
+Latvia,LVA,taxes,2010-19,mean,679.1425
+Latvia,LVA,taxes,2010-19,sd,159.4168972279754
+Latvia,LVA,taxes,2020-,mean,986.0333333333333
+Latvia,LVA,taxes,2020-,sd,141.77403728136832
 Lithuania,LTU,contr_relative,1990-99,mean,-2.054391344333076
 Lithuania,LTU,contr_relative,1990-99,sd,6.113801129484634
 Lithuania,LTU,contr_relative,2000-09,mean,-0.553558737693086
@@ -1425,6 +2657,14 @@ Lithuania,LTU,contr_unit_tax,2010-19,mean,0.2998857955580073
 Lithuania,LTU,contr_unit_tax,2010-19,sd,0.62689607557827
 Lithuania,LTU,contr_unit_tax,2020-,mean,1.2045487220184197
 Lithuania,LTU,contr_unit_tax,2020-,sd,2.4952698171549796
+Lithuania,LTU,gdp,1990-99,mean,2759.91
+Lithuania,LTU,gdp,1990-99,sd,519.5866037939251
+Lithuania,LTU,gdp,2000-09,mean,5283.925
+Lithuania,LTU,gdp,2000-09,sd,1631.7902331488565
+Lithuania,LTU,gdp,2010-19,mean,9424.0475
+Lithuania,LTU,gdp,2010-19,sd,1607.9237824754007
+Lithuania,LTU,gdp,2020-,mean,15926.16111111111
+Lithuania,LTU,gdp,2020-,sd,2570.650523331512
 Lithuania,LTU,inflation_cpi,1990-99,mean,9.94215047252566
 Lithuania,LTU,inflation_cpi,1990-99,sd,10.061284558109772
 Lithuania,LTU,inflation_cpi,2000-09,mean,3.025228685247308
@@ -1441,6 +2681,14 @@ Lithuania,LTU,inflation_def,2010-19,mean,2.2997263545981115
 Lithuania,LTU,inflation_def,2010-19,sd,2.2886488285264246
 Lithuania,LTU,inflation_def,2020-,mean,7.732831813898806
 Lithuania,LTU,inflation_def,2020-,sd,5.660635852344094
+Lithuania,LTU,lab_comp,1990-99,mean,1098.345
+Lithuania,LTU,lab_comp,1990-99,sd,258.59601388021593
+Lithuania,LTU,lab_comp,2000-09,mean,2189.2475
+Lithuania,LTU,lab_comp,2000-09,sd,793.5279953982525
+Lithuania,LTU,lab_comp,2010-19,mean,3984.16
+Lithuania,LTU,lab_comp,2010-19,sd,889.7898884222396
+Lithuania,LTU,lab_comp,2020-,mean,7626.65
+Lithuania,LTU,lab_comp,2020-,sd,1345.3771634968475
 Lithuania,LTU,labor_share,1990-99,mean,0.3945531107531154
 Lithuania,LTU,labor_share,1990-99,sd,0.023491729165926876
 Lithuania,LTU,labor_share,2000-09,mean,0.40779879931137974
@@ -1449,14 +2697,62 @@ Lithuania,LTU,labor_share,2010-19,mean,0.4195479656373384
 Lithuania,LTU,labor_share,2010-19,sd,0.02396206510243879
 Lithuania,LTU,labor_share,2020-,mean,0.47800735360365804
 Lithuania,LTU,labor_share,2020-,sd,0.012528149592490292
-Lithuania,LTU,ls_to_ps,1990-99,mean,0.8174464287035839
-Lithuania,LTU,ls_to_ps,1990-99,sd,0.10412389451067083
-Lithuania,LTU,ls_to_ps,2000-09,mean,0.839863307356739
-Lithuania,LTU,ls_to_ps,2000-09,sd,0.08479510343899586
-Lithuania,LTU,ls_to_ps,2010-19,mean,0.8776142408607309
-Lithuania,LTU,ls_to_ps,2010-19,sd,0.09800686873964197
-Lithuania,LTU,ls_to_ps,2020-,mean,1.117871883746512
-Lithuania,LTU,ls_to_ps,2020-,sd,0.07808905550923029
+Lithuania,LTU,pc_lab_comp,1990-99,mean,17.63327099692589
+Lithuania,LTU,pc_lab_comp,1990-99,sd,10.902611307961026
+Lithuania,LTU,pc_lab_comp,2000-09,mean,8.869795660673075
+Lithuania,LTU,pc_lab_comp,2000-09,sd,11.583958459590777
+Lithuania,LTU,pc_lab_comp,2010-19,mean,6.659583749745901
+Lithuania,LTU,pc_lab_comp,2010-19,sd,4.532139918380205
+Lithuania,LTU,pc_lab_comp,2020-,mean,12.11613022325241
+Lithuania,LTU,pc_lab_comp,2020-,sd,4.925539207498863
+Lithuania,LTU,pc_profits,1990-99,mean,9.590017517072395
+Lithuania,LTU,pc_profits,1990-99,sd,12.565512904994012
+Lithuania,LTU,pc_profits,2000-09,mean,8.590188574099827
+Lithuania,LTU,pc_profits,2000-09,sd,10.36277091514556
+Lithuania,LTU,pc_profits,2010-19,mean,5.923413364523585
+Lithuania,LTU,pc_profits,2010-19,sd,5.774322586451859
+Lithuania,LTU,pc_profits,2020-,mean,8.202017065233424
+Lithuania,LTU,pc_profits,2020-,sd,9.916357396731437
+Lithuania,LTU,pc_rgdp,1990-99,mean,4.922305391756593
+Lithuania,LTU,pc_rgdp,1990-99,sd,4.248957527625713
+Lithuania,LTU,pc_rgdp,2000-09,mean,4.7743819249303145
+Lithuania,LTU,pc_rgdp,2000-09,sd,7.174984138002821
+Lithuania,LTU,pc_rgdp,2010-19,mean,3.8589771695817596
+Lithuania,LTU,pc_rgdp,2010-19,sd,1.7818462020217938
+Lithuania,LTU,pc_rgdp,2020-,mean,2.3369582458733436
+Lithuania,LTU,pc_rgdp,2020-,sd,3.210728048774895
+Lithuania,LTU,pc_taxes,1990-99,mean,19.04795748503847
+Lithuania,LTU,pc_taxes,1990-99,sd,21.514008522461886
+Lithuania,LTU,pc_taxes,2000-09,mean,5.820258021945159
+Lithuania,LTU,pc_taxes,2000-09,sd,13.558457791421885
+Lithuania,LTU,pc_taxes,2010-19,mean,6.790399962580035
+Lithuania,LTU,pc_taxes,2010-19,sd,6.952107420861247
+Lithuania,LTU,pc_taxes,2020-,mean,13.544738270399636
+Lithuania,LTU,pc_taxes,2020-,sd,27.716618291676102
+Lithuania,LTU,profits,1990-99,mean,1328.92
+Lithuania,LTU,profits,1990-99,sd,186.290908894777
+Lithuania,LTU,profits,2000-09,mean,2549.8725
+Lithuania,LTU,profits,2000-09,sd,699.1822762185874
+Lithuania,LTU,profits,2010-19,mean,4500.1975
+Lithuania,LTU,profits,2010-19,sd,583.5066868368633
+Lithuania,LTU,profits,2020-,mean,6802.2555555555555
+Lithuania,LTU,profits,2020-,sd,957.5327678141928
+Lithuania,LTU,rgdp_index,1990-99,mean,48.3350115501
+Lithuania,LTU,rgdp_index,1990-99,sd,3.9534070238715175
+Lithuania,LTU,rgdp_index,2000-09,mean,74.072076148975
+Lithuania,LTU,rgdp_index,2000-09,sd,13.743286147915587
+Lithuania,LTU,rgdp_index,2010-19,mean,98.90765950045
+Lithuania,LTU,rgdp_index,2010-19,sd,11.266720793746057
+Lithuania,LTU,rgdp_index,2020-,mean,126.03237036027778
+Lithuania,LTU,rgdp_index,2020-,sd,5.098978512086284
+Lithuania,LTU,taxes,1990-99,mean,332.64
+Lithuania,LTU,taxes,1990-99,sd,88.18682560635867
+Lithuania,LTU,taxes,2000-09,mean,544.8075
+Lithuania,LTU,taxes,2000-09,sd,148.81707819608783
+Lithuania,LTU,taxes,2010-19,mean,939.685
+Lithuania,LTU,taxes,2010-19,sd,170.32685855022905
+Lithuania,LTU,taxes,2020-,mean,1497.2611111111112
+Lithuania,LTU,taxes,2020-,sd,355.4371809126943
 Luxembourg,LUX,contr_relative,1990-99,mean,-0.32487803261816617
 Luxembourg,LUX,contr_relative,1990-99,sd,0.906921003175903
 Luxembourg,LUX,contr_relative,2000-09,mean,0.7663630398272286
@@ -1497,6 +2793,14 @@ Luxembourg,LUX,contr_unit_tax,2010-19,mean,0.26898635095723666
 Luxembourg,LUX,contr_unit_tax,2010-19,sd,0.7416713959016648
 Luxembourg,LUX,contr_unit_tax,2020-,mean,0.39446026930724376
 Luxembourg,LUX,contr_unit_tax,2020-,sd,0.80478623470112165
+Luxembourg,LUX,gdp,1990-99,mean,4364.78
+Luxembourg,LUX,gdp,1990-99,sd,500.5602436007919
+Luxembourg,LUX,gdp,2000-09,mean,7685.21
+Luxembourg,LUX,gdp,2000-09,sd,1576.3679639748311
+Luxembourg,LUX,gdp,2010-19,mean,13119.3275
+Luxembourg,LUX,gdp,2010-19,sd,1654.2371573671358
+Luxembourg,LUX,gdp,2020-,mean,18620.122222222224
+Luxembourg,LUX,gdp,2020-,sd,1638.2903285601105
 Luxembourg,LUX,inflation_cpi,1990-99,mean,1.1338040829135962
 Luxembourg,LUX,inflation_cpi,1990-99,sd,0.47021575442400987
 Luxembourg,LUX,inflation_cpi,2000-09,mean,2.3410978126275834
@@ -1513,6 +2817,14 @@ Luxembourg,LUX,inflation_def,2010-19,mean,2.2436241250673006
 Luxembourg,LUX,inflation_def,2010-19,sd,1.9177492859252656
 Luxembourg,LUX,inflation_def,2020-,mean,4.507825346243274
 Luxembourg,LUX,inflation_def,2020-,sd,2.2287694024126012
+Luxembourg,LUX,lab_comp,1990-99,mean,2074.295
+Luxembourg,LUX,lab_comp,1990-99,sd,202.97180637766053
+Luxembourg,LUX,lab_comp,2000-09,mean,3661.6825
+Luxembourg,LUX,lab_comp,2000-09,sd,703.9354329684373
+Luxembourg,LUX,lab_comp,2010-19,mean,6236.37
+Luxembourg,LUX,lab_comp,2010-19,sd,911.0728441140432
+Luxembourg,LUX,lab_comp,2020-,mean,9362.272222222222
+Luxembourg,LUX,lab_comp,2020-,sd,1035.458093454609
 Luxembourg,LUX,labor_share,1990-99,mean,0.476335278969915
 Luxembourg,LUX,labor_share,1990-99,sd,0.017047340121531793
 Luxembourg,LUX,labor_share,2000-09,mean,0.47785779586128896
@@ -1521,14 +2833,62 @@ Luxembourg,LUX,labor_share,2010-19,mean,0.47443100585702264
 Luxembourg,LUX,labor_share,2010-19,sd,0.014147414538152677
 Luxembourg,LUX,labor_share,2020-,mean,0.5021212568896672
 Luxembourg,LUX,labor_share,2020-,sd,0.019548039639208866
-Luxembourg,LUX,ls_to_ps,1990-99,mean,1.1556096852072282
-Luxembourg,LUX,ls_to_ps,1990-99,sd,0.09848575830258774
-Luxembourg,LUX,ls_to_ps,2000-09,mean,1.1779387262414684
-Luxembourg,LUX,ls_to_ps,2000-09,sd,0.08914713134977194
-Luxembourg,LUX,ls_to_ps,2010-19,mean,1.1327128706510894
-Luxembourg,LUX,ls_to_ps,2010-19,sd,0.07565035196839993
-Luxembourg,LUX,ls_to_ps,2020-,mean,1.275603368308276
-Luxembourg,LUX,ls_to_ps,2020-,sd,0.10444411068950583
+Luxembourg,LUX,pc_lab_comp,1990-99,mean,6.757332255724806
+Luxembourg,LUX,pc_lab_comp,1990-99,sd,2.6703607528317477
+Luxembourg,LUX,pc_lab_comp,2000-09,mean,7.199771528033859
+Luxembourg,LUX,pc_lab_comp,2000-09,sd,2.8664637829608837
+Luxembourg,LUX,pc_lab_comp,2010-19,mean,5.125977169926878
+Luxembourg,LUX,pc_lab_comp,2010-19,sd,1.6216532170698845
+Luxembourg,LUX,pc_lab_comp,2020-,mean,7.2124230736565815
+Luxembourg,LUX,pc_lab_comp,2020-,sd,4.263508601847416
+Luxembourg,LUX,pc_profits,1990-99,mean,8.987316447980634
+Luxembourg,LUX,pc_profits,1990-99,sd,14.494812855776377
+Luxembourg,LUX,pc_profits,2000-09,mean,6.833917625985995
+Luxembourg,LUX,pc_profits,2000-09,sd,10.453063373116729
+Luxembourg,LUX,pc_profits,2010-19,mean,4.6816383345371735
+Luxembourg,LUX,pc_profits,2010-19,sd,6.4409752361870964
+Luxembourg,LUX,pc_profits,2020-,mean,4.921008516501051
+Luxembourg,LUX,pc_profits,2020-,sd,8.066138328952231
+Luxembourg,LUX,pc_rgdp,1990-99,mean,5.4379372522545575
+Luxembourg,LUX,pc_rgdp,1990-99,sd,3.6058362421135803
+Luxembourg,LUX,pc_rgdp,2000-09,mean,3.3441070270554225
+Luxembourg,LUX,pc_rgdp,2000-09,sd,4.022646804599278
+Luxembourg,LUX,pc_rgdp,2010-19,mean,2.5041134834911545
+Luxembourg,LUX,pc_rgdp,2010-19,sd,1.760586152399918
+Luxembourg,LUX,pc_rgdp,2020-,mean,1.495869987665417
+Luxembourg,LUX,pc_rgdp,2020-,sd,4.142613523588689
+Luxembourg,LUX,pc_taxes,1990-99,mean,11.26528072148527
+Luxembourg,LUX,pc_taxes,1990-99,sd,6.609487670280989
+Luxembourg,LUX,pc_taxes,2000-09,mean,5.900546752608122
+Luxembourg,LUX,pc_taxes,2000-09,sd,8.571771215122732
+Luxembourg,LUX,pc_taxes,2010-19,mean,4.787688017880832
+Luxembourg,LUX,pc_taxes,2010-19,sd,7.176367547288039
+Luxembourg,LUX,pc_taxes,2020-,mean,5.303236154538442
+Luxembourg,LUX,pc_taxes,2020-,sd,11.301304164387046
+Luxembourg,LUX,profits,1990-99,mean,1808.445
+Luxembourg,LUX,profits,1990-99,sd,240.27549861948495
+Luxembourg,LUX,profits,2000-09,mean,3142.6075
+Luxembourg,LUX,profits,2000-09,sd,733.2367604432995
+Luxembourg,LUX,profits,2010-19,mean,5500.25
+Luxembourg,LUX,profits,2010-19,sd,655.685316565023
+Luxembourg,LUX,profits,2020-,mean,7340.077777777778
+Luxembourg,LUX,profits,2020-,sd,564.3147573468881
+Luxembourg,LUX,rgdp_index,1990-99,mean,55.60092298725
+Luxembourg,LUX,rgdp_index,1990-99,sd,4.680684254598897
+Luxembourg,LUX,rgdp_index,2000-09,mean,78.54850006635
+Luxembourg,LUX,rgdp_index,2000-09,sd,8.17657179655215
+Luxembourg,LUX,rgdp_index,2010-19,mean,99.553083492925
+Luxembourg,LUX,rgdp_index,2010-19,sd,7.304568776834348
+Luxembourg,LUX,rgdp_index,2020-,mean,116.48609018022222
+Luxembourg,LUX,rgdp_index,2020-,sd,4.210536086942034
+Luxembourg,LUX,taxes,1990-99,mean,480.94
+Luxembourg,LUX,taxes,1990-99,sd,80.79918837528793
+Luxembourg,LUX,taxes,2000-09,mean,880.925
+Luxembourg,LUX,taxes,2000-09,sd,162.37157726204453
+Luxembourg,LUX,taxes,2010-19,mean,1383.0125
+Luxembourg,LUX,taxes,2010-19,sd,159.19761173878624
+Luxembourg,LUX,taxes,2020-,mean,1903.9777777777779
+Luxembourg,LUX,taxes,2020-,sd,189.56584004619165
 Netherlands,NLD,contr_relative,1990-99,mean,-10.104374684340767
 Netherlands,NLD,contr_relative,1990-99,sd,38.189850490892134
 Netherlands,NLD,contr_relative,2000-09,mean,0.6178423919162744
@@ -1569,6 +2929,14 @@ Netherlands,NLD,contr_unit_tax,2010-19,mean,0.25915028642689997
 Netherlands,NLD,contr_unit_tax,2010-19,sd,0.3677569555705941
 Netherlands,NLD,contr_unit_tax,2020-,mean,0.6806477780352527
 Netherlands,NLD,contr_unit_tax,2020-,sd,2.082518331598992
+Netherlands,NLD,gdp,1990-99,mean,93010.725
+Netherlands,NLD,gdp,1990-99,sd,8536.887411874794
+Netherlands,NLD,gdp,2000-09,mean,138243.77
+Netherlands,NLD,gdp,2000-09,sd,16334.76585961084
+Netherlands,NLD,gdp,2010-19,mean,177209.875
+Netherlands,NLD,gdp,2010-19,sd,15155.449597671597
+Netherlands,NLD,gdp,2020-,mean,240429.56666666668
+Netherlands,NLD,gdp,2020-,sd,27907.173654014023
 Netherlands,NLD,inflation_cpi,1990-99,mean,2.0436850376719398
 Netherlands,NLD,inflation_cpi,1990-99,sd,0.19517931438289626
 Netherlands,NLD,inflation_cpi,2000-09,mean,2.1244972700576175
@@ -1585,6 +2953,14 @@ Netherlands,NLD,inflation_def,2010-19,mean,1.2268872575756748
 Netherlands,NLD,inflation_def,2010-19,sd,1.0209677398637933
 Netherlands,NLD,inflation_def,2020-,mean,4.81082441665047
 Netherlands,NLD,inflation_def,2020-,sd,2.2670038431566524
+Netherlands,NLD,lab_comp,1990-99,mean,46202.05
+Netherlands,NLD,lab_comp,1990-99,sd,4179.31308225092
+Netherlands,NLD,lab_comp,2000-09,mean,67183.975
+Netherlands,NLD,lab_comp,2000-09,sd,6752.713917808841
+Netherlands,NLD,lab_comp,2010-19,mean,85086.65
+Netherlands,NLD,lab_comp,2010-19,sd,6262.9252915624265
+Netherlands,NLD,lab_comp,2020-,mean,112899.5
+Netherlands,NLD,lab_comp,2020-,sd,9863.93708086655
 Netherlands,NLD,labor_share,1990-99,mean,0.496839878670851
 Netherlands,NLD,labor_share,1990-99,sd,0.005057749520585906
 Netherlands,NLD,labor_share,2000-09,mean,0.48711953159976973
@@ -1593,14 +2969,62 @@ Netherlands,NLD,labor_share,2010-19,mean,0.4806398865634802
 Netherlands,NLD,labor_share,2010-19,sd,0.0077689310571251525
 Netherlands,NLD,labor_share,2020-,mean,0.4712627024004438
 Netherlands,NLD,labor_share,2020-,sd,0.017918876080017694
-Netherlands,NLD,ls_to_ps,1990-99,mean,1.2224618940334038
-Netherlands,NLD,ls_to_ps,1990-99,sd,0.02922168333598047
-Netherlands,NLD,ls_to_ps,2000-09,mean,1.1953105577861955
-Netherlands,NLD,ls_to_ps,2000-09,sd,0.06828986645140933
-Netherlands,NLD,ls_to_ps,2010-19,mean,1.1577162397228065
-Netherlands,NLD,ls_to_ps,2010-19,sd,0.03032406474003598
-Netherlands,NLD,ls_to_ps,2020-,mean,1.0855044229303747
-Netherlands,NLD,ls_to_ps,2020-,sd,0.06879517710345986
+Netherlands,NLD,pc_lab_comp,1990-99,mean,6.0993061229747045
+Netherlands,NLD,pc_lab_comp,1990-99,sd,1.5470901106996966
+Netherlands,NLD,pc_lab_comp,2000-09,mean,4.079730329775886
+Netherlands,NLD,pc_lab_comp,2000-09,sd,2.3456700251842375
+Netherlands,NLD,pc_lab_comp,2010-19,mean,2.3523841776363787
+Netherlands,NLD,pc_lab_comp,2010-19,sd,2.017215261919357
+Netherlands,NLD,pc_lab_comp,2020-,mean,5.83025752891987
+Netherlands,NLD,pc_lab_comp,2020-,sd,2.110517377599336
+Netherlands,NLD,pc_profits,1990-99,mean,6.054920768075007
+Netherlands,NLD,pc_profits,1990-99,sd,2.8824992166559396
+Netherlands,NLD,pc_profits,2000-09,mean,4.361325302511225
+Netherlands,NLD,pc_profits,2000-09,sd,4.807949916201843
+Netherlands,NLD,pc_profits,2010-19,mean,3.0920237619173636
+Netherlands,NLD,pc_profits,2010-19,sd,2.6555948864589416
+Netherlands,NLD,pc_profits,2020-,mean,7.982143072970982
+Netherlands,NLD,pc_profits,2020-,sd,6.96976654691086
+Netherlands,NLD,pc_rgdp,1990-99,mean,4.2985806839089635
+Netherlands,NLD,pc_rgdp,1990-99,sd,0.8056109791352926
+Netherlands,NLD,pc_rgdp,2000-09,mean,1.6976058805919523
+Netherlands,NLD,pc_rgdp,2000-09,sd,2.3796801043983917
+Netherlands,NLD,pc_rgdp,2010-19,mean,1.5557954859571848
+Netherlands,NLD,pc_rgdp,2010-19,sd,1.2753122215937789
+Netherlands,NLD,pc_rgdp,2020-,mean,1.6966193917198997
+Netherlands,NLD,pc_rgdp,2020-,sd,4.943226229030273
+Netherlands,NLD,pc_taxes,1990-99,mean,7.716623973182989
+Netherlands,NLD,pc_taxes,1990-99,sd,2.3761331249850657
+Netherlands,NLD,pc_taxes,2000-09,mean,4.303773285645004
+Netherlands,NLD,pc_taxes,2000-09,sd,6.620900293141105
+Netherlands,NLD,pc_taxes,2010-19,mean,3.9987216084369286
+Netherlands,NLD,pc_taxes,2010-19,sd,3.779004728487814
+Netherlands,NLD,pc_taxes,2020-,mean,8.194250221534611
+Netherlands,NLD,pc_taxes,2020-,sd,30.357739307297
+Netherlands,NLD,profits,1990-99,mean,37813.445
+Netherlands,NLD,profits,1990-99,sd,3476.2835998830406
+Netherlands,NLD,profits,2000-09,mean,56576.5825
+Netherlands,NLD,profits,2000-09,sd,8035.963743836204
+Netherlands,NLD,profits,2010-19,mean,73617.6775
+Netherlands,NLD,profits,2010-19,sd,6658.816840831198
+Netherlands,NLD,profits,2020-,mean,104780.5
+Netherlands,NLD,profits,2020-,sd,14290.594492017963
+Netherlands,NLD,rgdp_index,1990-99,mean,73.3425677087
+Netherlands,NLD,rgdp_index,1990-99,sd,4.636502596786085
+Netherlands,NLD,rgdp_index,2000-09,mean,89.766804971375
+Netherlands,NLD,rgdp_index,2000-09,sd,4.936886848573893
+Netherlands,NLD,rgdp_index,2010-19,mean,100.91084001795
+Netherlands,NLD,rgdp_index,2010-19,sd,5.02258824129168
+Netherlands,NLD,rgdp_index,2020-,mean,114.19903086677778
+Netherlands,NLD,rgdp_index,2020-,sd,5.587308411219321
+Netherlands,NLD,taxes,1990-99,mean,8981.1
+Netherlands,NLD,taxes,1990-99,sd,985.6583389048315
+Netherlands,NLD,taxes,2000-09,mean,14468.665
+Netherlands,NLD,taxes,2000-09,sd,1871.2794166435556
+Netherlands,NLD,taxes,2010-19,mean,18495.645
+Netherlands,NLD,taxes,2010-19,sd,2379.9172624004796
+Netherlands,NLD,taxes,2020-,mean,22729.744444444445
+Netherlands,NLD,taxes,2020-,sd,4554.723728978549
 Norway,NOR,contr_relative,1990-99,mean,-0.3099442343699282
 Norway,NOR,contr_relative,1990-99,sd,3.277970998635755
 Norway,NOR,contr_relative,2000-09,mean,0.1991322328070575
@@ -1641,6 +3065,14 @@ Norway,NOR,contr_unit_tax,2010-19,mean,0.3109145516451789
 Norway,NOR,contr_unit_tax,2010-19,sd,0.2603664353675994
 Norway,NOR,contr_unit_tax,2020-,mean,0.15939336254414133
 Norway,NOR,contr_unit_tax,2020-,sd,0.5766830519776825
+Norway,NOR,gdp,1990-99,mean,279464.8
+Norway,NOR,gdp,1990-99,sd,28044.434887663916
+Norway,NOR,gdp,2000-09,mean,492402.95000000007
+Norway,NOR,gdp,2000-09,sd,100630.97537218055
+Norway,NOR,gdp,2010-19,mean,785257
+Norway,NOR,gdp,2010-19,sd,76077.84841251047
+Norway,NOR,gdp,2020-,mean,1176963.8333333333
+Norway,NOR,gdp,2020-,sd,226745.85012539529
 Norway,NOR,inflation_cpi,1990-99,mean,2.1120255166545463
 Norway,NOR,inflation_cpi,1990-99,sd,0.5914599640682134
 Norway,NOR,inflation_cpi,2000-09,mean,2.0869219698167023
@@ -1657,6 +3089,14 @@ Norway,NOR,inflation_def,2010-19,mean,2.479382269439656
 Norway,NOR,inflation_def,2010-19,sd,3.7425443419764597
 Norway,NOR,inflation_def,2020-,mean,8.072563780081687
 Norway,NOR,inflation_def,2020-,sd,18.6623413099287
+Norway,NOR,lab_comp,1990-99,mean,129993.8
+Norway,NOR,lab_comp,1990-99,sd,15402.2315252659
+Norway,NOR,lab_comp,2000-09,mean,210356.32500000004
+Norway,NOR,lab_comp,2000-09,sd,41108.60242644804
+Norway,NOR,lab_comp,2010-19,mean,360913.7
+Norway,NOR,lab_comp,2010-19,sd,43940.73664765376
+Norway,NOR,lab_comp,2020-,mean,491915.27777777775
+Norway,NOR,lab_comp,2020-,sd,46752.77674270904
 Norway,NOR,labor_share,1990-99,mean,0.4646143558970671
 Norway,NOR,labor_share,1990-99,sd,0.0186591979233942
 Norway,NOR,labor_share,2000-09,mean,0.42860942438301425
@@ -1665,14 +3105,62 @@ Norway,NOR,labor_share,2010-19,mean,0.4586981649658023
 Norway,NOR,labor_share,2010-19,sd,0.018388568580484443
 Norway,NOR,labor_share,2020-,mean,0.42770715863377246
 Norway,NOR,labor_share,2020-,sd,0.05722565514958385
-Norway,NOR,ls_to_ps,1990-99,mean,1.1190857207270746
-Norway,NOR,ls_to_ps,1990-99,sd,0.11011583425573697
-Norway,NOR,ls_to_ps,2000-09,mean,0.9201313763522768
-Norway,NOR,ls_to_ps,2000-09,sd,0.08719840718328369
-Norway,NOR,ls_to_ps,2010-19,mean,1.0459858937943312
-Norway,NOR,ls_to_ps,2010-19,sd,0.09651521392765457
-Norway,NOR,ls_to_ps,2020-,mean,0.9128517930022324
-Norway,NOR,ls_to_ps,2020-,sd,0.253326554064027
+Norway,NOR,pc_lab_comp,1990-99,mean,8.123198573212441
+Norway,NOR,pc_lab_comp,1990-99,sd,1.7923061011154877
+Norway,NOR,pc_lab_comp,2000-09,mean,6.361698126998286
+Norway,NOR,pc_lab_comp,2000-09,sd,2.8498835528264093
+Norway,NOR,pc_lab_comp,2010-19,mean,4.518437281750133
+Norway,NOR,pc_lab_comp,2010-19,sd,1.7574164449572274
+Norway,NOR,pc_lab_comp,2020-,mean,5.715022649626362
+Norway,NOR,pc_lab_comp,2020-,sd,3.667772757648007
+Norway,NOR,pc_profits,1990-99,mean,5.844885608776865
+Norway,NOR,pc_profits,1990-99,sd,11.953807085431569
+Norway,NOR,pc_profits,2000-09,mean,9.008377926133072
+Norway,NOR,pc_profits,2000-09,sd,15.652992476087483
+Norway,NOR,pc_profits,2010-19,mean,3.6061243222425454
+Norway,NOR,pc_profits,2010-19,sd,8.373288702107507
+Norway,NOR,pc_profits,2020-,mean,19.239783674136874
+Norway,NOR,pc_profits,2020-,sd,44.19870276417687
+Norway,NOR,pc_rgdp,1990-99,mean,3.7726446113392855
+Norway,NOR,pc_rgdp,1990-99,sd,2.011275037916776
+Norway,NOR,pc_rgdp,2000-09,mean,1.8365158228595713
+Norway,NOR,pc_rgdp,2000-09,sd,1.8353987256340782
+Norway,NOR,pc_rgdp,2010-19,mean,1.5457746987110967
+Norway,NOR,pc_rgdp,2010-19,sd,1.1693324171757815
+Norway,NOR,pc_rgdp,2020-,mean,1.5205999786988058
+Norway,NOR,pc_rgdp,2020-,sd,2.895204693944986
+Norway,NOR,pc_taxes,1990-99,mean,8.173312165537704
+Norway,NOR,pc_taxes,1990-99,sd,4.99014357771876
+Norway,NOR,pc_taxes,2000-09,mean,4.336929098108572
+Norway,NOR,pc_taxes,2000-09,sd,6.3827820451607975
+Norway,NOR,pc_taxes,2010-19,mean,4.683379714335876
+Norway,NOR,pc_taxes,2010-19,sd,2.226780444575218
+Norway,NOR,pc_taxes,2020-,mean,3.397319549572913
+Norway,NOR,pc_taxes,2020-,sd,8.223300189671006
+Norway,NOR,profits,1990-99,mean,116373.2
+Norway,NOR,profits,1990-99,sd,11160.541142322521
+Norway,NOR,profits,2000-09,mean,231483.89999999997
+Norway,NOR,profits,2000-09,sd,53616.13214647918
+Norway,NOR,profits,2010-19,mean,345065.875
+Norway,NOR,profits,2010-19,sd,28573.073179703515
+Norway,NOR,profits,2020-,mean,587067.6666666667
+Norway,NOR,profits,2020-,sd,189440.4718747228
+Norway,NOR,rgdp_index,1990-99,mean,71.48284448635
+Norway,NOR,rgdp_index,1990-99,sd,3.9787557780746594
+Norway,NOR,rgdp_index,2000-09,mean,86.073540071875
+Norway,NOR,rgdp_index,2000-09,sd,5.169772784330574
+Norway,NOR,rgdp_index,2010-19,mean,98.938426500425
+Norway,NOR,rgdp_index,2010-19,sd,4.832443767541432
+Norway,NOR,rgdp_index,2020-,mean,109.60271982816667
+Norway,NOR,rgdp_index,2020-,sd,3.929295609822744
+Norway,NOR,taxes,1990-99,mean,34634.2
+Norway,NOR,taxes,1990-99,sd,3975.7527403790564
+Norway,NOR,taxes,2000-09,mean,50409.575
+Norway,NOR,taxes,2000-09,sd,8010.192119362841
+Norway,NOR,taxes,2010-19,mean,78143.2
+Norway,NOR,taxes,2010-19,sd,10211.531418337421
+Norway,NOR,taxes,2020-,mean,97715
+Norway,NOR,taxes,2020-,sd,7820.483473846479
 Poland,POL,contr_relative,1990-99,mean,0.9197682615497411
 Poland,POL,contr_relative,1990-99,sd,1.8057386745822523
 Poland,POL,contr_relative,2000-09,mean,0.4534127874683005
@@ -1713,6 +3201,14 @@ Poland,POL,contr_unit_tax,2010-19,mean,0.3770034167205647
 Poland,POL,contr_unit_tax,2010-19,sd,0.8398580084868001
 Poland,POL,contr_unit_tax,2020-,mean,3.2753213067806466
 Poland,POL,contr_unit_tax,2020-,sd,10.268446627892793
+Poland,POL,gdp,1990-99,mean,128629.72
+Poland,POL,gdp,1990-99,sd,30485.180568538886
+Poland,POL,gdp,2000-09,mean,250536.9925
+Poland,POL,gdp,2000-09,sd,52784.968240629845
+Poland,POL,gdp,2010-19,mean,449127.615
+Poland,POL,gdp,2010-19,sd,64983.69901717384
+Poland,POL,gdp,2020-,mean,733935.0777777778
+Poland,POL,gdp,2020-,sd,115497.51903072387
 Poland,POL,inflation_cpi,1990-99,mean,13.395143208767202
 Poland,POL,inflation_cpi,1990-99,sd,4.989306409504663
 Poland,POL,inflation_cpi,2000-09,mean,3.5216774838772946
@@ -1729,6 +3225,14 @@ Poland,POL,inflation_def,2010-19,mean,1.4941351226387602
 Poland,POL,inflation_def,2010-19,sd,1.2699728421043657
 Poland,POL,inflation_def,2020-,mean,7.100270652359269
 Poland,POL,inflation_def,2020-,sd,4.549425502293947
+Poland,POL,lab_comp,1990-99,mean,53935.14
+Poland,POL,lab_comp,1990-99,sd,14052.097607321273
+Poland,POL,lab_comp,2000-09,mean,96048.9475
+Poland,POL,lab_comp,2000-09,sd,17995.349767819112
+Poland,POL,lab_comp,2010-19,mean,173895.78
+Poland,POL,lab_comp,2010-19,sd,28258.919801212938
+Poland,POL,lab_comp,2020-,mean,289875.8611111111
+Poland,POL,lab_comp,2020-,sd,44901.38933949187
 Poland,POL,labor_share,1990-99,mean,0.4168593791856089
 Poland,POL,labor_share,1990-99,sd,0.017638870894835925
 Poland,POL,labor_share,2000-09,mean,0.38579105800558333
@@ -1737,14 +3241,62 @@ Poland,POL,labor_share,2010-19,mean,0.3863417148772037
 Poland,POL,labor_share,2010-19,sd,0.007832957589494585
 Poland,POL,labor_share,2020-,mean,0.3955672456783926
 Poland,POL,labor_share,2020-,sd,0.014538194168533908
-Poland,POL,ls_to_ps,1990-99,mean,0.9204478097698998
-Poland,POL,ls_to_ps,1990-99,sd,0.07577811831096508
-Poland,POL,ls_to_ps,2000-09,mean,0.7932763698565929
-Poland,POL,ls_to_ps,2000-09,sd,0.07324229403971831
-Poland,POL,ls_to_ps,2010-19,mean,0.7869320964429992
-Poland,POL,ls_to_ps,2010-19,sd,0.035110565937555155
-Poland,POL,ls_to_ps,2020-,mean,0.8224885083032958
-Poland,POL,ls_to_ps,2020-,sd,0.0603193924523764
+Poland,POL,pc_lab_comp,1990-99,mean,20.29805280730644
+Poland,POL,pc_lab_comp,1990-99,sd,8.22658959020895
+Poland,POL,pc_lab_comp,2000-09,mean,6.253845930194465
+Poland,POL,pc_lab_comp,2000-09,sd,4.858435053119932
+Poland,POL,pc_lab_comp,2010-19,mean,5.910882253737212
+Poland,POL,pc_lab_comp,2010-19,sd,2.1835934527193794
+Poland,POL,pc_lab_comp,2020-,mean,10.220321988046042
+Poland,POL,pc_lab_comp,2020-,sd,4.592117719256059
+Poland,POL,pc_profits,1990-99,mean,16.65698092720637
+Poland,POL,pc_profits,1990-99,sd,6.6613450141723325
+Poland,POL,pc_profits,2000-09,mean,8.97213103955796
+Poland,POL,pc_profits,2000-09,sd,5.675298476478523
+Poland,POL,pc_profits,2010-19,mean,4.525682101638387
+Poland,POL,pc_profits,2010-19,sd,3.5836519843303054
+Poland,POL,pc_profits,2020-,mean,9.927633558351669
+Poland,POL,pc_profits,2020-,sd,9.534238082332102
+Poland,POL,pc_rgdp,1990-99,mean,5.388921843727763
+Poland,POL,pc_rgdp,1990-99,sd,2.248643238594773
+Poland,POL,pc_rgdp,2000-09,mean,4.019610615349112
+Poland,POL,pc_rgdp,2000-09,sd,2.0424596769888153
+Poland,POL,pc_rgdp,2010-19,mean,3.730014841819059
+Poland,POL,pc_rgdp,2010-19,sd,1.645897958168089
+Poland,POL,pc_rgdp,2020-,mean,2.774579763455677
+Poland,POL,pc_rgdp,2020-,sd,5.0087692500725
+Poland,POL,pc_taxes,1990-99,mean,17.61526162298654
+Poland,POL,pc_taxes,1990-99,sd,5.760193268124246
+Poland,POL,pc_taxes,2000-09,mean,6.389140594833401
+Poland,POL,pc_taxes,2000-09,sd,8.083779211147402
+Poland,POL,pc_taxes,2010-19,mean,6.732992479864031
+Poland,POL,pc_taxes,2010-19,sd,7.816004365090276
+Poland,POL,pc_taxes,2020-,mean,28.010696982235174
+Poland,POL,pc_taxes,2020-,sd,97.34408359737088
+Poland,POL,profits,1990-99,mean,58187.715
+Poland,POL,profits,1990-99,sd,13046.755895191362
+Poland,POL,profits,2000-09,mean,122976.33750000001
+Poland,POL,profits,2000-09,sd,29175.24227835761
+Poland,POL,profits,2010-19,mean,220182.25
+Poland,POL,profits,2010-19,sd,27744.121301314466
+Poland,POL,profits,2020-,mean,353464.09444444446
+Poland,POL,profits,2020-,sd,55148.50654013773
+Poland,POL,rgdp_index,1990-99,mean,51.03149976425
+Poland,POL,rgdp_index,1990-99,sd,3.9454348229840077
+Poland,POL,rgdp_index,2000-09,mean,69.140195007925
+Poland,POL,rgdp_index,2000-09,sd,8.693527464063765
+Poland,POL,rgdp_index,2010-19,mean,100.043163897075
+Poland,POL,rgdp_index,2010-19,sd,10.858513088838073
+Poland,POL,rgdp_index,2020-,mean,127.97845878355555
+Poland,POL,rgdp_index,2020-,sd,7.291164299520132
+Poland,POL,taxes,1990-99,mean,16610.95
+Poland,POL,taxes,1990-99,sd,3730.947721071474
+Poland,POL,taxes,2000-09,mean,31491.205
+Poland,POL,taxes,2000-09,sd,6576.187168048452
+Poland,POL,taxes,2010-19,mean,54700.36
+Poland,POL,taxes,2010-19,sd,10007.255729842302
+Poland,POL,taxes,2020-,mean,89664.72777777778
+Poland,POL,taxes,2020-,sd,23196.072217658537
 Portugal,PRT,contr_relative,1990-99,mean,1.3513952419083348
 Portugal,PRT,contr_relative,1990-99,sd,4.475259648674689
 Portugal,PRT,contr_relative,2000-09,mean,1.3936852943461686
@@ -1785,6 +3337,14 @@ Portugal,PRT,contr_unit_tax,2010-19,mean,0.48155250104182307
 Portugal,PRT,contr_unit_tax,2010-19,sd,0.4315236611217119
 Portugal,PRT,contr_unit_tax,2020-,mean,0.6317278173079932
 Portugal,PRT,contr_unit_tax,2020-,sd,2.0438080628531954
+Portugal,PRT,gdp,1990-99,mean,25833.385
+Portugal,PRT,gdp,1990-99,sd,2890.0736476274315
+Portugal,PRT,gdp,2000-09,mean,38996.895000000004
+Portugal,PRT,gdp,2000-09,sd,4313.502368856218
+Portugal,PRT,gdp,2010-19,mean,46233.73
+Portugal,PRT,gdp,2010-19,sd,3732.993468243512
+Portugal,PRT,gdp,2020-,mean,59389.916666666664
+Portugal,PRT,gdp,2020-,sd,7554.563438568303
 Portugal,PRT,inflation_cpi,1990-99,mean,2.5802539896841363
 Portugal,PRT,inflation_cpi,1990-99,sd,0.4922117964066821
 Portugal,PRT,inflation_cpi,2000-09,mean,2.601096465725551
@@ -1801,6 +3361,14 @@ Portugal,PRT,inflation_def,2010-19,mean,1.219128800465519
 Portugal,PRT,inflation_def,2010-19,sd,1.0583873643117987
 Portugal,PRT,inflation_def,2020-,mean,4.144017755171397
 Portugal,PRT,inflation_def,2020-,sd,2.485087960843067
+Portugal,PRT,lab_comp,1990-99,mean,12260.25
+Portugal,PRT,lab_comp,1990-99,sd,1449.863688874161
+Portugal,PRT,lab_comp,2000-09,mean,18497.6375
+Portugal,PRT,lab_comp,2000-09,sd,1856.260211601024
+Portugal,PRT,lab_comp,2010-19,mean,20765.2125
+Portugal,PRT,lab_comp,2010-19,sd,1696.1492609675513
+Portugal,PRT,lab_comp,2020-,mean,28234.68888888889
+Portugal,PRT,lab_comp,2020-,sd,3450.9690882568875
 Portugal,PRT,labor_share,1990-99,mean,0.47426384815993305
 Portugal,PRT,labor_share,1990-99,sd,0.00411819162872698
 Portugal,PRT,labor_share,2000-09,mean,0.47489692214586965
@@ -1809,14 +3377,62 @@ Portugal,PRT,labor_share,2010-19,mean,0.44926177173472137
 Portugal,PRT,labor_share,2010-19,sd,0.012202504470193332
 Portugal,PRT,labor_share,2020-,mean,0.47590130029453953
 Portugal,PRT,labor_share,2020-,sd,0.0102184581487442
-Portugal,PRT,ls_to_ps,1990-99,mean,1.1527656071892745
-Portugal,PRT,ls_to_ps,1990-99,sd,0.025366286642901092
-Portugal,PRT,ls_to_ps,2000-09,mean,1.1791645891453812
-Portugal,PRT,ls_to_ps,2000-09,sd,0.03207697240951266
-Portugal,PRT,ls_to_ps,2010-19,mean,1.0679372636035445
-Portugal,PRT,ls_to_ps,2010-19,sd,0.048909935210625546
-Portugal,PRT,ls_to_ps,2020-,mean,1.1996731413794728
-Portugal,PRT,ls_to_ps,2020-,sd,0.04355990266462323
+Portugal,PRT,pc_lab_comp,1990-99,mean,8.19212867974961
+Portugal,PRT,pc_lab_comp,1990-99,sd,1.0188528572766722
+Portugal,PRT,pc_lab_comp,2000-09,mean,3.9244224988199035
+Portugal,PRT,pc_lab_comp,2000-09,sd,2.3508136167265925
+Portugal,PRT,pc_lab_comp,2010-19,mean,1.5825208992188187
+Portugal,PRT,pc_lab_comp,2010-19,sd,4.433875821032409
+Portugal,PRT,pc_lab_comp,2020-,mean,7.217998837430639
+Portugal,PRT,pc_lab_comp,2020-,sd,4.918281912403235
+Portugal,PRT,pc_profits,1990-99,mean,6.807995334924776
+Portugal,PRT,pc_profits,1990-99,sd,2.0518021080341913
+Portugal,PRT,pc_profits,2000-09,mean,4.129310756147773
+Portugal,PRT,pc_profits,2000-09,sd,3.153717914048674
+Portugal,PRT,pc_profits,2010-19,mean,1.9439938208458476
+Portugal,PRT,pc_profits,2010-19,sd,2.4564625096938015
+Portugal,PRT,pc_profits,2020-,mean,5.054461052249417
+Portugal,PRT,pc_profits,2020-,sd,9.833262026627146
+Portugal,PRT,pc_rgdp,1990-99,mean,4.155699494647154
+Portugal,PRT,pc_rgdp,1990-99,sd,0.6438945356760661
+Portugal,PRT,pc_rgdp,2000-09,mean,0.9541789496691487
+Portugal,PRT,pc_rgdp,2000-09,sd,2.057956968609208
+Portugal,PRT,pc_rgdp,2010-19,mean,0.8366333066942069
+Portugal,PRT,pc_rgdp,2010-19,sd,2.4343740735701997
+Portugal,PRT,pc_rgdp,2020-,mean,1.812917613301127
+Portugal,PRT,pc_rgdp,2020-,sd,7.667156845210522
+Portugal,PRT,pc_taxes,1990-99,mean,8.808813951212366
+Portugal,PRT,pc_taxes,1990-99,sd,6.526412955970029
+Portugal,PRT,pc_taxes,2000-09,mean,3.6872067431817657
+Portugal,PRT,pc_taxes,2000-09,sd,8.87079938252635
+Portugal,PRT,pc_taxes,2010-19,mean,4.589920815157131
+Portugal,PRT,pc_taxes,2010-19,sd,4.8123223850606305
+Portugal,PRT,pc_taxes,2020-,mean,6.6854093379872195
+Portugal,PRT,pc_taxes,2020-,sd,23.16642409823318
+Portugal,PRT,profits,1990-99,mean,10617.735
+Portugal,PRT,profits,1990-99,sd,1063.5890051464528
+Portugal,PRT,profits,2000-09,mean,15720.665
+Portugal,PRT,profits,2000-09,sd,1847.4974780941113
+Portugal,PRT,profits,2010-19,mean,19447.4175
+Portugal,PRT,profits,2010-19,sd,1348.4623740769641
+Portugal,PRT,profits,2020-,mean,23562.42777777778
+Portugal,PRT,profits,2020-,sd,2927.2527300616866
+Portugal,PRT,rgdp_index,1990-99,mean,86.4181367125
+Portugal,PRT,rgdp_index,1990-99,sd,5.307159825477272
+Portugal,PRT,rgdp_index,2000-09,mean,101.59910885935
+Portugal,PRT,rgdp_index,2000-09,sd,2.8814432033595785
+Portugal,PRT,rgdp_index,2010-19,mean,102.9665461342
+Portugal,PRT,rgdp_index,2010-19,sd,4.470607967753517
+Portugal,PRT,rgdp_index,2020-,mean,112.08654427833334
+Portugal,PRT,rgdp_index,2020-,sd,7.718512018752451
+Portugal,PRT,taxes,1990-99,mean,2955.41
+Portugal,PRT,taxes,1990-99,sd,390.7376450550393
+Portugal,PRT,taxes,2000-09,mean,4778.5975
+Portugal,PRT,taxes,2000-09,sd,715.3156859082642
+Portugal,PRT,taxes,2010-19,mean,6021.1125
+Portugal,PRT,taxes,2010-19,sd,869.4655444102812
+Portugal,PRT,taxes,2020-,mean,7592.811111111111
+Portugal,PRT,taxes,2020-,sd,1388.8235253534422
 Slovak Republic,SVK,contr_relative,1990-99,mean,5.982368231844582
 Slovak Republic,SVK,contr_relative,1990-99,sd,14.033073775923873
 Slovak Republic,SVK,contr_relative,2000-09,mean,3.2006357709445696
@@ -1857,6 +3473,14 @@ Slovak Republic,SVK,contr_unit_tax,2010-19,mean,0.2906752422507035
 Slovak Republic,SVK,contr_unit_tax,2010-19,sd,0.6098197162531551
 Slovak Republic,SVK,contr_unit_tax,2020-,mean,0.26025824487115146
 Slovak Republic,SVK,contr_unit_tax,2020-,sd,1.3328824494482687
+Slovak Republic,SVK,gdp,1990-99,mean,6113.205
+Slovak Republic,SVK,gdp,1990-99,sd,809.7174260034695
+Slovak Republic,SVK,gdp,2000-09,mean,12320.9125
+Slovak Republic,SVK,gdp,2000-09,sd,3210.1245483615726
+Slovak Republic,SVK,gdp,2010-19,mean,19926.7625
+Slovak Republic,SVK,gdp,2010-19,sd,2008.677689769617
+Slovak Republic,SVK,gdp,2020-,mean,27430.25
+Slovak Republic,SVK,gdp,2020-,sd,3199.936726810116
 Slovak Republic,SVK,inflation_cpi,1990-99,mean,7.286573770774873
 Slovak Republic,SVK,inflation_cpi,1990-99,sd,2.748274655981193
 Slovak Republic,SVK,inflation_cpi,2000-09,mean,5.491715816275385
@@ -1873,6 +3497,14 @@ Slovak Republic,SVK,inflation_def,2010-19,mean,0.8943150082460157
 Slovak Republic,SVK,inflation_def,2010-19,sd,1.0167583285589
 Slovak Republic,SVK,inflation_def,2020-,mean,5.509861600627577
 Slovak Republic,SVK,inflation_def,2020-,sd,3.4290121294234472
+Slovak Republic,SVK,lab_comp,1990-99,mean,2508.81
+Slovak Republic,SVK,lab_comp,1990-99,sd,364.6372990997175
+Slovak Republic,SVK,lab_comp,2000-09,mean,4572.5
+Slovak Republic,SVK,lab_comp,2000-09,sd,1019.9317905800847
+Slovak Republic,SVK,lab_comp,2010-19,mean,7728.205
+Slovak Republic,SVK,lab_comp,2010-19,sd,1233.697152080397
+Slovak Republic,SVK,lab_comp,2020-,mean,11658.622222222222
+Slovak Republic,SVK,lab_comp,2020-,sd,1205.4010177508444
 Slovak Republic,SVK,labor_share,1990-99,mean,0.4097927254629995
 Slovak Republic,SVK,labor_share,1990-99,sd,0.01412944185256974
 Slovak Republic,SVK,labor_share,2000-09,mean,0.3752925687764378
@@ -1881,14 +3513,62 @@ Slovak Republic,SVK,labor_share,2010-19,mean,0.3857216289489909
 Slovak Republic,SVK,labor_share,2010-19,sd,0.022139417736646263
 Slovak Republic,SVK,labor_share,2020-,mean,0.4257045077422493
 Slovak Republic,SVK,labor_share,2020-,sd,0.007814383705838876
-Slovak Republic,SVK,ls_to_ps,1990-99,mean,0.8311216848015291
-Slovak Republic,SVK,ls_to_ps,1990-99,sd,0.054446760887004717
-Slovak Republic,SVK,ls_to_ps,2000-09,mean,0.7170192976465551
-Slovak Republic,SVK,ls_to_ps,2000-09,sd,0.06756409255960702
-Slovak Republic,SVK,ls_to_ps,2010-19,mean,0.7494308675861086
-Slovak Republic,SVK,ls_to_ps,2010-19,sd,0.08530025910776827
-Slovak Republic,SVK,ls_to_ps,2020-,mean,0.8917699425388442
-Slovak Republic,SVK,ls_to_ps,2020-,sd,0.043184217650129066
+Slovak Republic,SVK,pc_lab_comp,1990-99,mean,10.300040871257396
+Slovak Republic,SVK,pc_lab_comp,1990-99,sd,5.2723698803604675
+Slovak Republic,SVK,pc_lab_comp,2000-09,mean,7.635433138754989
+Slovak Republic,SVK,pc_lab_comp,2000-09,sd,3.730748271737297
+Slovak Republic,SVK,pc_lab_comp,2010-19,mean,5.310861845310025
+Slovak Republic,SVK,pc_lab_comp,2010-19,sd,2.2912844325070547
+Slovak Republic,SVK,pc_lab_comp,2020-,mean,6.534198299552268
+Slovak Republic,SVK,pc_lab_comp,2020-,sd,3.6376130881567477
+Slovak Republic,SVK,pc_profits,1990-99,mean,8.73696708675147
+Slovak Republic,SVK,pc_profits,1990-99,sd,5.794666206322486
+Slovak Republic,SVK,pc_profits,2000-09,mean,9.565302994487606
+Slovak Republic,SVK,pc_profits,2000-09,sd,8.540033827688639
+Slovak Republic,SVK,pc_profits,2010-19,mean,2.643991909918065
+Slovak Republic,SVK,pc_profits,2010-19,sd,3.3155535128338687
+Slovak Republic,SVK,pc_profits,2020-,mean,8.47091513584222
+Slovak Republic,SVK,pc_profits,2020-,sd,8.477197071647115
+Slovak Republic,SVK,pc_rgdp,1990-99,mean,1.7296478900484278
+Slovak Republic,SVK,pc_rgdp,1990-99,sd,4.178329020317102
+Slovak Republic,SVK,pc_rgdp,2000-09,mean,4.453454773501232
+Slovak Republic,SVK,pc_rgdp,2000-09,sd,4.519165511890391
+Slovak Republic,SVK,pc_rgdp,2010-19,mean,3.0709849778872123
+Slovak Republic,SVK,pc_rgdp,2010-19,sd,1.8464790553714543
+Slovak Republic,SVK,pc_rgdp,2020-,mean,1.406693398680421
+Slovak Republic,SVK,pc_rgdp,2020-,sd,4.085295374735936
+Slovak Republic,SVK,pc_taxes,1990-99,mean,11.894263804544066
+Slovak Republic,SVK,pc_taxes,1990-99,sd,20.358810687854344
+Slovak Republic,SVK,pc_taxes,2000-09,mean,8.177483706220924
+Slovak Republic,SVK,pc_taxes,2000-09,sd,14.058575261097992
+Slovak Republic,SVK,pc_taxes,2010-19,mean,5.996578006536075
+Slovak Republic,SVK,pc_taxes,2010-19,sd,6.484889720088042
+Slovak Republic,SVK,pc_taxes,2020-,mean,3.0780166826957918
+Slovak Republic,SVK,pc_taxes,2020-,sd,15.008152596728621
+Slovak Republic,SVK,profits,1990-99,mean,3014.535
+Slovak Republic,SVK,profits,1990-99,sd,370.6093947100754
+Slovak Republic,SVK,profits,2000-09,mean,6536.44
+Slovak Republic,SVK,profits,2000-09,sd,1941.7816529130519
+Slovak Republic,SVK,profits,2010-19,mean,10264.1825
+Slovak Republic,SVK,profits,2010-19,sd,500.2087455983522
+Slovak Republic,SVK,profits,2020-,mean,13150.966666666667
+Slovak Republic,SVK,profits,2020-,sd,1897.3052583939702
+Slovak Republic,SVK,rgdp_index,1990-99,mean,53.44626025783333
+Slovak Republic,SVK,rgdp_index,1990-99,sd,1.4347653023574753
+Slovak Republic,SVK,rgdp_index,2000-09,mean,69.130920770675
+Slovak Republic,SVK,rgdp_index,2000-09,sd,11.797265868140716
+Slovak Republic,SVK,rgdp_index,2010-19,mean,98.5909367131
+Slovak Republic,SVK,rgdp_index,2010-19,sd,7.886091393170435
+Slovak Republic,SVK,rgdp_index,2020-,mean,114.6191800505
+Slovak Republic,SVK,rgdp_index,2020-,sd,4.118397032017519
+Slovak Republic,SVK,taxes,1990-99,mean,589.855
+Slovak Republic,SVK,taxes,1990-99,sd,104.54421112116809
+Slovak Republic,SVK,taxes,2000-09,mean,1211.985
+Slovak Republic,SVK,taxes,2000-09,sd,287.79796826673663
+Slovak Republic,SVK,taxes,2010-19,mean,1934.3675
+Slovak Republic,SVK,taxes,2010-19,sd,308.37131745589954
+Slovak Republic,SVK,taxes,2020-,mean,2618.1277777777777
+Slovak Republic,SVK,taxes,2020-,sd,275.7424113521543
 Slovenia,SVN,contr_relative,1990-99,mean,0.8881672774478826
 Slovenia,SVN,contr_relative,1990-99,sd,0.5244019674923412
 Slovenia,SVN,contr_relative,2000-09,mean,0.3311331290373432
@@ -1929,6 +3609,14 @@ Slovenia,SVN,contr_unit_tax,2010-19,mean,0.3233849902117796
 Slovenia,SVN,contr_unit_tax,2010-19,sd,0.4691894187207869
 Slovenia,SVN,contr_unit_tax,2020-,mean,1.2608883454970945
 Slovenia,SVN,contr_unit_tax,2020-,sd,3.7441524812592535
+Slovenia,SVN,gdp,1990-99,mean,3441.385
+Slovenia,SVN,gdp,1990-99,sd,590.2569318124367
+Slovenia,SVN,gdp,2000-09,mean,7111.1525
+Slovenia,SVN,gdp,2000-09,sd,1565.7656940652196
+Slovenia,SVN,gdp,2010-19,mean,9925.5925
+Slovenia,SVN,gdp,2010-19,sd,1073.1418529760986
+Slovenia,SVN,gdp,2020-,mean,14012.805555555555
+Slovenia,SVN,gdp,2020-,sd,1871.3325508443636
 Slovenia,SVN,inflation_cpi,1990-99,mean,8.069194232115859
 Slovenia,SVN,inflation_cpi,1990-99,sd,1.687272096972913
 Slovenia,SVN,inflation_cpi,2000-09,mean,4.901054665159546
@@ -1945,6 +3633,14 @@ Slovenia,SVN,inflation_def,2010-19,mean,1.1029429992457018
 Slovenia,SVN,inflation_def,2010-19,sd,0.908412233823167
 Slovenia,SVN,inflation_def,2020-,mean,4.874860149259249
 Slovenia,SVN,inflation_def,2020-,sd,3.902236239443432
+Slovenia,SVN,lab_comp,1990-99,mean,1744.16
+Slovenia,SVN,lab_comp,1990-99,sd,242.99138256325057
+Slovenia,SVN,lab_comp,2000-09,mean,3552.85
+Slovenia,SVN,lab_comp,2000-09,sd,783.7967328724575
+Slovenia,SVN,lab_comp,2010-19,mean,4956.435
+Slovenia,SVN,lab_comp,2010-19,sd,524.130943489389
+Slovenia,SVN,lab_comp,2020-,mean,7336.738888888889
+Slovenia,SVN,lab_comp,2020-,sd,841.1362239389183
 Slovenia,SVN,labor_share,1990-99,mean,0.5096474428109579
 Slovenia,SVN,labor_share,1990-99,sd,0.018062367648552003
 Slovenia,SVN,labor_share,2000-09,mean,0.49975489796044514
@@ -1953,14 +3649,62 @@ Slovenia,SVN,labor_share,2010-19,mean,0.49963509602188694
 Slovenia,SVN,labor_share,2010-19,sd,0.011681299996230885
 Slovenia,SVN,labor_share,2020-,mean,0.5251065753425129
 Slovenia,SVN,labor_share,2020-,sd,0.018126079240465387
-Slovenia,SVN,ls_to_ps,1990-99,mean,1.440604382153555
-Slovenia,SVN,ls_to_ps,1990-99,sd,0.11450323980078242
-Slovenia,SVN,ls_to_ps,2000-09,mean,1.3571636023034366
-Slovenia,SVN,ls_to_ps,2000-09,sd,0.057098129674925155
-Slovenia,SVN,ls_to_ps,2010-19,mean,1.3555834306854977
-Slovenia,SVN,ls_to_ps,2010-19,sd,0.054011210169488004
-Slovenia,SVN,ls_to_ps,2020-,mean,1.4168147182421933
-Slovenia,SVN,ls_to_ps,2020-,sd,0.06087720435212287
+Slovenia,SVN,pc_lab_comp,1990-99,mean,10.106182329075864
+Slovenia,SVN,pc_lab_comp,1990-99,sd,1.7519181406098336
+Slovenia,SVN,pc_lab_comp,2000-09,mean,8.442151743747898
+Slovenia,SVN,pc_lab_comp,2000-09,sd,3.9301082481028775
+Slovenia,SVN,pc_lab_comp,2010-19,mean,2.7963928528264272
+Slovenia,SVN,pc_lab_comp,2010-19,sd,3.790095550903806
+Slovenia,SVN,pc_lab_comp,2020-,mean,7.650471332160921
+Slovenia,SVN,pc_lab_comp,2020-,sd,3.11592401206402
+Slovenia,SVN,pc_profits,1990-99,mean,15.490859198697459
+Slovenia,SVN,pc_profits,1990-99,sd,4.742318380177452
+Slovenia,SVN,pc_profits,2000-09,mean,7.845708445699259
+Slovenia,SVN,pc_profits,2000-09,sd,6.910532336145738
+Slovenia,SVN,pc_profits,2010-19,mean,3.018752013745704
+Slovenia,SVN,pc_profits,2010-19,sd,3.6155134292643973
+Slovenia,SVN,pc_profits,2020-,mean,7.709683618245051
+Slovenia,SVN,pc_profits,2020-,sd,8.942994299633405
+Slovenia,SVN,pc_rgdp,1990-99,mean,3.9700132087936586
+Slovenia,SVN,pc_rgdp,1990-99,sd,1.4715985918293704
+Slovenia,SVN,pc_rgdp,2000-09,mean,3.021057080740546
+Slovenia,SVN,pc_rgdp,2000-09,sd,4.1213392603222925
+Slovenia,SVN,pc_rgdp,2010-19,mean,1.9861301402455551
+Slovenia,SVN,pc_rgdp,2010-19,sd,2.5544015339747665
+Slovenia,SVN,pc_rgdp,2020-,mean,2.2318369818480712
+Slovenia,SVN,pc_rgdp,2020-,sd,5.500371555016636
+Slovenia,SVN,pc_taxes,1990-99,mean,15.778116204000478
+Slovenia,SVN,pc_taxes,1990-99,sd,4.590037187795675
+Slovenia,SVN,pc_taxes,2000-09,mean,5.459143891042917
+Slovenia,SVN,pc_taxes,2000-09,sd,7.711058765352439
+Slovenia,SVN,pc_taxes,2010-19,mean,4.490760909935515
+Slovenia,SVN,pc_taxes,2010-19,sd,3.918938451774407
+Slovenia,SVN,pc_taxes,2020-,mean,12.471192305575949
+Slovenia,SVN,pc_taxes,2020-,sd,46.8571850749619
+Slovenia,SVN,profits,1990-99,mean,1229.175
+Slovenia,SVN,profits,1990-99,sd,255.8446236436647
+Slovenia,SVN,profits,2000-09,mean,2631.835
+Slovenia,SVN,profits,2000-09,sd,631.8418130294224
+Slovenia,SVN,profits,2010-19,mean,3660.5
+Slovenia,SVN,profits,2010-19,sd,395.17380791436386
+Slovenia,SVN,profits,2020-,mean,5194.516666666666
+Slovenia,SVN,profits,2020-,sd,694.6571928571929
+Slovenia,SVN,rgdp_index,1990-99,mean,66.7893411692
+Slovenia,SVN,rgdp_index,1990-99,sd,3.8765757915920975
+Slovenia,SVN,rgdp_index,2000-09,mean,88.89028058305
+Slovenia,SVN,rgdp_index,2000-09,sd,10.075151481834947
+Slovenia,SVN,rgdp_index,2010-19,mean,102.740907461675
+Slovenia,SVN,rgdp_index,2010-19,sd,7.505455201248515
+Slovenia,SVN,rgdp_index,2020-,mean,122.30886806683333
+Slovenia,SVN,rgdp_index,2020-,sd,6.905306314285346
+Slovenia,SVN,taxes,1990-99,mean,469.4
+Slovenia,SVN,taxes,1990-99,sd,97.76526667698018
+Slovenia,SVN,taxes,2000-09,mean,924.075
+Slovenia,SVN,taxes,2000-09,sd,161.7076195816673
+Slovenia,SVN,taxes,2010-19,mean,1302.595
+Slovenia,SVN,taxes,2010-19,sd,165.28000010859586
+Slovenia,SVN,taxes,2020-,mean,1494.0666666666666
+Slovenia,SVN,taxes,2020-,sd,379.8599633611127
 Spain,ESP,contr_relative,1990-99,mean,-8.024102156311265
 Spain,ESP,contr_relative,1990-99,sd,39.429942086429016
 Spain,ESP,contr_relative,2000-09,mean,1.1884880364029071
@@ -2001,6 +3745,14 @@ Spain,ESP,contr_unit_tax,2010-19,mean,0.5253320937431749
 Spain,ESP,contr_unit_tax,2010-19,sd,0.9451239000452534
 Spain,ESP,contr_unit_tax,2020-,mean,0.40538029324380687
 Spain,ESP,contr_unit_tax,2020-,sd,1.5548666617545273
+Spain,ESP,gdp,1990-99,mean,130948.85
+Spain,ESP,gdp,1990-99,sd,12597.11724029706
+Spain,ESP,gdp,2000-09,mean,223926.85000000003
+Spain,ESP,gdp,2000-09,sd,40631.93835569534
+Spain,ESP,gdp,2010-19,mean,277312.225
+Spain,ESP,gdp,2010-19,sd,19088.026576603002
+Spain,ESP,gdp,2020-,mean,337953.5263157895
+Spain,ESP,gdp,2020-,sd,43262.152465288
 Spain,ESP,inflation_cpi,1990-99,mean,2.419204414483564
 Spain,ESP,inflation_cpi,1990-99,sd,0.7546359373696988
 Spain,ESP,inflation_cpi,2000-09,mean,2.9642837162765634
@@ -2017,6 +3769,14 @@ Spain,ESP,inflation_def,2010-19,mean,0.49634158230776176
 Spain,ESP,inflation_def,2010-19,sd,0.6773960496118769
 Spain,ESP,inflation_def,2020-,mean,3.5922170479362974
 Spain,ESP,inflation_def,2020-,sd,1.9769282166283926
+Spain,ESP,lab_comp,1990-99,mean,63236.85
+Spain,ESP,lab_comp,1990-99,sd,6648.689291289318
+Spain,ESP,lab_comp,2000-09,mean,107269.65
+Spain,ESP,lab_comp,2000-09,sd,19938.139480042788
+Spain,ESP,lab_comp,2010-19,mean,128615.65
+Spain,ESP,lab_comp,2010-19,sd,8758.867265337161
+Spain,ESP,lab_comp,2020-,mean,163661.94736842104
+Spain,ESP,lab_comp,2020-,sd,18813.360511064955
 Spain,ESP,labor_share,1990-99,mean,0.4825292333748651
 Spain,ESP,labor_share,1990-99,sd,0.005747161960466935
 Spain,ESP,labor_share,2000-09,mean,0.4789251692665555
@@ -2025,14 +3785,62 @@ Spain,ESP,labor_share,2010-19,mean,0.4639883206981644
 Spain,ESP,labor_share,2010-19,sd,0.013180104464399382
 Spain,ESP,labor_share,2020-,mean,0.4852217061791751
 Spain,ESP,labor_share,2020-,sd,0.010659237136418507
-Spain,ESP,ls_to_ps,1990-99,mean,1.1212232418211048
-Spain,ESP,ls_to_ps,1990-99,sd,0.04077319705566998
-Spain,ESP,ls_to_ps,2000-09,mean,1.1186444320211348
-Spain,ESP,ls_to_ps,2000-09,sd,0.023592691622682408
-Spain,ESP,ls_to_ps,2010-19,mean,1.0552350710317662
-Spain,ESP,ls_to_ps,2010-19,sd,0.04524024387896852
-Spain,ESP,ls_to_ps,2020-,mean,1.1601037862738626
-Spain,ESP,ls_to_ps,2020-,sd,0.0509433439944474
+Spain,ESP,pc_lab_comp,1990-99,mean,7.212515247839227
+Spain,ESP,pc_lab_comp,1990-99,sd,1.1261053306117157
+Spain,ESP,pc_lab_comp,2000-09,mean,6.286076696715857
+Spain,ESP,pc_lab_comp,2000-09,sd,3.206902801039196
+Spain,ESP,pc_lab_comp,2010-19,mean,1.051319894417767
+Spain,ESP,pc_lab_comp,2010-19,sd,3.965425404558102
+Spain,ESP,pc_lab_comp,2020-,mean,5.72648287837142
+Spain,ESP,pc_lab_comp,2020-,sd,6.334309631128647
+Spain,ESP,pc_profits,1990-99,mean,5.224360483239336
+Spain,ESP,pc_profits,1990-99,sd,2.3935977444530003
+Spain,ESP,pc_profits,2000-09,mean,6.679615330870963
+Spain,ESP,pc_profits,2000-09,sd,3.4830860351393462
+Spain,ESP,pc_profits,2010-19,mean,1.3844607994340954
+Spain,ESP,pc_profits,2010-19,sd,2.6980170574967857
+Spain,ESP,pc_profits,2020-,mean,5.18827485313939
+Spain,ESP,pc_profits,2020-,sd,12.136368642780768
+Spain,ESP,pc_rgdp,1990-99,mean,3.725104067199794
+Spain,ESP,pc_rgdp,1990-99,sd,0.8162163397101097
+Spain,ESP,pc_rgdp,2000-09,mean,2.6081506610201424
+Spain,ESP,pc_rgdp,2000-09,sd,2.476218290633571
+Spain,ESP,pc_rgdp,2010-19,mean,1.0922258436890175
+Spain,ESP,pc_rgdp,2010-19,sd,2.1819526195243357
+Spain,ESP,pc_rgdp,2020-,mean,1.5732463912387384
+Spain,ESP,pc_rgdp,2020-,sd,8.448727141300695
+Spain,ESP,pc_taxes,1990-99,mean,10.78816031684362
+Spain,ESP,pc_taxes,1990-99,sd,4.215902642229207
+Spain,ESP,pc_taxes,2000-09,mean,2.9153601930497963
+Spain,ESP,pc_taxes,2000-09,sd,12.931657211147451
+Spain,ESP,pc_taxes,2010-19,mean,6.904300041911952
+Spain,ESP,pc_taxes,2010-19,sd,10.74411456664671
+Spain,ESP,pc_taxes,2020-,mean,5.776172053224607
+Spain,ESP,pc_taxes,2020-,sd,24.804486781982185
+Spain,ESP,profits,1990-99,mean,56291.75
+Spain,ESP,profits,1990-99,sd,4228.818185971111
+Spain,ESP,profits,2000-09,mean,96000.32499999998
+Spain,ESP,profits,2000-09,sd,18082.134383584966
+Spain,ESP,profits,2010-19,mean,121978.425
+Spain,ESP,profits,2010-19,sd,8138.637729792062
+Spain,ESP,profits,2020-,mean,141759.63157894736
+Spain,ESP,profits,2020-,sd,20487.4223100975
+Spain,ESP,rgdp_index,1990-99,mean,71.31418207505
+Spain,ESP,rgdp_index,1990-99,sd,3.949931376650253
+Spain,ESP,rgdp_index,2000-09,mean,93.233124207
+Spain,ESP,rgdp_index,2000-09,sd,7.5811726530399905
+Spain,ESP,rgdp_index,2010-19,mean,101.29455414255
+Spain,ESP,rgdp_index,2010-19,sd,5.310003233934143
+Spain,ESP,rgdp_index,2020-,mean,109.00770610552631
+Spain,ESP,rgdp_index,2020-,sd,7.8374456060335245
+Spain,ESP,taxes,1990-99,mean,11420.25
+Spain,ESP,taxes,1990-99,sd,1837.6193373349577
+Spain,ESP,taxes,2000-09,mean,20656.875
+Spain,ESP,taxes,2000-09,sd,4267.420677690989
+Spain,ESP,taxes,2010-19,mean,26718.15
+Spain,ESP,taxes,2010-19,sd,3735.351399732987
+Spain,ESP,taxes,2020-,mean,32531.947368421053
+Spain,ESP,taxes,2020-,sd,5209.318162609982
 Sweden,SWE,contr_relative,1990-99,mean,2.1241265827763987
 Sweden,SWE,contr_relative,1990-99,sd,11.173657308721994
 Sweden,SWE,contr_relative,2000-09,mean,-11.058818367547612
@@ -2073,6 +3881,14 @@ Sweden,SWE,contr_unit_tax,2010-19,mean,0.3135579533527006
 Sweden,SWE,contr_unit_tax,2010-19,sd,0.4606491719850546
 Sweden,SWE,contr_unit_tax,2020-,mean,0.6953234682420343
 Sweden,SWE,contr_unit_tax,2020-,sd,1.4525145342571883
+Sweden,SWE,gdp,1990-99,mean,490882.75
+Sweden,SWE,gdp,1990-99,sd,51097.780564706416
+Sweden,SWE,gdp,2000-09,mean,727898.325
+Sweden,SWE,gdp,2000-09,sd,86820.55854444033
+Sweden,SWE,gdp,2010-19,mean,1044743.375
+Sweden,SWE,gdp,2010-19,sd,123550.01421695433
+Sweden,SWE,gdp,2020-,mean,1429689.2222222222
+Sweden,SWE,gdp,2020-,sd,128837.99353431312
 Sweden,SWE,inflation_cpi,1990-99,mean,1.0013985124807705
 Sweden,SWE,inflation_cpi,1990-99,sd,1.1302692080336147
 Sweden,SWE,inflation_cpi,2000-09,mean,1.4743075147545137
@@ -2089,6 +3905,14 @@ Sweden,SWE,inflation_def,2010-19,mean,1.7145304757870672
 Sweden,SWE,inflation_def,2010-19,sd,0.7523691789370555
 Sweden,SWE,inflation_def,2020-,mean,4.046921579147542
 Sweden,SWE,inflation_def,2020-,sd,2.044577266325071
+Sweden,SWE,lab_comp,1990-99,mean,219118.7857142857
+Sweden,SWE,lab_comp,1990-99,sd,18713.420975841043
+Sweden,SWE,lab_comp,2000-09,mean,333871.55
+Sweden,SWE,lab_comp,2000-09,sd,42128.12930654802
+Sweden,SWE,lab_comp,2010-19,mean,500310.175
+Sweden,SWE,lab_comp,2010-19,sd,63761.972073983576
+Sweden,SWE,lab_comp,2020-,mean,681420.2777777778
+Sweden,SWE,lab_comp,2020-,sd,53614.74611994853
 Sweden,SWE,labor_share,1990-99,mean,0.44732171504710616
 Sweden,SWE,labor_share,1990-99,sd,0.012406365270823982
 Sweden,SWE,labor_share,2000-09,mean,0.45841052274749866
@@ -2097,14 +3921,62 @@ Sweden,SWE,labor_share,2010-19,mean,0.47840572653495606
 Sweden,SWE,labor_share,2010-19,sd,0.008871774559593712
 Sweden,SWE,labor_share,2020-,mean,0.4771755912095983
 Sweden,SWE,labor_share,2020-,sd,0.009159121901582756
-Sweden,SWE,ls_to_ps,1990-99,mean,1.2449686182197635
-Sweden,SWE,ls_to_ps,1990-99,sd,0.05985118097448287
-Sweden,SWE,ls_to_ps,2000-09,mean,1.370403283678687
-Sweden,SWE,ls_to_ps,2000-09,sd,0.06584004660463598
-Sweden,SWE,ls_to_ps,2010-19,mean,1.504695808812841
-Sweden,SWE,ls_to_ps,2010-19,sd,0.07516705605487697
-Sweden,SWE,ls_to_ps,2020-,mean,1.4548541780735575
-Sweden,SWE,ls_to_ps,2020-,sd,0.04341958460540598
+Sweden,SWE,pc_lab_comp,1990-99,mean,4.331053857994773
+Sweden,SWE,pc_lab_comp,1990-99,sd,2.4888941882232274
+Sweden,SWE,pc_lab_comp,2000-09,mean,4.864858945531559
+Sweden,SWE,pc_lab_comp,2000-09,sd,2.846412234395293
+Sweden,SWE,pc_lab_comp,2010-19,mean,4.374017549140888
+Sweden,SWE,pc_lab_comp,2010-19,sd,1.181279765822842
+Sweden,SWE,pc_lab_comp,2020-,mean,4.972913293301896
+Sweden,SWE,pc_lab_comp,2020-,sd,2.495793523781131
+Sweden,SWE,pc_profits,1990-99,mean,5.122486998608227
+Sweden,SWE,pc_profits,1990-99,sd,6.485482462428459
+Sweden,SWE,pc_profits,2000-09,mean,3.139463329346404
+Sweden,SWE,pc_profits,2000-09,sd,4.942447543021916
+Sweden,SWE,pc_profits,2010-19,mean,4.347156741532463
+Sweden,SWE,pc_profits,2010-19,sd,5.577468981332874
+Sweden,SWE,pc_profits,2020-,mean,6.353546265838856
+Sweden,SWE,pc_profits,2020-,sd,5.125233322805854
+Sweden,SWE,pc_rgdp,1990-99,mean,3.5509766269086436
+Sweden,SWE,pc_rgdp,1990-99,sd,1.1568957895363223
+Sweden,SWE,pc_rgdp,2000-09,mean,2.015009835421678
+Sweden,SWE,pc_rgdp,2000-09,sd,2.946647594377319
+Sweden,SWE,pc_rgdp,2010-19,mean,2.5052122817114064
+Sweden,SWE,pc_rgdp,2010-19,sd,1.8301980816771093
+Sweden,SWE,pc_rgdp,2020-,mean,1.2115545360188102
+Sweden,SWE,pc_rgdp,2020-,sd,3.7466283049941893
+Sweden,SWE,pc_taxes,1990-99,mean,8.79055724875982
+Sweden,SWE,pc_taxes,1990-99,sd,5.804289285265136
+Sweden,SWE,pc_taxes,2000-09,mean,3.4336128674525703
+Sweden,SWE,pc_taxes,2000-09,sd,2.766252877412623
+Sweden,SWE,pc_taxes,2010-19,mean,4.044742037329304
+Sweden,SWE,pc_taxes,2010-19,sd,2.2648942332315363
+Sweden,SWE,pc_taxes,2020-,mean,4.782635217744501
+Sweden,SWE,pc_taxes,2020-,sd,10.73543232933059
+Sweden,SWE,profits,1990-99,mean,176386.42857142858
+Sweden,SWE,profits,1990-99,sd,16793.858466114754
+Sweden,SWE,profits,2000-09,mean,243721.3
+Sweden,SWE,profits,2000-09,sd,29070.706097993178
+Sweden,SWE,profits,2010-19,mean,331960.35
+Sweden,SWE,profits,2010-19,sd,34000.81809464484
+Sweden,SWE,profits,2020-,mean,469361.77777777775
+Sweden,SWE,profits,2020-,sd,45797.11026660135
+Sweden,SWE,rgdp_index,1990-99,mean,63.25456507685714
+Sweden,SWE,rgdp_index,1990-99,sd,4.408022141400353
+Sweden,SWE,rgdp_index,2000-09,mean,81.709968113725
+Sweden,SWE,rgdp_index,2000-09,sd,5.838651591516888
+Sweden,SWE,rgdp_index,2010-19,mean,98.6840793115
+Sweden,SWE,rgdp_index,2010-19,sd,6.372005960656398
+Sweden,SWE,rgdp_index,2020-,mean,112.43208308833333
+Sweden,SWE,rgdp_index,2020-,sd,3.7367925239469377
+Sweden,SWE,taxes,1990-99,mean,95377.53571428571
+Sweden,SWE,taxes,1990-99,sd,17721.770305938826
+Sweden,SWE,taxes,2000-09,mean,150305.475
+Sweden,SWE,taxes,2000-09,sd,17220.478051060352
+Sweden,SWE,taxes,2010-19,mean,212472.85
+Sweden,SWE,taxes,2010-19,sd,27567.235793787095
+Sweden,SWE,taxes,2020-,mean,278907.1666666667
+Sweden,SWE,taxes,2020-,sd,32136.566060284953
 Switzerland,CHE,contr_relative,1990-99,mean,142.6429694942891
 Switzerland,CHE,contr_relative,1990-99,sd,853.0673510946605
 Switzerland,CHE,contr_relative,2000-09,mean,-1.132696741001009
@@ -2145,6 +4017,14 @@ Switzerland,CHE,contr_unit_tax,2010-19,mean,-0.05126354942980898
 Switzerland,CHE,contr_unit_tax,2010-19,sd,0.12634143493007094
 Switzerland,CHE,contr_unit_tax,2020-,mean,0.027470679866438336
 Switzerland,CHE,contr_unit_tax,2020-,sd,0.35047928693650887
+Switzerland,CHE,gdp,1990-99,mean,102878.5975
+Switzerland,CHE,gdp,1990-99,sd,5910.563106606092
+Switzerland,CHE,gdp,2000-09,mean,132715.655
+Switzerland,CHE,gdp,2000-09,sd,13227.192383194011
+Switzerland,CHE,gdp,2010-19,mean,167044.4725
+Switzerland,CHE,gdp,2010-19,sd,7361.360797869093
+Switzerland,CHE,gdp,2020-,mean,191505.27222222224
+Switzerland,CHE,gdp,2020-,sd,12097.544372786402
 Switzerland,CHE,inflation_cpi,1990-99,mean,2.001491844943165
 Switzerland,CHE,inflation_cpi,1990-99,sd,1.9183898587860744
 Switzerland,CHE,inflation_cpi,2000-09,mean,0.9547532188551544
@@ -2161,6 +4041,14 @@ Switzerland,CHE,inflation_def,2010-19,mean,-0.19402595373103826
 Switzerland,CHE,inflation_def,2010-19,sd,0.6245898270537686
 Switzerland,CHE,inflation_def,2020-,mean,1.164263398779515
 Switzerland,CHE,inflation_def,2020-,sd,1.3630630453403216
+Switzerland,CHE,lab_comp,1990-99,mean,57448.0675
+Switzerland,CHE,lab_comp,1990-99,sd,3076.7891184111195
+Switzerland,CHE,lab_comp,2000-09,mean,73969.3875
+Switzerland,CHE,lab_comp,2000-09,sd,6794.892817674602
+Switzerland,CHE,lab_comp,2010-19,mean,96000
+Switzerland,CHE,lab_comp,2010-19,sd,5558.461597674352
+Switzerland,CHE,lab_comp,2020-,mean,112339.8111111111
+Switzerland,CHE,lab_comp,2020-,sd,6673.2375031022575
 Switzerland,CHE,labor_share,1990-99,mean,0.5585641808950916
 Switzerland,CHE,labor_share,1990-99,sd,0.00810125449875547
 Switzerland,CHE,labor_share,2000-09,mean,0.5579008940366653
@@ -2169,14 +4057,62 @@ Switzerland,CHE,labor_share,2010-19,mean,0.5743753069613283
 Switzerland,CHE,labor_share,2010-19,sd,0.009892559961360197
 Switzerland,CHE,labor_share,2020-,mean,0.5868166104194938
 Switzerland,CHE,labor_share,2020-,sd,0.008016696184833267
-Switzerland,CHE,ls_to_ps,1990-99,mean,1.3216209763428022
-Switzerland,CHE,ls_to_ps,1990-99,sd,0.03755099052341819
-Switzerland,CHE,ls_to_ps,2000-09,mean,1.3514234807096264
-Switzerland,CHE,ls_to_ps,2000-09,sd,0.0725152794516598
-Switzerland,CHE,ls_to_ps,2010-19,mean,1.4375361339436417
-Switzerland,CHE,ls_to_ps,2010-19,sd,0.05308244433326742
-Switzerland,CHE,ls_to_ps,2020-,mean,1.4930828955278066
-Switzerland,CHE,ls_to_ps,2020-,sd,0.055871086762410926
+Switzerland,CHE,pc_lab_comp,1990-99,mean,2.217935463462177
+Switzerland,CHE,pc_lab_comp,1990-99,sd,2.225180223732971
+Switzerland,CHE,pc_lab_comp,2000-09,mean,3.3454355774761226
+Switzerland,CHE,pc_lab_comp,2000-09,sd,1.8822485345198532
+Switzerland,CHE,pc_lab_comp,2010-19,mean,2.075201586421648
+Switzerland,CHE,pc_lab_comp,2010-19,sd,0.9182197218841549
+Switzerland,CHE,pc_lab_comp,2020-,mean,3.118071756645575
+Switzerland,CHE,pc_lab_comp,2020-,sd,3.1962959681676977
+Switzerland,CHE,pc_profits,1990-99,mean,1.8817603076736662
+Switzerland,CHE,pc_profits,1990-99,sd,3.0631446988127764
+Switzerland,CHE,pc_profits,2000-09,mean,2.7985736826757055
+Switzerland,CHE,pc_profits,2000-09,sd,5.399271571924731
+Switzerland,CHE,pc_profits,2010-19,mean,1.484841535237359
+Switzerland,CHE,pc_profits,2010-19,sd,3.1559876112679
+Switzerland,CHE,pc_profits,2020-,mean,2.9616638509957376
+Switzerland,CHE,pc_profits,2020-,sd,7.821393445377367
+Switzerland,CHE,pc_rgdp,1990-99,mean,0.8816530161285295
+Switzerland,CHE,pc_rgdp,1990-99,sd,1.472805916082383
+Switzerland,CHE,pc_rgdp,2000-09,mean,1.9498435333174893
+Switzerland,CHE,pc_rgdp,2000-09,sd,2.315406077582691
+Switzerland,CHE,pc_rgdp,2010-19,mean,1.9590160762726054
+Switzerland,CHE,pc_rgdp,2010-19,sd,0.7727045430262881
+Switzerland,CHE,pc_rgdp,2020-,mean,1.7477592541690723
+Switzerland,CHE,pc_rgdp,2020-,sd,3.6610914174586036
+Switzerland,CHE,pc_taxes,1990-99,mean,8.218337482601473
+Switzerland,CHE,pc_taxes,1990-99,sd,21.43043854156277
+Switzerland,CHE,pc_taxes,2000-09,mean,3.5810889501349545
+Switzerland,CHE,pc_taxes,2000-09,sd,13.053683625178182
+Switzerland,CHE,pc_taxes,2010-19,mean,-0.2268094331126796
+Switzerland,CHE,pc_taxes,2010-19,sd,5.095990070923158
+Switzerland,CHE,pc_taxes,2020-,mean,1.9618517294530513
+Switzerland,CHE,pc_taxes,2020-,sd,18.996425208857172
+Switzerland,CHE,profits,1990-99,mean,43498.925
+Switzerland,CHE,profits,1990-99,sd,2614.983098023526
+Switzerland,CHE,profits,2000-09,mean,54940.715000000004
+Switzerland,CHE,profits,2000-09,sd,6366.081182592551
+Switzerland,CHE,profits,2010-19,mean,66752.445
+Switzerland,CHE,profits,2010-19,sd,2254.1544872262093
+Switzerland,CHE,profits,2020-,mean,75365.74444444444
+Switzerland,CHE,profits,2020-,sd,5519.350857954458
+Switzerland,CHE,rgdp_index,1990-99,mean,68.95614464475
+Switzerland,CHE,rgdp_index,1990-99,sd,2.1859743365975213
+Switzerland,CHE,rgdp_index,2000-09,mean,82.33315922765
+Switzerland,CHE,rgdp_index,2000-09,sd,5.3381845519412465
+Switzerland,CHE,rgdp_index,2010-19,mean,99.36973434555
+Switzerland,CHE,rgdp_index,2010-19,sd,5.363227811618978
+Switzerland,CHE,rgdp_index,2020-,mean,112.1526085265
+Switzerland,CHE,rgdp_index,2020-,sd,4.616082296042105
+Switzerland,CHE,taxes,1990-99,mean,1931.5925
+Switzerland,CHE,taxes,1990-99,sd,558.8577060248282
+Switzerland,CHE,taxes,2000-09,mean,3805.5475
+Switzerland,CHE,taxes,2000-09,sd,542.5357546943749
+Switzerland,CHE,taxes,2010-19,mean,4292.025
+Switzerland,CHE,taxes,2010-19,sd,185.74460236489327
+Switzerland,CHE,taxes,2020-,mean,3799.711111111111
+Switzerland,CHE,taxes,2020-,sd,477.0542562420891
 Türkiye,TUR,contr_relative,1990-99,mean,0.5516996809961578
 Türkiye,TUR,contr_relative,1990-99,sd,0.05818291274522979
 Türkiye,TUR,contr_relative,2000-09,mean,0.6083941258401018
@@ -2217,6 +4153,14 @@ Türkiye,TUR,contr_unit_tax,2010-19,mean,0.908108605923295
 Türkiye,TUR,contr_unit_tax,2010-19,sd,1.013903432322425
 Türkiye,TUR,contr_unit_tax,2020-,mean,5.947727163093222
 Türkiye,TUR,contr_unit_tax,2020-,sd,4.14150812307162
+Türkiye,TUR,gdp,1990-99,mean,22414.875
+Türkiye,TUR,gdp,1990-99,sd,5626.563225260793
+Türkiye,TUR,gdp,2000-09,mean,155219.27750000003
+Türkiye,TUR,gdp,2000-09,sd,73397.85028346603
+Türkiye,TUR,gdp,2010-19,mean,605564.405
+Türkiye,TUR,gdp,2010-19,sd,251773.05397851794
+Türkiye,TUR,gdp,2020-,mean,4098396.1111111105
+Türkiye,TUR,gdp,2020-,sd,3031981.2592061837
 Türkiye,TUR,inflation_cpi,1990-99,mean,64.7652739879174
 Türkiye,TUR,inflation_cpi,1990-99,sd,0.9909905181420636
 Türkiye,TUR,inflation_cpi,2000-09,mean,23.075061237127578
@@ -2233,6 +4177,14 @@ Türkiye,TUR,inflation_def,2010-19,mean,9.369159668693877
 Türkiye,TUR,inflation_def,2010-19,sd,3.6804268367268085
 Türkiye,TUR,inflation_def,2020-,mean,54.177599221683415
 Türkiye,TUR,inflation_def,2020-,sd,33.47197441921285
+Türkiye,TUR,lab_comp,1990-99,mean,6105.5
+Türkiye,TUR,lab_comp,1990-99,sd,1666.7427661674217
+Türkiye,TUR,lab_comp,2000-09,mean,39506.8575
+Türkiye,TUR,lab_comp,2000-09,sd,19167.78629240279
+Türkiye,TUR,lab_comp,2010-19,mean,179293.3475
+Türkiye,TUR,lab_comp,2010-19,sd,82900.69482701914
+Türkiye,TUR,lab_comp,2020-,mean,1179729.8499999999
+Türkiye,TUR,lab_comp,2020-,sd,999634.3291211901
 Türkiye,TUR,labor_share,1990-99,mean,0.2709349869962894
 Türkiye,TUR,labor_share,1990-99,sd,0.008592251033967113
 Türkiye,TUR,labor_share,2000-09,mean,0.25410797531476764
@@ -2241,14 +4193,62 @@ Türkiye,TUR,labor_share,2010-19,mean,0.29020634527537625
 Türkiye,TUR,labor_share,2010-19,sd,0.01839408837010289
 Türkiye,TUR,labor_share,2020-,mean,0.2784752428689486
 Türkiye,TUR,labor_share,2020-,sd,0.03243295980631937
-Türkiye,TUR,ls_to_ps,1990-99,mean,0.420400645277792
-Türkiye,TUR,ls_to_ps,1990-99,sd,0.020736076403935585
-Türkiye,TUR,ls_to_ps,2000-09,mean,0.4029069597708035
-Türkiye,TUR,ls_to_ps,2000-09,sd,0.014375054473539877
-Türkiye,TUR,ls_to_ps,2010-19,mean,0.4863979747137754
-Türkiye,TUR,ls_to_ps,2010-19,sd,0.03971288539073158
-Türkiye,TUR,ls_to_ps,2020-,mean,0.4497411863821504
-Türkiye,TUR,ls_to_ps,2020-,sd,0.07586449381623184
+Türkiye,TUR,pc_lab_comp,1990-99,mean,56.337405062216426
+Türkiye,TUR,pc_lab_comp,1990-99,sd,1.6659457136843285
+Türkiye,TUR,pc_lab_comp,2000-09,mean,25.640425499845403
+Türkiye,TUR,pc_lab_comp,2000-09,sd,15.957962859690083
+Türkiye,TUR,pc_lab_comp,2010-19,mean,17.548640265618122
+Türkiye,TUR,pc_lab_comp,2010-19,sd,2.969659765699461
+Türkiye,TUR,pc_lab_comp,2020-,mean,65.07763405421507
+Türkiye,TUR,pc_lab_comp,2020-,sd,45.01095942949749
+Türkiye,TUR,pc_profits,1990-99,mean,44.298611731828814
+Türkiye,TUR,pc_profits,1990-99,sd,5.628403851329409
+Türkiye,TUR,pc_profits,2000-09,mean,26.260021370638157
+Türkiye,TUR,pc_profits,2000-09,sd,18.509802130645213
+Türkiye,TUR,pc_profits,2010-19,mean,15.321204792946933
+Türkiye,TUR,pc_profits,2010-19,sd,6.449350943852574
+Türkiye,TUR,pc_profits,2020-,mean,62.53572843996771
+Türkiye,TUR,pc_profits,2020-,sd,36.03208994472992
+Türkiye,TUR,pc_rgdp,1990-99,mean,-3.277517369428387
+Türkiye,TUR,pc_rgdp,1990-99,sd,1.511277847857769
+Türkiye,TUR,pc_rgdp,2000-09,mean,4.067611888651375
+Türkiye,TUR,pc_rgdp,2000-09,sd,6.239249108448085
+Türkiye,TUR,pc_rgdp,2010-19,mean,5.883486950452958
+Türkiye,TUR,pc_rgdp,2010-19,sd,3.553269602683169
+Türkiye,TUR,pc_rgdp,2020-,mean,5.92564172195757
+Türkiye,TUR,pc_rgdp,2020-,sd,5.717123460134165
+Türkiye,TUR,pc_taxes,1990-99,mean,61.368094573590156
+Türkiye,TUR,pc_taxes,1990-99,sd,15.656842240552175
+Türkiye,TUR,pc_taxes,2000-09,mean,30.92140747574236
+Türkiye,TUR,pc_taxes,2000-09,sd,30.225754877719737
+Türkiye,TUR,pc_taxes,2010-19,mean,14.190978341169082
+Türkiye,TUR,pc_taxes,2010-19,sd,11.094131592404237
+Türkiye,TUR,pc_taxes,2020-,mean,69.14947194721117
+Türkiye,TUR,pc_taxes,2020-,sd,42.69146667215448
+Türkiye,TUR,profits,1990-99,mean,14400.0125
+Türkiye,TUR,profits,1990-99,sd,3357.315002216376
+Türkiye,TUR,profits,2000-09,mean,97832.42
+Türkiye,TUR,profits,2000-09,sd,46185.36425850587
+Türkiye,TUR,profits,2010-19,mean,361000.27249999996
+Türkiye,TUR,profits,2010-19,sd,149692.7416437708
+Türkiye,TUR,profits,2020-,mean,2512904.1444444447
+Türkiye,TUR,profits,2020-,sd,1740633.915310202
+Türkiye,TUR,rgdp_index,1990-99,mean,45.546910690875
+Türkiye,TUR,rgdp_index,1990-99,sd,0.9611641558520438
+Türkiye,TUR,rgdp_index,2000-09,mean,57.628760628725004
+Türkiye,TUR,rgdp_index,2000-09,sd,8.954345768994042
+Türkiye,TUR,rgdp_index,2010-19,mean,96.11297784215
+Türkiye,TUR,rgdp_index,2010-19,sd,14.901822859340335
+Türkiye,TUR,rgdp_index,2020-,mean,134.83932068377777
+Türkiye,TUR,rgdp_index,2020-,sd,12.188955710617146
+Türkiye,TUR,taxes,1990-99,mean,1909.3500000000001
+Türkiye,TUR,taxes,1990-99,sd,610.8763400698565
+Türkiye,TUR,taxes,2000-09,mean,17879.9925
+Türkiye,TUR,taxes,2000-09,sd,8199.866570158558
+Türkiye,TUR,taxes,2010-19,mean,65270.817500000005
+Türkiye,TUR,taxes,2010-19,sd,20100.862561870927
+Türkiye,TUR,taxes,2020-,mean,405762.15555555554
+Türkiye,TUR,taxes,2020-,sd,312662.469576541
 United Kingdom,GBR,contr_relative,1990-99,mean,-0.477444247872865
 United Kingdom,GBR,contr_relative,1990-99,sd,1.6860274761349359
 United Kingdom,GBR,contr_relative,2000-09,mean,0.11997167981839105
@@ -2289,6 +4289,14 @@ United Kingdom,GBR,contr_unit_tax,2010-19,mean,0.41020692213949084
 United Kingdom,GBR,contr_unit_tax,2010-19,sd,0.6034967091445038
 United Kingdom,GBR,contr_unit_tax,2020-,mean,-3.3207092055582224
 United Kingdom,GBR,contr_unit_tax,2020-,sd,20.934937305016653
+United Kingdom,GBR,gdp,1990-99,mean,237849.6
+United Kingdom,GBR,gdp,1990-99,sd,17575.040454846006
+United Kingdom,GBR,gdp,2000-09,mean,339428.075
+United Kingdom,GBR,gdp,2000-09,sd,43427.53072583045
+United Kingdom,GBR,gdp,2010-19,mean,475138.4
+United Kingdom,GBR,gdp,2010-19,sd,51450.21587046987
+United Kingdom,GBR,gdp,2020-,mean,618029.4210526316
+United Kingdom,GBR,gdp,2020-,sd,69495.84528134341
 United Kingdom,GBR,inflation_cpi,1990-99,mean,2.1544185988263367
 United Kingdom,GBR,inflation_cpi,1990-99,sd,0.4741522610973127
 United Kingdom,GBR,inflation_cpi,2000-09,mean,1.9405065746137389
@@ -2305,6 +4313,14 @@ United Kingdom,GBR,inflation_def,2010-19,mean,1.728862114506122
 United Kingdom,GBR,inflation_def,2010-19,sd,0.5917738331774608
 United Kingdom,GBR,inflation_def,2020-,mean,4.234214528889857
 United Kingdom,GBR,inflation_def,2020-,sd,3.5237961987867483
+United Kingdom,GBR,lab_comp,1990-99,mean,108716.45
+United Kingdom,GBR,lab_comp,1990-99,sd,10331.318346989512
+United Kingdom,GBR,lab_comp,2000-09,mean,168143.425
+United Kingdom,GBR,lab_comp,2000-09,sd,23837.33269892752
+United Kingdom,GBR,lab_comp,2010-19,mean,231337.1
+United Kingdom,GBR,lab_comp,2010-19,sd,23034.90018990693
+United Kingdom,GBR,lab_comp,2020-,mean,309513.4736842105
+United Kingdom,GBR,lab_comp,2020-,sd,28753.28436576791
 United Kingdom,GBR,labor_share,1990-99,mean,0.456461560079481
 United Kingdom,GBR,labor_share,1990-99,sd,0.011280051122228067
 United Kingdom,GBR,labor_share,2000-09,mean,0.4945405837141212
@@ -2313,14 +4329,62 @@ United Kingdom,GBR,labor_share,2010-19,mean,0.48740401976043995
 United Kingdom,GBR,labor_share,2010-19,sd,0.0075972003306494
 United Kingdom,GBR,labor_share,2020-,mean,0.5021186928986169
 United Kingdom,GBR,labor_share,2020-,sd,0.01669777030800838
-United Kingdom,GBR,ls_to_ps,1990-99,mean,1.0589798876439636
-United Kingdom,GBR,ls_to_ps,1990-99,sd,0.06356074122855028
-United Kingdom,GBR,ls_to_ps,2000-09,mean,1.2569242405957015
-United Kingdom,GBR,ls_to_ps,2000-09,sd,0.044982582849352214
-United Kingdom,GBR,ls_to_ps,2010-19,mean,1.2435271172485598
-United Kingdom,GBR,ls_to_ps,2010-19,sd,0.0396516918551982
-United Kingdom,GBR,ls_to_ps,2020-,mean,1.2460947589386164
-United Kingdom,GBR,ls_to_ps,2020-,sd,0.02780636731445386
+United Kingdom,GBR,pc_lab_comp,1990-99,mean,6.582068642120295
+United Kingdom,GBR,pc_lab_comp,1990-99,sd,1.780519876328602
+United Kingdom,GBR,pc_lab_comp,2000-09,mean,4.793004057096182
+United Kingdom,GBR,pc_lab_comp,2000-09,sd,2.9495552683031403
+United Kingdom,GBR,pc_lab_comp,2010-19,mean,3.295077873985808
+United Kingdom,GBR,pc_lab_comp,2010-19,sd,1.3410427191442755
+United Kingdom,GBR,pc_lab_comp,2020-,mean,5.302282887449418
+United Kingdom,GBR,pc_lab_comp,2020-,sd,3.2735580849521333
+United Kingdom,GBR,pc_profits,1990-99,mean,3.3785561795721883
+United Kingdom,GBR,pc_profits,1990-99,sd,4.475092419005499
+United Kingdom,GBR,pc_profits,2000-09,mean,3.6167937059200868
+United Kingdom,GBR,pc_profits,2000-09,sd,3.738730251326716
+United Kingdom,GBR,pc_profits,2010-19,mean,3.872659709914182
+United Kingdom,GBR,pc_profits,2010-19,sd,2.4754830589823906
+United Kingdom,GBR,pc_profits,2020-,mean,4.958637719574769
+United Kingdom,GBR,pc_profits,2020-,sd,5.685197711349835
+United Kingdom,GBR,pc_rgdp,1990-99,mean,3.4919735536495535
+United Kingdom,GBR,pc_rgdp,1990-99,sd,1.1173765074415458
+United Kingdom,GBR,pc_rgdp,2000-09,mean,1.7249032603177648
+United Kingdom,GBR,pc_rgdp,2000-09,sd,2.6059414510288965
+United Kingdom,GBR,pc_rgdp,2010-19,mean,1.971303525007615
+United Kingdom,GBR,pc_rgdp,2010-19,sd,0.7222249563012685
+United Kingdom,GBR,pc_rgdp,2020-,mean,1.048762508733413
+United Kingdom,GBR,pc_rgdp,2020-,sd,9.604965068003438
+United Kingdom,GBR,pc_taxes,1990-99,mean,6.888020084511971
+United Kingdom,GBR,pc_taxes,1990-99,sd,2.642218645140696
+United Kingdom,GBR,pc_taxes,2000-09,mean,2.6971934247937757
+United Kingdom,GBR,pc_taxes,2000-09,sd,4.934682396945017
+United Kingdom,GBR,pc_taxes,2010-19,mean,5.469657911722693
+United Kingdom,GBR,pc_taxes,2010-19,sd,5.117577416555699
+United Kingdom,GBR,pc_taxes,2020-,mean,-63.149932833603714
+United Kingdom,GBR,pc_taxes,2020-,sd,306.26264037734205
+United Kingdom,GBR,profits,1990-99,mean,102529.95
+United Kingdom,GBR,profits,1990-99,sd,5277.1391619143915
+United Kingdom,GBR,profits,2000-09,mean,133528.55
+United Kingdom,GBR,profits,2000-09,sd,16439.439320637524
+United Kingdom,GBR,profits,2010-19,mean,186546.775
+United Kingdom,GBR,profits,2010-19,sd,22292.64474363743
+United Kingdom,GBR,profits,2020-,mean,248542.31578947368
+United Kingdom,GBR,profits,2020-,sd,24143.003723307207
+United Kingdom,GBR,rgdp_index,1990-99,mean,70.15225776315
+United Kingdom,GBR,rgdp_index,1990-99,sd,3.7101141229259045
+United Kingdom,GBR,rgdp_index,2000-09,mean,86.5667898621
+United Kingdom,GBR,rgdp_index,2000-09,sd,5.122785861923532
+United Kingdom,GBR,rgdp_index,2010-19,mean,98.86576486
+United Kingdom,GBR,rgdp_index,2010-19,sd,5.974259671858152
+United Kingdom,GBR,rgdp_index,2020-,mean,106.478007142
+United Kingdom,GBR,rgdp_index,2020-,sd,7.019763996034249
+United Kingdom,GBR,taxes,1990-99,mean,26603.2
+United Kingdom,GBR,taxes,1990-99,sd,2721.5425502151493
+United Kingdom,GBR,taxes,2000-09,mean,37756.1
+United Kingdom,GBR,taxes,2000-09,sd,3625.5655389088024
+United Kingdom,GBR,taxes,2010-19,mean,57254.525
+United Kingdom,GBR,taxes,2010-19,sd,6501.536623052848
+United Kingdom,GBR,taxes,2020-,mean,60061.47368421052
+United Kingdom,GBR,taxes,2020-,sd,21107.07291241077
 United States,USA,contr_relative,1950-59,mean,NA
 United States,USA,contr_relative,1950-59,sd,NA
 United States,USA,contr_relative,1960-69,mean,2.0406460290445065
@@ -2401,6 +4465,22 @@ United States,USA,contr_unit_tax,2010-19,mean,0.1184034391112632
 United States,USA,contr_unit_tax,2010-19,sd,0.07825793975461835
 United States,USA,contr_unit_tax,2020-,mean,1.2098210953815434
 United States,USA,contr_unit_tax,2020-,sd,2.5527220692836514
+United States,USA,gdp,1950-59,mean,130413.575
+United States,USA,gdp,1950-59,sd,1983.8026000167793
+United States,USA,gdp,1960-69,mean,185108.7275
+United States,USA,gdp,1960-69,sd,39387.40654472544
+United States,USA,gdp,1970-79,mean,427673.98500000004
+United States,USA,gdp,1970-79,sd,125186.78263912763
+United States,USA,gdp,1980-89,mean,1043290.9299999999
+United States,USA,gdp,1980-89,sd,221953.37871932637
+United States,USA,gdp,1990-99,mean,1894295.2275
+United States,USA,gdp,1990-99,sd,301447.86333623854
+United States,USA,gdp,2000-09,mean,3150314.2825
+United States,USA,gdp,2000-09,sd,420085.03549591603
+United States,USA,gdp,2010-19,mean,4507500.6725
+United States,USA,gdp,2010-19,sd,520991.5163315948
+United States,USA,gdp,2020-,mean,6342660.7894736845
+United States,USA,gdp,2020-,sd,713435.61943386
 United States,USA,inflation_cpi,1950-59,mean,NA
 United States,USA,inflation_cpi,1950-59,sd,NA
 United States,USA,inflation_cpi,1960-69,mean,2.334460306637495
@@ -2433,6 +4513,22 @@ United States,USA,inflation_def,2010-19,mean,1.6192454264650373
 United States,USA,inflation_def,2010-19,sd,0.4840831281586162
 United States,USA,inflation_def,2020-,mean,3.881585684201274
 United States,USA,inflation_def,2020-,sd,2.2462788130661475
+United States,USA,lab_comp,1950-59,mean,71528.125
+United States,USA,lab_comp,1950-59,sd,1228.0328263120646
+United States,USA,lab_comp,1960-69,mean,103273.27
+United States,USA,lab_comp,1960-69,sd,23651.008236644928
+United States,USA,lab_comp,1970-79,mean,241894.345
+United States,USA,lab_comp,1970-79,sd,68529.47431884626
+United States,USA,lab_comp,1980-89,mean,582045.7575000001
+United States,USA,lab_comp,1980-89,sd,123052.44869908928
+United States,USA,lab_comp,1990-99,mean,1053001.8175
+United States,USA,lab_comp,1990-99,sd,166863.74459552456
+United States,USA,lab_comp,2000-09,mean,1735753.8475000001
+United States,USA,lab_comp,2000-09,sd,199876.5708293201
+United States,USA,lab_comp,2010-19,mean,2384835.4025
+United States,USA,lab_comp,2010-19,sd,284667.46522064554
+United States,USA,lab_comp,2020-,mean,3322403.4
+United States,USA,lab_comp,2020-,sd,310219.8845070613
 United States,USA,labor_share,1950-59,mean,0.548465525801513
 United States,USA,labor_share,1950-59,sd,0.0031821651626543312
 United States,USA,labor_share,1960-69,mean,0.5562647744971245
@@ -2449,19 +4545,115 @@ United States,USA,labor_share,2010-19,mean,0.5288714547475293
 United States,USA,labor_share,2010-19,sd,0.0037887294847972425
 United States,USA,labor_share,2020-,mean,0.5250072685030553
 United States,USA,labor_share,2020-,sd,0.012446585754254863
-United States,USA,ls_to_ps,1950-59,mean,1.463268470141618
-United States,USA,ls_to_ps,1950-59,sd,0.02513231044186393
-United States,USA,ls_to_ps,1960-69,mean,1.5228948304720573
-United States,USA,ls_to_ps,1960-69,sd,0.06405023718628355
-United States,USA,ls_to_ps,1970-79,mean,1.6296050056913403
-United States,USA,ls_to_ps,1970-79,sd,0.06330162966626471
-United States,USA,ls_to_ps,1980-89,mean,1.532496347359
-United States,USA,ls_to_ps,1980-89,sd,0.04565455435454044
-United States,USA,ls_to_ps,1990-99,mean,1.521979017505472
-United States,USA,ls_to_ps,1990-99,sd,0.05993296864130737
-United States,USA,ls_to_ps,2000-09,mean,1.4414419980465094
-United States,USA,ls_to_ps,2000-09,sd,0.060429438405735385
-United States,USA,ls_to_ps,2010-19,mean,1.3056788479327657
-United States,USA,ls_to_ps,2010-19,sd,0.030160731609603114
-United States,USA,ls_to_ps,2020-,mean,1.260444240012074
-United States,USA,ls_to_ps,2020-,sd,0.0420837252091235
+United States,USA,pc_lab_comp,1950-59,mean,NA
+United States,USA,pc_lab_comp,1950-59,sd,NA
+United States,USA,pc_lab_comp,1960-69,mean,7.4381662417329695
+United States,USA,pc_lab_comp,1960-69,sd,2.8544253666910584
+United States,USA,pc_lab_comp,1970-79,mean,9.742717531564503
+United States,USA,pc_lab_comp,1970-79,sd,2.4243912750975474
+United States,USA,pc_lab_comp,1980-89,mean,7.853736121270344
+United States,USA,pc_lab_comp,1980-89,sd,1.8789339247687766
+United States,USA,pc_lab_comp,1990-99,mean,5.595901657201156
+United States,USA,pc_lab_comp,1990-99,sd,1.3629296236309218
+United States,USA,pc_lab_comp,2000-09,mean,3.7350939310553564
+United States,USA,pc_lab_comp,2000-09,sd,3.241592213569404
+United States,USA,pc_lab_comp,2010-19,mean,3.971362528080363
+United States,USA,pc_lab_comp,2010-19,sd,1.2174853870448694
+United States,USA,pc_lab_comp,2020-,mean,5.756345884077552
+United States,USA,pc_lab_comp,2020-,sd,3.382162357847585
+United States,USA,pc_profits,1950-59,mean,NA
+United States,USA,pc_profits,1950-59,sd,NA
+United States,USA,pc_profits,1960-69,mean,6.103217433490231
+United States,USA,pc_profits,1960-69,sd,2.9230946232177843
+United States,USA,pc_profits,1970-79,mean,10.311460484560682
+United States,USA,pc_profits,1970-79,sd,4.153935482729012
+United States,USA,pc_profits,1980-89,mean,8.331401581542721
+United States,USA,pc_profits,1980-89,sd,4.371653491352016
+United States,USA,pc_profits,1990-99,mean,5.818833565167225
+United States,USA,pc_profits,1990-99,sd,2.122423410263128
+United States,USA,pc_profits,2000-09,mean,4.435347870908597
+United States,USA,pc_profits,2000-09,sd,4.019579482004173
+United States,USA,pc_profits,2010-19,mean,4.464383468008871
+United States,USA,pc_profits,2010-19,sd,2.596479688648851
+United States,USA,pc_profits,2020-,mean,7.4285841943208855
+United States,USA,pc_profits,2020-,sd,4.9381718400039505
+United States,USA,pc_rgdp,1950-59,mean,NA
+United States,USA,pc_rgdp,1950-59,sd,NA
+United States,USA,pc_rgdp,1960-69,mean,4.534361621403419
+United States,USA,pc_rgdp,1960-69,sd,2.0500421623583187
+United States,USA,pc_rgdp,1970-79,mean,3.2417514188025622
+United States,USA,pc_rgdp,1970-79,sd,2.717779240777444
+United States,USA,pc_rgdp,1980-89,mean,3.1289005748917567
+United States,USA,pc_rgdp,1980-89,sd,2.6700958619073267
+United States,USA,pc_rgdp,1990-99,mean,3.226232896110616
+United States,USA,pc_rgdp,1990-99,sd,1.527629543275083
+United States,USA,pc_rgdp,2000-09,mean,1.9235140982324208
+United States,USA,pc_rgdp,2000-09,sd,2.1424435961405877
+United States,USA,pc_rgdp,2010-19,mean,2.3971848984860804
+United States,USA,pc_rgdp,2010-19,sd,0.6740712158868372
+United States,USA,pc_rgdp,2020-,mean,2.436552960917785
+United States,USA,pc_rgdp,2020-,sd,3.7002984176521396
+United States,USA,pc_taxes,1950-59,mean,NA
+United States,USA,pc_taxes,1950-59,sd,NA
+United States,USA,pc_taxes,1960-69,mean,7.127357855093983
+United States,USA,pc_taxes,1960-69,sd,2.963504521732326
+United States,USA,pc_taxes,1970-79,mean,8.041756295280793
+United States,USA,pc_taxes,1970-79,sd,2.0497731907331276
+United States,USA,pc_taxes,1980-89,mean,8.130082415042036
+United States,USA,pc_taxes,1980-89,sd,4.752831556062698
+United States,USA,pc_taxes,1990-99,mean,5.429439347384044
+United States,USA,pc_taxes,1990-99,sd,2.6206520597753307
+United States,USA,pc_taxes,2000-09,mean,4.488471161878704
+United States,USA,pc_taxes,2000-09,sd,3.7518913432849472
+United States,USA,pc_taxes,2010-19,mean,4.203522056249188
+United States,USA,pc_taxes,2010-19,sd,1.32188184686052
+United States,USA,pc_taxes,2020-,mean,21.61519850832614
+United States,USA,pc_taxes,2020-,sd,62.55234878895136
+United States,USA,profits,1950-59,mean,48886.95
+United States,USA,profits,1950-59,sd,764.5898966112485
+United States,USA,profits,1960-69,mean,67425.86499999999
+United States,USA,profits,1960-69,sd,12964.516483563502
+United States,USA,profits,1970-79,mean,149957.39750000002
+United States,USA,profits,1970-79,sd,47059.486103106305
+United States,USA,profits,1980-89,mean,381062.85
+United States,USA,profits,1980-89,sd,84313.68671672867
+United States,USA,profits,1990-99,mean,696045.145
+United States,USA,profits,1990-99,sd,131121.80334763502
+United States,USA,profits,2000-09,mean,1209921.21
+United States,USA,profits,2000-09,sd,174086.18626785427
+United States,USA,profits,2010-19,mean,1824513.6325
+United States,USA,profits,2010-19,sd,193389.42219910125
+United States,USA,profits,2020-,mean,2620871.6666666665
+United States,USA,profits,2020-,sd,284977.2449327573
+United States,USA,rgdp_index,1950-59,mean,18.15154182375
+United States,USA,rgdp_index,1950-59,sd,0.21563131423361917
+United States,USA,rgdp_index,1960-69,mean,23.24075452155
+United States,USA,rgdp_index,1960-69,sd,3.333948527165293
+United States,USA,rgdp_index,1970-79,mean,33.100370315975
+United States,USA,rgdp_index,1970-79,sd,3.2823712290491613
+United States,USA,rgdp_index,1980-89,mean,44.54316475085
+United States,USA,rgdp_index,1980-89,sd,4.903532870871489
+United States,USA,rgdp_index,1990-99,mean,60.8479243625
+United States,USA,rgdp_index,1990-99,sd,6.250857208590749
+United States,USA,rgdp_index,2000-09,mean,82.682878411075
+United States,USA,rgdp_index,2000-09,sd,5.450599532746223
+United States,USA,rgdp_index,2010-19,mean,98.843351744075
+United States,USA,rgdp_index,2010-19,sd,6.883225881058064
+United States,USA,rgdp_index,2020-,mean,116.33406694078947
+United States,USA,rgdp_index,2020-,sd,5.8417948085606
+United States,USA,taxes,1950-59,mean,9998.5
+United States,USA,taxes,1950-59,sd,307.6770493011571
+United States,USA,taxes,1960-69,mean,14370.045
+United States,USA,taxes,1960-69,sd,2833.3598532348615
+United States,USA,taxes,1970-79,mean,31887.225000000002
+United States,USA,taxes,1970-79,sd,7014.156046195767
+United States,USA,taxes,1980-89,mean,69255.4325
+United States,USA,taxes,1980-89,sd,13917.566499274835
+United States,USA,taxes,1990-99,mean,128448.75499999999
+United States,USA,taxes,1990-99,sd,18503.2500618197
+United States,USA,taxes,2000-09,mean,210089.98249999998
+United States,USA,taxes,2000-09,sd,31881.535833407794
+United States,USA,taxes,2010-19,mean,301424.2875
+United States,USA,taxes,2010-19,sd,36047.59661629855
+United States,USA,taxes,2020-,mean,359069.0947368421
+United States,USA,taxes,2020-,sd,123026.3546743067

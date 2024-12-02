@@ -62,24 +62,24 @@ wide_data_clean <- inner_join(
 
 wide_data_clean <- wide_data_clean |>
     rename(
-        labor_compensation = `Compensation of employees`,
-        operating_surplus_mixed_income = `Operating surplus and mixed income, gross`,
-        taxes_minus_subsidies = `Taxes on production and imports less subsidies`,
+        lab_comp = `Compensation of employees`,
+        profits = `Operating surplus and mixed income, gross`,
+        taxes = `Taxes on production and imports less subsidies`,
         gdp = `Gross domestic product`
     )
 
 wide_data_clean |>
-    filter(is.na(labor_compensation)) |>
+    filter(is.na(lab_comp)) |>
     group_by(reference_area) |>
     count(sort = TRUE)
 
 wide_data_clean |>
-    filter(is.na(operating_surplus_mixed_income)) |>
+    filter(is.na(profits)) |>
     group_by(reference_area) |>
     count(sort = TRUE)
 
 wide_data_clean |>
-    filter(is.na(taxes_minus_subsidies)) |>
+    filter(is.na(taxes)) |>
     group_by(reference_area) |>
     count(sort = TRUE)
 
@@ -91,55 +91,55 @@ israel <- filter(wide_data_clean, ref_area == "ISR")
 # Canada (fully) and USA have missing labor compensation data.
 # I use the other two components and GDP data to fill in the missing values
 canada <- canada |>
-    filter(is.na(labor_compensation)) |>
-    mutate(labor_compensation = gdp - operating_surplus_mixed_income - taxes_minus_subsidies)
+    filter(is.na(lab_comp)) |>
+    mutate(lab_comp = gdp - profits - taxes)
 
 canada |>
-    mutate(ls = labor_compensation/gdp) |>
+    mutate(ls = lab_comp/gdp) |>
     ggplot(aes(time, ls)) +
     geom_line()
 
 usa = usa |>
-    filter(is.na(labor_compensation)) |>
-    mutate(labor_compensation = gdp - operating_surplus_mixed_income - taxes_minus_subsidies)
+    filter(is.na(lab_comp)) |>
+    mutate(lab_comp = gdp - profits - taxes)
 
 # Japan missing operating surplus and taxes.
 # I combine both under operating surplus by subtracting labor compensation from GDP.
 japan = japan |>
-    mutate(operating_surplus_mixed_income = gdp - labor_compensation)
+    mutate(profits = gdp - lab_comp)
 
 # Isreal missing labor compensation and taxes.
 # I combine both under labor compensation by subtractiong operating surplus from GDP.
 israel = israel |>
-    mutate(labor_compensation = gdp - operating_surplus_mixed_income)
+    mutate(lab_comp = gdp - profits)
 
 # Pasting imputed data for Canada, US, Japan, and Israel to main data
-wide_data_clean[wide_data_clean$ref_area == "USA" & is.na(wide_data_clean$labor_compensation), "labor_compensation"] <- usa$labor_compensation
+wide_data_clean[wide_data_clean$ref_area == "USA" & is.na(wide_data_clean$lab_comp), "lab_comp"] <- usa$lab_comp
 
-wide_data_clean[wide_data_clean$ref_area == "CAN" & is.na(wide_data_clean$labor_compensation), "labor_compensation"] <- canada$labor_compensation
+wide_data_clean[wide_data_clean$ref_area == "CAN" & is.na(wide_data_clean$lab_comp), "lab_comp"] <- canada$lab_comp
 
-wide_data_clean[wide_data_clean$ref_area == "JPN" & is.na(wide_data_clean$operating_surplus_mixed_income), "operating_surplus_mixed_income"] <- japan$operating_surplus_mixed_income
+wide_data_clean[wide_data_clean$ref_area == "JPN" & is.na(wide_data_clean$profits), "profits"] <- japan$profits
 
-wide_data_clean[wide_data_clean$ref_area == "ISR" & is.na(wide_data_clean$labor_compensation), "labor_compensation"] <- israel$labor_compensation
+wide_data_clean[wide_data_clean$ref_area == "ISR" & is.na(wide_data_clean$lab_comp), "lab_comp"] <- israel$lab_comp
 
 # Sanity Check
 wide_data_clean |>
-    mutate(test = labor_compensation +
-               operating_surplus_mixed_income +
-               taxes_minus_subsidies -
+    mutate(test = lab_comp +
+               profits +
+               taxes -
                gdp) |>
     group_by(reference_area) |>
     summarise(mean = mean(test, na.rm = T)) |>
     arrange(desc(abs(mean)))
 
 wide_data_clean |>
-    mutate(labor_share = labor_compensation/gdp) |>
+    mutate(labor_share = lab_comp/gdp) |>
     ggplot(aes(x = time, y = labor_share, color = ref_area)) +
     geom_line() +
     theme(legend.position = "none")
 
 wide_data_clean|>
-    mutate(ls_to_ps = labor_compensation/operating_surplus_mixed_income) |>
+    mutate(ls_to_ps = lab_comp/profits) |>
     filter(time > as.Date("2019-01-01")) |>
     ggplot(aes(x = time, y = ls_to_ps, color = ref_area)) +
     geom_line() +

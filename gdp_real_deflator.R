@@ -29,7 +29,7 @@ wide_data <- clean_data |>
 
 wide_data <- wide_data |>
     rename(
-        chain_linked_volume_index = `Chain linked volume (rebased)`,
+        rgdp_index = `Chain linked volume (rebased)`,
         deflator_index = `Deflator (rebased)`
     )
 
