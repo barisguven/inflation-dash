@@ -31,8 +31,8 @@ ui <- page_navbar(
       navset_card_tab(
         title = NULL,
         full_screen = TRUE,
-        nav_panel(title = "Deflator vs. CPI", plotOutput("def_vs_cpi")),
-        nav_panel(title = "Pandemic Only", plotOutput("def_vs_cpi_pand"))
+        nav_panel(title = "Pandemic Inflation", plotOutput("def_vs_cpi_pand")),
+        nav_panel(title = "Overall", plotOutput("def_vs_cpi"))
       )
       #card(plotOutput("def_vs_cpi"), full_screen = TRUE)
     ),
