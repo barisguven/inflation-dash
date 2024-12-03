@@ -8,11 +8,11 @@ This project gathers data and presents the results of a decomposition analysis t
 
 ## Decomposition Equation  
 
-Gross Domestic Product (GDP) can be measured in three different ways relying on either expenditure, output, or income approach. According to the income approach, GDP is measured as the sum of the following three income components:
+Gross Domestic Product (GDP) can be measured in three different ways relying on either expenditure, output, or income approach. According to the income approach, GDP is measured as the sum of the following three major income components:
 
 1. compensation of employees (wages and salaries paid to employees and their employers’ social contributions) (simply labor costs),
 
-2. gross operating surplus (business profits) and gross mixed income (profits of the self-employed) (simply profits),
+2. gross operating surplus (business profits) and gross mixed income (profits of the self-employed) (simply profits), and
 
 3. taxes on production and imports minus subsidies (i.e., net taxes).
 
@@ -56,7 +56,7 @@ In words, then, the percentage change in the GDP deflator, i.e., domestic inflat
 
 While countries differ in the magnitude of the contributions of unit labor costs, unit profits, and unit taxes to inflation, a snapshot analysis aggregating the country data would be highly useful. The figure below shows the cross-country simple average of country-based four-quarter trailing moving averages of annual contributions and inflation focusing on the eighteen OECD-member countries.[^1]
 
-[^1]: The countries included in the analysis are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden, Switzerland, United Kingdom, and United States. I don't include the contribution of unit taxes in the figure because the government aid packages led to massive changes in this variable, blurring the picture. However, the dashboard provides data for this variable.
+[^1]: The countries included in the analysis are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden, Switzerland, United Kingdom, and United States. I don't show the contribution of unit taxes in the figure because the pandemic-era government aid packages led to much larger changes in this variable, blurring the picture. However, the dashboard provides data for this variable.
 
 The deflator inflation surged in 2021 and 2022, peaked in the last quarter of 2022 and started falling thereafter. In the first year of the pandemic, the contribution of unit labor costs was greater than unit profits, with a slight increase in deflator inflation.[^2] This pattern completely changed in the next two years in that the contribution of unit profits exceeded the contribution of unit labor costs with inflation surging. The roles were swapped again in the first quarter of 2023, with an ensuing sustained fall in the contribution of unit profits and an accompanying fall in inflation.
 
@@ -91,7 +91,7 @@ Based on the previous observations, the period since the beginning of the COVID-
 
 1. 2020-2021 where both labor compensation and profits fell but real GDP fell more and inflation remained supressed;
 
-2. 2021-2022 where both labor compensation and profits grew at a higher-than-usual speed with the latter at a much faster rate and surging inflation; and
+2. 2021-2022 where both labor compensation and profits grew at a higher-than-usual speed with the latter at a much faster rate and inflation surged; and
 
 3. 2023 to the present where the growth in labor compensation sustained but the growth in profits decelarated fast and inflation fell.
 
