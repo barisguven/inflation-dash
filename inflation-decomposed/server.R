@@ -65,7 +65,7 @@ server <- function(input, output, session) {
           labels = c("Unit labor costs", "Unit profits", "Unit net taxes")) +
         scale_color_manual(
           labels = "Deflator inflation",
-          values = c("inflation_def" = "red")
+          values = c("inflation_def" = "#D23105FF")
         ) +
         scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
         labs(title = paste0("Annual Contributions since the Pandemic (%), Quarterly, ", input$country))
@@ -136,9 +136,11 @@ server <- function(input, output, session) {
       ggplot(aes(time, value, color = series)) +
       geom_line(linewidth=0.8) +
       scale_color_manual(
-        values = c("inflation_def" = "red", "inflation_cpi" = "black"),
-        breaks = c("inflation_def", "inflation_cpi"),
-        labels = c("Deflator", "Consumer Price Index")) +
+        values = c(
+          "inflation_cpi" = "#30123BFF",
+          "inflation_def" = "#D23105FF" 
+        ),
+        labels = c("Consumer Price Index", "Deflator")) +
       labs(
         x = NULL, 
         y = NULL, 
@@ -155,9 +157,11 @@ server <- function(input, output, session) {
       ggplot(aes(time, value, color = series)) +
       geom_line(linewidth=0.8) +
       scale_color_manual(
-        values = c("inflation_def" = "red", "inflation_cpi" = "black"),
-        breaks = c("inflation_def", "inflation_cpi"),
-        labels = c("Deflator", "Consumer Price Index")) +
+        values = c(
+          "inflation_cpi" = "#30123BFF",
+          "inflation_def" = "#D23105FF" 
+        ),
+        labels = c("Consumer Price Index", "Deflator")) +
       labs(
         x = NULL,
         y = NULL, 
@@ -165,6 +169,9 @@ server <- function(input, output, session) {
       )
   })
 
+#  "#30123BFF" "#4662D7FF" "#36AAF9FF" "#1AE4B6FF" "#72FE5EFF"
+#  [6] "#C7EF34FF" "#FABA39FF" "#F66B19FF" "#CB2A04FF" "#7A0403FF"
+  
   ## Bottom left: decompostion quarterly ----
   output$decomp <- renderPlot({
     data |>
@@ -187,7 +194,7 @@ server <- function(input, output, session) {
       ) +
       scale_color_manual(
         labels = "Deflator inflation",
-        values = c("inflation_def" = "red")
+        values = c("inflation_def" = "#D23105FF")
       ) +
       labs(title = paste0("All Contributions to Annual Inflation (%), Quarterly, ", input$country))
   })
