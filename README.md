@@ -87,7 +87,7 @@ Based on the previous observations, the period since the beginning of the COVID-
 
 3. 2023 to the present where the growth in labor compensation sustained but the growth in profits decelarated fast and inflation fell.
 
-The remarkable nature of the faster growth in profits in the second episode can be better understood through a comparision of the period 2020-Q1 to 2022-Q4 with the previous two decades (see the figure below). In the same countries as above, while profits grew on average at 3.53% per year between 2000 and 2019, they grew at 6.68% between 2020 and 2022! In contrast, the annual average growth in labor compensation was 3.62% and 4.49% in the same periods respectively.
+The remarkable nature of the faster growth in profits in the second episode can be better understood through a comparision with the previous two decades (see the figure below). In the same countries as above, while profits grew on average at 3.53% per year between 2000 and 2019, they grew at 6.68% between 2020 and 2022! In contrast, the annual average growth in labor compensation was 3.62% and 4.49% in the same periods respectively.
 
 ![](/assets/wages_profits_period.jpeg)
 
