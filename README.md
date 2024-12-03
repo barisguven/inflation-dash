@@ -54,11 +54,11 @@ In words, then, the percentage change in the GDP deflator, i.e., domestic inflat
 
 ## A Snapshot
 
-While countries differ in the magnitude of the contributions of unit labor costs, unit profits, and unit taxes to inflation, a snapshot analysis aggregating the country data would be highly useful. The figure below shows the cross-country simple average of country-based four-quarter trailing moving averages of annual contributions and inflation focusing on the eighteen OECD-member countries[^1].
+While countries differ in the magnitude of the contributions of unit labor costs, unit profits, and unit taxes to inflation, a snapshot analysis aggregating the country data would be highly useful. The figure below shows the cross-country simple average of country-based four-quarter trailing moving averages of annual contributions and inflation focusing on the eighteen OECD-member countries.[^1]
 
 [^1]: The countries included in the analysis are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden, Switzerland, United Kingdom, and United States. I don't include the contribution of unit taxes in the figure because the government aid packages led to massive changes in this variable, blurring the picture. However, the dashboard provides data for this variable.
 
-The deflator inflation surged in 2021 and 2022, peaked in the last quarter of 2022 and started falling thereafter. In the first year of the pandemic, the contribution of unit labor costs was greater than unit profits, with a slight increase in deflator inflation[^2]. This pattern completely changed in the next two years in that the contribution of unit profits exceeded the contribution of unit labor costs with inflation surging. The roles were swapped again in the first quarter of 2023, with an ensuing sustained fall in the contribution of unit profits and an accompanying fall in inflation.
+The deflator inflation surged in 2021 and 2022, peaked in the last quarter of 2022 and started falling thereafter. In the first year of the pandemic, the contribution of unit labor costs was greater than unit profits, with a slight increase in deflator inflation.[^2] This pattern completely changed in the next two years in that the contribution of unit profits exceeded the contribution of unit labor costs with inflation surging. The roles were swapped again in the first quarter of 2023, with an ensuing sustained fall in the contribution of unit profits and an accompanying fall in inflation.
 
 [^2]: In contrast, CPI inflation fell in 2021.
 
@@ -72,7 +72,7 @@ a) that the percentage contribution of, say, unit labor costs equals the percent
 
 b) that, so long as labor share and profit share are close to each other, what differentiates the contribution of unit labor costs and unit profits is the percentage change in the nominal labor compensation and nominal profits, given that the percentage change in real GDP appears in all contributions.
 
-Therefore, we can focus on nominal labor compensation and profits, and real GDP to explain the patterns outlined above. The following figure shows the annual growth in labor compensation, profits, and real GDP[^3].
+Therefore, we can focus on nominal labor compensation and profits, and real GDP to explain the patterns outlined above. The following figure shows the annual growth in labor compensation, profits, and real GDP.[^3]
 
 [^3]: Similarly, the figure is based on the cross-country simple average of
 country-based four-quarter trailing moving average of annual growth in each variable.
