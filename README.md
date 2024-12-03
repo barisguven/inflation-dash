@@ -62,7 +62,11 @@ The deflator inflation surged in 2021 and 2022, peaked in the last quarter of 20
 
 [^2]: In contrast, CPI inflation fell in 2021.
 
-![](/assets/contributions.jpeg)
+<!-- ![](/assets/contributions.jpeg) -->
+
+<center>
+<img src="/assets/contributions.jpeg" width="600" height="400">
+</center>
 
 In the previous section, we observed that the deflator inflation can be decomposed into the contribution of unit incomes.
 
@@ -77,7 +81,11 @@ Therefore, we can focus on nominal labor compensation and profits, and real GDP 
 [^3]: Similarly, the figure is based on the cross-country simple average of
 country-based four-quarter trailing moving average of annual growth in each variable.
 
-![](/assets/wages_profits_rgdp.jpeg)
+<!-- ![](/assets/wages_profits_rgdp.jpeg) -->
+
+<center>
+<img src="/assets/wages_profits_rgdp.jpeg" width="600" height="400">
+</center>
 
 Based on the previous observations, the period since the beginning of the COVID-19 pandemic in 2020 to the present can be divided into three episodes:
 
@@ -89,7 +97,11 @@ Based on the previous observations, the period since the beginning of the COVID-
 
 The remarkable nature of the faster growth in profits in the second episode can be better understood through a comparision with the previous two decades (see the figure below). In the same countries as above, while profits grew on average at 3.53% per year between 2000 and 2019, they grew at 6.68% between 2020 and 2022! In contrast, the annual average growth in labor compensation was 3.62% and 4.49% in the same periods respectively.
 
-![](/assets/wages_profits_period.jpeg)
+<!-- ![](/assets/wages_profits_period.jpeg) -->
+
+<center>
+<img src="/assets/wages_profits_period.jpeg" width="600" height="400">
+</center>
 
 ## Dashboard
 
