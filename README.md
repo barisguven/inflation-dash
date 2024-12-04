@@ -58,23 +58,23 @@ While countries differ in the magnitude of the contributions of unit labor costs
 
 [^1]: The countries included in the analysis are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden, Switzerland, United Kingdom, and United States. I don't show the contribution of unit taxes in the figure because the pandemic-era government aid packages led to much larger changes in this variable, blurring the picture. However, the dashboard provides data for this variable.
 
-The deflator inflation surged in 2021 and 2022, peaked in the last quarter of 2022 and started falling thereafter. In the first year of the pandemic, the contribution of unit labor costs was greater than unit profits, with a slight increase in deflator inflation.[^2] This pattern completely changed in the next two years in that the contribution of unit profits exceeded the contribution of unit labor costs with inflation surging. The roles were swapped again in the first quarter of 2023, with an ensuing sustained fall in the contribution of unit profits and an accompanying fall in inflation.
-
-[^2]: In contrast, CPI inflation fell in 2021.
-
 <!-- ![](/assets/contributions.jpeg) -->
 
 <center>
 <img src="/assets/contributions.jpeg" width="600" height="400">
 </center>
 
-In the previous section, we observed that the deflator inflation can be decomposed into the contribution of unit incomes.
+The deflator inflation surged in 2021 and 2022, peaked in the firt quarter of 2023 and started falling thereafter. In the first year of the pandemic, the contributions of unit labor costs were greater than that of unit profits, with a slight increase in deflator inflation.[^2] This pattern completely changed in the next two years in that the contributions of unit profits exceeded the contributions of unit labor costs with inflation surging. The roles were swapped again after the second quarter of 2023, with an ensuing sustained fall in the contribution of unit profits and an accompanying fall in inflation.
+
+[^2]: In contrast, CPI inflation fell in 2021.
+
+In the previous section, we saw that the deflator inflation can be decomposed into the contribution of unit incomes.
 
 To better understand these patterns, let us observe that the last equation in the previous section suggests
 
 a) that the percentage contribution of, say, unit labor costs equals the percentage change in labor compensation minus the percentage change in real GDP times labor share of income and
 
-b) that, so long as labor share and profit share are close to each other, what differentiates the contribution of unit labor costs and unit profits is the percentage change in the nominal labor compensation and nominal profits, given that the percentage change in real GDP appears in all contributions.
+b) that, so long as labor share and profit share are close to each other which is the case for many countries, what differentiates the contribution of unit labor costs and unit profits is the percentage change in the nominal labor compensation and nominal profits, given that the percentage change in real GDP appears in all contributions.
 
 Therefore, we can focus on nominal labor compensation and profits, and real GDP to explain the patterns outlined above. The following figure shows the annual growth in labor compensation, profits, and real GDP.[^3]
 
@@ -91,11 +91,11 @@ Based on the previous observations, the period since the beginning of the COVID-
 
 1. 2020-2021 where both labor compensation and profits fell but real GDP fell more and inflation remained supressed;
 
-2. 2021-2022 where both labor compensation and profits grew at a higher-than-usual speed with the latter at a much faster rate and inflation surged; and
+2. 2021-2023 where both labor compensation and profits grew at a higher-than-usual speed with the latter at a much faster rate and inflation surged; and lastly
 
 3. 2023 to the present where the growth in labor compensation sustained but the growth in profits decelarated fast and inflation fell.
 
-The remarkable nature of the faster growth in profits in the second episode can be better understood through a comparision with the previous two decades (see the figure below). In the same countries as above, while profits grew on average at 3.53% per year between 2000 and 2019, they grew at 6.68% between 2020 and 2022! In contrast, the annual average growth in labor compensation was 3.62% and 4.49% in the same periods respectively.
+The remarkable nature of the faster growth in profits in the second episode can be better understood through a comparision with the previous two decades (see the figure below). In the same countries as above, while profits grew on average at 3.53% per year between 2000 and 2019, they grew at 6.68% between the first quarter of 2020 and the second quarter of 2023 (the last quarter in which the growth in profits remained above the growth in labor compensation)! In contrast, the annual average growth in labor compensation was 3.62% and 4.91% in the same periods respectively.
 
 <!-- ![](/assets/wages_profits_period.jpeg) -->
 

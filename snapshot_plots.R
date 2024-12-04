@@ -1,8 +1,9 @@
 library(tidyverse)
 library(zoo)
+library(ggrepel)
 
 # Main data
-data = read_csv("./inflation-decomposed/data/merged_data.csv")
+data = read_csv("./inflation-decomposer/data/merged_data.csv")
 
 # Income components contributions series
 income_comps = c(
@@ -64,7 +65,7 @@ data |>
 
 ggsave(
   './assets/wages_profits_rgdp.jpeg', 
-  width=12, 
+  width = 12, 
   height = 8, 
   units = 'cm',
   scale = 1
@@ -83,8 +84,8 @@ data |>
   ggplot(aes(time, mean_ma_trailing, color = series)) +
   geom_line(linewidth=0.6) +
   labs(
-    x=NULL, 
-    y=NULL, 
+    x = NULL, 
+    y = NULL, 
     title = "Annual Contribution of Unit Labor Costs and Unit Profits to Deflator Inflation (%)", 
     subtitle = "Quarterly, 2019-Q1 to 2024-Q2"
   ) +
@@ -109,7 +110,7 @@ data |>
 
   ggsave(
     './assets/contributions.jpeg', 
-    width=12, 
+    width = 12, 
     height = 8, 
     units = 'cm',
     scale = 1
@@ -118,22 +119,24 @@ data |>
 # Average across countries
 data |>
   filter(reference_area %in% countries_selected) |>
-  filter(between(time, as.Date('2000-01-01'), as.Date('2022-10-01'))) |>
+  filter(between(time, as.Date('2000-01-01'), as.Date('2023-04-01'))) |>
   filter(series %in% c('pc_lab_comp', 'pc_profits')) |>
   mutate(year = year(time)) |>
   mutate(decade = case_when(
     year < 2020 ~ "2000-19",
-    year >= 2020 ~ "2020-22" 
+    year >= 2020 ~ "2020-23" 
   ), .after = year) |>
   group_by(series, decade) |>
   summarize(mean = mean(value, na.rm = TRUE)) |>
-  ggplot(aes(mean, decade, color = series)) +
+  ggplot(aes(mean, decade, color = series, 
+    label = sprintf("%0.2f", mean))) +
   geom_point(size = 2) +
+  geom_text_repel(vjust = -1, color = 'black', size = 3) +
   labs(
-    x=NULL, 
-    y=NULL, 
-    title = 'Average Annual Growth in Labor Compensation and Profits (%), 2000-2022',
-    caption = 'Notes: Based on quarterly data from eighteen OECD-member countries. 2020-2022 captures 2020-Q1 \nto 2022-Q4.'
+    x = NULL, 
+    y = NULL, 
+    title = 'Average Annual Growth in Labor Compensation and Profits (%), 2000-Q1 to 2023-Q2',
+    caption = 'Notes: Based on quarterly data from eighteen OECD-member countries. 2020-2023 captures 2020-Q1 \nto 2023-Q2.'
   ) +
   scale_color_manual(
     values = c('pc_lab_comp' = "#30123BFF", 'pc_profits' = "#31F299FF"),
@@ -151,8 +154,34 @@ data |>
 
 ggsave(
   './assets/wages_profits_period.jpeg', 
-  width=12, 
+  width = 12, 
   height = 8, 
   units = 'cm',
   scale = 1
 )
+
+# Comparison numbers referred in the text
+data |>
+  filter(reference_area %in% countries_selected) |>
+  filter(between(time, as.Date('2000-01-01'), as.Date('2023-04-01'))) |>
+  filter(series %in% c('pc_lab_comp', 'pc_profits')) |>
+  mutate(year = year(time)) |>
+  mutate(decade = case_when(
+    year < 2020 ~ "2000-19",
+    year >= 2020 ~ "2020-23" 
+  ), .after = year) |>
+  group_by(series, decade) |>
+  summarize(mean = mean(value, na.rm = TRUE)) 
+
+# The last quarter in which profits grew faster than wages
+data |>
+  filter(time >= as.Date('2018-01-01')) |>
+  filter(reference_area %in% countries_selected) |>
+  filter(series %in% c('pc_lab_comp', 'pc_profits', 'pc_rgdp')) |>
+  group_by(reference_area, series) |>
+  mutate(ma_trailing = rollmean(value, k=4, fill = NA, align = 'right')) |>
+  group_by(series, time) |>
+  summarize(mean_ma_trailing = mean(ma_trailing, na.rm = TRUE)) |>
+  filter(time >= as.Date('2019-01-01')) |>
+  pivot_wider(names_from = series, values_from = mean_ma_trailing) |>
+  print(n=30)
