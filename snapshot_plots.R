@@ -135,7 +135,7 @@ data |>
   labs(
     x = NULL, 
     y = NULL, 
-    title = 'Average Annual Growth in Labor Compensation and Profits (%), 2000-Q1 to 2023-Q2',
+    title = 'Average Annual Growth in Labor Compensation and Profits (%), 2000-2023',
     caption = 'Notes: Based on quarterly data from eighteen OECD-member countries. 2020-2023 captures 2020-Q1 \nto 2023-Q2.'
   ) +
   scale_color_manual(
