@@ -105,7 +105,7 @@ The remarkable nature of the faster growth in profits in the second episode can 
 
 ## Dashboard
 
-The dashboard, [inflation-decomposed](https://bguven.shinyapps.io/inflation-decomposed), presents the results of the decomposition analysis outlined above. You can select a country on the sidebar and view the quarterly contribution of unit labor costs, unit profits, and unit net taxes to domestic inflation for the selected country. You can also focus on the pandemic patterns and view the decadal averages of the contributions of unit components. The underlying data behind visuals can be downloaded on the *Tables* tab of the dashboard.
+The dashboard, [Decomposing Inflation](https://bguven.shinyapps.io/inflation-decomposer), presents the results of the decomposition analysis outlined above. You can select a country on the sidebar and view the quarterly contribution of unit labor costs, unit profits, and unit net taxes to domestic inflation for the selected country. You can also focus on the pandemic patterns and view the decadal averages of the contributions of unit components. The underlying data behind visuals can be downloaded on the *Tables* tab of the dashboard.
 
 ## Data Source
 
