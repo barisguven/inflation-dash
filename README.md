@@ -64,7 +64,7 @@ While countries differ in the magnitude of the contributions of unit labor costs
 <img src="/assets/contributions.jpeg" width="600" height="400">
 </center>
 
-The deflator inflation surged in 2021 and 2022, peaked in the firt quarter of 2023 and started falling thereafter. In the first year of the pandemic, the contributions of unit labor costs were greater than that of unit profits, with a slight increase in deflator inflation.[^2] This pattern completely changed in the next two years in that the contributions of unit profits exceeded the contributions of unit labor costs with inflation surging. The roles were swapped again after the second quarter of 2023, with an ensuing sustained fall in the contribution of unit profits and an accompanying fall in inflation.
+The deflator inflation surged in 2021 and 2022, peaked in the first quarter of 2023 and started falling thereafter. In the first year of the pandemic, the contributions of unit labor costs were greater than that of unit profits, with a slight increase in deflator inflation.[^2] This pattern completely changed in the next two years in that the contributions of unit profits exceeded the contributions of unit labor costs with inflation surging. The roles were swapped again after the second quarter of 2023, with an ensuing sustained fall in the contribution of unit profits and an accompanying fall in inflation.
 
 [^2]: In contrast, CPI inflation fell in 2021.
 
