@@ -1,4 +1,5 @@
 ui <- page_navbar(
+  tags$head(includeHTML("google-analytics.html")),
   title = "Decomposing Inflation",
   theme = bs_theme(bootswatch = "cosmo"),
   underline = FALSE,
