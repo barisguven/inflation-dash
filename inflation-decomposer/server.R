@@ -10,10 +10,10 @@ server <- function(input, output, session) {
         summarise(sum = sum(value, na.rm = TRUE)) |>
         pull(sum) |>
         max()
-  
+
       ymax + 1
     })
-  
+
     output$pandemic <- renderPlot({
       data |>
         filter(reference_area == input$country) |>
@@ -24,42 +24,42 @@ server <- function(input, output, session) {
         geom_bar(stat = "identity") +
         labs(x=NULL, y=NULL) +
         geom_line(
-          data = filter(data, reference_area == input$country, series == "inflation_def", time >= as.Date("2019-01-01")), 
+          data = filter(data, reference_area == input$country, series == "inflation_def", time >= as.Date("2019-01-01")),
           aes(time, value, color = "inflation_def"), linewidth=0.7) +
         geom_vline(
-          xintercept = as.Date("2020-01-01"), 
-          linewidth = 0.6, 
-          color = "grey50", 
+          xintercept = as.Date("2020-01-01"),
+          linewidth = 0.6,
+          color = "grey50",
           linetype = "dashed"
         ) +
         annotate(
-          geom = "text", 
-          label = "Covid-19 starts", 
-          x = as.Date("2020-01-10"), 
-          y = ymaxFind(), 
-          color="grey50", 
-          hjust = "left", 
+          geom = "text",
+          label = "Covid-19 starts",
+          x = as.Date("2020-01-10"),
+          y = ymaxFind(),
+          color="grey50",
+          hjust = "left",
           vjust = "bottom"
         ) +
         geom_vline(
-          xintercept = as.Date("2022-01-01"), 
-          linewidth = 0.6, 
-          color = "grey50", 
+          xintercept = as.Date("2022-01-01"),
+          linewidth = 0.6,
+          color = "grey50",
           linetype = "dashed"
         ) +
         annotate(
-          geom = "text", 
-          label = "Russia invades Ukraine", 
-          x = as.Date("2022-01-10"), 
-          y = ymaxFind(), 
-          color="grey50", 
-          hjust = "left", 
+          geom = "text",
+          label = "Russia invades Ukraine",
+          x = as.Date("2022-01-10"),
+          y = ymaxFind(),
+          color="grey50",
+          hjust = "left",
           vjust = "bottom"
         ) +
         scale_fill_manual(
           values = c(
-            "contr_unit_labor_cost" = "#30123BFF", 
-            "contr_unit_profit" = "#1AE4B6FF", 
+            "contr_unit_labor_cost" = "#30123BFF",
+            "contr_unit_profit" = "#1AE4B6FF",
             "contr_unit_tax" = "#FABA39FF"
           ),
           labels = c("Unit labor costs", "Unit profits", "Unit net taxes")) +
@@ -70,7 +70,7 @@ server <- function(input, output, session) {
         scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
         labs(title = paste0("Annual Contributions since the Pandemic (%), Quarterly, ", input$country))
     })
-  
+
     ## Relative Contributions, Quarterly ----
     output$rel_contr <- renderPlot({
       data |>
@@ -82,12 +82,12 @@ server <- function(input, output, session) {
         geom_col(fill = "#30123BFF") +
         scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
         labs(
-          x=NULL, 
-          y=NULL, 
+          x=NULL,
+          y=NULL,
           title = paste0("Contribution of Unit Labor Costs to That of Unit Profits, Quarterly, ", input$country)
         )
     })
-  
+
     ## Labor Share ----
     output$ls <- renderPlot({
       data |>
@@ -99,12 +99,12 @@ server <- function(input, output, session) {
         geom_line(linewidth = 0.8, color = "#30123BFF") +
         scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
         labs(
-          x=NULL, 
-          y=NULL, 
+          x=NULL,
+          y=NULL,
           title = paste0("Labor Share, Quarterly, ", input$country)
         )
     })
-  
+
     ## Real incomes ----
     output$real_inc <- renderPlot({
       data_real_inc |>
@@ -114,19 +114,19 @@ server <- function(input, output, session) {
       geom_line(linewidth = 0.8) +
       scale_color_manual(
         values = c(
-          "real_labor_comp_def" = "#30123BFF", 
+          "real_labor_comp_def" = "#30123BFF",
           "real_surplus_def" = "#1AE4B6FF"
         ),
         labels = c("Real labor income", "Real profits")
       ) +
       scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
       labs(
-        x=NULL, 
-        y=NULL, 
+        x=NULL,
+        y=NULL,
         title = paste0("Real Incomes Indices (2019-Q1=100), Quarterly, ", input$country)
       )
     })
-  
+
   ## Top right: deflator vs. CPI ----
   output$def_vs_cpi <- renderPlot({
     data |>
@@ -138,16 +138,16 @@ server <- function(input, output, session) {
       scale_color_manual(
         values = c(
           "inflation_cpi" = "#30123BFF",
-          "inflation_def" = "#D23105FF" 
+          "inflation_def" = "#D23105FF"
         ),
         labels = c("Consumer Price Index", "Deflator")) +
       labs(
-        x = NULL, 
-        y = NULL, 
-        title = paste0("Deflator vs. CPI Inflation (%), ", input$country)
+        x = NULL,
+        y = NULL,
+        title = paste0("Annual Deflator vs. CPI Inflation (%), Quarterly, ", input$country)
       )
   })
- 
+
   output$def_vs_cpi_pand <- renderPlot({
     data |>
       filter(series %in% c("inflation_def", "inflation_cpi")) |>
@@ -159,19 +159,19 @@ server <- function(input, output, session) {
       scale_color_manual(
         values = c(
           "inflation_cpi" = "#30123BFF",
-          "inflation_def" = "#D23105FF" 
+          "inflation_def" = "#D23105FF"
         ),
         labels = c("Consumer Price Index", "Deflator")) +
       labs(
         x = NULL,
-        y = NULL, 
-        title = paste0("Deflator vs. CPI Inflation (%), ", input$country)
+        y = NULL,
+        title = paste0("Annual Deflator vs. CPI Inflation (%), Quarterly, ", input$country)
       )
   })
 
 #  "#30123BFF" "#4662D7FF" "#36AAF9FF" "#1AE4B6FF" "#72FE5EFF"
 #  [6] "#C7EF34FF" "#FABA39FF" "#F66B19FF" "#CB2A04FF" "#7A0403FF"
-  
+
   ## Bottom left: decompostion quarterly ----
   output$decomp <- renderPlot({
     data |>
@@ -182,12 +182,12 @@ server <- function(input, output, session) {
       geom_bar(stat = "identity") +
       labs(x=NULL, y=NULL) +
       geom_line(
-        data = filter(data, reference_area == input$country, series == "inflation_def", !is.na(value)), 
+        data = filter(data, reference_area == input$country, series == "inflation_def", !is.na(value)),
         aes(time, value, color = "inflation_def"), linewidth=0.7) +
       scale_fill_manual(
         values = c(
-          "contr_unit_labor_cost" = "#30123BFF", 
-          "contr_unit_profit" = "#1AE4B6FF", 
+          "contr_unit_labor_cost" = "#30123BFF",
+          "contr_unit_profit" = "#1AE4B6FF",
           "contr_unit_tax" = "#FABA39FF"
         ),
         labels = c("Unit labor costs", "Unit profits", "Unit net taxes")
@@ -210,14 +210,14 @@ server <- function(input, output, session) {
       geom_bar(stat = "identity", position = position_dodge()) +
       scale_fill_manual(
         values = c(
-          "contr_unit_labor_cost" = "#30123BFF", 
-          "contr_unit_profit" = "#1AE4B6FF", 
+          "contr_unit_labor_cost" = "#30123BFF",
+          "contr_unit_profit" = "#1AE4B6FF",
           "contr_unit_tax" = "#FABA39FF"
         ),
         labels = c("Unit labor costs", "Unit profits", "Unit net taxes")) +
       labs(
-        x=NULL, 
-        y=NULL, 
+        x=NULL,
+        y=NULL,
         title = paste0("Decadal Contributions (%), ", input$country)
       )
   })
@@ -237,7 +237,7 @@ server <- function(input, output, session) {
 #       axis.text = element_text(size = 12)
 #     )
 # })
-  
+
   # Tables ----
 
   ## Quarterly data ----
@@ -258,7 +258,7 @@ server <- function(input, output, session) {
         Deflator = inflation_def,
         CPI = inflation_cpi
       ) |>
-      arrange(desc(Quarter)) 
+      arrange(desc(Quarter))
   })
 
   output$table_quarterly <- render_gt({
@@ -334,7 +334,7 @@ server <- function(input, output, session) {
   output$country_note <- renderUI({
 
     notes = paste0("Notes: Data are available for ", input$country, " from ", time_range()[1], " through ", time_range()[2], ".")
-    
+
     if (input$country %in% c("United States", "Canada", "Japan", "Israel")) {
       country_note = country_notes |>
         filter(country == input$country) |>
