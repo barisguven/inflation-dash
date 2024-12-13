@@ -67,3 +67,4 @@ data_index |>
   facet_wrap(~Industry)
 
 write_csv(data_index, 'inflation-decomposer/data/us_industry_index.csv')
+write_csv(industry_catalog, 'inflation-decomposer/data/us_industry_catalog.csv')

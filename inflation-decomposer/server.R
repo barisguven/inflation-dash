@@ -1,4 +1,9 @@
 server <- function(input, output, session) {
+
+  observeEvent(input$country, {
+    updateSelectInput(inputId = 'country2', selected = input$country)
+  })
+
   # Plots ----
     ## Top left: pandemic focus ----
     ymaxFind <- reactive({
@@ -331,7 +336,7 @@ server <- function(input, output, session) {
   })
 
   ## Country notes ----
-  output$country_note <- renderUI({
+  output$country_note <- output$country_note_copy <- renderUI({
 
     notes = paste0("Notes: Data are available for ", input$country, " from ", time_range()[1], " through ", time_range()[2], ".")
 
@@ -344,5 +349,39 @@ server <- function(input, output, session) {
     }
 
     helpText(notes)
+  })
+
+  ## Industry plots ----
+  output$ind_plot <- renderPlot({
+    us_ind_data |>
+      filter(Industry == input$industry) |>
+      filter(!series %in% c('va', 'taxes')) |>
+      ggplot(aes(Year, value, color = series)) +
+      geom_line(linewidth = 0.8) +
+      scale_color_manual(
+        values = c(
+          "coe" = "#30123BFF", 
+          "gos" = "#1AE4B6FF"
+        ),
+        labels = c("Profits", "Labor compensation")
+      ) +
+      labs(
+        title = "Profits vs. Labor Compensation, Index (2019=100), Annual",
+        subtitle = input$industry,
+        x=NULL, y=NULL
+      )
+  })
+
+  output$ind_plot_tax <- renderPlot({
+    us_ind_data |>
+      filter(Industry == input$industry) |>
+      filter(series %in% c('taxes')) |>
+      ggplot(aes(Year, value)) +
+      geom_line(color = "#FABA39FF", linewidth = 0.8) +
+      labs(
+        title = "Net Taxes, Index (2019=100), Annual",
+        subtitle = input$industry,
+        x=NULL, y=NULL
+      )
   })
 }
