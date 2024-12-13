@@ -1,21 +1,37 @@
-ui <- page_navbar(
+country_help_text = helpText(
+  "This dashboard displays the contribution of unit labor costs, unit profits, and unit net taxes to inflation measured through the percentage change in the GDP deflator for a given country. See",
+  a("here", href = "https://github.com/barisguven/inflation-decomposer/blob/main/README.md", target = "_blank"),
+  "for the underlying framework.")
+
+industry_help_text = helpText("On this panel, you can select a two- or three-digit industry to view the changes in profits, wages/salaries, and taxes in that industry.", tags$br(), tags$br(), tags$b("Note: Only US data are available at the moment."))
+
+ui = page_navbar(
   tags$head(includeHTML("google-analytics.html")),
+  id = "nav",
   title = "Decomposing Inflation",
   theme = bs_theme(bootswatch = "cosmo"),
   underline = FALSE,
   sidebar = sidebar(
-    helpText(
-      "This dashboard displays the contribution of unit labor costs, unit profits, and unit net taxes to inflation measured through the percentage change in the GDP deflator for a given country. See",
-      a("here", href = "https://github.com/barisguven/inflation-decomposer/blob/main/README.md", target = "_blank"),
-      "for the underlying framework."
+    conditionalPanel(
+      "input.nav == 'Contributions of Unit Incomes to Annual Inflation' | input.nav == 'Tables'",
+      country_help_text,
+      selectInput(
+        "country",
+        "Select a country:",
+        choices = c(unique(data$reference_area)),
+        selected = "Türkiye"
+      ),
+      uiOutput("country_note")
     ),
-    selectInput(
-      "country",
-      "Select a country:",
-      choices = c(unique(data$reference_area)),
-      selected = "Türkiye"
-    ),
-    uiOutput("country_note")
+    conditionalPanel(
+      "input.nav == 'Industry Breakdown'",
+      industry_help_text,
+      selectInput(
+        "industry",
+        "Select an industry:",
+        choices = c(unique(us_ind_data$Industry))
+      )
+    )
   ),
   nav_panel(
     title = "Contributions of Unit Incomes to Annual Inflation",
@@ -42,7 +58,6 @@ ui <- page_navbar(
       card(plotOutput("decadal_avg"), full_screen = TRUE)
     )
   ),
-
   nav_panel(
     title = "Tables",
     icon = icon("table"),
@@ -56,6 +71,14 @@ ui <- page_navbar(
         gt_output("table_decadal"), 
         downloadButton("download_decadal")
       ),
+    )
+  ),
+  nav_panel(
+    title = "Industry Breakdown",
+    icon = icon("layer-group"),
+    layout_column_wrap(
+      card(plotOutput("ind_plot"), max_height = "500px"),
+      card(plotOutput("ind_plot_tax"), max_height = "500px")
     )
   ),
   nav_spacer(),
