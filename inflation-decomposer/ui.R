@@ -3,7 +3,7 @@ country_help_text = helpText(
   a("here", href = "https://github.com/barisguven/inflation-decomposer/blob/main/README.md", target = "_blank"),
   "for the underlying framework.")
 
-industry_help_text = helpText("You can select below a two- or three-digit industry to view the changes in profits, wages/salaries, and taxes in that industry for 2019-2023 at the top section of this panel. At the bottom, you can compare the average annual percentage changes in labor compensation and gross operating surplus for 1997-2019 and 2019-2023.", tags$br(), tags$br(), "Note: Only US data are available at the moment.")
+industry_help_text = helpText("You can select below a two- or three-digit industry to view the changes in profits, wages/salaries, and taxes in that industry for 2019-2023 at the top section of this panel. At the bottom, you can compare the compound average annual growth rate of labor compensation and gross operating surplus across industries for 1997-2019 and 2019-2023.", tags$br(), tags$br(), "Note: Only US data are available at the moment.")
 
 ui = page_navbar(
   tags$head(includeHTML("google-analytics.html")),
@@ -29,7 +29,7 @@ ui = page_navbar(
       selectInput(
         "industry",
         "Select an industry:",
-        choices = c(unique(us_ind_comp$ind_title)),
+        choices = c(unique(us_ind_cg$ind_title)),
         selected = "Mining"
       ),
       selectInput(
@@ -83,13 +83,14 @@ ui = page_navbar(
     title = "Industry Breakdown",
     icon = icon("layer-group"),
     layout_column_wrap(
-      max_height = "300px",
+      max_height = "250px",
       card(plotOutput("ind_plot")),
       card(plotOutput("ind_plot_tax"))
     ),
     card(
       full_screen = TRUE,
-      card_header("Average Annual Growth in Labor Compensation and Gross Operating Surplus (%)"),
+      # card_header("Average Annual Compound Growth in Labor Compensation and Gross Operating Surplus (%)"),
+      tags$b("Compound Average Annual Growth in Labor Compensation and Gross Operating Surplus (%)"),
       layout_column_wrap(
         plotOutput("ind_plot_comp1"),
         plotOutput("ind_plot_comp2")

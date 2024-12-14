@@ -385,7 +385,7 @@ server <- function(input, output, session) {
           "coe" = "#D23105FF", 
           "gos" = "#1AE4B6FF"
         ),
-        labels = c("Labor compensation", "Gross operating ssurplus")
+        labels = c("Labor compensation", "Gross operating surplus")
       ) +
       labs(
         title = "GOS vs. Labor Compensation, Index (2019=100), Annual",
@@ -414,17 +414,17 @@ server <- function(input, output, session) {
   })
 
   dot_plot = function (term){
-    gos_avg_pc = us_ind_comp |>
+    gos_avg_pc = us_ind_cg |>
     filter(series == "gos", ind != "GDP") |>
     filter(period == term) |>
-    arrange(mean) |>
+    arrange(value) |>
     mutate(ind_title = factor(ind_title, levels = .data$ind_title))
   
-  us_ind_comp |>
+  us_ind_cg |>
     filter(series %in% c("coe", "gos"), ind != "GDP") |>
     filter(period == term) |>
     mutate(ind_title = factor(ind_title, levels = gos_avg_pc$ind_title)) |>
-    ggplot(aes(mean, ind_title)) +
+    ggplot(aes(value, ind_title)) +
     geom_point(aes(color = series), size = 2) +
     geom_line(aes(group = ind), alpha = 0.3) +
     scale_color_manual(
@@ -436,8 +436,7 @@ server <- function(input, output, session) {
     ) +
     labs(x=NULL, y=NULL) +
     theme(
-      legend.position = 'inside',
-      legend.position.inside = c(0.65, 0.07),
+      legend.position = 'bottom',
       legend.background = element_rect(fill = 'transparent'),
       legend.key = element_rect(fill = 'transparent')
     )

@@ -24,7 +24,7 @@ minmax <- function(x) {
 }
 
 # US industry data
-us_ind_comp = read_csv("data/us_ind_avg_pc.csv")
+us_ind_cg = read_csv("data/us_ind_cg.csv")
 us_ind_index = read_csv("data/us_ind_index.csv")
 
 # Dashboard plot theme settings
