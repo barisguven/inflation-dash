@@ -2,7 +2,7 @@ library(tidyverse)
 
 data = read_csv('data_usa/GDPByIndustry.csv')
 
-data = rename(data, 'series' = 'IndustrYDescription')
+data = rename(data, series = IndustrYDescription)
 data = data |>
   select(c(Year, Industry, series, DataValue)) |>
   rename(year = Year, ind = Industry, value = DataValue)
@@ -32,7 +32,7 @@ industries_2d = industries[which(str_width(industries) == 2)]
 industries_2d = industries_2d[which(!industries_2d %in% c('GF', 'HS'))]
 industries_2d = c(industries_2d, '31-32-33', '44-45','48-49', 'GF-GS')
 
-# Computing annual growth for 2d industries ----
+# Computing annual compound growth for 2d industries ----
 data_2d = data |> filter(ind %in% industries_2d | ind == "GDP")
 
 data_2d = data_2d |>
@@ -40,14 +40,13 @@ data_2d = data_2d |>
     series == 'Gross operating surplus' ~ 'gos',
     series == 'Compensation of employees' ~ 'coe',
     series == 'Taxes on production and imports less subsidies' ~ 'taxes',
-    .default = 'va'
-  )) |>
-  pivot_wider(names_from = series, values_from = value) |>
-  mutate(test = va - (gos + taxes + coe)) |>
-  mutate(isGDP = if_else(ind=='GDP', 1, 0), .after = ind)
+    .default = 'va')
+  )
 
+# the sum of industry component values add up to the corresponding GDP component
 data_2d |>
-  select(-test) |>
+  pivot_wider(names_from = series, values_from = value) |>
+  mutate(isGDP = if_else(ind=='GDP', 1, 0), .after = ind) |>
   pivot_longer(
     cols = c(gos, taxes, coe, va), 
     names_to = 'series', 
@@ -56,68 +55,72 @@ data_2d |>
   group_by(series, year, isGDP) |>
   summarise(sum = sum(value))
 
-data_2d = select(data_2d, -test)
+# simple average annual growth
+# data_cg = data_2d |>
+#   filter(ind != "GDP") |>
+#   group_by(ind, series) |>
+#   arrange(year, .by_group = TRUE) |>
+#   mutate(value = 100*(value/lag(value, 1) - 1)) |>
+#   ungroup() |>
+#   mutate(period = case_when(
+#     year < 2020 ~ "1997-2019",
+#     year <= 2023 ~ "2019-2023",
+#   )) |>
+#   group_by(ind, series, period) |>
+#   summarize(mean = mean(value, na.rm = TRUE)) |>
+#   ungroup() |>
+#   left_join(industry_catalog, by = "ind")
 
-data_avg_pc = data_2d |>
-  filter(isGDP == FALSE) |>
-  select(-isGDP) |>
-  pivot_longer(
-    cols = c(gos, taxes, coe, va), 
-    names_to = 'series', 
-    values_to = 'value'
+# compound average annual growth due to the pandemic fluctuations
+data_cg = data_2d |>
+  filter(ind != "GDP") |>
+  pivot_wider(names_from = year, values_from = value) |>
+  mutate(
+    `1997-2019` = 100*((`2019`/`1997`)^(1/(2019-1997)) - 1),
+    `2019-2023` = 100*((`2023`/`2019`)^(1/(2023-2019)) - 1),
   ) |>
-  group_by(ind, series) |>
-  arrange(year, .by_group = TRUE) |>
-  mutate(value = 100*(value/lag(value, 1) - 1)) |>
-  ungroup() |>
-  # mutate(period = case_when(
-  #   year < 2020 ~ "1997-2019",
-  #   year <= 2021 ~ "2019-2021",
-  #   year <= 2023 ~ "2021-2023"
-  # )) |>
-  mutate(period = case_when(
-    year < 2020 ~ "1997-2019",
-    year <= 2023 ~ "2019-2023",
-  )) |>
-  group_by(ind, series, period) |>
-  summarize(mean = mean(value, na.rm = TRUE)) |>
-  ungroup() |>
+  select(c(ind, series, `1997-2019`, `2019-2023`)) |>
+  pivot_longer(
+    cols = c(`1997-2019`, `2019-2023`),
+    names_to = "period",
+    values_to = "value"
+  ) |>
   left_join(industry_catalog, by = "ind")
 
-unique(data_avg_pc$ind)
-write_csv(data_avg_pc, 'inflation-decomposer/data/us_ind_avg_pc.csv')
+# double check industries
+unique(data_cg$ind)
 
-data_avg_pc |>
+write_csv(data_cg, 'inflation-decomposer/data/us_ind_cg.csv')
+
+data_cg |>
   filter(ind == "11", series %in% c("coe", "gos")) |>
-  ggplot(aes(mean, period, fill = series)) +
+  ggplot(aes(value, period, fill = series)) +
   geom_bar(stat = "identity", position = position_dodge())
 
-data_avg_pc |>
-  pivot_wider(names_from = series, values_from = mean) |>
+data_cg |>
+  pivot_wider(names_from = series, values_from = value) |>
   filter(period == "2019-2023") |>
   arrange(desc(gos))
 
-data_avg_pc |>
-  pivot_wider(names_from = series, values_from = mean) |>
+data_cg |>
+  pivot_wider(names_from = series, values_from = value) |>
   ggplot(aes(coe, gos, color = period)) +
   geom_point()
 
-industry_catalog[industry_catalog$ind=="44RT",]
-
 dot_plot = function (term){
-  gos_avg_pc = data_avg_pc |>
+  gos_avg_pc = data_cg |>
   filter(ind %in% industries_2d) |>
   filter(series == "gos") |>
   filter(period == term) |>
-  arrange(mean) |>
+  arrange(value) |>
   mutate(ind_title = factor(ind_title, levels = .data$ind_title))
 
-data_avg_pc |>
+data_cg |>
   filter(ind %in% industries_2d) |>
   filter(series %in% c("coe", "gos")) |>
   filter(period == term) |>
   mutate(ind_title = factor(ind_title, levels = gos_avg_pc$ind_title)) |>
-  ggplot(aes(mean, ind_title)) +
+  ggplot(aes(value, ind_title)) +
   geom_point(aes(color = series)) +
   geom_line(aes(group = ind), alpha = 0.3)
 }
@@ -125,7 +128,6 @@ data_avg_pc |>
 plot_list = map(c("1997-2019", "2019-2023"), dot_plot)
 plot_list[[1]]
 plot_list[[2]]
-
 
 # Indices for 2d industries with sub-industries ----
 ind_dash = industries_2d[grep("-", industries_2d)]
