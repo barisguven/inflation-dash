@@ -24,14 +24,8 @@ minmax <- function(x) {
 }
 
 # US industry data
-us_ind_data = read_csv("data/us_industry_index.csv")
-us_ind_cat = read_csv("data/us_industry_catalog.csv")
-
-ind_names = us_ind_cat |>
-  filter(Industry %in% unique(us_ind_data$Industry)) |>
-  pull(Series)
-
-unique(us_ind_data$Industry)
+us_ind_comp = read_csv("data/us_ind_avg_pc.csv")
+us_ind_index = read_csv("data/us_ind_index.csv")
 
 # Dashboard plot theme settings
 theme_update(

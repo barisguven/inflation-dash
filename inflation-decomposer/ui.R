@@ -3,7 +3,7 @@ country_help_text = helpText(
   a("here", href = "https://github.com/barisguven/inflation-decomposer/blob/main/README.md", target = "_blank"),
   "for the underlying framework.")
 
-industry_help_text = helpText("On this panel, you can select a two- or three-digit industry to view the changes in profits, wages/salaries, and taxes in that industry.", tags$br(), tags$br(), tags$b("Note: Only US data are available at the moment."))
+industry_help_text = helpText("You can select below a two- or three-digit industry to view the changes in profits, wages/salaries, and taxes in that industry for 2019-2023 at the top section of this panel. At the bottom, you can compare the average annual percentage changes in labor compensation and gross operating surplus for 1997-2019 and 2019-2023.", tags$br(), tags$br(), "Note: Only US data are available at the moment.")
 
 ui = page_navbar(
   tags$head(includeHTML("google-analytics.html")),
@@ -29,7 +29,13 @@ ui = page_navbar(
       selectInput(
         "industry",
         "Select an industry:",
-        choices = c(unique(us_ind_data$Industry))
+        choices = c(unique(us_ind_comp$ind_title)),
+        selected = "Mining"
+      ),
+      selectInput(
+        "sub_industry",
+        "Select a sub-industry:",
+        choices = NULL
       )
     )
   ),
@@ -70,15 +76,24 @@ ui = page_navbar(
       card(
         gt_output("table_decadal"), 
         downloadButton("download_decadal")
-      ),
+      )
     )
   ),
   nav_panel(
     title = "Industry Breakdown",
     icon = icon("layer-group"),
     layout_column_wrap(
-      card(plotOutput("ind_plot"), max_height = "500px"),
-      card(plotOutput("ind_plot_tax"), max_height = "500px")
+      max_height = "300px",
+      card(plotOutput("ind_plot")),
+      card(plotOutput("ind_plot_tax"))
+    ),
+    card(
+      full_screen = TRUE,
+      card_header("Average Annual Growth in Labor Compensation and Gross Operating Surplus (%)"),
+      layout_column_wrap(
+        plotOutput("ind_plot_comp1"),
+        plotOutput("ind_plot_comp2")
+      )
     )
   ),
   nav_spacer(),
