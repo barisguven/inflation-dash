@@ -8,6 +8,12 @@ data = data |>
   rename(year = Year, ind = Industry, value = DataValue)
 head(data)
 
+data[data$ind == "31G", "ind"] = "31-32-33"
+data[data$ind == "44RT", "ind"] = "44-45"
+data[data$ind == "4A0", "ind"] = "459"
+data[data$ind == "48TW", "ind"] = "48-49"
+data[data$ind == "G", "ind"] = "GF-GS"
+
 components = c(
   'Gross operating surplus',
   'Compensation of employees',
@@ -24,13 +30,10 @@ industry_catalog  |> print(n=110)
 industries = industry_catalog$ind
 industries_2d = industries[which(str_width(industries) == 2)]
 industries_2d = industries_2d[which(!industries_2d %in% c('GF', 'HS'))]
-industries_2d = c(industries_2d, '31G', '44RT','48TW', 'G', 'GDP')
+industries_2d = c(industries_2d, '31-32-33', '44-45','48-49', 'GF-GS')
 
-industry_2d_title = industry_catalog |>
-  filter(ind %in% industries_2d) |>
-  pull(ind_title)
-
-data_2d = data |> filter(ind %in% industries_2d)
+# Computing annual growth for 2d industries ----
+data_2d = data |> filter(ind %in% industries_2d | ind == "GDP")
 
 data_2d = data_2d |>
   mutate(series = case_when(
@@ -55,27 +58,8 @@ data_2d |>
 
 data_2d = select(data_2d, -test)
 
-data_index = data_2d |>
-  filter(isGDP==0) |>
-  select(-isGDP) |>
-  filter(year > 2018) |>
-  group_by(ind) |>
-  arrange(year, .by_group = TRUE) |>
-  mutate(across(.cols = c(gos, taxes, coe, va), .fns = ~100*.x/.x[1])) |>
-  ungroup() |>
-  pivot_longer(cols = c(gos, taxes, coe, va), names_to = 'series', values_to = 'value')
-  
-data_index |>
-  filter(ind %in% c('11', '21', '22', '31G','44RT')) |>
-  filter(!series %in% c('va', 'taxes')) |>
-  ggplot(aes(year, value, color = series)) +
-  geom_line() +
-  facet_wrap(~ind)
-
-write_csv(data_index, 'inflation-decomposer/data/us_industry_index.csv')
-write_csv(industry_catalog, 'inflation-decomposer/data/us_industry_catalog.csv')
-
 data_avg_pc = data_2d |>
+  filter(isGDP == FALSE) |>
   select(-isGDP) |>
   pivot_longer(
     cols = c(gos, taxes, coe, va), 
@@ -100,6 +84,7 @@ data_avg_pc = data_2d |>
   ungroup() |>
   left_join(industry_catalog, by = "ind")
 
+unique(data_avg_pc$ind)
 write_csv(data_avg_pc, 'inflation-decomposer/data/us_ind_avg_pc.csv')
 
 data_avg_pc |>
@@ -142,3 +127,49 @@ plot_list[[1]]
 plot_list[[2]]
 
 
+# Indices for 2d industries with sub-industries ----
+ind_dash = industries_2d[grep("-", industries_2d)]
+ind_nondash = industries_2d[grep("-", industries_2d, invert = TRUE)]
+industries_2d_ext = c(ind_nondash, "31", "32", "33", "44", "45", "48", "49", "GF", "GS")
+
+ind_for_index = industry_catalog |>
+  filter(str_width(ind) >= 2) |> 
+  filter(!ind %in% c('31ND', '33DG')) |>
+  filter(str_sub(ind, 1, 2) %in% industries_2d_ext) |>
+  pull(ind)
+
+data_index = data |>
+  filter(series %in% components) |>
+  filter(ind %in% ind_for_index) |>
+  filter(year > 2018) |>
+  mutate(series = case_when(
+    series == 'Gross operating surplus' ~ 'gos',
+    series == 'Compensation of employees' ~ 'coe',
+    series == 'Taxes on production and imports less subsidies' ~ 'taxes'
+  )) |>
+  group_by(ind, series) |>
+  arrange(year, .by_group = TRUE) |>
+  mutate(value = 100*value/value[1]) |>
+  ungroup()
+
+data_index = left_join(
+  data_index,
+  industry_catalog |> filter(ind %in% ind_for_index),
+  by = "ind"
+)
+
+data_index = data_index |>
+  mutate(ind_2d = if_else(ind %in% industries_2d, TRUE, FALSE))
+
+data_index |>
+  filter(ind_2d == TRUE) |>
+  distinct(ind)
+
+data_index |>
+  filter(ind %in% c('11', '21', '22', '31-32-33','44-45')) |>
+  filter(!series %in% c('va', 'taxes')) |>
+  ggplot(aes(year, value, color = series)) +
+  geom_line() +
+  facet_wrap(~ind_title)
+
+write_csv(data_index, 'inflation-decomposer/data/us_ind_index.csv')
