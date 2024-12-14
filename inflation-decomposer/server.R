@@ -1,4 +1,9 @@
 server <- function(input, output, session) {
+
+  observeEvent(input$country, {
+    updateSelectInput(inputId = 'country2', selected = input$country)
+  })
+
   # Plots ----
     ## Top left: pandemic focus ----
     ymaxFind <- reactive({
@@ -331,7 +336,7 @@ server <- function(input, output, session) {
   })
 
   ## Country notes ----
-  output$country_note <- renderUI({
+  output$country_note <- output$country_note_copy <- renderUI({
 
     notes = paste0("Notes: Data are available for ", input$country, " from ", time_range()[1], " through ", time_range()[2], ".")
 
@@ -344,5 +349,106 @@ server <- function(input, output, session) {
     }
 
     helpText(notes)
+  })
+
+  ## Industry plots ----
+  sub_industries <- reactive({
+    ind_selected = us_ind_index |>
+      filter(ind_title %in% input$industry) |>
+      head(1) |>
+      pull(ind)
+
+    as.list(
+      us_ind_index |>
+        filter(str_sub(ind, 1, 2) %in% str_split(ind_selected, "-")[[1]]) |>
+        distinct(ind, ind_title) |>
+        arrange(ind) |>
+        pull(ind_title)
+    )
+  })
+
+  observeEvent(input$industry, {
+    updateSelectInput(
+      inputId = "sub_industry",
+      choices = sub_industries()
+    )
+  })
+
+  output$ind_plot <- renderPlot({
+    us_ind_index |>
+      filter(ind_title == input$sub_industry) |>
+      filter(series %in% c('coe', 'gos')) |>
+      ggplot(aes(year, value, color = series)) +
+      geom_line(linewidth = 0.8) +
+      scale_color_manual(
+        values = c(
+          "coe" = "#D23105FF", 
+          "gos" = "#1AE4B6FF"
+        ),
+        labels = c("Labor compensation", "Gross operating surplus")
+      ) +
+      labs(
+        title = "GOS vs. Labor Compensation, Index (2019=100), Annual",
+        subtitle = input$sub_industry,
+        x=NULL, y=NULL
+      ) +
+      theme(
+        legend.position = "inside",
+        legend.position.inside = c(0.2, 0.85),
+        legend.background = element_rect(fill = "transparent"),
+        legend.key = element_rect(fill = 'transparent')
+      )
+  })
+
+  output$ind_plot_tax <- renderPlot({
+    us_ind_index |>
+      filter(ind_title == input$sub_industry) |>
+      filter(series %in% c('taxes')) |>
+      ggplot(aes(year, value)) +
+      geom_line(color = "#FABA39FF", linewidth = 0.8) +
+      labs(
+        title = "Net Taxes, Index (2019=100), Annual",
+        subtitle = input$sub_industry,
+        x=NULL, y=NULL
+      )
+  })
+
+  dot_plot = function (term){
+    gos_avg_pc = us_ind_cg |>
+    filter(series == "gos", ind != "GDP") |>
+    filter(period == term) |>
+    arrange(value) |>
+    mutate(ind_title = factor(ind_title, levels = .data$ind_title))
+  
+  us_ind_cg |>
+    filter(series %in% c("coe", "gos"), ind != "GDP") |>
+    filter(period == term) |>
+    mutate(ind_title = factor(ind_title, levels = gos_avg_pc$ind_title)) |>
+    ggplot(aes(value, ind_title)) +
+    geom_point(aes(color = series), size = 2) +
+    geom_line(aes(group = ind), alpha = 0.3) +
+    scale_color_manual(
+      values = c(
+        "coe" = "#D23105FF", 
+        "gos" = "#1AE4B6FF"
+      ),
+      labels = c("Labor compensation", "Gross operating surplus")
+    ) +
+    labs(x=NULL, y=NULL) +
+    theme(
+      legend.position = 'bottom',
+      legend.background = element_rect(fill = 'transparent'),
+      legend.key = element_rect(fill = 'transparent')
+    )
+  }
+  
+  plot_list = map(c("1997-2019", "2019-2023"), dot_plot)
+
+  output$ind_plot_comp1 <- renderPlot({
+    plot_list[[1]] + labs(title = "US Industries, 1997-2019")
+  })
+
+  output$ind_plot_comp2 <- renderPlot({
+    plot_list[[2]] + labs(title = "US Industries, 2019-2023")
   })
 }

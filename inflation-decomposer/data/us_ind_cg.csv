@@ -1,0 +1,161 @@
+ind,series,period,value,ind_title
+11,taxes,1997-2019,10.243146100930378,"Agriculture, forestry, fishing, and hunting"
+11,taxes,2019-2023,NA,"Agriculture, forestry, fishing, and hunting"
+11,va,1997-2019,1.896920796314694,"Agriculture, forestry, fishing, and hunting"
+11,va,2019-2023,13.677254061697841,"Agriculture, forestry, fishing, and hunting"
+11,gos,1997-2019,1.583045871462474,"Agriculture, forestry, fishing, and hunting"
+11,gos,2019-2023,13.771652400280331,"Agriculture, forestry, fishing, and hunting"
+11,coe,1997-2019,3.458486730765853,"Agriculture, forestry, fishing, and hunting"
+11,coe,2019-2023,6.204380880747129,"Agriculture, forestry, fishing, and hunting"
+21,taxes,1997-2019,5.731098477689089,Mining
+21,taxes,2019-2023,8.325705755129164,Mining
+21,gos,1997-2019,5.830292245336888,Mining
+21,gos,2019-2023,12.671925346540691,Mining
+21,va,1997-2019,5.264106804569968,Mining
+21,va,2019-2023,8.788941953732499,Mining
+21,coe,1997-2019,4.168490393579161,Mining
+21,coe,2019-2023,0.31751012837193393,Mining
+22,taxes,1997-2019,3.4172655464805857,Utilities
+22,taxes,2019-2023,4.525733744447313,Utilities
+22,coe,1997-2019,3.402758890301505,Utilities
+22,coe,2019-2023,2.5988565027744492,Utilities
+22,va,1997-2019,3.0423909143187933,Utilities
+22,va,2019-2023,7.721337062174638,Utilities
+22,gos,1997-2019,2.7453593955744537,Utilities
+22,gos,2019-2023,11.077304355691409,Utilities
+23,coe,1997-2019,4.471096429564758,Construction
+23,coe,2019-2023,5.59548218640884,Construction
+23,va,1997-2019,4.801941482963024,Construction
+23,va,2019-2023,6.382481426264519,Construction
+23,gos,1997-2019,5.453951327223705,Construction
+23,gos,2019-2023,7.708547872304106,Construction
+23,taxes,1997-2019,4.601446134897391,Construction
+23,taxes,2019-2023,6.797164655551291,Construction
+31-32-33,taxes,1997-2019,3.7305394894522337,Manufacturing
+31-32-33,taxes,2019-2023,3.6291388315100814,Manufacturing
+31-32-33,gos,1997-2019,2.9483593433533795,Manufacturing
+31-32-33,gos,2019-2023,7.698509861325409,Manufacturing
+31-32-33,va,1997-2019,2.275821000353928,Manufacturing
+31-32-33,va,2019-2023,5.778114789009647,Manufacturing
+31-32-33,coe,1997-2019,1.6428874547502081,Manufacturing
+31-32-33,coe,2019-2023,4.076590775712607,Manufacturing
+42,coe,1997-2019,3.4273452383867697,Wholesale trade
+42,coe,2019-2023,6.060331074866854,Wholesale trade
+42,gos,1997-2019,5.581919048037531,Wholesale trade
+42,gos,2019-2023,8.695770276349046,Wholesale trade
+42,taxes,1997-2019,3.8284019522143886,Wholesale trade
+42,taxes,2019-2023,2.3193360108431316,Wholesale trade
+42,va,1997-2019,4.173400907185898,Wholesale trade
+42,va,2019-2023,6.255143690556664,Wholesale trade
+44-45,taxes,1997-2019,4.074836401061832,Retail trade
+44-45,taxes,2019-2023,7.058170853037282,Retail trade
+44-45,coe,1997-2019,3.0168438398939124,Retail trade
+44-45,coe,2019-2023,5.405495718901077,Retail trade
+44-45,va,1997-2019,3.6556093051264726,Retail trade
+44-45,va,2019-2023,8.527977468558579,Retail trade
+44-45,gos,1997-2019,4.7000781475245335,Retail trade
+44-45,gos,2019-2023,14.312697820174147,Retail trade
+48-49,taxes,1997-2019,5.099197022981494,Transportation and warehousing
+48-49,taxes,2019-2023,4.5855522360028544,Transportation and warehousing
+48-49,gos,1997-2019,5.682179428645773,Transportation and warehousing
+48-49,gos,2019-2023,8.104219558538706,Transportation and warehousing
+48-49,va,1997-2019,4.721826272032104,Transportation and warehousing
+48-49,va,2019-2023,7.37270680927431,Transportation and warehousing
+48-49,coe,1997-2019,4.183718270612724,Transportation and warehousing
+48-49,coe,2019-2023,7.212802824887343,Transportation and warehousing
+51,va,1997-2019,4.957404178174785,Information
+51,va,2019-2023,6.644314592403733,Information
+51,gos,1997-2019,5.855731394481101,Information
+51,gos,2019-2023,6.467869149239847,Information
+51,taxes,1997-2019,3.327796956743434,Information
+51,taxes,2019-2023,0.6606148946750601,Information
+51,coe,1997-2019,3.9962656059961743,Information
+51,coe,2019-2023,7.792729910058216,Information
+52,taxes,1997-2019,3.8585307195777574,Finance and insurance
+52,taxes,2019-2023,6.033845991248277,Finance and insurance
+52,coe,1997-2019,4.62590483343337,Finance and insurance
+52,coe,2019-2023,5.679965074484672,Finance and insurance
+52,gos,1997-2019,5.336424192695199,Finance and insurance
+52,gos,2019-2023,4.328263602623772,Finance and insurance
+52,va,1997-2019,4.896726511378557,Finance and insurance
+52,va,2019-2023,5.094227372094973,Finance and insurance
+53,va,1997-2019,4.636690862288173,Real estate and rental and leasing
+53,va,2019-2023,7.848349644282027,Real estate and rental and leasing
+53,gos,1997-2019,4.638899356300907,Real estate and rental and leasing
+53,gos,2019-2023,8.281114180650452,Real estate and rental and leasing
+53,coe,1997-2019,4.726637100722275,Real estate and rental and leasing
+53,coe,2019-2023,6.072193322485431,Real estate and rental and leasing
+53,taxes,1997-2019,4.576855999654472,Real estate and rental and leasing
+53,taxes,2019-2023,5.492528793016915,Real estate and rental and leasing
+54,gos,1997-2019,5.0454277430099115,"Professional, scientific, and technical services"
+54,gos,2019-2023,7.74274294801256,"Professional, scientific, and technical services"
+54,taxes,1997-2019,6.688713756100961,"Professional, scientific, and technical services"
+54,taxes,2019-2023,8.40165879703829,"Professional, scientific, and technical services"
+54,coe,1997-2019,5.801893078992193,"Professional, scientific, and technical services"
+54,coe,2019-2023,7.61289632103761,"Professional, scientific, and technical services"
+54,va,1997-2019,5.5887666653270385,"Professional, scientific, and technical services"
+54,va,2019-2023,7.674095488906119,"Professional, scientific, and technical services"
+55,gos,1997-2019,4.489047803267665,Management of companies and enterprises
+55,gos,2019-2023,4.9371463758167256,Management of companies and enterprises
+55,taxes,1997-2019,3.200827973420961,Management of companies and enterprises
+55,taxes,2019-2023,6.157560586067756,Management of companies and enterprises
+55,va,1997-2019,5.476815668099166,Management of companies and enterprises
+55,va,2019-2023,5.533196510971261,Management of companies and enterprises
+55,coe,1997-2019,5.684611193509159,Management of companies and enterprises
+55,coe,2019-2023,5.585918323579908,Management of companies and enterprises
+56,taxes,1997-2019,4.9173167340053725,Administrative and waste management services
+56,taxes,2019-2023,7.247809801603089,Administrative and waste management services
+56,coe,1997-2019,5.243176405156391,Administrative and waste management services
+56,coe,2019-2023,6.533957369912624,Administrative and waste management services
+56,va,1997-2019,5.294870489242776,Administrative and waste management services
+56,va,2019-2023,7.24593154111548,Administrative and waste management services
+56,gos,1997-2019,5.489091198620888,Administrative and waste management services
+56,gos,2019-2023,9.30990273137542,Administrative and waste management services
+61,gos,1997-2019,5.406692543582303,Educational services
+61,gos,2019-2023,-0.05380685294563703,Educational services
+61,coe,1997-2019,6.003851300755403,Educational services
+61,coe,2019-2023,4.30421061473738,Educational services
+61,va,1997-2019,5.867646269632254,Educational services
+61,va,2019-2023,3.651868902850053,Educational services
+61,taxes,1997-2019,5.309909662564771,Educational services
+61,taxes,2019-2023,5.992840729626625,Educational services
+62,taxes,1997-2019,5.981866992962348,Health care and social assistance
+62,taxes,2019-2023,0.13898574189741275,Health care and social assistance
+62,coe,1997-2019,5.353518927342393,Health care and social assistance
+62,coe,2019-2023,5.991235713753151,Health care and social assistance
+62,gos,1997-2019,5.215284002241383,Health care and social assistance
+62,gos,2019-2023,6.857275161842957,Health care and social assistance
+62,va,1997-2019,5.343123100518721,Health care and social assistance
+62,va,2019-2023,6.018053448126004,Health care and social assistance
+71,gos,1997-2019,4.698669207502326,"Arts, entertainment, and recreation"
+71,gos,2019-2023,4.989689697002575,"Arts, entertainment, and recreation"
+71,taxes,1997-2019,6.01435080784396,"Arts, entertainment, and recreation"
+71,taxes,2019-2023,9.595591723252062,"Arts, entertainment, and recreation"
+71,va,1997-2019,5.056440862283473,"Arts, entertainment, and recreation"
+71,va,2019-2023,6.032450208060025,"Arts, entertainment, and recreation"
+71,coe,1997-2019,5.1319240887169215,"Arts, entertainment, and recreation"
+71,coe,2019-2023,5.980810295142303,"Arts, entertainment, and recreation"
+72,taxes,1997-2019,5.176142767518499,Accommodation and food services
+72,taxes,2019-2023,7.548779521251148,Accommodation and food services
+72,coe,1997-2019,5.31868229817567,Accommodation and food services
+72,coe,2019-2023,6.236434991544071,Accommodation and food services
+72,va,1997-2019,5.263600033765803,Accommodation and food services
+72,va,2019-2023,7.411864198081153,Accommodation and food services
+72,gos,1997-2019,5.1666832855440825,Accommodation and food services
+72,gos,2019-2023,10.160052436998889,Accommodation and food services
+81,coe,1997-2019,4.037540031546438,"Other services, except government"
+81,coe,2019-2023,5.090143857631246,"Other services, except government"
+81,gos,1997-2019,1.7067104166705427,"Other services, except government"
+81,gos,2019-2023,5.912608923571727,"Other services, except government"
+81,taxes,1997-2019,4.261927066190041,"Other services, except government"
+81,taxes,2019-2023,6.864779228611195,"Other services, except government"
+81,va,1997-2019,3.37393532253758,"Other services, except government"
+81,va,2019-2023,5.382446149713682,"Other services, except government"
+GF-GS,taxes,1997-2019,3.200827973420961,Government
+GF-GS,taxes,2019-2023,14.777459514145841,Government
+GF-GS,gos,1997-2019,3.58785275763569,Government
+GF-GS,gos,2019-2023,6.166871565436582,Government
+GF-GS,coe,1997-2019,3.9179012922362366,Government
+GF-GS,coe,2019-2023,3.835719259950876,Government
+GF-GS,va,1997-2019,3.85013857542158,Government
+GF-GS,va,2019-2023,4.236952190645393,Government

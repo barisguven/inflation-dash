@@ -23,9 +23,14 @@ minmax <- function(x) {
   c(min(x), max(x))
 }
 
+# US industry data
+us_ind_cg = read_csv("data/us_ind_cg.csv")
+us_ind_index = read_csv("data/us_ind_index.csv")
+
 # Dashboard plot theme settings
 theme_update(
   plot.title = element_text(size = 14),
+  plot.subtitle = element_text(size = 12),
   axis.text = element_text(size = 12),
   axis.title.y = element_text(size = 12),
   legend.text = element_text(size = 12),
