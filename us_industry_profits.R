@@ -28,11 +28,11 @@ industries_2d = c(industries_2d, '31G', '44RT','48TW', 'G', 'GDP')
 
 industry_2d_title = industry_catalog |>
   filter(ind %in% industries_2d) |>
-  pull(series)
+  pull(ind_title)
 
-data_clean = data |> filter(ind %in% industries_2d)
+data_2d = data |> filter(ind %in% industries_2d)
 
-data_clean = data_clean |>
+data_2d = data_2d |>
   mutate(series = case_when(
     series == 'Gross operating surplus' ~ 'gos',
     series == 'Compensation of employees' ~ 'coe',
@@ -43,7 +43,7 @@ data_clean = data_clean |>
   mutate(test = va - (gos + taxes + coe)) |>
   mutate(isGDP = if_else(ind=='GDP', 1, 0), .after = ind)
 
-data_clean |>
+data_2d |>
   select(-test) |>
   pivot_longer(
     cols = c(gos, taxes, coe, va), 
@@ -53,9 +53,9 @@ data_clean |>
   group_by(series, year, isGDP) |>
   summarise(sum = sum(value))
 
-data_clean = select(data_clean, -test)
+data_2d = select(data_2d, -test)
 
-data_index = data_clean |>
+data_index = data_2d |>
   filter(isGDP==0) |>
   select(-isGDP) |>
   filter(year > 2018) |>
@@ -75,7 +75,7 @@ data_index |>
 write_csv(data_index, 'inflation-decomposer/data/us_industry_index.csv')
 write_csv(industry_catalog, 'inflation-decomposer/data/us_industry_catalog.csv')
 
-data_avg_pc = data_clean |>
+data_avg_pc = data_2d |>
   select(-isGDP) |>
   pivot_longer(
     cols = c(gos, taxes, coe, va), 
@@ -100,21 +100,20 @@ data_avg_pc = data_clean |>
   ungroup() |>
   left_join(industry_catalog, by = "ind")
 
+write_csv(data_avg_pc, 'inflation-decomposer/data/us_ind_avg_pc.csv')
+
 data_avg_pc |>
   filter(ind == "11", series %in% c("coe", "gos")) |>
   ggplot(aes(mean, period, fill = series)) +
   geom_bar(stat = "identity", position = position_dodge())
 
 data_avg_pc |>
-  filter(ind %in% industries_2d) |>
   pivot_wider(names_from = series, values_from = mean) |>
-  filter(period == "2021-2023") |>
+  filter(period == "2019-2023") |>
   arrange(desc(gos))
 
 data_avg_pc |>
-  filter(ind %in% industries_2d) |>
   pivot_wider(names_from = series, values_from = mean) |>
-  filter(period == c("1997-2019", "2021-2023")) |>
   ggplot(aes(coe, gos, color = period)) +
   geom_point()
 
