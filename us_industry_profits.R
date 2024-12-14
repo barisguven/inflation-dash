@@ -12,7 +12,9 @@ data[data$ind == "31G", "ind"] = "31-32-33"
 data[data$ind == "44RT", "ind"] = "44-45"
 data[data$ind == "4A0", "ind"] = "459"
 data[data$ind == "48TW", "ind"] = "48-49"
-data[data$ind == "G", "ind"] = "GF-GS"
+data[data$ind == "G", "ind"] = "GG"
+data[data$ind == "GF", "ind"] = "GGF"
+data[data$ind == "GSL", "ind"] = "GGS"
 
 components = c(
   'Gross operating surplus',
@@ -30,7 +32,7 @@ industry_catalog  |> print(n=110)
 industries = industry_catalog$ind
 industries_2d = industries[which(str_width(industries) == 2)]
 industries_2d = industries_2d[which(!industries_2d %in% c('GF', 'HS'))]
-industries_2d = c(industries_2d, '31-32-33', '44-45','48-49', 'GF-GS')
+industries_2d = c(industries_2d, '31-32-33', '44-45','48-49', 'GG')
 
 # Computing annual compound growth for 2d industries ----
 data_2d = data |> filter(ind %in% industries_2d | ind == "GDP")
@@ -132,13 +134,16 @@ plot_list[[2]]
 # Indices for 2d industries with sub-industries ----
 ind_dash = industries_2d[grep("-", industries_2d)]
 ind_nondash = industries_2d[grep("-", industries_2d, invert = TRUE)]
-industries_2d_ext = c(ind_nondash, "31", "32", "33", "44", "45", "48", "49", "GF", "GS")
+industries_2d_ext = c(ind_nondash, "31", "32", "33", "44", "45", "48", "49")
 
 ind_for_index = industry_catalog |>
   filter(str_width(ind) >= 2) |> 
   filter(!ind %in% c('31ND', '33DG')) |>
   filter(str_sub(ind, 1, 2) %in% industries_2d_ext) |>
   pull(ind)
+
+# general gov plus federal and state and local govs only
+ind_for_index = c(ind_for_index, "GG", "GF", "GGSL")
 
 data_index = data |>
   filter(series %in% components) |>
