@@ -29,8 +29,8 @@ us_ind_index = read_csv("data/us_ind_index.csv")
 
 # Dashboard plot theme settings
 theme_update(
-  plot.title = element_text(size = 14),
-  plot.subtitle = element_text(size = 12),
+  plot.title = element_text(size = 14, hjust = 0.5),
+  plot.subtitle = element_text(size = 12, hjust = 0.5),
   axis.text = element_text(size = 12),
   axis.title.y = element_text(size = 12),
   legend.text = element_text(size = 12),
