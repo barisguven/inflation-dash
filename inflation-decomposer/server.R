@@ -388,7 +388,7 @@ server <- function(input, output, session) {
         labels = c("Labor compensation", "Gross operating surplus")
       ) +
       labs(
-        title = "GOS vs. Labor Compensation, Index (2019=100), Annual",
+        title = "Labor Compensation vs. GOS, Index (2019=100), Annual",
         subtitle = input$sub_industry,
         x=NULL, y=NULL
       ) +
@@ -432,7 +432,7 @@ server <- function(input, output, session) {
         "coe" = "#D23105FF", 
         "gos" = "#1AE4B6FF"
       ),
-      labels = c("Labor compensation", "Gross operating surplus")
+      labels = c("LC", "GOS")
     ) +
     labs(x=NULL, y=NULL) +
     theme(
@@ -445,10 +445,10 @@ server <- function(input, output, session) {
   plot_list = map(c("1997-2019", "2019-2023"), dot_plot)
 
   output$ind_plot_comp1 <- renderPlot({
-    plot_list[[1]] + labs(title = "US Industries, 1997-2019")
+    plot_list[[1]] + labs(title = "1997-2019, US Industries")
   })
 
   output$ind_plot_comp2 <- renderPlot({
-    plot_list[[2]] + labs(title = "US Industries, 2019-2023")
+    plot_list[[2]] + labs(title = "2019-2023, US Industries")
   })
 }
